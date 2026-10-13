@@ -1,0 +1,7 @@
+{
+  "evaluators_n": 5,
+  "items_n": 42,
+  "ratings_n": 210,
+  "high_severity_definition": "severity >= 3",
+  "no_problem_definition": "severity = 0"
+}

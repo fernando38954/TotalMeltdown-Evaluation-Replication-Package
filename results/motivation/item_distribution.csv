@@ -1,0 +1,440 @@
+scenario,instrument,item_id,figure_question_id,dimension,scored_category,n,n_total,percent,outside_instrument_scale
+main_corrected,IMI,IMI01,Q1,Interest/Enjoyment,1,1,18,5.555555555555555,0
+main_corrected,IMI,IMI01,Q1,Interest/Enjoyment,2,0,18,0.0,0
+main_corrected,IMI,IMI01,Q1,Interest/Enjoyment,3,0,18,0.0,0
+main_corrected,IMI,IMI01,Q1,Interest/Enjoyment,4,3,18,16.666666666666668,0
+main_corrected,IMI,IMI01,Q1,Interest/Enjoyment,5,2,18,11.11111111111111,0
+main_corrected,IMI,IMI01,Q1,Interest/Enjoyment,6,5,18,27.77777777777778,0
+main_corrected,IMI,IMI01,Q1,Interest/Enjoyment,7,7,18,38.888888888888886,0
+main_corrected,IMI,IMI02,Q2,Interest/Enjoyment,1,1,18,5.555555555555555,0
+main_corrected,IMI,IMI02,Q2,Interest/Enjoyment,2,0,18,0.0,0
+main_corrected,IMI,IMI02,Q2,Interest/Enjoyment,3,0,18,0.0,0
+main_corrected,IMI,IMI02,Q2,Interest/Enjoyment,4,2,18,11.11111111111111,0
+main_corrected,IMI,IMI02,Q2,Interest/Enjoyment,5,3,18,16.666666666666668,0
+main_corrected,IMI,IMI02,Q2,Interest/Enjoyment,6,5,18,27.77777777777778,0
+main_corrected,IMI,IMI02,Q2,Interest/Enjoyment,7,7,18,38.888888888888886,0
+main_corrected,IMI,IMI03,Q3,Interest/Enjoyment,1,1,18,5.555555555555555,0
+main_corrected,IMI,IMI03,Q3,Interest/Enjoyment,2,1,18,5.555555555555555,0
+main_corrected,IMI,IMI03,Q3,Interest/Enjoyment,3,0,18,0.0,0
+main_corrected,IMI,IMI03,Q3,Interest/Enjoyment,4,2,18,11.11111111111111,0
+main_corrected,IMI,IMI03,Q3,Interest/Enjoyment,5,2,18,11.11111111111111,0
+main_corrected,IMI,IMI03,Q3,Interest/Enjoyment,6,5,18,27.77777777777778,0
+main_corrected,IMI,IMI03,Q3,Interest/Enjoyment,7,7,18,38.888888888888886,0
+main_corrected,IMI,IMI04,Q4,Interest/Enjoyment,1,2,18,11.11111111111111,0
+main_corrected,IMI,IMI04,Q4,Interest/Enjoyment,2,2,18,11.11111111111111,0
+main_corrected,IMI,IMI04,Q4,Interest/Enjoyment,3,0,18,0.0,0
+main_corrected,IMI,IMI04,Q4,Interest/Enjoyment,4,1,18,5.555555555555555,0
+main_corrected,IMI,IMI04,Q4,Interest/Enjoyment,5,2,18,11.11111111111111,0
+main_corrected,IMI,IMI04,Q4,Interest/Enjoyment,6,3,18,16.666666666666668,0
+main_corrected,IMI,IMI04,Q4,Interest/Enjoyment,7,8,18,44.44444444444444,0
+main_corrected,IMI,IMI05,Q5,Interest/Enjoyment,1,1,18,5.555555555555555,0
+main_corrected,IMI,IMI05,Q5,Interest/Enjoyment,2,1,18,5.555555555555555,0
+main_corrected,IMI,IMI05,Q5,Interest/Enjoyment,3,0,18,0.0,0
+main_corrected,IMI,IMI05,Q5,Interest/Enjoyment,4,1,18,5.555555555555555,0
+main_corrected,IMI,IMI05,Q5,Interest/Enjoyment,5,8,18,44.44444444444444,0
+main_corrected,IMI,IMI05,Q5,Interest/Enjoyment,6,3,18,16.666666666666668,0
+main_corrected,IMI,IMI05,Q5,Interest/Enjoyment,7,4,18,22.22222222222222,0
+main_corrected,IMI,IMI06,Q6,Interest/Enjoyment,1,0,18,0.0,0
+main_corrected,IMI,IMI06,Q6,Interest/Enjoyment,2,1,18,5.555555555555555,0
+main_corrected,IMI,IMI06,Q6,Interest/Enjoyment,3,2,18,11.11111111111111,0
+main_corrected,IMI,IMI06,Q6,Interest/Enjoyment,4,2,18,11.11111111111111,0
+main_corrected,IMI,IMI06,Q6,Interest/Enjoyment,5,1,18,5.555555555555555,0
+main_corrected,IMI,IMI06,Q6,Interest/Enjoyment,6,3,18,16.666666666666668,0
+main_corrected,IMI,IMI06,Q6,Interest/Enjoyment,7,9,18,50.0,0
+main_corrected,IMI,IMI07,Q7,Interest/Enjoyment,1,1,18,5.555555555555555,0
+main_corrected,IMI,IMI07,Q7,Interest/Enjoyment,2,0,18,0.0,0
+main_corrected,IMI,IMI07,Q7,Interest/Enjoyment,3,2,18,11.11111111111111,0
+main_corrected,IMI,IMI07,Q7,Interest/Enjoyment,4,1,18,5.555555555555555,0
+main_corrected,IMI,IMI07,Q7,Interest/Enjoyment,5,3,18,16.666666666666668,0
+main_corrected,IMI,IMI07,Q7,Interest/Enjoyment,6,7,18,38.888888888888886,0
+main_corrected,IMI,IMI07,Q7,Interest/Enjoyment,7,4,18,22.22222222222222,0
+main_corrected,IMI,IMI08,Q8,Perceived Competence,1,0,18,0.0,0
+main_corrected,IMI,IMI08,Q8,Perceived Competence,2,0,18,0.0,0
+main_corrected,IMI,IMI08,Q8,Perceived Competence,3,3,18,16.666666666666668,0
+main_corrected,IMI,IMI08,Q8,Perceived Competence,4,6,18,33.333333333333336,0
+main_corrected,IMI,IMI08,Q8,Perceived Competence,5,5,18,27.77777777777778,0
+main_corrected,IMI,IMI08,Q8,Perceived Competence,6,2,18,11.11111111111111,0
+main_corrected,IMI,IMI08,Q8,Perceived Competence,7,2,18,11.11111111111111,0
+main_corrected,IMI,IMI09,Q9,Perceived Competence,1,1,18,5.555555555555555,0
+main_corrected,IMI,IMI09,Q9,Perceived Competence,2,1,18,5.555555555555555,0
+main_corrected,IMI,IMI09,Q9,Perceived Competence,3,2,18,11.11111111111111,0
+main_corrected,IMI,IMI09,Q9,Perceived Competence,4,6,18,33.333333333333336,0
+main_corrected,IMI,IMI09,Q9,Perceived Competence,5,5,18,27.77777777777778,0
+main_corrected,IMI,IMI09,Q9,Perceived Competence,6,1,18,5.555555555555555,0
+main_corrected,IMI,IMI09,Q9,Perceived Competence,7,2,18,11.11111111111111,0
+main_corrected,IMI,IMI10,Q10,Perceived Competence,1,2,18,11.11111111111111,0
+main_corrected,IMI,IMI10,Q10,Perceived Competence,2,0,18,0.0,0
+main_corrected,IMI,IMI10,Q10,Perceived Competence,3,3,18,16.666666666666668,0
+main_corrected,IMI,IMI10,Q10,Perceived Competence,4,4,18,22.22222222222222,0
+main_corrected,IMI,IMI10,Q10,Perceived Competence,5,4,18,22.22222222222222,0
+main_corrected,IMI,IMI10,Q10,Perceived Competence,6,3,18,16.666666666666668,0
+main_corrected,IMI,IMI10,Q10,Perceived Competence,7,2,18,11.11111111111111,0
+main_corrected,IMI,IMI11,Q11,Perceived Competence,1,1,18,5.555555555555555,0
+main_corrected,IMI,IMI11,Q11,Perceived Competence,2,1,18,5.555555555555555,0
+main_corrected,IMI,IMI11,Q11,Perceived Competence,3,0,18,0.0,0
+main_corrected,IMI,IMI11,Q11,Perceived Competence,4,6,18,33.333333333333336,0
+main_corrected,IMI,IMI11,Q11,Perceived Competence,5,2,18,11.11111111111111,0
+main_corrected,IMI,IMI11,Q11,Perceived Competence,6,4,18,22.22222222222222,0
+main_corrected,IMI,IMI11,Q11,Perceived Competence,7,4,18,22.22222222222222,0
+main_corrected,IMI,IMI12,Q12,Perceived Competence,1,2,18,11.11111111111111,0
+main_corrected,IMI,IMI12,Q12,Perceived Competence,2,0,18,0.0,0
+main_corrected,IMI,IMI12,Q12,Perceived Competence,3,2,18,11.11111111111111,0
+main_corrected,IMI,IMI12,Q12,Perceived Competence,4,5,18,27.77777777777778,0
+main_corrected,IMI,IMI12,Q12,Perceived Competence,5,5,18,27.77777777777778,0
+main_corrected,IMI,IMI12,Q12,Perceived Competence,6,3,18,16.666666666666668,0
+main_corrected,IMI,IMI12,Q12,Perceived Competence,7,1,18,5.555555555555555,0
+main_corrected,IMI,IMI13,Q13,Perceived Competence,1,1,18,5.555555555555555,0
+main_corrected,IMI,IMI13,Q13,Perceived Competence,2,1,18,5.555555555555555,0
+main_corrected,IMI,IMI13,Q13,Perceived Competence,3,2,18,11.11111111111111,0
+main_corrected,IMI,IMI13,Q13,Perceived Competence,4,3,18,16.666666666666668,0
+main_corrected,IMI,IMI13,Q13,Perceived Competence,5,1,18,5.555555555555555,0
+main_corrected,IMI,IMI13,Q13,Perceived Competence,6,3,18,16.666666666666668,0
+main_corrected,IMI,IMI13,Q13,Perceived Competence,7,7,18,38.888888888888886,0
+main_corrected,IMI,IMI14,Q14,Effort/Importance,1,2,18,11.11111111111111,0
+main_corrected,IMI,IMI14,Q14,Effort/Importance,2,4,18,22.22222222222222,0
+main_corrected,IMI,IMI14,Q14,Effort/Importance,3,2,18,11.11111111111111,0
+main_corrected,IMI,IMI14,Q14,Effort/Importance,4,4,18,22.22222222222222,0
+main_corrected,IMI,IMI14,Q14,Effort/Importance,5,1,18,5.555555555555555,0
+main_corrected,IMI,IMI14,Q14,Effort/Importance,6,4,18,22.22222222222222,0
+main_corrected,IMI,IMI14,Q14,Effort/Importance,7,1,18,5.555555555555555,0
+main_corrected,IMI,IMI15,Q15,Effort/Importance,1,2,18,11.11111111111111,0
+main_corrected,IMI,IMI15,Q15,Effort/Importance,2,3,18,16.666666666666668,0
+main_corrected,IMI,IMI15,Q15,Effort/Importance,3,2,18,11.11111111111111,0
+main_corrected,IMI,IMI15,Q15,Effort/Importance,4,1,18,5.555555555555555,0
+main_corrected,IMI,IMI15,Q15,Effort/Importance,5,4,18,22.22222222222222,0
+main_corrected,IMI,IMI15,Q15,Effort/Importance,6,5,18,27.77777777777778,0
+main_corrected,IMI,IMI15,Q15,Effort/Importance,7,1,18,5.555555555555555,0
+main_corrected,IMI,IMI16,Q16,Effort/Importance,1,2,18,11.11111111111111,0
+main_corrected,IMI,IMI16,Q16,Effort/Importance,2,3,18,16.666666666666668,0
+main_corrected,IMI,IMI16,Q16,Effort/Importance,3,3,18,16.666666666666668,0
+main_corrected,IMI,IMI16,Q16,Effort/Importance,4,1,18,5.555555555555555,0
+main_corrected,IMI,IMI16,Q16,Effort/Importance,5,3,18,16.666666666666668,0
+main_corrected,IMI,IMI16,Q16,Effort/Importance,6,3,18,16.666666666666668,0
+main_corrected,IMI,IMI16,Q16,Effort/Importance,7,3,18,16.666666666666668,0
+main_corrected,IMI,IMI17,Q17,Effort/Importance,1,6,18,33.333333333333336,0
+main_corrected,IMI,IMI17,Q17,Effort/Importance,2,1,18,5.555555555555555,0
+main_corrected,IMI,IMI17,Q17,Effort/Importance,3,5,18,27.77777777777778,0
+main_corrected,IMI,IMI17,Q17,Effort/Importance,4,1,18,5.555555555555555,0
+main_corrected,IMI,IMI17,Q17,Effort/Importance,5,1,18,5.555555555555555,0
+main_corrected,IMI,IMI17,Q17,Effort/Importance,6,2,18,11.11111111111111,0
+main_corrected,IMI,IMI17,Q17,Effort/Importance,7,2,18,11.11111111111111,0
+main_corrected,IMI,IMI18,Q18,Effort/Importance,1,2,18,11.11111111111111,0
+main_corrected,IMI,IMI18,Q18,Effort/Importance,2,1,18,5.555555555555555,0
+main_corrected,IMI,IMI18,Q18,Effort/Importance,3,6,18,33.333333333333336,0
+main_corrected,IMI,IMI18,Q18,Effort/Importance,4,3,18,16.666666666666668,0
+main_corrected,IMI,IMI18,Q18,Effort/Importance,5,0,18,0.0,0
+main_corrected,IMI,IMI18,Q18,Effort/Importance,6,3,18,16.666666666666668,0
+main_corrected,IMI,IMI18,Q18,Effort/Importance,7,3,18,16.666666666666668,0
+main_corrected,IMI,IMI19,Q19,Pressure/Tension,1,8,18,44.44444444444444,0
+main_corrected,IMI,IMI19,Q19,Pressure/Tension,2,7,18,38.888888888888886,0
+main_corrected,IMI,IMI19,Q19,Pressure/Tension,3,1,18,5.555555555555555,0
+main_corrected,IMI,IMI19,Q19,Pressure/Tension,4,0,18,0.0,0
+main_corrected,IMI,IMI19,Q19,Pressure/Tension,5,0,18,0.0,0
+main_corrected,IMI,IMI19,Q19,Pressure/Tension,6,0,18,0.0,0
+main_corrected,IMI,IMI19,Q19,Pressure/Tension,7,2,18,11.11111111111111,0
+main_corrected,IMI,IMI20,Q20,Pressure/Tension,1,12,18,66.66666666666667,0
+main_corrected,IMI,IMI20,Q20,Pressure/Tension,2,3,18,16.666666666666668,0
+main_corrected,IMI,IMI20,Q20,Pressure/Tension,3,0,18,0.0,0
+main_corrected,IMI,IMI20,Q20,Pressure/Tension,4,1,18,5.555555555555555,0
+main_corrected,IMI,IMI20,Q20,Pressure/Tension,5,2,18,11.11111111111111,0
+main_corrected,IMI,IMI20,Q20,Pressure/Tension,6,0,18,0.0,0
+main_corrected,IMI,IMI20,Q20,Pressure/Tension,7,0,18,0.0,0
+main_corrected,IMI,IMI21,Q21,Pressure/Tension,1,8,18,44.44444444444444,0
+main_corrected,IMI,IMI21,Q21,Pressure/Tension,2,4,18,22.22222222222222,0
+main_corrected,IMI,IMI21,Q21,Pressure/Tension,3,2,18,11.11111111111111,0
+main_corrected,IMI,IMI21,Q21,Pressure/Tension,4,4,18,22.22222222222222,0
+main_corrected,IMI,IMI21,Q21,Pressure/Tension,5,0,18,0.0,0
+main_corrected,IMI,IMI21,Q21,Pressure/Tension,6,0,18,0.0,0
+main_corrected,IMI,IMI21,Q21,Pressure/Tension,7,0,18,0.0,0
+main_corrected,IMI,IMI22,Q22,Pressure/Tension,1,10,18,55.55555555555556,0
+main_corrected,IMI,IMI22,Q22,Pressure/Tension,2,4,18,22.22222222222222,0
+main_corrected,IMI,IMI22,Q22,Pressure/Tension,3,1,18,5.555555555555555,0
+main_corrected,IMI,IMI22,Q22,Pressure/Tension,4,1,18,5.555555555555555,0
+main_corrected,IMI,IMI22,Q22,Pressure/Tension,5,1,18,5.555555555555555,0
+main_corrected,IMI,IMI22,Q22,Pressure/Tension,6,1,18,5.555555555555555,0
+main_corrected,IMI,IMI22,Q22,Pressure/Tension,7,0,18,0.0,0
+main_corrected,IMI,IMI23,Q23,Pressure/Tension,1,11,18,61.111111111111114,0
+main_corrected,IMI,IMI23,Q23,Pressure/Tension,2,3,18,16.666666666666668,0
+main_corrected,IMI,IMI23,Q23,Pressure/Tension,3,1,18,5.555555555555555,0
+main_corrected,IMI,IMI23,Q23,Pressure/Tension,4,0,18,0.0,0
+main_corrected,IMI,IMI23,Q23,Pressure/Tension,5,2,18,11.11111111111111,0
+main_corrected,IMI,IMI23,Q23,Pressure/Tension,6,1,18,5.555555555555555,0
+main_corrected,IMI,IMI23,Q23,Pressure/Tension,7,0,18,0.0,0
+main_corrected,IMI,IMI24,Q24,Perceived Choice,1,1,18,5.555555555555555,0
+main_corrected,IMI,IMI24,Q24,Perceived Choice,2,0,18,0.0,0
+main_corrected,IMI,IMI24,Q24,Perceived Choice,3,0,18,0.0,0
+main_corrected,IMI,IMI24,Q24,Perceived Choice,4,1,18,5.555555555555555,0
+main_corrected,IMI,IMI24,Q24,Perceived Choice,5,2,18,11.11111111111111,0
+main_corrected,IMI,IMI24,Q24,Perceived Choice,6,4,18,22.22222222222222,0
+main_corrected,IMI,IMI24,Q24,Perceived Choice,7,10,18,55.55555555555556,0
+main_corrected,IMI,IMI25,Q25,Perceived Choice,1,0,18,0.0,0
+main_corrected,IMI,IMI25,Q25,Perceived Choice,2,0,18,0.0,0
+main_corrected,IMI,IMI25,Q25,Perceived Choice,3,1,18,5.555555555555555,0
+main_corrected,IMI,IMI25,Q25,Perceived Choice,4,0,18,0.0,0
+main_corrected,IMI,IMI25,Q25,Perceived Choice,5,1,18,5.555555555555555,0
+main_corrected,IMI,IMI25,Q25,Perceived Choice,6,1,18,5.555555555555555,0
+main_corrected,IMI,IMI25,Q25,Perceived Choice,7,15,18,83.33333333333333,0
+main_corrected,IMI,IMI26,Q26,Perceived Choice,1,0,18,0.0,0
+main_corrected,IMI,IMI26,Q26,Perceived Choice,2,0,18,0.0,0
+main_corrected,IMI,IMI26,Q26,Perceived Choice,3,1,18,5.555555555555555,0
+main_corrected,IMI,IMI26,Q26,Perceived Choice,4,0,18,0.0,0
+main_corrected,IMI,IMI26,Q26,Perceived Choice,5,0,18,0.0,0
+main_corrected,IMI,IMI26,Q26,Perceived Choice,6,2,18,11.11111111111111,0
+main_corrected,IMI,IMI26,Q26,Perceived Choice,7,15,18,83.33333333333333,0
+main_corrected,IMI,IMI27,Q27,Perceived Choice,1,3,18,16.666666666666668,0
+main_corrected,IMI,IMI27,Q27,Perceived Choice,2,3,18,16.666666666666668,0
+main_corrected,IMI,IMI27,Q27,Perceived Choice,3,3,18,16.666666666666668,0
+main_corrected,IMI,IMI27,Q27,Perceived Choice,4,1,18,5.555555555555555,0
+main_corrected,IMI,IMI27,Q27,Perceived Choice,5,0,18,0.0,0
+main_corrected,IMI,IMI27,Q27,Perceived Choice,6,0,18,0.0,0
+main_corrected,IMI,IMI27,Q27,Perceived Choice,7,8,18,44.44444444444444,0
+main_corrected,IMI,IMI28,Q28,Perceived Choice,1,0,18,0.0,0
+main_corrected,IMI,IMI28,Q28,Perceived Choice,2,0,18,0.0,0
+main_corrected,IMI,IMI28,Q28,Perceived Choice,3,0,18,0.0,0
+main_corrected,IMI,IMI28,Q28,Perceived Choice,4,1,18,5.555555555555555,0
+main_corrected,IMI,IMI28,Q28,Perceived Choice,5,1,18,5.555555555555555,0
+main_corrected,IMI,IMI28,Q28,Perceived Choice,6,1,18,5.555555555555555,0
+main_corrected,IMI,IMI28,Q28,Perceived Choice,7,15,18,83.33333333333333,0
+main_corrected,IMI,IMI29,Q29,Perceived Choice,1,1,18,5.555555555555555,0
+main_corrected,IMI,IMI29,Q29,Perceived Choice,2,0,18,0.0,0
+main_corrected,IMI,IMI29,Q29,Perceived Choice,3,0,18,0.0,0
+main_corrected,IMI,IMI29,Q29,Perceived Choice,4,0,18,0.0,0
+main_corrected,IMI,IMI29,Q29,Perceived Choice,5,2,18,11.11111111111111,0
+main_corrected,IMI,IMI29,Q29,Perceived Choice,6,0,18,0.0,0
+main_corrected,IMI,IMI29,Q29,Perceived Choice,7,15,18,83.33333333333333,0
+main_corrected,IMI,IMI30,Q30,Perceived Choice,1,0,18,0.0,0
+main_corrected,IMI,IMI30,Q30,Perceived Choice,2,0,18,0.0,0
+main_corrected,IMI,IMI30,Q30,Perceived Choice,3,0,18,0.0,0
+main_corrected,IMI,IMI30,Q30,Perceived Choice,4,0,18,0.0,0
+main_corrected,IMI,IMI30,Q30,Perceived Choice,5,0,18,0.0,0
+main_corrected,IMI,IMI30,Q30,Perceived Choice,6,1,18,5.555555555555555,0
+main_corrected,IMI,IMI30,Q30,Perceived Choice,7,17,18,94.44444444444444,0
+main_corrected,IMI,IMI31,Q31,Value/Usefulness,1,0,18,0.0,0
+main_corrected,IMI,IMI31,Q31,Value/Usefulness,2,1,18,5.555555555555555,0
+main_corrected,IMI,IMI31,Q31,Value/Usefulness,3,0,18,0.0,0
+main_corrected,IMI,IMI31,Q31,Value/Usefulness,4,1,18,5.555555555555555,0
+main_corrected,IMI,IMI31,Q31,Value/Usefulness,5,5,18,27.77777777777778,0
+main_corrected,IMI,IMI31,Q31,Value/Usefulness,6,5,18,27.77777777777778,0
+main_corrected,IMI,IMI31,Q31,Value/Usefulness,7,6,18,33.333333333333336,0
+main_corrected,IMI,IMI32,Q32,Value/Usefulness,1,1,18,5.555555555555555,0
+main_corrected,IMI,IMI32,Q32,Value/Usefulness,2,0,18,0.0,0
+main_corrected,IMI,IMI32,Q32,Value/Usefulness,3,1,18,5.555555555555555,0
+main_corrected,IMI,IMI32,Q32,Value/Usefulness,4,1,18,5.555555555555555,0
+main_corrected,IMI,IMI32,Q32,Value/Usefulness,5,4,18,22.22222222222222,0
+main_corrected,IMI,IMI32,Q32,Value/Usefulness,6,6,18,33.333333333333336,0
+main_corrected,IMI,IMI32,Q32,Value/Usefulness,7,5,18,27.77777777777778,0
+main_corrected,IMI,IMI33,Q33,Value/Usefulness,1,0,18,0.0,0
+main_corrected,IMI,IMI33,Q33,Value/Usefulness,2,1,18,5.555555555555555,0
+main_corrected,IMI,IMI33,Q33,Value/Usefulness,3,1,18,5.555555555555555,0
+main_corrected,IMI,IMI33,Q33,Value/Usefulness,4,0,18,0.0,0
+main_corrected,IMI,IMI33,Q33,Value/Usefulness,5,3,18,16.666666666666668,0
+main_corrected,IMI,IMI33,Q33,Value/Usefulness,6,6,18,33.333333333333336,0
+main_corrected,IMI,IMI33,Q33,Value/Usefulness,7,7,18,38.888888888888886,0
+main_corrected,IMI,IMI34,Q34,Value/Usefulness,1,2,18,11.11111111111111,0
+main_corrected,IMI,IMI34,Q34,Value/Usefulness,2,0,18,0.0,0
+main_corrected,IMI,IMI34,Q34,Value/Usefulness,3,1,18,5.555555555555555,0
+main_corrected,IMI,IMI34,Q34,Value/Usefulness,4,0,18,0.0,0
+main_corrected,IMI,IMI34,Q34,Value/Usefulness,5,2,18,11.11111111111111,0
+main_corrected,IMI,IMI34,Q34,Value/Usefulness,6,7,18,38.888888888888886,0
+main_corrected,IMI,IMI34,Q34,Value/Usefulness,7,6,18,33.333333333333336,0
+main_corrected,IMI,IMI35,Q35,Value/Usefulness,1,1,18,5.555555555555555,0
+main_corrected,IMI,IMI35,Q35,Value/Usefulness,2,0,18,0.0,0
+main_corrected,IMI,IMI35,Q35,Value/Usefulness,3,2,18,11.11111111111111,0
+main_corrected,IMI,IMI35,Q35,Value/Usefulness,4,0,18,0.0,0
+main_corrected,IMI,IMI35,Q35,Value/Usefulness,5,4,18,22.22222222222222,0
+main_corrected,IMI,IMI35,Q35,Value/Usefulness,6,4,18,22.22222222222222,0
+main_corrected,IMI,IMI35,Q35,Value/Usefulness,7,7,18,38.888888888888886,0
+main_corrected,IMI,IMI36,Q36,Value/Usefulness,1,1,18,5.555555555555555,0
+main_corrected,IMI,IMI36,Q36,Value/Usefulness,2,0,18,0.0,0
+main_corrected,IMI,IMI36,Q36,Value/Usefulness,3,0,18,0.0,0
+main_corrected,IMI,IMI36,Q36,Value/Usefulness,4,0,18,0.0,0
+main_corrected,IMI,IMI36,Q36,Value/Usefulness,5,5,18,27.77777777777778,0
+main_corrected,IMI,IMI36,Q36,Value/Usefulness,6,3,18,16.666666666666668,0
+main_corrected,IMI,IMI36,Q36,Value/Usefulness,7,9,18,50.0,0
+main_corrected,IMI,IMI37,Q37,Value/Usefulness,1,1,18,5.555555555555555,0
+main_corrected,IMI,IMI37,Q37,Value/Usefulness,2,0,18,0.0,0
+main_corrected,IMI,IMI37,Q37,Value/Usefulness,3,0,18,0.0,0
+main_corrected,IMI,IMI37,Q37,Value/Usefulness,4,3,18,16.666666666666668,0
+main_corrected,IMI,IMI37,Q37,Value/Usefulness,5,5,18,27.77777777777778,0
+main_corrected,IMI,IMI37,Q37,Value/Usefulness,6,2,18,11.11111111111111,0
+main_corrected,IMI,IMI37,Q37,Value/Usefulness,7,7,18,38.888888888888886,0
+main_corrected,IMMS,IMMS01,Q1,Confidence,1,0,18,0.0,0
+main_corrected,IMMS,IMMS01,Q1,Confidence,2,2,18,11.11111111111111,0
+main_corrected,IMMS,IMMS01,Q1,Confidence,3,2,18,11.11111111111111,0
+main_corrected,IMMS,IMMS01,Q1,Confidence,4,7,18,38.888888888888886,0
+main_corrected,IMMS,IMMS01,Q1,Confidence,5,7,18,38.888888888888886,0
+main_corrected,IMMS,IMMS02,Q2,Confidence,1,0,18,0.0,0
+main_corrected,IMMS,IMMS02,Q2,Confidence,2,3,18,16.666666666666668,0
+main_corrected,IMMS,IMMS02,Q2,Confidence,3,2,18,11.11111111111111,0
+main_corrected,IMMS,IMMS02,Q2,Confidence,4,7,18,38.888888888888886,0
+main_corrected,IMMS,IMMS02,Q2,Confidence,5,6,18,33.333333333333336,0
+main_corrected,IMMS,IMMS03,Q3,Confidence,1,0,18,0.0,0
+main_corrected,IMMS,IMMS03,Q3,Confidence,2,3,18,16.666666666666668,0
+main_corrected,IMMS,IMMS03,Q3,Confidence,3,2,18,11.11111111111111,0
+main_corrected,IMMS,IMMS03,Q3,Confidence,4,8,18,44.44444444444444,0
+main_corrected,IMMS,IMMS03,Q3,Confidence,5,5,18,27.77777777777778,0
+main_corrected,IMMS,IMMS04,Q4,Confidence,1,2,18,11.11111111111111,0
+main_corrected,IMMS,IMMS04,Q4,Confidence,2,5,18,27.77777777777778,0
+main_corrected,IMMS,IMMS04,Q4,Confidence,3,1,18,5.555555555555555,0
+main_corrected,IMMS,IMMS04,Q4,Confidence,4,6,18,33.333333333333336,0
+main_corrected,IMMS,IMMS04,Q4,Confidence,5,4,18,22.22222222222222,0
+main_corrected,IMMS,IMMS05,Q5,Confidence,1,0,18,0.0,0
+main_corrected,IMMS,IMMS05,Q5,Confidence,2,0,18,0.0,0
+main_corrected,IMMS,IMMS05,Q5,Confidence,3,3,18,16.666666666666668,0
+main_corrected,IMMS,IMMS05,Q5,Confidence,4,6,18,33.333333333333336,0
+main_corrected,IMMS,IMMS05,Q5,Confidence,5,9,18,50.0,0
+main_corrected,IMMS,IMMS06,Q6,Confidence,1,0,18,0.0,0
+main_corrected,IMMS,IMMS06,Q6,Confidence,2,0,18,0.0,0
+main_corrected,IMMS,IMMS06,Q6,Confidence,3,0,18,0.0,0
+main_corrected,IMMS,IMMS06,Q6,Confidence,4,7,18,38.888888888888886,0
+main_corrected,IMMS,IMMS06,Q6,Confidence,5,11,18,61.111111111111114,0
+main_corrected,IMMS,IMMS07,Q7,Confidence,1,1,18,5.555555555555555,0
+main_corrected,IMMS,IMMS07,Q7,Confidence,2,4,18,22.22222222222222,0
+main_corrected,IMMS,IMMS07,Q7,Confidence,3,2,18,11.11111111111111,0
+main_corrected,IMMS,IMMS07,Q7,Confidence,4,8,18,44.44444444444444,0
+main_corrected,IMMS,IMMS07,Q7,Confidence,5,3,18,16.666666666666668,0
+main_corrected,IMMS,IMMS08,Q8,Confidence,1,1,18,5.555555555555555,0
+main_corrected,IMMS,IMMS08,Q8,Confidence,2,0,18,0.0,0
+main_corrected,IMMS,IMMS08,Q8,Confidence,3,0,18,0.0,0
+main_corrected,IMMS,IMMS08,Q8,Confidence,4,6,18,33.333333333333336,0
+main_corrected,IMMS,IMMS08,Q8,Confidence,5,11,18,61.111111111111114,0
+main_corrected,IMMS,IMMS09,Q9,Confidence,1,0,18,0.0,0
+main_corrected,IMMS,IMMS09,Q9,Confidence,2,0,18,0.0,0
+main_corrected,IMMS,IMMS09,Q9,Confidence,3,4,18,22.22222222222222,0
+main_corrected,IMMS,IMMS09,Q9,Confidence,4,3,18,16.666666666666668,0
+main_corrected,IMMS,IMMS09,Q9,Confidence,5,11,18,61.111111111111114,0
+main_corrected,IMMS,IMMS10,Q10,Attention,1,0,18,0.0,0
+main_corrected,IMMS,IMMS10,Q10,Attention,2,0,18,0.0,0
+main_corrected,IMMS,IMMS10,Q10,Attention,3,2,18,11.11111111111111,0
+main_corrected,IMMS,IMMS10,Q10,Attention,4,7,18,38.888888888888886,0
+main_corrected,IMMS,IMMS10,Q10,Attention,5,9,18,50.0,0
+main_corrected,IMMS,IMMS11,Q11,Attention,1,0,18,0.0,0
+main_corrected,IMMS,IMMS11,Q11,Attention,2,2,18,11.11111111111111,0
+main_corrected,IMMS,IMMS11,Q11,Attention,3,1,18,5.555555555555555,0
+main_corrected,IMMS,IMMS11,Q11,Attention,4,5,18,27.77777777777778,0
+main_corrected,IMMS,IMMS11,Q11,Attention,5,10,18,55.55555555555556,0
+main_corrected,IMMS,IMMS12,Q12,Attention,1,0,18,0.0,0
+main_corrected,IMMS,IMMS12,Q12,Attention,2,4,18,22.22222222222222,0
+main_corrected,IMMS,IMMS12,Q12,Attention,3,2,18,11.11111111111111,0
+main_corrected,IMMS,IMMS12,Q12,Attention,4,4,18,22.22222222222222,0
+main_corrected,IMMS,IMMS12,Q12,Attention,5,8,18,44.44444444444444,0
+main_corrected,IMMS,IMMS13,Q13,Attention,1,0,18,0.0,0
+main_corrected,IMMS,IMMS13,Q13,Attention,2,1,18,5.555555555555555,0
+main_corrected,IMMS,IMMS13,Q13,Attention,3,2,18,11.11111111111111,0
+main_corrected,IMMS,IMMS13,Q13,Attention,4,2,18,11.11111111111111,0
+main_corrected,IMMS,IMMS13,Q13,Attention,5,13,18,72.22222222222223,0
+main_corrected,IMMS,IMMS14,Q14,Attention,1,1,18,5.555555555555555,0
+main_corrected,IMMS,IMMS14,Q14,Attention,2,0,18,0.0,0
+main_corrected,IMMS,IMMS14,Q14,Attention,3,1,18,5.555555555555555,0
+main_corrected,IMMS,IMMS14,Q14,Attention,4,2,18,11.11111111111111,0
+main_corrected,IMMS,IMMS14,Q14,Attention,5,14,18,77.77777777777777,0
+main_corrected,IMMS,IMMS15,Q15,Attention,1,0,18,0.0,0
+main_corrected,IMMS,IMMS15,Q15,Attention,2,2,18,11.11111111111111,0
+main_corrected,IMMS,IMMS15,Q15,Attention,3,4,18,22.22222222222222,0
+main_corrected,IMMS,IMMS15,Q15,Attention,4,4,18,22.22222222222222,0
+main_corrected,IMMS,IMMS15,Q15,Attention,5,8,18,44.44444444444444,0
+main_corrected,IMMS,IMMS16,Q16,Attention,1,0,18,0.0,0
+main_corrected,IMMS,IMMS16,Q16,Attention,2,2,18,11.11111111111111,0
+main_corrected,IMMS,IMMS16,Q16,Attention,3,0,18,0.0,0
+main_corrected,IMMS,IMMS16,Q16,Attention,4,8,18,44.44444444444444,0
+main_corrected,IMMS,IMMS16,Q16,Attention,5,8,18,44.44444444444444,0
+main_corrected,IMMS,IMMS17,Q17,Attention,1,0,18,0.0,0
+main_corrected,IMMS,IMMS17,Q17,Attention,2,2,18,11.11111111111111,0
+main_corrected,IMMS,IMMS17,Q17,Attention,3,3,18,16.666666666666668,0
+main_corrected,IMMS,IMMS17,Q17,Attention,4,5,18,27.77777777777778,0
+main_corrected,IMMS,IMMS17,Q17,Attention,5,8,18,44.44444444444444,0
+main_corrected,IMMS,IMMS18,Q18,Attention,1,1,18,5.555555555555555,0
+main_corrected,IMMS,IMMS18,Q18,Attention,2,5,18,27.77777777777778,0
+main_corrected,IMMS,IMMS18,Q18,Attention,3,2,18,11.11111111111111,0
+main_corrected,IMMS,IMMS18,Q18,Attention,4,3,18,16.666666666666668,0
+main_corrected,IMMS,IMMS18,Q18,Attention,5,7,18,38.888888888888886,0
+main_corrected,IMMS,IMMS19,Q19,Attention,1,0,18,0.0,0
+main_corrected,IMMS,IMMS19,Q19,Attention,2,1,18,5.555555555555555,0
+main_corrected,IMMS,IMMS19,Q19,Attention,3,3,18,16.666666666666668,0
+main_corrected,IMMS,IMMS19,Q19,Attention,4,5,18,27.77777777777778,0
+main_corrected,IMMS,IMMS19,Q19,Attention,5,9,18,50.0,0
+main_corrected,IMMS,IMMS20,Q20,Attention,1,0,18,0.0,0
+main_corrected,IMMS,IMMS20,Q20,Attention,2,0,18,0.0,0
+main_corrected,IMMS,IMMS20,Q20,Attention,3,2,18,11.11111111111111,0
+main_corrected,IMMS,IMMS20,Q20,Attention,4,3,18,16.666666666666668,0
+main_corrected,IMMS,IMMS20,Q20,Attention,5,13,18,72.22222222222223,0
+main_corrected,IMMS,IMMS21,Q21,Attention,1,1,18,5.555555555555555,0
+main_corrected,IMMS,IMMS21,Q21,Attention,2,2,18,11.11111111111111,0
+main_corrected,IMMS,IMMS21,Q21,Attention,3,1,18,5.555555555555555,0
+main_corrected,IMMS,IMMS21,Q21,Attention,4,6,18,33.333333333333336,0
+main_corrected,IMMS,IMMS21,Q21,Attention,5,8,18,44.44444444444444,0
+main_corrected,IMMS,IMMS22,Q22,Satisfaction,1,1,18,5.555555555555555,0
+main_corrected,IMMS,IMMS22,Q22,Satisfaction,2,1,18,5.555555555555555,0
+main_corrected,IMMS,IMMS22,Q22,Satisfaction,3,2,18,11.11111111111111,0
+main_corrected,IMMS,IMMS22,Q22,Satisfaction,4,7,18,38.888888888888886,0
+main_corrected,IMMS,IMMS22,Q22,Satisfaction,5,7,18,38.888888888888886,0
+main_corrected,IMMS,IMMS23,Q23,Satisfaction,1,0,18,0.0,0
+main_corrected,IMMS,IMMS23,Q23,Satisfaction,2,3,18,16.666666666666668,0
+main_corrected,IMMS,IMMS23,Q23,Satisfaction,3,1,18,5.555555555555555,0
+main_corrected,IMMS,IMMS23,Q23,Satisfaction,4,9,18,50.0,0
+main_corrected,IMMS,IMMS23,Q23,Satisfaction,5,5,18,27.77777777777778,0
+main_corrected,IMMS,IMMS24,Q24,Satisfaction,1,0,18,0.0,0
+main_corrected,IMMS,IMMS24,Q24,Satisfaction,2,1,18,5.555555555555555,0
+main_corrected,IMMS,IMMS24,Q24,Satisfaction,3,3,18,16.666666666666668,0
+main_corrected,IMMS,IMMS24,Q24,Satisfaction,4,5,18,27.77777777777778,0
+main_corrected,IMMS,IMMS24,Q24,Satisfaction,5,9,18,50.0,0
+main_corrected,IMMS,IMMS25,Q25,Satisfaction,1,2,18,11.11111111111111,0
+main_corrected,IMMS,IMMS25,Q25,Satisfaction,2,1,18,5.555555555555555,0
+main_corrected,IMMS,IMMS25,Q25,Satisfaction,3,3,18,16.666666666666668,0
+main_corrected,IMMS,IMMS25,Q25,Satisfaction,4,5,18,27.77777777777778,0
+main_corrected,IMMS,IMMS25,Q25,Satisfaction,5,7,18,38.888888888888886,0
+main_corrected,IMMS,IMMS26,Q26,Satisfaction,1,0,18,0.0,0
+main_corrected,IMMS,IMMS26,Q26,Satisfaction,2,0,18,0.0,0
+main_corrected,IMMS,IMMS26,Q26,Satisfaction,3,2,18,11.11111111111111,0
+main_corrected,IMMS,IMMS26,Q26,Satisfaction,4,2,18,11.11111111111111,0
+main_corrected,IMMS,IMMS26,Q26,Satisfaction,5,14,18,77.77777777777777,0
+main_corrected,IMMS,IMMS27,Q27,Satisfaction,1,0,18,0.0,0
+main_corrected,IMMS,IMMS27,Q27,Satisfaction,2,0,18,0.0,0
+main_corrected,IMMS,IMMS27,Q27,Satisfaction,3,1,18,5.555555555555555,0
+main_corrected,IMMS,IMMS27,Q27,Satisfaction,4,4,18,22.22222222222222,0
+main_corrected,IMMS,IMMS27,Q27,Satisfaction,5,13,18,72.22222222222223,0
+main_corrected,IMMS,IMMS28,Q28,Relevance,1,0,18,0.0,0
+main_corrected,IMMS,IMMS28,Q28,Relevance,2,1,18,5.555555555555555,0
+main_corrected,IMMS,IMMS28,Q28,Relevance,3,1,18,5.555555555555555,0
+main_corrected,IMMS,IMMS28,Q28,Relevance,4,5,18,27.77777777777778,0
+main_corrected,IMMS,IMMS28,Q28,Relevance,5,11,18,61.111111111111114,0
+main_corrected,IMMS,IMMS29,Q29,Relevance,1,0,18,0.0,0
+main_corrected,IMMS,IMMS29,Q29,Relevance,2,1,18,5.555555555555555,0
+main_corrected,IMMS,IMMS29,Q29,Relevance,3,1,18,5.555555555555555,0
+main_corrected,IMMS,IMMS29,Q29,Relevance,4,3,18,16.666666666666668,0
+main_corrected,IMMS,IMMS29,Q29,Relevance,5,13,18,72.22222222222223,0
+main_corrected,IMMS,IMMS30,Q30,Relevance,1,1,18,5.555555555555555,0
+main_corrected,IMMS,IMMS30,Q30,Relevance,2,1,18,5.555555555555555,0
+main_corrected,IMMS,IMMS30,Q30,Relevance,3,4,18,22.22222222222222,0
+main_corrected,IMMS,IMMS30,Q30,Relevance,4,3,18,16.666666666666668,0
+main_corrected,IMMS,IMMS30,Q30,Relevance,5,9,18,50.0,0
+main_corrected,IMMS,IMMS31,Q31,Relevance,1,0,18,0.0,0
+main_corrected,IMMS,IMMS31,Q31,Relevance,2,3,18,16.666666666666668,0
+main_corrected,IMMS,IMMS31,Q31,Relevance,3,2,18,11.11111111111111,0
+main_corrected,IMMS,IMMS31,Q31,Relevance,4,6,18,33.333333333333336,0
+main_corrected,IMMS,IMMS31,Q31,Relevance,5,7,18,38.888888888888886,0
+main_corrected,IMMS,IMMS32,Q32,Relevance,1,0,18,0.0,0
+main_corrected,IMMS,IMMS32,Q32,Relevance,2,1,18,5.555555555555555,0
+main_corrected,IMMS,IMMS32,Q32,Relevance,3,2,18,11.11111111111111,0
+main_corrected,IMMS,IMMS32,Q32,Relevance,4,3,18,16.666666666666668,0
+main_corrected,IMMS,IMMS32,Q32,Relevance,5,12,18,66.66666666666667,0
+main_corrected,IMMS,IMMS33,Q33,Relevance,1,0,18,0.0,0
+main_corrected,IMMS,IMMS33,Q33,Relevance,2,0,18,0.0,0
+main_corrected,IMMS,IMMS33,Q33,Relevance,3,2,18,11.11111111111111,0
+main_corrected,IMMS,IMMS33,Q33,Relevance,4,8,18,44.44444444444444,0
+main_corrected,IMMS,IMMS33,Q33,Relevance,5,8,18,44.44444444444444,0
+main_corrected,IMMS,IMMS34,Q34,Relevance,1,2,18,11.11111111111111,0
+main_corrected,IMMS,IMMS34,Q34,Relevance,2,1,18,5.555555555555555,0
+main_corrected,IMMS,IMMS34,Q34,Relevance,3,3,18,16.666666666666668,0
+main_corrected,IMMS,IMMS34,Q34,Relevance,4,3,18,16.666666666666668,0
+main_corrected,IMMS,IMMS34,Q34,Relevance,5,9,18,50.0,0
+main_corrected,IMMS,IMMS35,Q35,Relevance,1,4,18,22.22222222222222,0
+main_corrected,IMMS,IMMS35,Q35,Relevance,2,4,18,22.22222222222222,0
+main_corrected,IMMS,IMMS35,Q35,Relevance,3,0,18,0.0,0
+main_corrected,IMMS,IMMS35,Q35,Relevance,4,5,18,27.77777777777778,0
+main_corrected,IMMS,IMMS35,Q35,Relevance,5,5,18,27.77777777777778,0
+main_corrected,IMMS,IMMS36,Q36,Relevance,1,0,18,0.0,0
+main_corrected,IMMS,IMMS36,Q36,Relevance,2,3,18,16.666666666666668,0
+main_corrected,IMMS,IMMS36,Q36,Relevance,3,2,18,11.11111111111111,0
+main_corrected,IMMS,IMMS36,Q36,Relevance,4,3,18,16.666666666666668,0
+main_corrected,IMMS,IMMS36,Q36,Relevance,5,10,18,55.55555555555556,0

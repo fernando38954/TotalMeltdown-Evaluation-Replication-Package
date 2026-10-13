@@ -1,0 +1,4 @@
+# Verified with Python 3.13.12. Tables are deterministic; fonts can vary by OS.
+openpyxl==3.1.5
+numpy==2.4.2
+matplotlib==3.10.6

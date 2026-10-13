@@ -1,0 +1,43 @@
+item,paper_id,statement,source_column,n,severity_0_n,severity_1_n,severity_2_n,severity_3_n,severity_4_n,any_problem_n,high_severity_n,median_severity,max_severity
+IN1,IN1,"IN 1 - O usuário conhece sua localização e visualiza facilmente seu status no jogo (por exemplo, o jogador sabe em qual nível está.)",F,5,2,3,0,0,0,3,0,1,1
+IN2,IN2,"IN 2 - O usuário tem o controle livre sobre suas ações no ambiente do jogo (por exemplo, o jogador pode retornar ao menu inicial a qualquer momento.",G,5,3,1,1,0,0,2,0,0,2
+IN3,IN3,IN 3 -  Os elementos existentes no jogo são consistentes e padronizados.,H,5,2,3,0,0,0,3,0,1,1
+IN4,IN4,"IN 4 - Os elementos do jogo são capazes de evitar que o usuário execute uma ação acidentalmente (por exemplo, evitar que o jogador saia bruscamente do jogo).",I,5,2,0,3,0,0,3,0,2,2
+IN5,IN5,IN 5 - Os elementos do jogo são sugestivos a ponto de permitir que o usuário jogue sem precisar recorrer a manuais e outros tipos de ajuda.,J,5,2,0,0,2,1,3,3,3,4
+IN6,IN6,"IN 6 - Os elementos do jogo permitem que o usuário realize suas tarefas de forma eficiente, ou seja, com menor esforço possível (por exemplo, o jogador deve conseguir acessar o menu de itens com poucos cliques)",K,5,4,0,1,0,0,1,0,0,2
+IN7,IN7,IN 7 - A quantidade de elementos do jogo é suficiente para que o usuário atinja seus objetivos sem confundi-lo.,L,5,2,1,2,0,0,3,0,1,2
+IN8,IN8,"IN 8 - O jogo possui elementos que ajudem o usuário a reconhecer, diagnosticar e se recuperarem dos erros cometidos (por exemplo, o jogo possui o botão de voltar ou tentar novamente)",M,5,1,2,1,0,1,4,1,1,4
+IN9,IN9,IN 9 - O jogo possui elementos de ajuda e documentação ao usuário.,N,5,5,0,0,0,0,0,0,0,0
+JG1,GP1,JG 1 - O jogo fornece informações suficientes para que o usuário comece a jogar.,O,5,2,1,1,1,0,3,1,1,3
+JG2,GP2,"JG 2 - As teclas de controle do jogo seguem padrões de convenção. (Por exemplo, o jogo possui botões de “Menu”, “Sair”, “Ativar e desativar som” e etc.)",P,5,1,0,1,1,2,4,3,3,4
+JG3,GP3,JG 3 - Os usuários são capazes de salvar os jogos em diferentes estados ao longo do jogo.,Q,5,1,0,1,0,3,4,3,4,4
+JG4,GP4,"JG 4 - Os usuários que completaram com sucesso um estágio do jogo são recompensados (por exemplo, o jogador libera uma fase ou conquista à medida que vence os desafios do jogo)",R,5,4,1,0,0,0,1,0,0,1
+JG5,GP5,"JG 5 - Os elementos do jogo, por exemplo, desafios, não devem frustrar os usuários do jogo.",S,5,5,0,0,0,0,0,0,0,0
+JG6,GP6,"JG 6 - Os elementos do jogo dão a sensação de imersão ao usuário, ou seja, permite que ele se sinta parte do ambiente, conseguindo identificar e interagir com objetos do cenário.",T,5,4,1,0,0,0,1,0,0,1
+JG7,GP7,"JG 7 - O jogo possui elementos que permitam ao usuário se comunicar com outros usuários, bem como com objetos do tipo NPC (Non-player Character), com o intuito de alcançar seus objetivos.",U,5,3,0,2,0,0,2,0,0,2
+JG8,GP8,JG 8 - O jogador tem o senso de controle sobre o personagem e pode usar tática e estratégias.,V,5,4,1,0,0,0,1,0,0,1
+MM1,MM1,"MM 1 - O usuário deve ser capaz de reconhecer nos elementos de multimídia do jogo, quais são os objetivos contemplados por eles (por exemplo, o jogador entende que um determinado som foi emitido porque ele cometeu um erro no jogo).",W,5,2,2,1,0,0,3,0,1,2
+MM2,MM2,MM 2 - Há correspondência entre os elementos de multimídia utilizados no jogo e os conteúdos de aprendizagem contemplados no mesmo.,X,5,4,0,1,0,0,1,0,0,2
+MM3,MM3,MM 3 - As combinações entre os elementos de multimídia utilizados no jogo e apresentadas ao usuário são consistentes e representativas.,Y,5,5,0,0,0,0,0,0,0,0
+MM4,MM4,MM 4 - A qualidade dos elementos de multimídia utilizados é suficiente para que o usuário compreenda seu propósito (objetivo).,Z,5,2,2,1,0,0,3,0,1,2
+MM5,MM5,"MM 5 - Os elementos de multimídia do jogo contribuem com a apresentação do conteúdo de aprendizagem, tornando-o mais atrativo.",AA,5,3,1,1,0,0,2,0,0,2
+HJ1,NR1,HJ 1 - O jogador entende a história do jogo de forma clara e consistente.,AB,5,2,2,1,0,0,3,0,1,2
+HJ2,NR2,HJ 2 - A história promove a imersão.,AC,5,2,1,1,1,0,3,1,1,3
+HJ3,NR3,"HJ 3 - O jogo transporta o jogador para um nível de envolvimento emocional (por exemplo, susto, ameaça, emoção, recompensa, punição) e visceral (por exemplo, sons de ambiente). Jogador está interessado nos personagens, porque (1) eles são como eu; (2) eles são interessantes para mim, (3) os personagens se desenvolvem com o decorrer da ação do jogo.",AD,5,1,1,1,1,1,4,2,2,4
+ED1,EE1,"ED 1 - O usuário deve ser capaz de reconhecer nos elementos do jogo, quais são os objetivos de aprendizagem contemplados por eles. (Por exemplo, ao ultrapassar um obstáculo, o jogador deve ter consciência de qual foi o conteúdo utilizado para tal.)",AE,5,4,1,0,0,0,1,0,0,1
+ED2,EE2,"ED 2 - O jogo deve permitir que seus usuários possam ter maior autonomia do processo de aprendizagem, (re)configurando suas atividades, objetivos de aprendizagem, entre outros.",AF,5,4,0,1,0,0,1,0,0,2
+ED3,EE3,"ED 3 - Os elementos do jogo são criados de forma a contemplar diferentes níveis de aprendizagem, por exemplo, iniciante, intermediário e avançado.",AG,5,1,1,2,1,0,4,1,2,3
+ED4,EE4,ED 4 - O jogo possui elementos que permitam ao usuário reconhecer seu progresso ao longo do processo de aprendizagem.,AH,5,3,1,0,0,1,2,1,0,4
+ED5,EE5,ED 5 - O jogo oferece ao usuário a possibilidade de escolher o nível de dificuldade do mesmo,AI,5,0,1,0,2,2,5,4,3,4
+ED6,EE6,"ED 6 - O jogo possui característica de adaptabilidade, no sentido de que os pontos fortes e fracos dos usuários são reconhecidos e os elementos do jogo se adaptam a eles.",AJ,5,2,0,0,0,3,3,3,4,4
+ED7,EE7,"ED 7 - Permite personalização das jogadas por parte do instrutor. (Por exemplo, o instrutor que está utilizando o jogo para apoiar a aprendizagem, é capaz de customizar ou criar novos desafios e obstáculos)",AK,5,1,1,1,1,1,4,2,2,4
+ED8,EE8,"ED 8 - O jogo possui mecanismos para verificar o desempenho do jogador. (Por exemplo, o jogo possui uma tela com o registro das ações realizadas. Desse modo, é possível identificar pontos fortes e fracos do desempenho do jogador).",AL,5,1,2,1,0,1,4,1,1,4
+CN1,EC1,"CN 1 - O conteúdo educacional pretendido para o jogo é representado corretamente por seus elementos (consistente, sem ambiguidade e completo), bem como pelo fluxo de execução do jogo. (Por exemplo, um jogo que tem como objetivo ensinar a operação de adição, possui números ou elementos que o represente, assim como o fluxo do jogo obedece a orem gradativa de dificuldade de operações de adição)",AM,5,2,2,1,0,0,3,0,1,2
+CN2,EC2,"CN 2 - O jogo possui elementos de ajuda e documentação relacionados aos conteúdos de aprendizagem abordados. (Por exemplo, em um jogo de  informática, onde o conteúdo de aprendizagem abordado é programação de computadores, o jogo deve possuir documentos e elementos de ajuda explicando os conceitos do tema.)",AN,5,5,0,0,0,0,0,0,0,0
+CN3,EC3,"CN 3 - Os elementos de ajuda e documentação relacionados aos conteúdos de aprendizagem devem ser atrativos para o usuário, com base nas especificidades de cada tipo de usuário, por exemplo, em sua faixa etária.",AO,5,2,2,1,0,0,3,0,1,2
+CN4,EC4,CN 4 - Os elementos de ajuda e documentação relacionados aos conteúdos de aprendizagem devem estar integrados ao jogo.,AP,5,5,0,0,0,0,0,0,0,0
+CN5,EC5,"CN 5 - O conteúdo educacional é particionado em tópicos e/ou subtópicos no jogo, por meio de seus elementos.",AQ,5,4,0,1,0,0,1,0,0,2
+AE1,EA1,"AE 1 - A interação com o agente educacional é ágil. (Por exemplo, o jogador pode acessar rapidamente, a qualquer momento do jogo, as telas de ajuda sobre conteúdos educacionais.)",AR,5,5,0,0,0,0,0,0,0,0
+AE2,EA2,AE 2 - O agente educacional fornece feedback ao jogador.,AS,5,3,0,1,1,0,2,1,0,3
+AE3,EA3,"AE 3 - O jogador percebe sentimentos através de figuras, ações ou nomes do agente educacional.",AT,5,5,0,0,0,0,0,0,0,0
+AE4,EA4,AE 4 - O jogador sempre recebe feedbacks educados e expressivos.,AU,5,1,0,2,2,0,4,2,2,3

@@ -1,0 +1,1233 @@
+﻿participant_id;knowledge_group;form;item;pair;concept;source_cell;response;correct_answer;score
+P001;intermediate_or_advanced;pre;A1;1;Architectural trade-offs;"pre_post.csv:row=2;column=A1";favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;1
+P001;intermediate_or_advanced;post;B1;1;Architectural trade-offs;"pre_post.csv:row=2;column=B1";um trade-off arquitetural;um trade-off arquitetural;1
+P001;intermediate_or_advanced;pre;A2;2;Quality requirements;"pre_post.csv:row=2;column=A2";O sistema deve seguir disponível mesmo com falha em algum componente;O sistema deve seguir disponível mesmo com falha em algum componente;1
+P001;intermediate_or_advanced;post;B2;2;Quality requirements;"pre_post.csv:row=2;column=B2";O sistema deve impedir o acesso de usuários não autorizados aos dados;O sistema deve impedir o acesso de usuários não autorizados aos dados;1
+P001;intermediate_or_advanced;pre;A3;3;Context-dependent selection;"pre_post.csv:row=2;column=A3";A escolha do padrão depende do contexto, dos requisitos e das consequências;A escolha do padrão depende do contexto, dos requisitos e das consequências;1
+P001;intermediate_or_advanced;post;B3;3;Context-dependent selection;"pre_post.csv:row=2;column=B3";Não. A decisão deve considerar o contexto de cada projeto;Não. A decisão deve considerar o contexto de cada projeto;1
+P001;intermediate_or_advanced;pre;A4;4;MVC;"pre_post.csv:row=2;column=A4";MVC;MVC;1
+P001;intermediate_or_advanced;post;B4;4;MVC;"pre_post.csv:row=2;column=B4";MVC;MVC;1
+P001;intermediate_or_advanced;pre;A5;5;Client–Server;"pre_post.csv:row=2;column=A5";Cliente-Servidor;Cliente-Servidor;1
+P001;intermediate_or_advanced;post;B5;5;Client–Server;"pre_post.csv:row=2;column=B5";Cliente-Servidor;Cliente-Servidor;1
+P001;intermediate_or_advanced;pre;A6;6;Layered Architecture;"pre_post.csv:row=2;column=A6";Microsserviços;Arquitetura em Camadas;0
+P001;intermediate_or_advanced;post;B6;6;Layered Architecture;"pre_post.csv:row=2;column=B6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P001;intermediate_or_advanced;pre;A7;7;Microservices;"pre_post.csv:row=2;column=A7";Arquitetura em Camadas;Microsserviços;0
+P001;intermediate_or_advanced;post;B7;7;Microservices;"pre_post.csv:row=2;column=B7";Microsserviços;Microsserviços;1
+P001;intermediate_or_advanced;pre;A8;8;Pipe and Filter;"pre_post.csv:row=2;column=A8";Pipe and Filter;Pipe and Filter;1
+P001;intermediate_or_advanced;post;B8;8;Pipe and Filter;"pre_post.csv:row=2;column=B8";Pipe and Filter;Pipe and Filter;1
+P001;intermediate_or_advanced;pre;A9;9;Event-Driven Architecture;"pre_post.csv:row=2;column=A9";Event-Driven Architecture;Event-Driven Architecture;1
+P001;intermediate_or_advanced;post;B9;9;Event-Driven Architecture;"pre_post.csv:row=2;column=B9";Event-Driven Architecture;Event-Driven Architecture;1
+P001;intermediate_or_advanced;pre;A10;10;Microkernel;"pre_post.csv:row=2;column=A10";Microkernel;Microkernel;1
+P001;intermediate_or_advanced;post;B10;10;Microkernel;"pre_post.csv:row=2;column=B10";Microkernel;Microkernel;1
+P001;intermediate_or_advanced;pre;A11;11;Layered: security priorities;"pre_post.csv:row=2;column=A11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P001;intermediate_or_advanced;post;B11;11;Layered: security priorities;"pre_post.csv:row=2;column=B11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P001;intermediate_or_advanced;pre;A12;12;Pipeline application;"pre_post.csv:row=2;column=A12";Pipe and Filter;Pipe and Filter;1
+P001;intermediate_or_advanced;post;B12;12;Pipeline application;"pre_post.csv:row=2;column=B12";Pipe and Filter;Pipe and Filter;1
+P001;intermediate_or_advanced;pre;A13;13;Microkernel vs. Microservices;"pre_post.csv:row=2;column=A13";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";1
+P001;intermediate_or_advanced;post;B13;13;Microkernel vs. Microservices;"pre_post.csv:row=2;column=B13";Microkernel e Microsserviços;Microkernel e Microsserviços;1
+P001;intermediate_or_advanced;pre;A14;14;Event-driven trade-offs;"pre_post.csv:row=2;column=A14";Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;1
+P001;intermediate_or_advanced;post;B14;14;Event-driven trade-offs;"pre_post.csv:row=2;column=B14";Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;1
+P002;intermediate_or_advanced;pre;A1;1;Architectural trade-offs;"pre_post.csv:row=3;column=A1";favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;1
+P002;intermediate_or_advanced;post;B1;1;Architectural trade-offs;"pre_post.csv:row=3;column=B1";um trade-off arquitetural;um trade-off arquitetural;1
+P002;intermediate_or_advanced;pre;A2;2;Quality requirements;"pre_post.csv:row=3;column=A2";O sistema deve seguir disponível mesmo com falha em algum componente;O sistema deve seguir disponível mesmo com falha em algum componente;1
+P002;intermediate_or_advanced;post;B2;2;Quality requirements;"pre_post.csv:row=3;column=B2";O sistema deve impedir o acesso de usuários não autorizados aos dados;O sistema deve impedir o acesso de usuários não autorizados aos dados;1
+P002;intermediate_or_advanced;pre;A3;3;Context-dependent selection;"pre_post.csv:row=3;column=A3";A escolha do padrão depende do contexto, dos requisitos e das consequências;A escolha do padrão depende do contexto, dos requisitos e das consequências;1
+P002;intermediate_or_advanced;post;B3;3;Context-dependent selection;"pre_post.csv:row=3;column=B3";Não. A decisão deve considerar o contexto de cada projeto;Não. A decisão deve considerar o contexto de cada projeto;1
+P002;intermediate_or_advanced;pre;A4;4;MVC;"pre_post.csv:row=3;column=A4";MVC;MVC;1
+P002;intermediate_or_advanced;post;B4;4;MVC;"pre_post.csv:row=3;column=B4";MVC;MVC;1
+P002;intermediate_or_advanced;pre;A5;5;Client–Server;"pre_post.csv:row=3;column=A5";Cliente-Servidor;Cliente-Servidor;1
+P002;intermediate_or_advanced;post;B5;5;Client–Server;"pre_post.csv:row=3;column=B5";Microkernel;Cliente-Servidor;0
+P002;intermediate_or_advanced;pre;A6;6;Layered Architecture;"pre_post.csv:row=3;column=A6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P002;intermediate_or_advanced;post;B6;6;Layered Architecture;"pre_post.csv:row=3;column=B6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P002;intermediate_or_advanced;pre;A7;7;Microservices;"pre_post.csv:row=3;column=A7";Microsserviços;Microsserviços;1
+P002;intermediate_or_advanced;post;B7;7;Microservices;"pre_post.csv:row=3;column=B7";Microsserviços;Microsserviços;1
+P002;intermediate_or_advanced;pre;A8;8;Pipe and Filter;"pre_post.csv:row=3;column=A8";Pipe and Filter;Pipe and Filter;1
+P002;intermediate_or_advanced;post;B8;8;Pipe and Filter;"pre_post.csv:row=3;column=B8";Pipe and Filter;Pipe and Filter;1
+P002;intermediate_or_advanced;pre;A9;9;Event-Driven Architecture;"pre_post.csv:row=3;column=A9";Event-Driven Architecture;Event-Driven Architecture;1
+P002;intermediate_or_advanced;post;B9;9;Event-Driven Architecture;"pre_post.csv:row=3;column=B9";Event-Driven Architecture;Event-Driven Architecture;1
+P002;intermediate_or_advanced;pre;A10;10;Microkernel;"pre_post.csv:row=3;column=A10";Microkernel;Microkernel;1
+P002;intermediate_or_advanced;post;B10;10;Microkernel;"pre_post.csv:row=3;column=B10";Microkernel;Microkernel;1
+P002;intermediate_or_advanced;pre;A11;11;Layered: security priorities;"pre_post.csv:row=3;column=A11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P002;intermediate_or_advanced;post;B11;11;Layered: security priorities;"pre_post.csv:row=3;column=B11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P002;intermediate_or_advanced;pre;A12;12;Pipeline application;"pre_post.csv:row=3;column=A12";Pipe and Filter;Pipe and Filter;1
+P002;intermediate_or_advanced;post;B12;12;Pipeline application;"pre_post.csv:row=3;column=B12";Microsserviços;Pipe and Filter;0
+P002;intermediate_or_advanced;pre;A13;13;Microkernel vs. Microservices;"pre_post.csv:row=3;column=A13";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";1
+P002;intermediate_or_advanced;post;B13;13;Microkernel vs. Microservices;"pre_post.csv:row=3;column=B13";Microkernel e Microsserviços;Microkernel e Microsserviços;1
+P002;intermediate_or_advanced;pre;A14;14;Event-driven trade-offs;"pre_post.csv:row=3;column=A14";Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;1
+P002;intermediate_or_advanced;post;B14;14;Event-driven trade-offs;"pre_post.csv:row=3;column=B14";Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;1
+P003;none_or_basic;pre;A1;1;Architectural trade-offs;"pre_post.csv:row=4;column=A1";favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;1
+P003;none_or_basic;post;B1;1;Architectural trade-offs;"pre_post.csv:row=4;column=B1";um trade-off arquitetural;um trade-off arquitetural;1
+P003;none_or_basic;pre;A2;2;Quality requirements;"pre_post.csv:row=4;column=A2";O sistema deve seguir disponível mesmo com falha em algum componente;O sistema deve seguir disponível mesmo com falha em algum componente;1
+P003;none_or_basic;post;B2;2;Quality requirements;"pre_post.csv:row=4;column=B2";O sistema deve impedir o acesso de usuários não autorizados aos dados;O sistema deve impedir o acesso de usuários não autorizados aos dados;1
+P003;none_or_basic;pre;A3;3;Context-dependent selection;"pre_post.csv:row=4;column=A3";A escolha do padrão depende do contexto, dos requisitos e das consequências;A escolha do padrão depende do contexto, dos requisitos e das consequências;1
+P003;none_or_basic;post;B3;3;Context-dependent selection;"pre_post.csv:row=4;column=B3";Não. A decisão deve considerar o contexto de cada projeto;Não. A decisão deve considerar o contexto de cada projeto;1
+P003;none_or_basic;pre;A4;4;MVC;"pre_post.csv:row=4;column=A4";Pipe and Filter;MVC;0
+P003;none_or_basic;post;B4;4;MVC;"pre_post.csv:row=4;column=B4";MVC;MVC;1
+P003;none_or_basic;pre;A5;5;Client–Server;"pre_post.csv:row=4;column=A5";Cliente-Servidor;Cliente-Servidor;1
+P003;none_or_basic;post;B5;5;Client–Server;"pre_post.csv:row=4;column=B5";Cliente-Servidor;Cliente-Servidor;1
+P003;none_or_basic;pre;A6;6;Layered Architecture;"pre_post.csv:row=4;column=A6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P003;none_or_basic;post;B6;6;Layered Architecture;"pre_post.csv:row=4;column=B6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P003;none_or_basic;pre;A7;7;Microservices;"pre_post.csv:row=4;column=A7";Microsserviços;Microsserviços;1
+P003;none_or_basic;post;B7;7;Microservices;"pre_post.csv:row=4;column=B7";Microsserviços;Microsserviços;1
+P003;none_or_basic;pre;A8;8;Pipe and Filter;"pre_post.csv:row=4;column=A8";Pipe and Filter;Pipe and Filter;1
+P003;none_or_basic;post;B8;8;Pipe and Filter;"pre_post.csv:row=4;column=B8";Pipe and Filter;Pipe and Filter;1
+P003;none_or_basic;pre;A9;9;Event-Driven Architecture;"pre_post.csv:row=4;column=A9";Event-Driven Architecture;Event-Driven Architecture;1
+P003;none_or_basic;post;B9;9;Event-Driven Architecture;"pre_post.csv:row=4;column=B9";Event-Driven Architecture;Event-Driven Architecture;1
+P003;none_or_basic;pre;A10;10;Microkernel;"pre_post.csv:row=4;column=A10";Microkernel;Microkernel;1
+P003;none_or_basic;post;B10;10;Microkernel;"pre_post.csv:row=4;column=B10";Microkernel;Microkernel;1
+P003;none_or_basic;pre;A11;11;Layered: security priorities;"pre_post.csv:row=4;column=A11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P003;none_or_basic;post;B11;11;Layered: security priorities;"pre_post.csv:row=4;column=B11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P003;none_or_basic;pre;A12;12;Pipeline application;"pre_post.csv:row=4;column=A12";MVC;Pipe and Filter;0
+P003;none_or_basic;post;B12;12;Pipeline application;"pre_post.csv:row=4;column=B12";Microsserviços;Pipe and Filter;0
+P003;none_or_basic;pre;A13;13;Microkernel vs. Microservices;"pre_post.csv:row=4;column=A13";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";1
+P003;none_or_basic;post;B13;13;Microkernel vs. Microservices;"pre_post.csv:row=4;column=B13";Microkernel e Microsserviços;Microkernel e Microsserviços;1
+P003;none_or_basic;pre;A14;14;Event-driven trade-offs;"pre_post.csv:row=4;column=A14";Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;1
+P003;none_or_basic;post;B14;14;Event-driven trade-offs;"pre_post.csv:row=4;column=B14";Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;1
+P004;none_or_basic;pre;A1;1;Architectural trade-offs;"pre_post.csv:row=5;column=A1";favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;1
+P004;none_or_basic;post;B1;1;Architectural trade-offs;"pre_post.csv:row=5;column=B1";um trade-off arquitetural;um trade-off arquitetural;1
+P004;none_or_basic;pre;A2;2;Quality requirements;"pre_post.csv:row=5;column=A2";O sistema deve seguir disponível mesmo com falha em algum componente;O sistema deve seguir disponível mesmo com falha em algum componente;1
+P004;none_or_basic;post;B2;2;Quality requirements;"pre_post.csv:row=5;column=B2";O cliente deve conseguir consultar o status atual do seu próprio pedido;O sistema deve impedir o acesso de usuários não autorizados aos dados;0
+P004;none_or_basic;pre;A3;3;Context-dependent selection;"pre_post.csv:row=5;column=A3";A escolha do padrão depende do contexto, dos requisitos e das consequências;A escolha do padrão depende do contexto, dos requisitos e das consequências;1
+P004;none_or_basic;post;B3;3;Context-dependent selection;"pre_post.csv:row=5;column=B3";Não. A decisão deve considerar o contexto de cada projeto;Não. A decisão deve considerar o contexto de cada projeto;1
+P004;none_or_basic;pre;A4;4;MVC;"pre_post.csv:row=5;column=A4";Microkernel;MVC;0
+P004;none_or_basic;post;B4;4;MVC;"pre_post.csv:row=5;column=B4";Event-Driven Architecture;MVC;0
+P004;none_or_basic;pre;A5;5;Client–Server;"pre_post.csv:row=5;column=A5";Cliente-Servidor;Cliente-Servidor;1
+P004;none_or_basic;post;B5;5;Client–Server;"pre_post.csv:row=5;column=B5";Cliente-Servidor;Cliente-Servidor;1
+P004;none_or_basic;pre;A6;6;Layered Architecture;"pre_post.csv:row=5;column=A6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P004;none_or_basic;post;B6;6;Layered Architecture;"pre_post.csv:row=5;column=B6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P004;none_or_basic;pre;A7;7;Microservices;"pre_post.csv:row=5;column=A7";MVC;Microsserviços;0
+P004;none_or_basic;post;B7;7;Microservices;"pre_post.csv:row=5;column=B7";MVC;Microsserviços;0
+P004;none_or_basic;pre;A8;8;Pipe and Filter;"pre_post.csv:row=5;column=A8";Pipe and Filter;Pipe and Filter;1
+P004;none_or_basic;post;B8;8;Pipe and Filter;"pre_post.csv:row=5;column=B8";Pipe and Filter;Pipe and Filter;1
+P004;none_or_basic;pre;A9;9;Event-Driven Architecture;"pre_post.csv:row=5;column=A9";Event-Driven Architecture;Event-Driven Architecture;1
+P004;none_or_basic;post;B9;9;Event-Driven Architecture;"pre_post.csv:row=5;column=B9";Event-Driven Architecture;Event-Driven Architecture;1
+P004;none_or_basic;pre;A10;10;Microkernel;"pre_post.csv:row=5;column=A10";Microsserviços;Microkernel;0
+P004;none_or_basic;post;B10;10;Microkernel;"pre_post.csv:row=5;column=B10";Microkernel;Microkernel;1
+P004;none_or_basic;pre;A11;11;Layered: security priorities;"pre_post.csv:row=5;column=A11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P004;none_or_basic;post;B11;11;Layered: security priorities;"pre_post.csv:row=5;column=B11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P004;none_or_basic;pre;A12;12;Pipeline application;"pre_post.csv:row=5;column=A12";MVC;Pipe and Filter;0
+P004;none_or_basic;post;B12;12;Pipeline application;"pre_post.csv:row=5;column=B12";Pipe and Filter;Pipe and Filter;1
+P004;none_or_basic;pre;A13;13;Microkernel vs. Microservices;"pre_post.csv:row=5;column=A13";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";1
+P004;none_or_basic;post;B13;13;Microkernel vs. Microservices;"pre_post.csv:row=5;column=B13";Microkernel e Microsserviços;Microkernel e Microsserviços;1
+P004;none_or_basic;pre;A14;14;Event-driven trade-offs;"pre_post.csv:row=5;column=A14";Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;1
+P004;none_or_basic;post;B14;14;Event-driven trade-offs;"pre_post.csv:row=5;column=B14";Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;1
+P005;none_or_basic;pre;A1;1;Architectural trade-offs;"pre_post.csv:row=6;column=A1";favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;1
+P005;none_or_basic;post;B1;1;Architectural trade-offs;"pre_post.csv:row=6;column=B1";um trade-off arquitetural;um trade-off arquitetural;1
+P005;none_or_basic;pre;A2;2;Quality requirements;"pre_post.csv:row=6;column=A2";O sistema deve seguir disponível mesmo com falha em algum componente;O sistema deve seguir disponível mesmo com falha em algum componente;1
+P005;none_or_basic;post;B2;2;Quality requirements;"pre_post.csv:row=6;column=B2";O sistema deve impedir o acesso de usuários não autorizados aos dados;O sistema deve impedir o acesso de usuários não autorizados aos dados;1
+P005;none_or_basic;pre;A3;3;Context-dependent selection;"pre_post.csv:row=6;column=A3";A escolha do padrão depende do contexto, dos requisitos e das consequências;A escolha do padrão depende do contexto, dos requisitos e das consequências;1
+P005;none_or_basic;post;B3;3;Context-dependent selection;"pre_post.csv:row=6;column=B3";Não. A decisão deve considerar o contexto de cada projeto;Não. A decisão deve considerar o contexto de cada projeto;1
+P005;none_or_basic;pre;A4;4;MVC;"pre_post.csv:row=6;column=A4";MVC;MVC;1
+P005;none_or_basic;post;B4;4;MVC;"pre_post.csv:row=6;column=B4";Microsserviços;MVC;0
+P005;none_or_basic;pre;A5;5;Client–Server;"pre_post.csv:row=6;column=A5";Microsserviços;Cliente-Servidor;0
+P005;none_or_basic;post;B5;5;Client–Server;"pre_post.csv:row=6;column=B5";Cliente-Servidor;Cliente-Servidor;1
+P005;none_or_basic;pre;A6;6;Layered Architecture;"pre_post.csv:row=6;column=A6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P005;none_or_basic;post;B6;6;Layered Architecture;"pre_post.csv:row=6;column=B6";Microsserviços;Arquitetura em Camadas;0
+P005;none_or_basic;pre;A7;7;Microservices;"pre_post.csv:row=6;column=A7";Microsserviços;Microsserviços;1
+P005;none_or_basic;post;B7;7;Microservices;"pre_post.csv:row=6;column=B7";Microsserviços;Microsserviços;1
+P005;none_or_basic;pre;A8;8;Pipe and Filter;"pre_post.csv:row=6;column=A8";Pipe and Filter;Pipe and Filter;1
+P005;none_or_basic;post;B8;8;Pipe and Filter;"pre_post.csv:row=6;column=B8";Pipe and Filter;Pipe and Filter;1
+P005;none_or_basic;pre;A9;9;Event-Driven Architecture;"pre_post.csv:row=6;column=A9";Microkernel;Event-Driven Architecture;0
+P005;none_or_basic;post;B9;9;Event-Driven Architecture;"pre_post.csv:row=6;column=B9";Event-Driven Architecture;Event-Driven Architecture;1
+P005;none_or_basic;pre;A10;10;Microkernel;"pre_post.csv:row=6;column=A10";Microkernel;Microkernel;1
+P005;none_or_basic;post;B10;10;Microkernel;"pre_post.csv:row=6;column=B10";Microkernel;Microkernel;1
+P005;none_or_basic;pre;A11;11;Layered: security priorities;"pre_post.csv:row=6;column=A11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P005;none_or_basic;post;B11;11;Layered: security priorities;"pre_post.csv:row=6;column=B11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P005;none_or_basic;pre;A12;12;Pipeline application;"pre_post.csv:row=6;column=A12";Microkernel;Pipe and Filter;0
+P005;none_or_basic;post;B12;12;Pipeline application;"pre_post.csv:row=6;column=B12";Microsserviços;Pipe and Filter;0
+P005;none_or_basic;pre;A13;13;Microkernel vs. Microservices;"pre_post.csv:row=6;column=A13";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";1
+P005;none_or_basic;post;B13;13;Microkernel vs. Microservices;"pre_post.csv:row=6;column=B13";Microkernel e Microsserviços;Microkernel e Microsserviços;1
+P005;none_or_basic;pre;A14;14;Event-driven trade-offs;"pre_post.csv:row=6;column=A14";Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;1
+P005;none_or_basic;post;B14;14;Event-driven trade-offs;"pre_post.csv:row=6;column=B14";Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;1
+P006;intermediate_or_advanced;pre;A1;1;Architectural trade-offs;"pre_post.csv:row=7;column=A1";favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;1
+P006;intermediate_or_advanced;post;B1;1;Architectural trade-offs;"pre_post.csv:row=7;column=B1";um trade-off arquitetural;um trade-off arquitetural;1
+P006;intermediate_or_advanced;pre;A2;2;Quality requirements;"pre_post.csv:row=7;column=A2";O sistema deve seguir disponível mesmo com falha em algum componente;O sistema deve seguir disponível mesmo com falha em algum componente;1
+P006;intermediate_or_advanced;post;B2;2;Quality requirements;"pre_post.csv:row=7;column=B2";O sistema deve impedir o acesso de usuários não autorizados aos dados;O sistema deve impedir o acesso de usuários não autorizados aos dados;1
+P006;intermediate_or_advanced;pre;A3;3;Context-dependent selection;"pre_post.csv:row=7;column=A3";A escolha do padrão depende do contexto, dos requisitos e das consequências;A escolha do padrão depende do contexto, dos requisitos e das consequências;1
+P006;intermediate_or_advanced;post;B3;3;Context-dependent selection;"pre_post.csv:row=7;column=B3";Não. A decisão deve considerar o contexto de cada projeto;Não. A decisão deve considerar o contexto de cada projeto;1
+P006;intermediate_or_advanced;pre;A4;4;MVC;"pre_post.csv:row=7;column=A4";MVC;MVC;1
+P006;intermediate_or_advanced;post;B4;4;MVC;"pre_post.csv:row=7;column=B4";MVC;MVC;1
+P006;intermediate_or_advanced;pre;A5;5;Client–Server;"pre_post.csv:row=7;column=A5";Cliente-Servidor;Cliente-Servidor;1
+P006;intermediate_or_advanced;post;B5;5;Client–Server;"pre_post.csv:row=7;column=B5";Cliente-Servidor;Cliente-Servidor;1
+P006;intermediate_or_advanced;pre;A6;6;Layered Architecture;"pre_post.csv:row=7;column=A6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P006;intermediate_or_advanced;post;B6;6;Layered Architecture;"pre_post.csv:row=7;column=B6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P006;intermediate_or_advanced;pre;A7;7;Microservices;"pre_post.csv:row=7;column=A7";Microsserviços;Microsserviços;1
+P006;intermediate_or_advanced;post;B7;7;Microservices;"pre_post.csv:row=7;column=B7";Microsserviços;Microsserviços;1
+P006;intermediate_or_advanced;pre;A8;8;Pipe and Filter;"pre_post.csv:row=7;column=A8";Pipe and Filter;Pipe and Filter;1
+P006;intermediate_or_advanced;post;B8;8;Pipe and Filter;"pre_post.csv:row=7;column=B8";Pipe and Filter;Pipe and Filter;1
+P006;intermediate_or_advanced;pre;A9;9;Event-Driven Architecture;"pre_post.csv:row=7;column=A9";Event-Driven Architecture;Event-Driven Architecture;1
+P006;intermediate_or_advanced;post;B9;9;Event-Driven Architecture;"pre_post.csv:row=7;column=B9";Event-Driven Architecture;Event-Driven Architecture;1
+P006;intermediate_or_advanced;pre;A10;10;Microkernel;"pre_post.csv:row=7;column=A10";Microkernel;Microkernel;1
+P006;intermediate_or_advanced;post;B10;10;Microkernel;"pre_post.csv:row=7;column=B10";Microkernel;Microkernel;1
+P006;intermediate_or_advanced;pre;A11;11;Layered: security priorities;"pre_post.csv:row=7;column=A11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P006;intermediate_or_advanced;post;B11;11;Layered: security priorities;"pre_post.csv:row=7;column=B11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P006;intermediate_or_advanced;pre;A12;12;Pipeline application;"pre_post.csv:row=7;column=A12";Pipe and Filter;Pipe and Filter;1
+P006;intermediate_or_advanced;post;B12;12;Pipeline application;"pre_post.csv:row=7;column=B12";Pipe and Filter;Pipe and Filter;1
+P006;intermediate_or_advanced;pre;A13;13;Microkernel vs. Microservices;"pre_post.csv:row=7;column=A13";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";1
+P006;intermediate_or_advanced;post;B13;13;Microkernel vs. Microservices;"pre_post.csv:row=7;column=B13";Microkernel e Microsserviços;Microkernel e Microsserviços;1
+P006;intermediate_or_advanced;pre;A14;14;Event-driven trade-offs;"pre_post.csv:row=7;column=A14";Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;1
+P006;intermediate_or_advanced;post;B14;14;Event-driven trade-offs;"pre_post.csv:row=7;column=B14";Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;1
+P007;intermediate_or_advanced;pre;A1;1;Architectural trade-offs;"pre_post.csv:row=8;column=A1";favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;1
+P007;intermediate_or_advanced;post;B1;1;Architectural trade-offs;"pre_post.csv:row=8;column=B1";um trade-off arquitetural;um trade-off arquitetural;1
+P007;intermediate_or_advanced;pre;A2;2;Quality requirements;"pre_post.csv:row=8;column=A2";O sistema deve seguir disponível mesmo com falha em algum componente;O sistema deve seguir disponível mesmo com falha em algum componente;1
+P007;intermediate_or_advanced;post;B2;2;Quality requirements;"pre_post.csv:row=8;column=B2";O sistema deve impedir o acesso de usuários não autorizados aos dados;O sistema deve impedir o acesso de usuários não autorizados aos dados;1
+P007;intermediate_or_advanced;pre;A3;3;Context-dependent selection;"pre_post.csv:row=8;column=A3";A escolha do padrão depende do contexto, dos requisitos e das consequências;A escolha do padrão depende do contexto, dos requisitos e das consequências;1
+P007;intermediate_or_advanced;post;B3;3;Context-dependent selection;"pre_post.csv:row=8;column=B3";Não. A decisão deve considerar o contexto de cada projeto;Não. A decisão deve considerar o contexto de cada projeto;1
+P007;intermediate_or_advanced;pre;A4;4;MVC;"pre_post.csv:row=8;column=A4";MVC;MVC;1
+P007;intermediate_or_advanced;post;B4;4;MVC;"pre_post.csv:row=8;column=B4";MVC;MVC;1
+P007;intermediate_or_advanced;pre;A5;5;Client–Server;"pre_post.csv:row=8;column=A5";Cliente-Servidor;Cliente-Servidor;1
+P007;intermediate_or_advanced;post;B5;5;Client–Server;"pre_post.csv:row=8;column=B5";Cliente-Servidor;Cliente-Servidor;1
+P007;intermediate_or_advanced;pre;A6;6;Layered Architecture;"pre_post.csv:row=8;column=A6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P007;intermediate_or_advanced;post;B6;6;Layered Architecture;"pre_post.csv:row=8;column=B6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P007;intermediate_or_advanced;pre;A7;7;Microservices;"pre_post.csv:row=8;column=A7";Microsserviços;Microsserviços;1
+P007;intermediate_or_advanced;post;B7;7;Microservices;"pre_post.csv:row=8;column=B7";Microsserviços;Microsserviços;1
+P007;intermediate_or_advanced;pre;A8;8;Pipe and Filter;"pre_post.csv:row=8;column=A8";Pipe and Filter;Pipe and Filter;1
+P007;intermediate_or_advanced;post;B8;8;Pipe and Filter;"pre_post.csv:row=8;column=B8";Pipe and Filter;Pipe and Filter;1
+P007;intermediate_or_advanced;pre;A9;9;Event-Driven Architecture;"pre_post.csv:row=8;column=A9";Event-Driven Architecture;Event-Driven Architecture;1
+P007;intermediate_or_advanced;post;B9;9;Event-Driven Architecture;"pre_post.csv:row=8;column=B9";Event-Driven Architecture;Event-Driven Architecture;1
+P007;intermediate_or_advanced;pre;A10;10;Microkernel;"pre_post.csv:row=8;column=A10";Microkernel;Microkernel;1
+P007;intermediate_or_advanced;post;B10;10;Microkernel;"pre_post.csv:row=8;column=B10";Microkernel;Microkernel;1
+P007;intermediate_or_advanced;pre;A11;11;Layered: security priorities;"pre_post.csv:row=8;column=A11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P007;intermediate_or_advanced;post;B11;11;Layered: security priorities;"pre_post.csv:row=8;column=B11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P007;intermediate_or_advanced;pre;A12;12;Pipeline application;"pre_post.csv:row=8;column=A12";Pipe and Filter;Pipe and Filter;1
+P007;intermediate_or_advanced;post;B12;12;Pipeline application;"pre_post.csv:row=8;column=B12";Pipe and Filter;Pipe and Filter;1
+P007;intermediate_or_advanced;pre;A13;13;Microkernel vs. Microservices;"pre_post.csv:row=8;column=A13";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";1
+P007;intermediate_or_advanced;post;B13;13;Microkernel vs. Microservices;"pre_post.csv:row=8;column=B13";Microkernel e Microsserviços;Microkernel e Microsserviços;1
+P007;intermediate_or_advanced;pre;A14;14;Event-driven trade-offs;"pre_post.csv:row=8;column=A14";Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;1
+P007;intermediate_or_advanced;post;B14;14;Event-driven trade-offs;"pre_post.csv:row=8;column=B14";Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;1
+P008;none_or_basic;pre;A1;1;Architectural trade-offs;"pre_post.csv:row=9;column=A1";favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;1
+P008;none_or_basic;post;B1;1;Architectural trade-offs;"pre_post.csv:row=9;column=B1";um trade-off arquitetural;um trade-off arquitetural;1
+P008;none_or_basic;pre;A2;2;Quality requirements;"pre_post.csv:row=9;column=A2";O sistema deve seguir disponível mesmo com falha em algum componente;O sistema deve seguir disponível mesmo com falha em algum componente;1
+P008;none_or_basic;post;B2;2;Quality requirements;"pre_post.csv:row=9;column=B2";O cliente deve conseguir consultar o status atual do seu próprio pedido;O sistema deve impedir o acesso de usuários não autorizados aos dados;0
+P008;none_or_basic;pre;A3;3;Context-dependent selection;"pre_post.csv:row=9;column=A3";A escolha do padrão depende do contexto, dos requisitos e das consequências;A escolha do padrão depende do contexto, dos requisitos e das consequências;1
+P008;none_or_basic;post;B3;3;Context-dependent selection;"pre_post.csv:row=9;column=B3";Não. A decisão deve considerar o contexto de cada projeto;Não. A decisão deve considerar o contexto de cada projeto;1
+P008;none_or_basic;pre;A4;4;MVC;"pre_post.csv:row=9;column=A4";Event-Driven Architecture;MVC;0
+P008;none_or_basic;post;B4;4;MVC;"pre_post.csv:row=9;column=B4";MVC;MVC;1
+P008;none_or_basic;pre;A5;5;Client–Server;"pre_post.csv:row=9;column=A5";Cliente-Servidor;Cliente-Servidor;1
+P008;none_or_basic;post;B5;5;Client–Server;"pre_post.csv:row=9;column=B5";Cliente-Servidor;Cliente-Servidor;1
+P008;none_or_basic;pre;A6;6;Layered Architecture;"pre_post.csv:row=9;column=A6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P008;none_or_basic;post;B6;6;Layered Architecture;"pre_post.csv:row=9;column=B6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P008;none_or_basic;pre;A7;7;Microservices;"pre_post.csv:row=9;column=A7";Microsserviços;Microsserviços;1
+P008;none_or_basic;post;B7;7;Microservices;"pre_post.csv:row=9;column=B7";Microsserviços;Microsserviços;1
+P008;none_or_basic;pre;A8;8;Pipe and Filter;"pre_post.csv:row=9;column=A8";Pipe and Filter;Pipe and Filter;1
+P008;none_or_basic;post;B8;8;Pipe and Filter;"pre_post.csv:row=9;column=B8";Pipe and Filter;Pipe and Filter;1
+P008;none_or_basic;pre;A9;9;Event-Driven Architecture;"pre_post.csv:row=9;column=A9";MVC;Event-Driven Architecture;0
+P008;none_or_basic;post;B9;9;Event-Driven Architecture;"pre_post.csv:row=9;column=B9";Cliente-Servidor;Event-Driven Architecture;0
+P008;none_or_basic;pre;A10;10;Microkernel;"pre_post.csv:row=9;column=A10";Microkernel;Microkernel;1
+P008;none_or_basic;post;B10;10;Microkernel;"pre_post.csv:row=9;column=B10";Microkernel;Microkernel;1
+P008;none_or_basic;pre;A11;11;Layered: security priorities;"pre_post.csv:row=9;column=A11";Pipe and Filter;Arquitetura em Camadas;0
+P008;none_or_basic;post;B11;11;Layered: security priorities;"pre_post.csv:row=9;column=B11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P008;none_or_basic;pre;A12;12;Pipeline application;"pre_post.csv:row=9;column=A12";Pipe and Filter;Pipe and Filter;1
+P008;none_or_basic;post;B12;12;Pipeline application;"pre_post.csv:row=9;column=B12";Microsserviços;Pipe and Filter;0
+P008;none_or_basic;pre;A13;13;Microkernel vs. Microservices;"pre_post.csv:row=9;column=A13";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";1
+P008;none_or_basic;post;B13;13;Microkernel vs. Microservices;"pre_post.csv:row=9;column=B13";Microkernel e Microsserviços;Microkernel e Microsserviços;1
+P008;none_or_basic;pre;A14;14;Event-driven trade-offs;"pre_post.csv:row=9;column=A14";Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;1
+P008;none_or_basic;post;B14;14;Event-driven trade-offs;"pre_post.csv:row=9;column=B14";Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;1
+P009;intermediate_or_advanced;pre;A1;1;Architectural trade-offs;"pre_post.csv:row=10;column=A1";favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;1
+P009;intermediate_or_advanced;post;B1;1;Architectural trade-offs;"pre_post.csv:row=10;column=B1";um trade-off arquitetural;um trade-off arquitetural;1
+P009;intermediate_or_advanced;pre;A2;2;Quality requirements;"pre_post.csv:row=10;column=A2";O sistema deve seguir disponível mesmo com falha em algum componente;O sistema deve seguir disponível mesmo com falha em algum componente;1
+P009;intermediate_or_advanced;post;B2;2;Quality requirements;"pre_post.csv:row=10;column=B2";O sistema deve impedir o acesso de usuários não autorizados aos dados;O sistema deve impedir o acesso de usuários não autorizados aos dados;1
+P009;intermediate_or_advanced;pre;A3;3;Context-dependent selection;"pre_post.csv:row=10;column=A3";A escolha do padrão depende do contexto, dos requisitos e das consequências;A escolha do padrão depende do contexto, dos requisitos e das consequências;1
+P009;intermediate_or_advanced;post;B3;3;Context-dependent selection;"pre_post.csv:row=10;column=B3";Não. A decisão deve considerar o contexto de cada projeto;Não. A decisão deve considerar o contexto de cada projeto;1
+P009;intermediate_or_advanced;pre;A4;4;MVC;"pre_post.csv:row=10;column=A4";MVC;MVC;1
+P009;intermediate_or_advanced;post;B4;4;MVC;"pre_post.csv:row=10;column=B4";MVC;MVC;1
+P009;intermediate_or_advanced;pre;A5;5;Client–Server;"pre_post.csv:row=10;column=A5";Cliente-Servidor;Cliente-Servidor;1
+P009;intermediate_or_advanced;post;B5;5;Client–Server;"pre_post.csv:row=10;column=B5";Cliente-Servidor;Cliente-Servidor;1
+P009;intermediate_or_advanced;pre;A6;6;Layered Architecture;"pre_post.csv:row=10;column=A6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P009;intermediate_or_advanced;post;B6;6;Layered Architecture;"pre_post.csv:row=10;column=B6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P009;intermediate_or_advanced;pre;A7;7;Microservices;"pre_post.csv:row=10;column=A7";Microsserviços;Microsserviços;1
+P009;intermediate_or_advanced;post;B7;7;Microservices;"pre_post.csv:row=10;column=B7";Microsserviços;Microsserviços;1
+P009;intermediate_or_advanced;pre;A8;8;Pipe and Filter;"pre_post.csv:row=10;column=A8";Pipe and Filter;Pipe and Filter;1
+P009;intermediate_or_advanced;post;B8;8;Pipe and Filter;"pre_post.csv:row=10;column=B8";Pipe and Filter;Pipe and Filter;1
+P009;intermediate_or_advanced;pre;A9;9;Event-Driven Architecture;"pre_post.csv:row=10;column=A9";Event-Driven Architecture;Event-Driven Architecture;1
+P009;intermediate_or_advanced;post;B9;9;Event-Driven Architecture;"pre_post.csv:row=10;column=B9";Event-Driven Architecture;Event-Driven Architecture;1
+P009;intermediate_or_advanced;pre;A10;10;Microkernel;"pre_post.csv:row=10;column=A10";Microkernel;Microkernel;1
+P009;intermediate_or_advanced;post;B10;10;Microkernel;"pre_post.csv:row=10;column=B10";Microkernel;Microkernel;1
+P009;intermediate_or_advanced;pre;A11;11;Layered: security priorities;"pre_post.csv:row=10;column=A11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P009;intermediate_or_advanced;post;B11;11;Layered: security priorities;"pre_post.csv:row=10;column=B11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P009;intermediate_or_advanced;pre;A12;12;Pipeline application;"pre_post.csv:row=10;column=A12";Pipe and Filter;Pipe and Filter;1
+P009;intermediate_or_advanced;post;B12;12;Pipeline application;"pre_post.csv:row=10;column=B12";Pipe and Filter;Pipe and Filter;1
+P009;intermediate_or_advanced;pre;A13;13;Microkernel vs. Microservices;"pre_post.csv:row=10;column=A13";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";1
+P009;intermediate_or_advanced;post;B13;13;Microkernel vs. Microservices;"pre_post.csv:row=10;column=B13";Microkernel e Microsserviços;Microkernel e Microsserviços;1
+P009;intermediate_or_advanced;pre;A14;14;Event-driven trade-offs;"pre_post.csv:row=10;column=A14";Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;1
+P009;intermediate_or_advanced;post;B14;14;Event-driven trade-offs;"pre_post.csv:row=10;column=B14";Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;1
+P010;intermediate_or_advanced;pre;A1;1;Architectural trade-offs;"pre_post.csv:row=11;column=A1";favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;1
+P010;intermediate_or_advanced;post;B1;1;Architectural trade-offs;"pre_post.csv:row=11;column=B1";um trade-off arquitetural;um trade-off arquitetural;1
+P010;intermediate_or_advanced;pre;A2;2;Quality requirements;"pre_post.csv:row=11;column=A2";O sistema deve seguir disponível mesmo com falha em algum componente;O sistema deve seguir disponível mesmo com falha em algum componente;1
+P010;intermediate_or_advanced;post;B2;2;Quality requirements;"pre_post.csv:row=11;column=B2";O cliente deve conseguir consultar o status atual do seu próprio pedido;O sistema deve impedir o acesso de usuários não autorizados aos dados;0
+P010;intermediate_or_advanced;pre;A3;3;Context-dependent selection;"pre_post.csv:row=11;column=A3";A escolha do padrão depende do contexto, dos requisitos e das consequências;A escolha do padrão depende do contexto, dos requisitos e das consequências;1
+P010;intermediate_or_advanced;post;B3;3;Context-dependent selection;"pre_post.csv:row=11;column=B3";Não. A decisão deve considerar o contexto de cada projeto;Não. A decisão deve considerar o contexto de cada projeto;1
+P010;intermediate_or_advanced;pre;A4;4;MVC;"pre_post.csv:row=11;column=A4";MVC;MVC;1
+P010;intermediate_or_advanced;post;B4;4;MVC;"pre_post.csv:row=11;column=B4";MVC;MVC;1
+P010;intermediate_or_advanced;pre;A5;5;Client–Server;"pre_post.csv:row=11;column=A5";Cliente-Servidor;Cliente-Servidor;1
+P010;intermediate_or_advanced;post;B5;5;Client–Server;"pre_post.csv:row=11;column=B5";Cliente-Servidor;Cliente-Servidor;1
+P010;intermediate_or_advanced;pre;A6;6;Layered Architecture;"pre_post.csv:row=11;column=A6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P010;intermediate_or_advanced;post;B6;6;Layered Architecture;"pre_post.csv:row=11;column=B6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P010;intermediate_or_advanced;pre;A7;7;Microservices;"pre_post.csv:row=11;column=A7";Microsserviços;Microsserviços;1
+P010;intermediate_or_advanced;post;B7;7;Microservices;"pre_post.csv:row=11;column=B7";Microsserviços;Microsserviços;1
+P010;intermediate_or_advanced;pre;A8;8;Pipe and Filter;"pre_post.csv:row=11;column=A8";Pipe and Filter;Pipe and Filter;1
+P010;intermediate_or_advanced;post;B8;8;Pipe and Filter;"pre_post.csv:row=11;column=B8";Pipe and Filter;Pipe and Filter;1
+P010;intermediate_or_advanced;pre;A9;9;Event-Driven Architecture;"pre_post.csv:row=11;column=A9";Event-Driven Architecture;Event-Driven Architecture;1
+P010;intermediate_or_advanced;post;B9;9;Event-Driven Architecture;"pre_post.csv:row=11;column=B9";Event-Driven Architecture;Event-Driven Architecture;1
+P010;intermediate_or_advanced;pre;A10;10;Microkernel;"pre_post.csv:row=11;column=A10";Microkernel;Microkernel;1
+P010;intermediate_or_advanced;post;B10;10;Microkernel;"pre_post.csv:row=11;column=B10";Microkernel;Microkernel;1
+P010;intermediate_or_advanced;pre;A11;11;Layered: security priorities;"pre_post.csv:row=11;column=A11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P010;intermediate_or_advanced;post;B11;11;Layered: security priorities;"pre_post.csv:row=11;column=B11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P010;intermediate_or_advanced;pre;A12;12;Pipeline application;"pre_post.csv:row=11;column=A12";Pipe and Filter;Pipe and Filter;1
+P010;intermediate_or_advanced;post;B12;12;Pipeline application;"pre_post.csv:row=11;column=B12";Pipe and Filter;Pipe and Filter;1
+P010;intermediate_or_advanced;pre;A13;13;Microkernel vs. Microservices;"pre_post.csv:row=11;column=A13";"Cada módulo do Microkernel pode ser desenvolvido separadamente; em Microsserviços não permitem que componentes sejam atualizados independentemente";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";0
+P010;intermediate_or_advanced;post;B13;13;Microkernel vs. Microservices;"pre_post.csv:row=11;column=B13";Microkernel e Microsserviços;Microkernel e Microsserviços;1
+P010;intermediate_or_advanced;pre;A14;14;Event-driven trade-offs;"pre_post.csv:row=11;column=A14";Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;1
+P010;intermediate_or_advanced;post;B14;14;Event-driven trade-offs;"pre_post.csv:row=11;column=B14";Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;1
+P011;none_or_basic;pre;A1;1;Architectural trade-offs;"pre_post.csv:row=12;column=A1";favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;1
+P011;none_or_basic;post;B1;1;Architectural trade-offs;"pre_post.csv:row=12;column=B1";um trade-off arquitetural;um trade-off arquitetural;1
+P011;none_or_basic;pre;A2;2;Quality requirements;"pre_post.csv:row=12;column=A2";O sistema deve seguir disponível mesmo com falha em algum componente;O sistema deve seguir disponível mesmo com falha em algum componente;1
+P011;none_or_basic;post;B2;2;Quality requirements;"pre_post.csv:row=12;column=B2";O cliente deve conseguir consultar o status atual do seu próprio pedido;O sistema deve impedir o acesso de usuários não autorizados aos dados;0
+P011;none_or_basic;pre;A3;3;Context-dependent selection;"pre_post.csv:row=12;column=A3";A escolha do padrão depende do contexto, dos requisitos e das consequências;A escolha do padrão depende do contexto, dos requisitos e das consequências;1
+P011;none_or_basic;post;B3;3;Context-dependent selection;"pre_post.csv:row=12;column=B3";Não. A decisão deve considerar o contexto de cada projeto;Não. A decisão deve considerar o contexto de cada projeto;1
+P011;none_or_basic;pre;A4;4;MVC;"pre_post.csv:row=12;column=A4";MVC;MVC;1
+P011;none_or_basic;post;B4;4;MVC;"pre_post.csv:row=12;column=B4";MVC;MVC;1
+P011;none_or_basic;pre;A5;5;Client–Server;"pre_post.csv:row=12;column=A5";Cliente-Servidor;Cliente-Servidor;1
+P011;none_or_basic;post;B5;5;Client–Server;"pre_post.csv:row=12;column=B5";Cliente-Servidor;Cliente-Servidor;1
+P011;none_or_basic;pre;A6;6;Layered Architecture;"pre_post.csv:row=12;column=A6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P011;none_or_basic;post;B6;6;Layered Architecture;"pre_post.csv:row=12;column=B6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P011;none_or_basic;pre;A7;7;Microservices;"pre_post.csv:row=12;column=A7";Microsserviços;Microsserviços;1
+P011;none_or_basic;post;B7;7;Microservices;"pre_post.csv:row=12;column=B7";Microsserviços;Microsserviços;1
+P011;none_or_basic;pre;A8;8;Pipe and Filter;"pre_post.csv:row=12;column=A8";Event-Driven Architecture;Pipe and Filter;0
+P011;none_or_basic;post;B8;8;Pipe and Filter;"pre_post.csv:row=12;column=B8";Pipe and Filter;Pipe and Filter;1
+P011;none_or_basic;pre;A9;9;Event-Driven Architecture;"pre_post.csv:row=12;column=A9";MVC;Event-Driven Architecture;0
+P011;none_or_basic;post;B9;9;Event-Driven Architecture;"pre_post.csv:row=12;column=B9";Cliente-Servidor;Event-Driven Architecture;0
+P011;none_or_basic;pre;A10;10;Microkernel;"pre_post.csv:row=12;column=A10";Microsserviços;Microkernel;0
+P011;none_or_basic;post;B10;10;Microkernel;"pre_post.csv:row=12;column=B10";Microkernel;Microkernel;1
+P011;none_or_basic;pre;A11;11;Layered: security priorities;"pre_post.csv:row=12;column=A11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P011;none_or_basic;post;B11;11;Layered: security priorities;"pre_post.csv:row=12;column=B11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P011;none_or_basic;pre;A12;12;Pipeline application;"pre_post.csv:row=12;column=A12";MVC;Pipe and Filter;0
+P011;none_or_basic;post;B12;12;Pipeline application;"pre_post.csv:row=12;column=B12";Pipe and Filter;Pipe and Filter;1
+P011;none_or_basic;pre;A13;13;Microkernel vs. Microservices;"pre_post.csv:row=12;column=A13";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";1
+P011;none_or_basic;post;B13;13;Microkernel vs. Microservices;"pre_post.csv:row=12;column=B13";Microkernel e Microsserviços;Microkernel e Microsserviços;1
+P011;none_or_basic;pre;A14;14;Event-driven trade-offs;"pre_post.csv:row=12;column=A14";Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;1
+P011;none_or_basic;post;B14;14;Event-driven trade-offs;"pre_post.csv:row=12;column=B14";Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;1
+P012;none_or_basic;pre;A1;1;Architectural trade-offs;"pre_post.csv:row=13;column=A1";favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;1
+P012;none_or_basic;post;B1;1;Architectural trade-offs;"pre_post.csv:row=13;column=B1";um trade-off arquitetural;um trade-off arquitetural;1
+P012;none_or_basic;pre;A2;2;Quality requirements;"pre_post.csv:row=13;column=A2";O sistema deve seguir disponível mesmo com falha em algum componente;O sistema deve seguir disponível mesmo com falha em algum componente;1
+P012;none_or_basic;post;B2;2;Quality requirements;"pre_post.csv:row=13;column=B2";O sistema deve impedir o acesso de usuários não autorizados aos dados;O sistema deve impedir o acesso de usuários não autorizados aos dados;1
+P012;none_or_basic;pre;A3;3;Context-dependent selection;"pre_post.csv:row=13;column=A3";A escolha do padrão depende do contexto, dos requisitos e das consequências;A escolha do padrão depende do contexto, dos requisitos e das consequências;1
+P012;none_or_basic;post;B3;3;Context-dependent selection;"pre_post.csv:row=13;column=B3";Não. A decisão deve considerar o contexto de cada projeto;Não. A decisão deve considerar o contexto de cada projeto;1
+P012;none_or_basic;pre;A4;4;MVC;"pre_post.csv:row=13;column=A4";MVC;MVC;1
+P012;none_or_basic;post;B4;4;MVC;"pre_post.csv:row=13;column=B4";MVC;MVC;1
+P012;none_or_basic;pre;A5;5;Client–Server;"pre_post.csv:row=13;column=A5";Cliente-Servidor;Cliente-Servidor;1
+P012;none_or_basic;post;B5;5;Client–Server;"pre_post.csv:row=13;column=B5";Cliente-Servidor;Cliente-Servidor;1
+P012;none_or_basic;pre;A6;6;Layered Architecture;"pre_post.csv:row=13;column=A6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P012;none_or_basic;post;B6;6;Layered Architecture;"pre_post.csv:row=13;column=B6";Cliente-Servidor;Arquitetura em Camadas;0
+P012;none_or_basic;pre;A7;7;Microservices;"pre_post.csv:row=13;column=A7";MVC;Microsserviços;0
+P012;none_or_basic;post;B7;7;Microservices;"pre_post.csv:row=13;column=B7";Microsserviços;Microsserviços;1
+P012;none_or_basic;pre;A8;8;Pipe and Filter;"pre_post.csv:row=13;column=A8";Pipe and Filter;Pipe and Filter;1
+P012;none_or_basic;post;B8;8;Pipe and Filter;"pre_post.csv:row=13;column=B8";Pipe and Filter;Pipe and Filter;1
+P012;none_or_basic;pre;A9;9;Event-Driven Architecture;"pre_post.csv:row=13;column=A9";Event-Driven Architecture;Event-Driven Architecture;1
+P012;none_or_basic;post;B9;9;Event-Driven Architecture;"pre_post.csv:row=13;column=B9";Event-Driven Architecture;Event-Driven Architecture;1
+P012;none_or_basic;pre;A10;10;Microkernel;"pre_post.csv:row=13;column=A10";Microkernel;Microkernel;1
+P012;none_or_basic;post;B10;10;Microkernel;"pre_post.csv:row=13;column=B10";Microkernel;Microkernel;1
+P012;none_or_basic;pre;A11;11;Layered: security priorities;"pre_post.csv:row=13;column=A11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P012;none_or_basic;post;B11;11;Layered: security priorities;"pre_post.csv:row=13;column=B11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P012;none_or_basic;pre;A12;12;Pipeline application;"pre_post.csv:row=13;column=A12";Pipe and Filter;Pipe and Filter;1
+P012;none_or_basic;post;B12;12;Pipeline application;"pre_post.csv:row=13;column=B12";Pipe and Filter;Pipe and Filter;1
+P012;none_or_basic;pre;A13;13;Microkernel vs. Microservices;"pre_post.csv:row=13;column=A13";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";1
+P012;none_or_basic;post;B13;13;Microkernel vs. Microservices;"pre_post.csv:row=13;column=B13";Microkernel e Microsserviços;Microkernel e Microsserviços;1
+P012;none_or_basic;pre;A14;14;Event-driven trade-offs;"pre_post.csv:row=13;column=A14";Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;1
+P012;none_or_basic;post;B14;14;Event-driven trade-offs;"pre_post.csv:row=13;column=B14";Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;1
+P013;none_or_basic;pre;A1;1;Architectural trade-offs;"pre_post.csv:row=14;column=A1";favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;1
+P013;none_or_basic;post;B1;1;Architectural trade-offs;"pre_post.csv:row=14;column=B1";um trade-off arquitetural;um trade-off arquitetural;1
+P013;none_or_basic;pre;A2;2;Quality requirements;"pre_post.csv:row=14;column=A2";O sistema deve seguir disponível mesmo com falha em algum componente;O sistema deve seguir disponível mesmo com falha em algum componente;1
+P013;none_or_basic;post;B2;2;Quality requirements;"pre_post.csv:row=14;column=B2";O administrador do sistema deve conseguir cadastrar novos funcionários;O sistema deve impedir o acesso de usuários não autorizados aos dados;0
+P013;none_or_basic;pre;A3;3;Context-dependent selection;"pre_post.csv:row=14;column=A3";A escolha do padrão depende do contexto, dos requisitos e das consequências;A escolha do padrão depende do contexto, dos requisitos e das consequências;1
+P013;none_or_basic;post;B3;3;Context-dependent selection;"pre_post.csv:row=14;column=B3";Não. A decisão deve considerar o contexto de cada projeto;Não. A decisão deve considerar o contexto de cada projeto;1
+P013;none_or_basic;pre;A4;4;MVC;"pre_post.csv:row=14;column=A4";MVC;MVC;1
+P013;none_or_basic;post;B4;4;MVC;"pre_post.csv:row=14;column=B4";MVC;MVC;1
+P013;none_or_basic;pre;A5;5;Client–Server;"pre_post.csv:row=14;column=A5";Cliente-Servidor;Cliente-Servidor;1
+P013;none_or_basic;post;B5;5;Client–Server;"pre_post.csv:row=14;column=B5";Cliente-Servidor;Cliente-Servidor;1
+P013;none_or_basic;pre;A6;6;Layered Architecture;"pre_post.csv:row=14;column=A6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P013;none_or_basic;post;B6;6;Layered Architecture;"pre_post.csv:row=14;column=B6";Event-Driven Architecture;Arquitetura em Camadas;0
+P013;none_or_basic;pre;A7;7;Microservices;"pre_post.csv:row=14;column=A7";Microsserviços;Microsserviços;1
+P013;none_or_basic;post;B7;7;Microservices;"pre_post.csv:row=14;column=B7";Microsserviços;Microsserviços;1
+P013;none_or_basic;pre;A8;8;Pipe and Filter;"pre_post.csv:row=14;column=A8";Pipe and Filter;Pipe and Filter;1
+P013;none_or_basic;post;B8;8;Pipe and Filter;"pre_post.csv:row=14;column=B8";Pipe and Filter;Pipe and Filter;1
+P013;none_or_basic;pre;A9;9;Event-Driven Architecture;"pre_post.csv:row=14;column=A9";Event-Driven Architecture;Event-Driven Architecture;1
+P013;none_or_basic;post;B9;9;Event-Driven Architecture;"pre_post.csv:row=14;column=B9";Event-Driven Architecture;Event-Driven Architecture;1
+P013;none_or_basic;pre;A10;10;Microkernel;"pre_post.csv:row=14;column=A10";Microkernel;Microkernel;1
+P013;none_or_basic;post;B10;10;Microkernel;"pre_post.csv:row=14;column=B10";Microkernel;Microkernel;1
+P013;none_or_basic;pre;A11;11;Layered: security priorities;"pre_post.csv:row=14;column=A11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P013;none_or_basic;post;B11;11;Layered: security priorities;"pre_post.csv:row=14;column=B11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P013;none_or_basic;pre;A12;12;Pipeline application;"pre_post.csv:row=14;column=A12";Pipe and Filter;Pipe and Filter;1
+P013;none_or_basic;post;B12;12;Pipeline application;"pre_post.csv:row=14;column=B12";Pipe and Filter;Pipe and Filter;1
+P013;none_or_basic;pre;A13;13;Microkernel vs. Microservices;"pre_post.csv:row=14;column=A13";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";1
+P013;none_or_basic;post;B13;13;Microkernel vs. Microservices;"pre_post.csv:row=14;column=B13";Microkernel e Microsserviços;Microkernel e Microsserviços;1
+P013;none_or_basic;pre;A14;14;Event-driven trade-offs;"pre_post.csv:row=14;column=A14";Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;1
+P013;none_or_basic;post;B14;14;Event-driven trade-offs;"pre_post.csv:row=14;column=B14";Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;1
+P014;none_or_basic;pre;A1;1;Architectural trade-offs;"pre_post.csv:row=15;column=A1";favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;1
+P014;none_or_basic;post;B1;1;Architectural trade-offs;"pre_post.csv:row=15;column=B1";um trade-off arquitetural;um trade-off arquitetural;1
+P014;none_or_basic;pre;A2;2;Quality requirements;"pre_post.csv:row=15;column=A2";O sistema deve seguir disponível mesmo com falha em algum componente;O sistema deve seguir disponível mesmo com falha em algum componente;1
+P014;none_or_basic;post;B2;2;Quality requirements;"pre_post.csv:row=15;column=B2";O sistema deve impedir o acesso de usuários não autorizados aos dados;O sistema deve impedir o acesso de usuários não autorizados aos dados;1
+P014;none_or_basic;pre;A3;3;Context-dependent selection;"pre_post.csv:row=15;column=A3";A escolha do padrão depende do contexto, dos requisitos e das consequências;A escolha do padrão depende do contexto, dos requisitos e das consequências;1
+P014;none_or_basic;post;B3;3;Context-dependent selection;"pre_post.csv:row=15;column=B3";Não. A decisão deve considerar o contexto de cada projeto;Não. A decisão deve considerar o contexto de cada projeto;1
+P014;none_or_basic;pre;A4;4;MVC;"pre_post.csv:row=15;column=A4";Event-Driven Architecture;MVC;0
+P014;none_or_basic;post;B4;4;MVC;"pre_post.csv:row=15;column=B4";MVC;MVC;1
+P014;none_or_basic;pre;A5;5;Client–Server;"pre_post.csv:row=15;column=A5";Cliente-Servidor;Cliente-Servidor;1
+P014;none_or_basic;post;B5;5;Client–Server;"pre_post.csv:row=15;column=B5";Microkernel;Cliente-Servidor;0
+P014;none_or_basic;pre;A6;6;Layered Architecture;"pre_post.csv:row=15;column=A6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P014;none_or_basic;post;B6;6;Layered Architecture;"pre_post.csv:row=15;column=B6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P014;none_or_basic;pre;A7;7;Microservices;"pre_post.csv:row=15;column=A7";Microsserviços;Microsserviços;1
+P014;none_or_basic;post;B7;7;Microservices;"pre_post.csv:row=15;column=B7";Microsserviços;Microsserviços;1
+P014;none_or_basic;pre;A8;8;Pipe and Filter;"pre_post.csv:row=15;column=A8";Pipe and Filter;Pipe and Filter;1
+P014;none_or_basic;post;B8;8;Pipe and Filter;"pre_post.csv:row=15;column=B8";Pipe and Filter;Pipe and Filter;1
+P014;none_or_basic;pre;A9;9;Event-Driven Architecture;"pre_post.csv:row=15;column=A9";Event-Driven Architecture;Event-Driven Architecture;1
+P014;none_or_basic;post;B9;9;Event-Driven Architecture;"pre_post.csv:row=15;column=B9";Event-Driven Architecture;Event-Driven Architecture;1
+P014;none_or_basic;pre;A10;10;Microkernel;"pre_post.csv:row=15;column=A10";Microkernel;Microkernel;1
+P014;none_or_basic;post;B10;10;Microkernel;"pre_post.csv:row=15;column=B10";Microkernel;Microkernel;1
+P014;none_or_basic;pre;A11;11;Layered: security priorities;"pre_post.csv:row=15;column=A11";Pipe and Filter;Arquitetura em Camadas;0
+P014;none_or_basic;post;B11;11;Layered: security priorities;"pre_post.csv:row=15;column=B11";Cliente-Servidor;Arquitetura em Camadas;0
+P014;none_or_basic;pre;A12;12;Pipeline application;"pre_post.csv:row=15;column=A12";MVC;Pipe and Filter;0
+P014;none_or_basic;post;B12;12;Pipeline application;"pre_post.csv:row=15;column=B12";Pipe and Filter;Pipe and Filter;1
+P014;none_or_basic;pre;A13;13;Microkernel vs. Microservices;"pre_post.csv:row=15;column=A13";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";1
+P014;none_or_basic;post;B13;13;Microkernel vs. Microservices;"pre_post.csv:row=15;column=B13";Microkernel e Microsserviços;Microkernel e Microsserviços;1
+P014;none_or_basic;pre;A14;14;Event-driven trade-offs;"pre_post.csv:row=15;column=A14";Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;1
+P014;none_or_basic;post;B14;14;Event-driven trade-offs;"pre_post.csv:row=15;column=B14";Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;1
+P015;intermediate_or_advanced;pre;A1;1;Architectural trade-offs;"pre_post.csv:row=16;column=A1";favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;1
+P015;intermediate_or_advanced;post;B1;1;Architectural trade-offs;"pre_post.csv:row=16;column=B1";um trade-off arquitetural;um trade-off arquitetural;1
+P015;intermediate_or_advanced;pre;A2;2;Quality requirements;"pre_post.csv:row=16;column=A2";O sistema deve seguir disponível mesmo com falha em algum componente;O sistema deve seguir disponível mesmo com falha em algum componente;1
+P015;intermediate_or_advanced;post;B2;2;Quality requirements;"pre_post.csv:row=16;column=B2";O sistema deve impedir o acesso de usuários não autorizados aos dados;O sistema deve impedir o acesso de usuários não autorizados aos dados;1
+P015;intermediate_or_advanced;pre;A3;3;Context-dependent selection;"pre_post.csv:row=16;column=A3";A escolha do padrão depende do contexto, dos requisitos e das consequências;A escolha do padrão depende do contexto, dos requisitos e das consequências;1
+P015;intermediate_or_advanced;post;B3;3;Context-dependent selection;"pre_post.csv:row=16;column=B3";Não. A decisão deve considerar o contexto de cada projeto;Não. A decisão deve considerar o contexto de cada projeto;1
+P015;intermediate_or_advanced;pre;A4;4;MVC;"pre_post.csv:row=16;column=A4";MVC;MVC;1
+P015;intermediate_or_advanced;post;B4;4;MVC;"pre_post.csv:row=16;column=B4";MVC;MVC;1
+P015;intermediate_or_advanced;pre;A5;5;Client–Server;"pre_post.csv:row=16;column=A5";Cliente-Servidor;Cliente-Servidor;1
+P015;intermediate_or_advanced;post;B5;5;Client–Server;"pre_post.csv:row=16;column=B5";Cliente-Servidor;Cliente-Servidor;1
+P015;intermediate_or_advanced;pre;A6;6;Layered Architecture;"pre_post.csv:row=16;column=A6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P015;intermediate_or_advanced;post;B6;6;Layered Architecture;"pre_post.csv:row=16;column=B6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P015;intermediate_or_advanced;pre;A7;7;Microservices;"pre_post.csv:row=16;column=A7";Microsserviços;Microsserviços;1
+P015;intermediate_or_advanced;post;B7;7;Microservices;"pre_post.csv:row=16;column=B7";Microkernel;Microsserviços;0
+P015;intermediate_or_advanced;pre;A8;8;Pipe and Filter;"pre_post.csv:row=16;column=A8";Pipe and Filter;Pipe and Filter;1
+P015;intermediate_or_advanced;post;B8;8;Pipe and Filter;"pre_post.csv:row=16;column=B8";Pipe and Filter;Pipe and Filter;1
+P015;intermediate_or_advanced;pre;A9;9;Event-Driven Architecture;"pre_post.csv:row=16;column=A9";Event-Driven Architecture;Event-Driven Architecture;1
+P015;intermediate_or_advanced;post;B9;9;Event-Driven Architecture;"pre_post.csv:row=16;column=B9";Event-Driven Architecture;Event-Driven Architecture;1
+P015;intermediate_or_advanced;pre;A10;10;Microkernel;"pre_post.csv:row=16;column=A10";Microkernel;Microkernel;1
+P015;intermediate_or_advanced;post;B10;10;Microkernel;"pre_post.csv:row=16;column=B10";Microkernel;Microkernel;1
+P015;intermediate_or_advanced;pre;A11;11;Layered: security priorities;"pre_post.csv:row=16;column=A11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P015;intermediate_or_advanced;post;B11;11;Layered: security priorities;"pre_post.csv:row=16;column=B11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P015;intermediate_or_advanced;pre;A12;12;Pipeline application;"pre_post.csv:row=16;column=A12";MVC;Pipe and Filter;0
+P015;intermediate_or_advanced;post;B12;12;Pipeline application;"pre_post.csv:row=16;column=B12";Pipe and Filter;Pipe and Filter;1
+P015;intermediate_or_advanced;pre;A13;13;Microkernel vs. Microservices;"pre_post.csv:row=16;column=A13";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";1
+P015;intermediate_or_advanced;post;B13;13;Microkernel vs. Microservices;"pre_post.csv:row=16;column=B13";Microkernel e Microsserviços;Microkernel e Microsserviços;1
+P015;intermediate_or_advanced;pre;A14;14;Event-driven trade-offs;"pre_post.csv:row=16;column=A14";Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;1
+P015;intermediate_or_advanced;post;B14;14;Event-driven trade-offs;"pre_post.csv:row=16;column=B14";Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;1
+P016;intermediate_or_advanced;pre;A1;1;Architectural trade-offs;"pre_post.csv:row=17;column=A1";modifica apenas requisitos funcionais, sem qualquer impacto na qualidade;favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;0
+P016;intermediate_or_advanced;post;B1;1;Architectural trade-offs;"pre_post.csv:row=17;column=B1";um trade-off arquitetural;um trade-off arquitetural;1
+P016;intermediate_or_advanced;pre;A2;2;Quality requirements;"pre_post.csv:row=17;column=A2";O sistema deve seguir disponível mesmo com falha em algum componente;O sistema deve seguir disponível mesmo com falha em algum componente;1
+P016;intermediate_or_advanced;post;B2;2;Quality requirements;"pre_post.csv:row=17;column=B2";O sistema deve impedir o acesso de usuários não autorizados aos dados;O sistema deve impedir o acesso de usuários não autorizados aos dados;1
+P016;intermediate_or_advanced;pre;A3;3;Context-dependent selection;"pre_post.csv:row=17;column=A3";A escolha do padrão depende do contexto, dos requisitos e das consequências;A escolha do padrão depende do contexto, dos requisitos e das consequências;1
+P016;intermediate_or_advanced;post;B3;3;Context-dependent selection;"pre_post.csv:row=17;column=B3";Não. A decisão deve considerar o contexto de cada projeto;Não. A decisão deve considerar o contexto de cada projeto;1
+P016;intermediate_or_advanced;pre;A4;4;MVC;"pre_post.csv:row=17;column=A4";MVC;MVC;1
+P016;intermediate_or_advanced;post;B4;4;MVC;"pre_post.csv:row=17;column=B4";MVC;MVC;1
+P016;intermediate_or_advanced;pre;A5;5;Client–Server;"pre_post.csv:row=17;column=A5";Cliente-Servidor;Cliente-Servidor;1
+P016;intermediate_or_advanced;post;B5;5;Client–Server;"pre_post.csv:row=17;column=B5";Microkernel;Cliente-Servidor;0
+P016;intermediate_or_advanced;pre;A6;6;Layered Architecture;"pre_post.csv:row=17;column=A6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P016;intermediate_or_advanced;post;B6;6;Layered Architecture;"pre_post.csv:row=17;column=B6";Microsserviços;Arquitetura em Camadas;0
+P016;intermediate_or_advanced;pre;A7;7;Microservices;"pre_post.csv:row=17;column=A7";Microsserviços;Microsserviços;1
+P016;intermediate_or_advanced;post;B7;7;Microservices;"pre_post.csv:row=17;column=B7";Microsserviços;Microsserviços;1
+P016;intermediate_or_advanced;pre;A8;8;Pipe and Filter;"pre_post.csv:row=17;column=A8";Pipe and Filter;Pipe and Filter;1
+P016;intermediate_or_advanced;post;B8;8;Pipe and Filter;"pre_post.csv:row=17;column=B8";Pipe and Filter;Pipe and Filter;1
+P016;intermediate_or_advanced;pre;A9;9;Event-Driven Architecture;"pre_post.csv:row=17;column=A9";MVC;Event-Driven Architecture;0
+P016;intermediate_or_advanced;post;B9;9;Event-Driven Architecture;"pre_post.csv:row=17;column=B9";Event-Driven Architecture;Event-Driven Architecture;1
+P016;intermediate_or_advanced;pre;A10;10;Microkernel;"pre_post.csv:row=17;column=A10";Microkernel;Microkernel;1
+P016;intermediate_or_advanced;post;B10;10;Microkernel;"pre_post.csv:row=17;column=B10";Microkernel;Microkernel;1
+P016;intermediate_or_advanced;pre;A11;11;Layered: security priorities;"pre_post.csv:row=17;column=A11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P016;intermediate_or_advanced;post;B11;11;Layered: security priorities;"pre_post.csv:row=17;column=B11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P016;intermediate_or_advanced;pre;A12;12;Pipeline application;"pre_post.csv:row=17;column=A12";Pipe and Filter;Pipe and Filter;1
+P016;intermediate_or_advanced;post;B12;12;Pipeline application;"pre_post.csv:row=17;column=B12";Pipe and Filter;Pipe and Filter;1
+P016;intermediate_or_advanced;pre;A13;13;Microkernel vs. Microservices;"pre_post.csv:row=17;column=A13";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";1
+P016;intermediate_or_advanced;post;B13;13;Microkernel vs. Microservices;"pre_post.csv:row=17;column=B13";Microkernel e Microsserviços;Microkernel e Microsserviços;1
+P016;intermediate_or_advanced;pre;A14;14;Event-driven trade-offs;"pre_post.csv:row=17;column=A14";Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;1
+P016;intermediate_or_advanced;post;B14;14;Event-driven trade-offs;"pre_post.csv:row=17;column=B14";Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;1
+P017;none_or_basic;pre;A1;1;Architectural trade-offs;"pre_post.csv:row=18;column=A1";favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;1
+P017;none_or_basic;post;B1;1;Architectural trade-offs;"pre_post.csv:row=18;column=B1";um trade-off arquitetural;um trade-off arquitetural;1
+P017;none_or_basic;pre;A2;2;Quality requirements;"pre_post.csv:row=18;column=A2";O sistema deve seguir disponível mesmo com falha em algum componente;O sistema deve seguir disponível mesmo com falha em algum componente;1
+P017;none_or_basic;post;B2;2;Quality requirements;"pre_post.csv:row=18;column=B2";O sistema deve impedir o acesso de usuários não autorizados aos dados;O sistema deve impedir o acesso de usuários não autorizados aos dados;1
+P017;none_or_basic;pre;A3;3;Context-dependent selection;"pre_post.csv:row=18;column=A3";A escolha do padrão depende do contexto, dos requisitos e das consequências;A escolha do padrão depende do contexto, dos requisitos e das consequências;1
+P017;none_or_basic;post;B3;3;Context-dependent selection;"pre_post.csv:row=18;column=B3";Não. A decisão deve considerar o contexto de cada projeto;Não. A decisão deve considerar o contexto de cada projeto;1
+P017;none_or_basic;pre;A4;4;MVC;"pre_post.csv:row=18;column=A4";MVC;MVC;1
+P017;none_or_basic;post;B4;4;MVC;"pre_post.csv:row=18;column=B4";MVC;MVC;1
+P017;none_or_basic;pre;A5;5;Client–Server;"pre_post.csv:row=18;column=A5";Microsserviços;Cliente-Servidor;0
+P017;none_or_basic;post;B5;5;Client–Server;"pre_post.csv:row=18;column=B5";Microkernel;Cliente-Servidor;0
+P017;none_or_basic;pre;A6;6;Layered Architecture;"pre_post.csv:row=18;column=A6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P017;none_or_basic;post;B6;6;Layered Architecture;"pre_post.csv:row=18;column=B6";Cliente-Servidor;Arquitetura em Camadas;0
+P017;none_or_basic;pre;A7;7;Microservices;"pre_post.csv:row=18;column=A7";Microsserviços;Microsserviços;1
+P017;none_or_basic;post;B7;7;Microservices;"pre_post.csv:row=18;column=B7";Microsserviços;Microsserviços;1
+P017;none_or_basic;pre;A8;8;Pipe and Filter;"pre_post.csv:row=18;column=A8";Pipe and Filter;Pipe and Filter;1
+P017;none_or_basic;post;B8;8;Pipe and Filter;"pre_post.csv:row=18;column=B8";Pipe and Filter;Pipe and Filter;1
+P017;none_or_basic;pre;A9;9;Event-Driven Architecture;"pre_post.csv:row=18;column=A9";Event-Driven Architecture;Event-Driven Architecture;1
+P017;none_or_basic;post;B9;9;Event-Driven Architecture;"pre_post.csv:row=18;column=B9";Event-Driven Architecture;Event-Driven Architecture;1
+P017;none_or_basic;pre;A10;10;Microkernel;"pre_post.csv:row=18;column=A10";Microkernel;Microkernel;1
+P017;none_or_basic;post;B10;10;Microkernel;"pre_post.csv:row=18;column=B10";Microkernel;Microkernel;1
+P017;none_or_basic;pre;A11;11;Layered: security priorities;"pre_post.csv:row=18;column=A11";Cliente-Servidor;Arquitetura em Camadas;0
+P017;none_or_basic;post;B11;11;Layered: security priorities;"pre_post.csv:row=18;column=B11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P017;none_or_basic;pre;A12;12;Pipeline application;"pre_post.csv:row=18;column=A12";Pipe and Filter;Pipe and Filter;1
+P017;none_or_basic;post;B12;12;Pipeline application;"pre_post.csv:row=18;column=B12";Pipe and Filter;Pipe and Filter;1
+P017;none_or_basic;pre;A13;13;Microkernel vs. Microservices;"pre_post.csv:row=18;column=A13";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";1
+P017;none_or_basic;post;B13;13;Microkernel vs. Microservices;"pre_post.csv:row=18;column=B13";Microkernel e Microsserviços;Microkernel e Microsserviços;1
+P017;none_or_basic;pre;A14;14;Event-driven trade-offs;"pre_post.csv:row=18;column=A14";Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;1
+P017;none_or_basic;post;B14;14;Event-driven trade-offs;"pre_post.csv:row=18;column=B14";Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;1
+P018;none_or_basic;pre;A1;1;Architectural trade-offs;"pre_post.csv:row=19;column=A1";favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;1
+P018;none_or_basic;post;B1;1;Architectural trade-offs;"pre_post.csv:row=19;column=B1";um trade-off arquitetural;um trade-off arquitetural;1
+P018;none_or_basic;pre;A2;2;Quality requirements;"pre_post.csv:row=19;column=A2";O sistema deve seguir disponível mesmo com falha em algum componente;O sistema deve seguir disponível mesmo com falha em algum componente;1
+P018;none_or_basic;post;B2;2;Quality requirements;"pre_post.csv:row=19;column=B2";O sistema deve impedir o acesso de usuários não autorizados aos dados;O sistema deve impedir o acesso de usuários não autorizados aos dados;1
+P018;none_or_basic;pre;A3;3;Context-dependent selection;"pre_post.csv:row=19;column=A3";A escolha do padrão depende do contexto, dos requisitos e das consequências;A escolha do padrão depende do contexto, dos requisitos e das consequências;1
+P018;none_or_basic;post;B3;3;Context-dependent selection;"pre_post.csv:row=19;column=B3";Não. A decisão deve considerar o contexto de cada projeto;Não. A decisão deve considerar o contexto de cada projeto;1
+P018;none_or_basic;pre;A4;4;MVC;"pre_post.csv:row=19;column=A4";MVC;MVC;1
+P018;none_or_basic;post;B4;4;MVC;"pre_post.csv:row=19;column=B4";MVC;MVC;1
+P018;none_or_basic;pre;A5;5;Client–Server;"pre_post.csv:row=19;column=A5";Cliente-Servidor;Cliente-Servidor;1
+P018;none_or_basic;post;B5;5;Client–Server;"pre_post.csv:row=19;column=B5";Cliente-Servidor;Cliente-Servidor;1
+P018;none_or_basic;pre;A6;6;Layered Architecture;"pre_post.csv:row=19;column=A6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P018;none_or_basic;post;B6;6;Layered Architecture;"pre_post.csv:row=19;column=B6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P018;none_or_basic;pre;A7;7;Microservices;"pre_post.csv:row=19;column=A7";Microsserviços;Microsserviços;1
+P018;none_or_basic;post;B7;7;Microservices;"pre_post.csv:row=19;column=B7";Microsserviços;Microsserviços;1
+P018;none_or_basic;pre;A8;8;Pipe and Filter;"pre_post.csv:row=19;column=A8";Pipe and Filter;Pipe and Filter;1
+P018;none_or_basic;post;B8;8;Pipe and Filter;"pre_post.csv:row=19;column=B8";Pipe and Filter;Pipe and Filter;1
+P018;none_or_basic;pre;A9;9;Event-Driven Architecture;"pre_post.csv:row=19;column=A9";Event-Driven Architecture;Event-Driven Architecture;1
+P018;none_or_basic;post;B9;9;Event-Driven Architecture;"pre_post.csv:row=19;column=B9";Event-Driven Architecture;Event-Driven Architecture;1
+P018;none_or_basic;pre;A10;10;Microkernel;"pre_post.csv:row=19;column=A10";Microkernel;Microkernel;1
+P018;none_or_basic;post;B10;10;Microkernel;"pre_post.csv:row=19;column=B10";Microkernel;Microkernel;1
+P018;none_or_basic;pre;A11;11;Layered: security priorities;"pre_post.csv:row=19;column=A11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P018;none_or_basic;post;B11;11;Layered: security priorities;"pre_post.csv:row=19;column=B11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P018;none_or_basic;pre;A12;12;Pipeline application;"pre_post.csv:row=19;column=A12";Pipe and Filter;Pipe and Filter;1
+P018;none_or_basic;post;B12;12;Pipeline application;"pre_post.csv:row=19;column=B12";Microsserviços;Pipe and Filter;0
+P018;none_or_basic;pre;A13;13;Microkernel vs. Microservices;"pre_post.csv:row=19;column=A13";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";1
+P018;none_or_basic;post;B13;13;Microkernel vs. Microservices;"pre_post.csv:row=19;column=B13";Microkernel e Microsserviços;Microkernel e Microsserviços;1
+P018;none_or_basic;pre;A14;14;Event-driven trade-offs;"pre_post.csv:row=19;column=A14";Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;1
+P018;none_or_basic;post;B14;14;Event-driven trade-offs;"pre_post.csv:row=19;column=B14";Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;1
+P019;none_or_basic;pre;A1;1;Architectural trade-offs;"pre_post.csv:row=20;column=A1";favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;1
+P019;none_or_basic;post;B1;1;Architectural trade-offs;"pre_post.csv:row=20;column=B1";um trade-off arquitetural;um trade-off arquitetural;1
+P019;none_or_basic;pre;A2;2;Quality requirements;"pre_post.csv:row=20;column=A2";O sistema deve seguir disponível mesmo com falha em algum componente;O sistema deve seguir disponível mesmo com falha em algum componente;1
+P019;none_or_basic;post;B2;2;Quality requirements;"pre_post.csv:row=20;column=B2";O sistema deve impedir o acesso de usuários não autorizados aos dados;O sistema deve impedir o acesso de usuários não autorizados aos dados;1
+P019;none_or_basic;pre;A3;3;Context-dependent selection;"pre_post.csv:row=20;column=A3";A escolha do padrão depende do contexto, dos requisitos e das consequências;A escolha do padrão depende do contexto, dos requisitos e das consequências;1
+P019;none_or_basic;post;B3;3;Context-dependent selection;"pre_post.csv:row=20;column=B3";Não. A decisão deve considerar o contexto de cada projeto;Não. A decisão deve considerar o contexto de cada projeto;1
+P019;none_or_basic;pre;A4;4;MVC;"pre_post.csv:row=20;column=A4";MVC;MVC;1
+P019;none_or_basic;post;B4;4;MVC;"pre_post.csv:row=20;column=B4";MVC;MVC;1
+P019;none_or_basic;pre;A5;5;Client–Server;"pre_post.csv:row=20;column=A5";Cliente-Servidor;Cliente-Servidor;1
+P019;none_or_basic;post;B5;5;Client–Server;"pre_post.csv:row=20;column=B5";Cliente-Servidor;Cliente-Servidor;1
+P019;none_or_basic;pre;A6;6;Layered Architecture;"pre_post.csv:row=20;column=A6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P019;none_or_basic;post;B6;6;Layered Architecture;"pre_post.csv:row=20;column=B6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P019;none_or_basic;pre;A7;7;Microservices;"pre_post.csv:row=20;column=A7";MVC;Microsserviços;0
+P019;none_or_basic;post;B7;7;Microservices;"pre_post.csv:row=20;column=B7";Microsserviços;Microsserviços;1
+P019;none_or_basic;pre;A8;8;Pipe and Filter;"pre_post.csv:row=20;column=A8";Pipe and Filter;Pipe and Filter;1
+P019;none_or_basic;post;B8;8;Pipe and Filter;"pre_post.csv:row=20;column=B8";Pipe and Filter;Pipe and Filter;1
+P019;none_or_basic;pre;A9;9;Event-Driven Architecture;"pre_post.csv:row=20;column=A9";Event-Driven Architecture;Event-Driven Architecture;1
+P019;none_or_basic;post;B9;9;Event-Driven Architecture;"pre_post.csv:row=20;column=B9";Event-Driven Architecture;Event-Driven Architecture;1
+P019;none_or_basic;pre;A10;10;Microkernel;"pre_post.csv:row=20;column=A10";Microkernel;Microkernel;1
+P019;none_or_basic;post;B10;10;Microkernel;"pre_post.csv:row=20;column=B10";Microkernel;Microkernel;1
+P019;none_or_basic;pre;A11;11;Layered: security priorities;"pre_post.csv:row=20;column=A11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P019;none_or_basic;post;B11;11;Layered: security priorities;"pre_post.csv:row=20;column=B11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P019;none_or_basic;pre;A12;12;Pipeline application;"pre_post.csv:row=20;column=A12";Pipe and Filter;Pipe and Filter;1
+P019;none_or_basic;post;B12;12;Pipeline application;"pre_post.csv:row=20;column=B12";Pipe and Filter;Pipe and Filter;1
+P019;none_or_basic;pre;A13;13;Microkernel vs. Microservices;"pre_post.csv:row=20;column=A13";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";1
+P019;none_or_basic;post;B13;13;Microkernel vs. Microservices;"pre_post.csv:row=20;column=B13";Microkernel e Microsserviços;Microkernel e Microsserviços;1
+P019;none_or_basic;pre;A14;14;Event-driven trade-offs;"pre_post.csv:row=20;column=A14";Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;1
+P019;none_or_basic;post;B14;14;Event-driven trade-offs;"pre_post.csv:row=20;column=B14";Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;1
+P020;none_or_basic;pre;A1;1;Architectural trade-offs;"pre_post.csv:row=21;column=A1";favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;1
+P020;none_or_basic;post;B1;1;Architectural trade-offs;"pre_post.csv:row=21;column=B1";um trade-off arquitetural;um trade-off arquitetural;1
+P020;none_or_basic;pre;A2;2;Quality requirements;"pre_post.csv:row=21;column=A2";O sistema deve seguir disponível mesmo com falha em algum componente;O sistema deve seguir disponível mesmo com falha em algum componente;1
+P020;none_or_basic;post;B2;2;Quality requirements;"pre_post.csv:row=21;column=B2";O sistema deve impedir o acesso de usuários não autorizados aos dados;O sistema deve impedir o acesso de usuários não autorizados aos dados;1
+P020;none_or_basic;pre;A3;3;Context-dependent selection;"pre_post.csv:row=21;column=A3";A escolha do padrão depende do contexto, dos requisitos e das consequências;A escolha do padrão depende do contexto, dos requisitos e das consequências;1
+P020;none_or_basic;post;B3;3;Context-dependent selection;"pre_post.csv:row=21;column=B3";Não. A decisão deve considerar o contexto de cada projeto;Não. A decisão deve considerar o contexto de cada projeto;1
+P020;none_or_basic;pre;A4;4;MVC;"pre_post.csv:row=21;column=A4";MVC;MVC;1
+P020;none_or_basic;post;B4;4;MVC;"pre_post.csv:row=21;column=B4";MVC;MVC;1
+P020;none_or_basic;pre;A5;5;Client–Server;"pre_post.csv:row=21;column=A5";Cliente-Servidor;Cliente-Servidor;1
+P020;none_or_basic;post;B5;5;Client–Server;"pre_post.csv:row=21;column=B5";Cliente-Servidor;Cliente-Servidor;1
+P020;none_or_basic;pre;A6;6;Layered Architecture;"pre_post.csv:row=21;column=A6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P020;none_or_basic;post;B6;6;Layered Architecture;"pre_post.csv:row=21;column=B6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P020;none_or_basic;pre;A7;7;Microservices;"pre_post.csv:row=21;column=A7";Microsserviços;Microsserviços;1
+P020;none_or_basic;post;B7;7;Microservices;"pre_post.csv:row=21;column=B7";Microsserviços;Microsserviços;1
+P020;none_or_basic;pre;A8;8;Pipe and Filter;"pre_post.csv:row=21;column=A8";Pipe and Filter;Pipe and Filter;1
+P020;none_or_basic;post;B8;8;Pipe and Filter;"pre_post.csv:row=21;column=B8";Pipe and Filter;Pipe and Filter;1
+P020;none_or_basic;pre;A9;9;Event-Driven Architecture;"pre_post.csv:row=21;column=A9";Event-Driven Architecture;Event-Driven Architecture;1
+P020;none_or_basic;post;B9;9;Event-Driven Architecture;"pre_post.csv:row=21;column=B9";Event-Driven Architecture;Event-Driven Architecture;1
+P020;none_or_basic;pre;A10;10;Microkernel;"pre_post.csv:row=21;column=A10";Microkernel;Microkernel;1
+P020;none_or_basic;post;B10;10;Microkernel;"pre_post.csv:row=21;column=B10";Microkernel;Microkernel;1
+P020;none_or_basic;pre;A11;11;Layered: security priorities;"pre_post.csv:row=21;column=A11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P020;none_or_basic;post;B11;11;Layered: security priorities;"pre_post.csv:row=21;column=B11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P020;none_or_basic;pre;A12;12;Pipeline application;"pre_post.csv:row=21;column=A12";Pipe and Filter;Pipe and Filter;1
+P020;none_or_basic;post;B12;12;Pipeline application;"pre_post.csv:row=21;column=B12";Pipe and Filter;Pipe and Filter;1
+P020;none_or_basic;pre;A13;13;Microkernel vs. Microservices;"pre_post.csv:row=21;column=A13";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";1
+P020;none_or_basic;post;B13;13;Microkernel vs. Microservices;"pre_post.csv:row=21;column=B13";Microkernel e Microsserviços;Microkernel e Microsserviços;1
+P020;none_or_basic;pre;A14;14;Event-driven trade-offs;"pre_post.csv:row=21;column=A14";Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;1
+P020;none_or_basic;post;B14;14;Event-driven trade-offs;"pre_post.csv:row=21;column=B14";Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;1
+P021;none_or_basic;pre;A1;1;Architectural trade-offs;"pre_post.csv:row=22;column=A1";favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;1
+P021;none_or_basic;post;B1;1;Architectural trade-offs;"pre_post.csv:row=22;column=B1";um trade-off arquitetural;um trade-off arquitetural;1
+P021;none_or_basic;pre;A2;2;Quality requirements;"pre_post.csv:row=22;column=A2";O sistema deve seguir disponível mesmo com falha em algum componente;O sistema deve seguir disponível mesmo com falha em algum componente;1
+P021;none_or_basic;post;B2;2;Quality requirements;"pre_post.csv:row=22;column=B2";O sistema deve permitir que o usuário comum possa enviar uma mensagem;O sistema deve impedir o acesso de usuários não autorizados aos dados;0
+P021;none_or_basic;pre;A3;3;Context-dependent selection;"pre_post.csv:row=22;column=A3";A escolha do padrão depende do contexto, dos requisitos e das consequências;A escolha do padrão depende do contexto, dos requisitos e das consequências;1
+P021;none_or_basic;post;B3;3;Context-dependent selection;"pre_post.csv:row=22;column=B3";Não. A decisão deve considerar o contexto de cada projeto;Não. A decisão deve considerar o contexto de cada projeto;1
+P021;none_or_basic;pre;A4;4;MVC;"pre_post.csv:row=22;column=A4";MVC;MVC;1
+P021;none_or_basic;post;B4;4;MVC;"pre_post.csv:row=22;column=B4";MVC;MVC;1
+P021;none_or_basic;pre;A5;5;Client–Server;"pre_post.csv:row=22;column=A5";Cliente-Servidor;Cliente-Servidor;1
+P021;none_or_basic;post;B5;5;Client–Server;"pre_post.csv:row=22;column=B5";Cliente-Servidor;Cliente-Servidor;1
+P021;none_or_basic;pre;A6;6;Layered Architecture;"pre_post.csv:row=22;column=A6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P021;none_or_basic;post;B6;6;Layered Architecture;"pre_post.csv:row=22;column=B6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P021;none_or_basic;pre;A7;7;Microservices;"pre_post.csv:row=22;column=A7";Microsserviços;Microsserviços;1
+P021;none_or_basic;post;B7;7;Microservices;"pre_post.csv:row=22;column=B7";Microsserviços;Microsserviços;1
+P021;none_or_basic;pre;A8;8;Pipe and Filter;"pre_post.csv:row=22;column=A8";Pipe and Filter;Pipe and Filter;1
+P021;none_or_basic;post;B8;8;Pipe and Filter;"pre_post.csv:row=22;column=B8";Pipe and Filter;Pipe and Filter;1
+P021;none_or_basic;pre;A9;9;Event-Driven Architecture;"pre_post.csv:row=22;column=A9";Event-Driven Architecture;Event-Driven Architecture;1
+P021;none_or_basic;post;B9;9;Event-Driven Architecture;"pre_post.csv:row=22;column=B9";Event-Driven Architecture;Event-Driven Architecture;1
+P021;none_or_basic;pre;A10;10;Microkernel;"pre_post.csv:row=22;column=A10";Microkernel;Microkernel;1
+P021;none_or_basic;post;B10;10;Microkernel;"pre_post.csv:row=22;column=B10";Microkernel;Microkernel;1
+P021;none_or_basic;pre;A11;11;Layered: security priorities;"pre_post.csv:row=22;column=A11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P021;none_or_basic;post;B11;11;Layered: security priorities;"pre_post.csv:row=22;column=B11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P021;none_or_basic;pre;A12;12;Pipeline application;"pre_post.csv:row=22;column=A12";MVC;Pipe and Filter;0
+P021;none_or_basic;post;B12;12;Pipeline application;"pre_post.csv:row=22;column=B12";Pipe and Filter;Pipe and Filter;1
+P021;none_or_basic;pre;A13;13;Microkernel vs. Microservices;"pre_post.csv:row=22;column=A13";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";1
+P021;none_or_basic;post;B13;13;Microkernel vs. Microservices;"pre_post.csv:row=22;column=B13";Microkernel e Microsserviços;Microkernel e Microsserviços;1
+P021;none_or_basic;pre;A14;14;Event-driven trade-offs;"pre_post.csv:row=22;column=A14";O problema ocorre porque todos os componentes dependem diretamente uns dos outros no sistema;Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;0
+P021;none_or_basic;post;B14;14;Event-driven trade-offs;"pre_post.csv:row=22;column=B14";Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;1
+P022;none_or_basic;pre;A1;1;Architectural trade-offs;"pre_post.csv:row=23;column=A1";favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;1
+P022;none_or_basic;post;B1;1;Architectural trade-offs;"pre_post.csv:row=23;column=B1";um trade-off arquitetural;um trade-off arquitetural;1
+P022;none_or_basic;pre;A2;2;Quality requirements;"pre_post.csv:row=23;column=A2";O sistema deve seguir disponível mesmo com falha em algum componente;O sistema deve seguir disponível mesmo com falha em algum componente;1
+P022;none_or_basic;post;B2;2;Quality requirements;"pre_post.csv:row=23;column=B2";O cliente deve conseguir consultar o status atual do seu próprio pedido;O sistema deve impedir o acesso de usuários não autorizados aos dados;0
+P022;none_or_basic;pre;A3;3;Context-dependent selection;"pre_post.csv:row=23;column=A3";A escolha do padrão depende do contexto, dos requisitos e das consequências;A escolha do padrão depende do contexto, dos requisitos e das consequências;1
+P022;none_or_basic;post;B3;3;Context-dependent selection;"pre_post.csv:row=23;column=B3";Não. A decisão deve considerar o contexto de cada projeto;Não. A decisão deve considerar o contexto de cada projeto;1
+P022;none_or_basic;pre;A4;4;MVC;"pre_post.csv:row=23;column=A4";MVC;MVC;1
+P022;none_or_basic;post;B4;4;MVC;"pre_post.csv:row=23;column=B4";MVC;MVC;1
+P022;none_or_basic;pre;A5;5;Client–Server;"pre_post.csv:row=23;column=A5";Cliente-Servidor;Cliente-Servidor;1
+P022;none_or_basic;post;B5;5;Client–Server;"pre_post.csv:row=23;column=B5";Cliente-Servidor;Cliente-Servidor;1
+P022;none_or_basic;pre;A6;6;Layered Architecture;"pre_post.csv:row=23;column=A6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P022;none_or_basic;post;B6;6;Layered Architecture;"pre_post.csv:row=23;column=B6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P022;none_or_basic;pre;A7;7;Microservices;"pre_post.csv:row=23;column=A7";Microsserviços;Microsserviços;1
+P022;none_or_basic;post;B7;7;Microservices;"pre_post.csv:row=23;column=B7";Microsserviços;Microsserviços;1
+P022;none_or_basic;pre;A8;8;Pipe and Filter;"pre_post.csv:row=23;column=A8";Pipe and Filter;Pipe and Filter;1
+P022;none_or_basic;post;B8;8;Pipe and Filter;"pre_post.csv:row=23;column=B8";Pipe and Filter;Pipe and Filter;1
+P022;none_or_basic;pre;A9;9;Event-Driven Architecture;"pre_post.csv:row=23;column=A9";Event-Driven Architecture;Event-Driven Architecture;1
+P022;none_or_basic;post;B9;9;Event-Driven Architecture;"pre_post.csv:row=23;column=B9";Event-Driven Architecture;Event-Driven Architecture;1
+P022;none_or_basic;pre;A10;10;Microkernel;"pre_post.csv:row=23;column=A10";Microkernel;Microkernel;1
+P022;none_or_basic;post;B10;10;Microkernel;"pre_post.csv:row=23;column=B10";Microkernel;Microkernel;1
+P022;none_or_basic;pre;A11;11;Layered: security priorities;"pre_post.csv:row=23;column=A11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P022;none_or_basic;post;B11;11;Layered: security priorities;"pre_post.csv:row=23;column=B11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P022;none_or_basic;pre;A12;12;Pipeline application;"pre_post.csv:row=23;column=A12";Pipe and Filter;Pipe and Filter;1
+P022;none_or_basic;post;B12;12;Pipeline application;"pre_post.csv:row=23;column=B12";Pipe and Filter;Pipe and Filter;1
+P022;none_or_basic;pre;A13;13;Microkernel vs. Microservices;"pre_post.csv:row=23;column=A13";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";1
+P022;none_or_basic;post;B13;13;Microkernel vs. Microservices;"pre_post.csv:row=23;column=B13";Microkernel e Microsserviços;Microkernel e Microsserviços;1
+P022;none_or_basic;pre;A14;14;Event-driven trade-offs;"pre_post.csv:row=23;column=A14";Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;1
+P022;none_or_basic;post;B14;14;Event-driven trade-offs;"pre_post.csv:row=23;column=B14";Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;1
+P023;intermediate_or_advanced;pre;A1;1;Architectural trade-offs;"pre_post.csv:row=24;column=A1";favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;1
+P023;intermediate_or_advanced;post;B1;1;Architectural trade-offs;"pre_post.csv:row=24;column=B1";um trade-off arquitetural;um trade-off arquitetural;1
+P023;intermediate_or_advanced;pre;A2;2;Quality requirements;"pre_post.csv:row=24;column=A2";O sistema deve seguir disponível mesmo com falha em algum componente;O sistema deve seguir disponível mesmo com falha em algum componente;1
+P023;intermediate_or_advanced;post;B2;2;Quality requirements;"pre_post.csv:row=24;column=B2";O sistema deve permitir que o usuário comum possa enviar uma mensagem;O sistema deve impedir o acesso de usuários não autorizados aos dados;0
+P023;intermediate_or_advanced;pre;A3;3;Context-dependent selection;"pre_post.csv:row=24;column=A3";Existe um padrão ideal que deve ser utilizado sempre que possível;A escolha do padrão depende do contexto, dos requisitos e das consequências;0
+P023;intermediate_or_advanced;post;B3;3;Context-dependent selection;"pre_post.csv:row=24;column=B3";Não. A decisão deve considerar o contexto de cada projeto;Não. A decisão deve considerar o contexto de cada projeto;1
+P023;intermediate_or_advanced;pre;A4;4;MVC;"pre_post.csv:row=24;column=A4";Event-Driven Architecture;MVC;0
+P023;intermediate_or_advanced;post;B4;4;MVC;"pre_post.csv:row=24;column=B4";MVC;MVC;1
+P023;intermediate_or_advanced;pre;A5;5;Client–Server;"pre_post.csv:row=24;column=A5";Cliente-Servidor;Cliente-Servidor;1
+P023;intermediate_or_advanced;post;B5;5;Client–Server;"pre_post.csv:row=24;column=B5";Cliente-Servidor;Cliente-Servidor;1
+P023;intermediate_or_advanced;pre;A6;6;Layered Architecture;"pre_post.csv:row=24;column=A6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P023;intermediate_or_advanced;post;B6;6;Layered Architecture;"pre_post.csv:row=24;column=B6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P023;intermediate_or_advanced;pre;A7;7;Microservices;"pre_post.csv:row=24;column=A7";Microsserviços;Microsserviços;1
+P023;intermediate_or_advanced;post;B7;7;Microservices;"pre_post.csv:row=24;column=B7";Microsserviços;Microsserviços;1
+P023;intermediate_or_advanced;pre;A8;8;Pipe and Filter;"pre_post.csv:row=24;column=A8";Pipe and Filter;Pipe and Filter;1
+P023;intermediate_or_advanced;post;B8;8;Pipe and Filter;"pre_post.csv:row=24;column=B8";Pipe and Filter;Pipe and Filter;1
+P023;intermediate_or_advanced;pre;A9;9;Event-Driven Architecture;"pre_post.csv:row=24;column=A9";MVC;Event-Driven Architecture;0
+P023;intermediate_or_advanced;post;B9;9;Event-Driven Architecture;"pre_post.csv:row=24;column=B9";Event-Driven Architecture;Event-Driven Architecture;1
+P023;intermediate_or_advanced;pre;A10;10;Microkernel;"pre_post.csv:row=24;column=A10";Microkernel;Microkernel;1
+P023;intermediate_or_advanced;post;B10;10;Microkernel;"pre_post.csv:row=24;column=B10";Microsserviços;Microkernel;0
+P023;intermediate_or_advanced;pre;A11;11;Layered: security priorities;"pre_post.csv:row=24;column=A11";Event-Driven Architecture;Arquitetura em Camadas;0
+P023;intermediate_or_advanced;post;B11;11;Layered: security priorities;"pre_post.csv:row=24;column=B11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P023;intermediate_or_advanced;pre;A12;12;Pipeline application;"pre_post.csv:row=24;column=A12";MVC;Pipe and Filter;0
+P023;intermediate_or_advanced;post;B12;12;Pipeline application;"pre_post.csv:row=24;column=B12";Pipe and Filter;Pipe and Filter;1
+P023;intermediate_or_advanced;pre;A13;13;Microkernel vs. Microservices;"pre_post.csv:row=24;column=A13";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";1
+P023;intermediate_or_advanced;post;B13;13;Microkernel vs. Microservices;"pre_post.csv:row=24;column=B13";Arquitetura em Camadas e Cliente-Servidor;Microkernel e Microsserviços;0
+P023;intermediate_or_advanced;pre;A14;14;Event-driven trade-offs;"pre_post.csv:row=24;column=A14";Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;1
+P023;intermediate_or_advanced;post;B14;14;Event-driven trade-offs;"pre_post.csv:row=24;column=B14";Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;1
+P024;none_or_basic;pre;A1;1;Architectural trade-offs;"pre_post.csv:row=25;column=A1";favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;1
+P024;none_or_basic;post;B1;1;Architectural trade-offs;"pre_post.csv:row=25;column=B1";um trade-off arquitetural;um trade-off arquitetural;1
+P024;none_or_basic;pre;A2;2;Quality requirements;"pre_post.csv:row=25;column=A2";O sistema deve seguir disponível mesmo com falha em algum componente;O sistema deve seguir disponível mesmo com falha em algum componente;1
+P024;none_or_basic;post;B2;2;Quality requirements;"pre_post.csv:row=25;column=B2";O sistema deve impedir o acesso de usuários não autorizados aos dados;O sistema deve impedir o acesso de usuários não autorizados aos dados;1
+P024;none_or_basic;pre;A3;3;Context-dependent selection;"pre_post.csv:row=25;column=A3";A escolha do padrão depende do contexto, dos requisitos e das consequências;A escolha do padrão depende do contexto, dos requisitos e das consequências;1
+P024;none_or_basic;post;B3;3;Context-dependent selection;"pre_post.csv:row=25;column=B3";Não. A decisão deve considerar o contexto de cada projeto;Não. A decisão deve considerar o contexto de cada projeto;1
+P024;none_or_basic;pre;A4;4;MVC;"pre_post.csv:row=25;column=A4";MVC;MVC;1
+P024;none_or_basic;post;B4;4;MVC;"pre_post.csv:row=25;column=B4";MVC;MVC;1
+P024;none_or_basic;pre;A5;5;Client–Server;"pre_post.csv:row=25;column=A5";Cliente-Servidor;Cliente-Servidor;1
+P024;none_or_basic;post;B5;5;Client–Server;"pre_post.csv:row=25;column=B5";Cliente-Servidor;Cliente-Servidor;1
+P024;none_or_basic;pre;A6;6;Layered Architecture;"pre_post.csv:row=25;column=A6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P024;none_or_basic;post;B6;6;Layered Architecture;"pre_post.csv:row=25;column=B6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P024;none_or_basic;pre;A7;7;Microservices;"pre_post.csv:row=25;column=A7";Microsserviços;Microsserviços;1
+P024;none_or_basic;post;B7;7;Microservices;"pre_post.csv:row=25;column=B7";Microsserviços;Microsserviços;1
+P024;none_or_basic;pre;A8;8;Pipe and Filter;"pre_post.csv:row=25;column=A8";Pipe and Filter;Pipe and Filter;1
+P024;none_or_basic;post;B8;8;Pipe and Filter;"pre_post.csv:row=25;column=B8";Pipe and Filter;Pipe and Filter;1
+P024;none_or_basic;pre;A9;9;Event-Driven Architecture;"pre_post.csv:row=25;column=A9";Event-Driven Architecture;Event-Driven Architecture;1
+P024;none_or_basic;post;B9;9;Event-Driven Architecture;"pre_post.csv:row=25;column=B9";Event-Driven Architecture;Event-Driven Architecture;1
+P024;none_or_basic;pre;A10;10;Microkernel;"pre_post.csv:row=25;column=A10";Microkernel;Microkernel;1
+P024;none_or_basic;post;B10;10;Microkernel;"pre_post.csv:row=25;column=B10";Microkernel;Microkernel;1
+P024;none_or_basic;pre;A11;11;Layered: security priorities;"pre_post.csv:row=25;column=A11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P024;none_or_basic;post;B11;11;Layered: security priorities;"pre_post.csv:row=25;column=B11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P024;none_or_basic;pre;A12;12;Pipeline application;"pre_post.csv:row=25;column=A12";Pipe and Filter;Pipe and Filter;1
+P024;none_or_basic;post;B12;12;Pipeline application;"pre_post.csv:row=25;column=B12";Pipe and Filter;Pipe and Filter;1
+P024;none_or_basic;pre;A13;13;Microkernel vs. Microservices;"pre_post.csv:row=25;column=A13";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";1
+P024;none_or_basic;post;B13;13;Microkernel vs. Microservices;"pre_post.csv:row=25;column=B13";Microkernel e Microsserviços;Microkernel e Microsserviços;1
+P024;none_or_basic;pre;A14;14;Event-driven trade-offs;"pre_post.csv:row=25;column=A14";Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;1
+P024;none_or_basic;post;B14;14;Event-driven trade-offs;"pre_post.csv:row=25;column=B14";Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;1
+P025;none_or_basic;pre;A1;1;Architectural trade-offs;"pre_post.csv:row=26;column=A1";modifica apenas requisitos funcionais, sem qualquer impacto na qualidade;favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;0
+P025;none_or_basic;post;B1;1;Architectural trade-offs;"pre_post.csv:row=26;column=B1";um trade-off arquitetural;um trade-off arquitetural;1
+P025;none_or_basic;pre;A2;2;Quality requirements;"pre_post.csv:row=26;column=A2";O sistema deve seguir disponível mesmo com falha em algum componente;O sistema deve seguir disponível mesmo com falha em algum componente;1
+P025;none_or_basic;post;B2;2;Quality requirements;"pre_post.csv:row=26;column=B2";O sistema deve impedir o acesso de usuários não autorizados aos dados;O sistema deve impedir o acesso de usuários não autorizados aos dados;1
+P025;none_or_basic;pre;A3;3;Context-dependent selection;"pre_post.csv:row=26;column=A3";A escolha do padrão depende do contexto, dos requisitos e das consequências;A escolha do padrão depende do contexto, dos requisitos e das consequências;1
+P025;none_or_basic;post;B3;3;Context-dependent selection;"pre_post.csv:row=26;column=B3";Não. A decisão deve considerar o contexto de cada projeto;Não. A decisão deve considerar o contexto de cada projeto;1
+P025;none_or_basic;pre;A4;4;MVC;"pre_post.csv:row=26;column=A4";MVC;MVC;1
+P025;none_or_basic;post;B4;4;MVC;"pre_post.csv:row=26;column=B4";MVC;MVC;1
+P025;none_or_basic;pre;A5;5;Client–Server;"pre_post.csv:row=26;column=A5";Cliente-Servidor;Cliente-Servidor;1
+P025;none_or_basic;post;B5;5;Client–Server;"pre_post.csv:row=26;column=B5";Cliente-Servidor;Cliente-Servidor;1
+P025;none_or_basic;pre;A6;6;Layered Architecture;"pre_post.csv:row=26;column=A6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P025;none_or_basic;post;B6;6;Layered Architecture;"pre_post.csv:row=26;column=B6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P025;none_or_basic;pre;A7;7;Microservices;"pre_post.csv:row=26;column=A7";Microsserviços;Microsserviços;1
+P025;none_or_basic;post;B7;7;Microservices;"pre_post.csv:row=26;column=B7";Microsserviços;Microsserviços;1
+P025;none_or_basic;pre;A8;8;Pipe and Filter;"pre_post.csv:row=26;column=A8";Pipe and Filter;Pipe and Filter;1
+P025;none_or_basic;post;B8;8;Pipe and Filter;"pre_post.csv:row=26;column=B8";Pipe and Filter;Pipe and Filter;1
+P025;none_or_basic;pre;A9;9;Event-Driven Architecture;"pre_post.csv:row=26;column=A9";Event-Driven Architecture;Event-Driven Architecture;1
+P025;none_or_basic;post;B9;9;Event-Driven Architecture;"pre_post.csv:row=26;column=B9";Event-Driven Architecture;Event-Driven Architecture;1
+P025;none_or_basic;pre;A10;10;Microkernel;"pre_post.csv:row=26;column=A10";Microkernel;Microkernel;1
+P025;none_or_basic;post;B10;10;Microkernel;"pre_post.csv:row=26;column=B10";Microkernel;Microkernel;1
+P025;none_or_basic;pre;A11;11;Layered: security priorities;"pre_post.csv:row=26;column=A11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P025;none_or_basic;post;B11;11;Layered: security priorities;"pre_post.csv:row=26;column=B11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P025;none_or_basic;pre;A12;12;Pipeline application;"pre_post.csv:row=26;column=A12";Pipe and Filter;Pipe and Filter;1
+P025;none_or_basic;post;B12;12;Pipeline application;"pre_post.csv:row=26;column=B12";Pipe and Filter;Pipe and Filter;1
+P025;none_or_basic;pre;A13;13;Microkernel vs. Microservices;"pre_post.csv:row=26;column=A13";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";1
+P025;none_or_basic;post;B13;13;Microkernel vs. Microservices;"pre_post.csv:row=26;column=B13";Microkernel e Microsserviços;Microkernel e Microsserviços;1
+P025;none_or_basic;pre;A14;14;Event-driven trade-offs;"pre_post.csv:row=26;column=A14";Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;1
+P025;none_or_basic;post;B14;14;Event-driven trade-offs;"pre_post.csv:row=26;column=B14";Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;1
+P026;none_or_basic;pre;A1;1;Architectural trade-offs;"pre_post.csv:row=27;column=A1";favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;1
+P026;none_or_basic;post;B1;1;Architectural trade-offs;"pre_post.csv:row=27;column=B1";um trade-off arquitetural;um trade-off arquitetural;1
+P026;none_or_basic;pre;A2;2;Quality requirements;"pre_post.csv:row=27;column=A2";O sistema deve seguir disponível mesmo com falha em algum componente;O sistema deve seguir disponível mesmo com falha em algum componente;1
+P026;none_or_basic;post;B2;2;Quality requirements;"pre_post.csv:row=27;column=B2";O sistema deve impedir o acesso de usuários não autorizados aos dados;O sistema deve impedir o acesso de usuários não autorizados aos dados;1
+P026;none_or_basic;pre;A3;3;Context-dependent selection;"pre_post.csv:row=27;column=A3";A escolha do padrão depende do contexto, dos requisitos e das consequências;A escolha do padrão depende do contexto, dos requisitos e das consequências;1
+P026;none_or_basic;post;B3;3;Context-dependent selection;"pre_post.csv:row=27;column=B3";Não. A decisão deve considerar o contexto de cada projeto;Não. A decisão deve considerar o contexto de cada projeto;1
+P026;none_or_basic;pre;A4;4;MVC;"pre_post.csv:row=27;column=A4";MVC;MVC;1
+P026;none_or_basic;post;B4;4;MVC;"pre_post.csv:row=27;column=B4";MVC;MVC;1
+P026;none_or_basic;pre;A5;5;Client–Server;"pre_post.csv:row=27;column=A5";Cliente-Servidor;Cliente-Servidor;1
+P026;none_or_basic;post;B5;5;Client–Server;"pre_post.csv:row=27;column=B5";Microkernel;Cliente-Servidor;0
+P026;none_or_basic;pre;A6;6;Layered Architecture;"pre_post.csv:row=27;column=A6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P026;none_or_basic;post;B6;6;Layered Architecture;"pre_post.csv:row=27;column=B6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P026;none_or_basic;pre;A7;7;Microservices;"pre_post.csv:row=27;column=A7";Microsserviços;Microsserviços;1
+P026;none_or_basic;post;B7;7;Microservices;"pre_post.csv:row=27;column=B7";Microsserviços;Microsserviços;1
+P026;none_or_basic;pre;A8;8;Pipe and Filter;"pre_post.csv:row=27;column=A8";Pipe and Filter;Pipe and Filter;1
+P026;none_or_basic;post;B8;8;Pipe and Filter;"pre_post.csv:row=27;column=B8";Pipe and Filter;Pipe and Filter;1
+P026;none_or_basic;pre;A9;9;Event-Driven Architecture;"pre_post.csv:row=27;column=A9";Event-Driven Architecture;Event-Driven Architecture;1
+P026;none_or_basic;post;B9;9;Event-Driven Architecture;"pre_post.csv:row=27;column=B9";Cliente-Servidor;Event-Driven Architecture;0
+P026;none_or_basic;pre;A10;10;Microkernel;"pre_post.csv:row=27;column=A10";Microkernel;Microkernel;1
+P026;none_or_basic;post;B10;10;Microkernel;"pre_post.csv:row=27;column=B10";Cliente-Servidor;Microkernel;0
+P026;none_or_basic;pre;A11;11;Layered: security priorities;"pre_post.csv:row=27;column=A11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P026;none_or_basic;post;B11;11;Layered: security priorities;"pre_post.csv:row=27;column=B11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P026;none_or_basic;pre;A12;12;Pipeline application;"pre_post.csv:row=27;column=A12";Pipe and Filter;Pipe and Filter;1
+P026;none_or_basic;post;B12;12;Pipeline application;"pre_post.csv:row=27;column=B12";Pipe and Filter;Pipe and Filter;1
+P026;none_or_basic;pre;A13;13;Microkernel vs. Microservices;"pre_post.csv:row=27;column=A13";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";1
+P026;none_or_basic;post;B13;13;Microkernel vs. Microservices;"pre_post.csv:row=27;column=B13";Microkernel e Microsserviços;Microkernel e Microsserviços;1
+P026;none_or_basic;pre;A14;14;Event-driven trade-offs;"pre_post.csv:row=27;column=A14";Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;1
+P026;none_or_basic;post;B14;14;Event-driven trade-offs;"pre_post.csv:row=27;column=B14";Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;1
+P027;none_or_basic;pre;A1;1;Architectural trade-offs;"pre_post.csv:row=28;column=A1";favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;1
+P027;none_or_basic;post;B1;1;Architectural trade-offs;"pre_post.csv:row=28;column=B1";um trade-off arquitetural;um trade-off arquitetural;1
+P027;none_or_basic;pre;A2;2;Quality requirements;"pre_post.csv:row=28;column=A2";O sistema deve seguir disponível mesmo com falha em algum componente;O sistema deve seguir disponível mesmo com falha em algum componente;1
+P027;none_or_basic;post;B2;2;Quality requirements;"pre_post.csv:row=28;column=B2";O cliente deve conseguir consultar o status atual do seu próprio pedido;O sistema deve impedir o acesso de usuários não autorizados aos dados;0
+P027;none_or_basic;pre;A3;3;Context-dependent selection;"pre_post.csv:row=28;column=A3";A escolha do padrão depende do contexto, dos requisitos e das consequências;A escolha do padrão depende do contexto, dos requisitos e das consequências;1
+P027;none_or_basic;post;B3;3;Context-dependent selection;"pre_post.csv:row=28;column=B3";Não. A decisão deve considerar o contexto de cada projeto;Não. A decisão deve considerar o contexto de cada projeto;1
+P027;none_or_basic;pre;A4;4;MVC;"pre_post.csv:row=28;column=A4";Microkernel;MVC;0
+P027;none_or_basic;post;B4;4;MVC;"pre_post.csv:row=28;column=B4";MVC;MVC;1
+P027;none_or_basic;pre;A5;5;Client–Server;"pre_post.csv:row=28;column=A5";Cliente-Servidor;Cliente-Servidor;1
+P027;none_or_basic;post;B5;5;Client–Server;"pre_post.csv:row=28;column=B5";Cliente-Servidor;Cliente-Servidor;1
+P027;none_or_basic;pre;A6;6;Layered Architecture;"pre_post.csv:row=28;column=A6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P027;none_or_basic;post;B6;6;Layered Architecture;"pre_post.csv:row=28;column=B6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P027;none_or_basic;pre;A7;7;Microservices;"pre_post.csv:row=28;column=A7";Microsserviços;Microsserviços;1
+P027;none_or_basic;post;B7;7;Microservices;"pre_post.csv:row=28;column=B7";Microsserviços;Microsserviços;1
+P027;none_or_basic;pre;A8;8;Pipe and Filter;"pre_post.csv:row=28;column=A8";Pipe and Filter;Pipe and Filter;1
+P027;none_or_basic;post;B8;8;Pipe and Filter;"pre_post.csv:row=28;column=B8";Pipe and Filter;Pipe and Filter;1
+P027;none_or_basic;pre;A9;9;Event-Driven Architecture;"pre_post.csv:row=28;column=A9";Event-Driven Architecture;Event-Driven Architecture;1
+P027;none_or_basic;post;B9;9;Event-Driven Architecture;"pre_post.csv:row=28;column=B9";Event-Driven Architecture;Event-Driven Architecture;1
+P027;none_or_basic;pre;A10;10;Microkernel;"pre_post.csv:row=28;column=A10";Microkernel;Microkernel;1
+P027;none_or_basic;post;B10;10;Microkernel;"pre_post.csv:row=28;column=B10";Microkernel;Microkernel;1
+P027;none_or_basic;pre;A11;11;Layered: security priorities;"pre_post.csv:row=28;column=A11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P027;none_or_basic;post;B11;11;Layered: security priorities;"pre_post.csv:row=28;column=B11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P027;none_or_basic;pre;A12;12;Pipeline application;"pre_post.csv:row=28;column=A12";Pipe and Filter;Pipe and Filter;1
+P027;none_or_basic;post;B12;12;Pipeline application;"pre_post.csv:row=28;column=B12";Pipe and Filter;Pipe and Filter;1
+P027;none_or_basic;pre;A13;13;Microkernel vs. Microservices;"pre_post.csv:row=28;column=A13";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";1
+P027;none_or_basic;post;B13;13;Microkernel vs. Microservices;"pre_post.csv:row=28;column=B13";Microkernel e Microsserviços;Microkernel e Microsserviços;1
+P027;none_or_basic;pre;A14;14;Event-driven trade-offs;"pre_post.csv:row=28;column=A14";Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;1
+P027;none_or_basic;post;B14;14;Event-driven trade-offs;"pre_post.csv:row=28;column=B14";Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;1
+P028;none_or_basic;pre;A1;1;Architectural trade-offs;"pre_post.csv:row=29;column=A1";favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;1
+P028;none_or_basic;post;B1;1;Architectural trade-offs;"pre_post.csv:row=29;column=B1";um trade-off arquitetural;um trade-off arquitetural;1
+P028;none_or_basic;pre;A2;2;Quality requirements;"pre_post.csv:row=29;column=A2";O sistema deve seguir disponível mesmo com falha em algum componente;O sistema deve seguir disponível mesmo com falha em algum componente;1
+P028;none_or_basic;post;B2;2;Quality requirements;"pre_post.csv:row=29;column=B2";O sistema deve impedir o acesso de usuários não autorizados aos dados;O sistema deve impedir o acesso de usuários não autorizados aos dados;1
+P028;none_or_basic;pre;A3;3;Context-dependent selection;"pre_post.csv:row=29;column=A3";A escolha do padrão depende do contexto, dos requisitos e das consequências;A escolha do padrão depende do contexto, dos requisitos e das consequências;1
+P028;none_or_basic;post;B3;3;Context-dependent selection;"pre_post.csv:row=29;column=B3";Não. A decisão deve considerar o contexto de cada projeto;Não. A decisão deve considerar o contexto de cada projeto;1
+P028;none_or_basic;pre;A4;4;MVC;"pre_post.csv:row=29;column=A4";MVC;MVC;1
+P028;none_or_basic;post;B4;4;MVC;"pre_post.csv:row=29;column=B4";MVC;MVC;1
+P028;none_or_basic;pre;A5;5;Client–Server;"pre_post.csv:row=29;column=A5";Cliente-Servidor;Cliente-Servidor;1
+P028;none_or_basic;post;B5;5;Client–Server;"pre_post.csv:row=29;column=B5";Cliente-Servidor;Cliente-Servidor;1
+P028;none_or_basic;pre;A6;6;Layered Architecture;"pre_post.csv:row=29;column=A6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P028;none_or_basic;post;B6;6;Layered Architecture;"pre_post.csv:row=29;column=B6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P028;none_or_basic;pre;A7;7;Microservices;"pre_post.csv:row=29;column=A7";Microsserviços;Microsserviços;1
+P028;none_or_basic;post;B7;7;Microservices;"pre_post.csv:row=29;column=B7";Microsserviços;Microsserviços;1
+P028;none_or_basic;pre;A8;8;Pipe and Filter;"pre_post.csv:row=29;column=A8";Pipe and Filter;Pipe and Filter;1
+P028;none_or_basic;post;B8;8;Pipe and Filter;"pre_post.csv:row=29;column=B8";Pipe and Filter;Pipe and Filter;1
+P028;none_or_basic;pre;A9;9;Event-Driven Architecture;"pre_post.csv:row=29;column=A9";Event-Driven Architecture;Event-Driven Architecture;1
+P028;none_or_basic;post;B9;9;Event-Driven Architecture;"pre_post.csv:row=29;column=B9";Event-Driven Architecture;Event-Driven Architecture;1
+P028;none_or_basic;pre;A10;10;Microkernel;"pre_post.csv:row=29;column=A10";Microkernel;Microkernel;1
+P028;none_or_basic;post;B10;10;Microkernel;"pre_post.csv:row=29;column=B10";Microkernel;Microkernel;1
+P028;none_or_basic;pre;A11;11;Layered: security priorities;"pre_post.csv:row=29;column=A11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P028;none_or_basic;post;B11;11;Layered: security priorities;"pre_post.csv:row=29;column=B11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P028;none_or_basic;pre;A12;12;Pipeline application;"pre_post.csv:row=29;column=A12";Pipe and Filter;Pipe and Filter;1
+P028;none_or_basic;post;B12;12;Pipeline application;"pre_post.csv:row=29;column=B12";Pipe and Filter;Pipe and Filter;1
+P028;none_or_basic;pre;A13;13;Microkernel vs. Microservices;"pre_post.csv:row=29;column=A13";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";1
+P028;none_or_basic;post;B13;13;Microkernel vs. Microservices;"pre_post.csv:row=29;column=B13";Microkernel e Microsserviços;Microkernel e Microsserviços;1
+P028;none_or_basic;pre;A14;14;Event-driven trade-offs;"pre_post.csv:row=29;column=A14";Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;1
+P028;none_or_basic;post;B14;14;Event-driven trade-offs;"pre_post.csv:row=29;column=B14";Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;1
+P029;intermediate_or_advanced;pre;A1;1;Architectural trade-offs;"pre_post.csv:row=30;column=A1";favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;1
+P029;intermediate_or_advanced;post;B1;1;Architectural trade-offs;"pre_post.csv:row=30;column=B1";um trade-off arquitetural;um trade-off arquitetural;1
+P029;intermediate_or_advanced;pre;A2;2;Quality requirements;"pre_post.csv:row=30;column=A2";O sistema deve seguir disponível mesmo com falha em algum componente;O sistema deve seguir disponível mesmo com falha em algum componente;1
+P029;intermediate_or_advanced;post;B2;2;Quality requirements;"pre_post.csv:row=30;column=B2";O sistema deve impedir o acesso de usuários não autorizados aos dados;O sistema deve impedir o acesso de usuários não autorizados aos dados;1
+P029;intermediate_or_advanced;pre;A3;3;Context-dependent selection;"pre_post.csv:row=30;column=A3";A escolha do padrão depende do contexto, dos requisitos e das consequências;A escolha do padrão depende do contexto, dos requisitos e das consequências;1
+P029;intermediate_or_advanced;post;B3;3;Context-dependent selection;"pre_post.csv:row=30;column=B3";Não. A decisão deve considerar o contexto de cada projeto;Não. A decisão deve considerar o contexto de cada projeto;1
+P029;intermediate_or_advanced;pre;A4;4;MVC;"pre_post.csv:row=30;column=A4";MVC;MVC;1
+P029;intermediate_or_advanced;post;B4;4;MVC;"pre_post.csv:row=30;column=B4";MVC;MVC;1
+P029;intermediate_or_advanced;pre;A5;5;Client–Server;"pre_post.csv:row=30;column=A5";Cliente-Servidor;Cliente-Servidor;1
+P029;intermediate_or_advanced;post;B5;5;Client–Server;"pre_post.csv:row=30;column=B5";Cliente-Servidor;Cliente-Servidor;1
+P029;intermediate_or_advanced;pre;A6;6;Layered Architecture;"pre_post.csv:row=30;column=A6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P029;intermediate_or_advanced;post;B6;6;Layered Architecture;"pre_post.csv:row=30;column=B6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P029;intermediate_or_advanced;pre;A7;7;Microservices;"pre_post.csv:row=30;column=A7";Microsserviços;Microsserviços;1
+P029;intermediate_or_advanced;post;B7;7;Microservices;"pre_post.csv:row=30;column=B7";Microsserviços;Microsserviços;1
+P029;intermediate_or_advanced;pre;A8;8;Pipe and Filter;"pre_post.csv:row=30;column=A8";Pipe and Filter;Pipe and Filter;1
+P029;intermediate_or_advanced;post;B8;8;Pipe and Filter;"pre_post.csv:row=30;column=B8";Pipe and Filter;Pipe and Filter;1
+P029;intermediate_or_advanced;pre;A9;9;Event-Driven Architecture;"pre_post.csv:row=30;column=A9";Event-Driven Architecture;Event-Driven Architecture;1
+P029;intermediate_or_advanced;post;B9;9;Event-Driven Architecture;"pre_post.csv:row=30;column=B9";Event-Driven Architecture;Event-Driven Architecture;1
+P029;intermediate_or_advanced;pre;A10;10;Microkernel;"pre_post.csv:row=30;column=A10";Microkernel;Microkernel;1
+P029;intermediate_or_advanced;post;B10;10;Microkernel;"pre_post.csv:row=30;column=B10";Microkernel;Microkernel;1
+P029;intermediate_or_advanced;pre;A11;11;Layered: security priorities;"pre_post.csv:row=30;column=A11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P029;intermediate_or_advanced;post;B11;11;Layered: security priorities;"pre_post.csv:row=30;column=B11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P029;intermediate_or_advanced;pre;A12;12;Pipeline application;"pre_post.csv:row=30;column=A12";Pipe and Filter;Pipe and Filter;1
+P029;intermediate_or_advanced;post;B12;12;Pipeline application;"pre_post.csv:row=30;column=B12";Pipe and Filter;Pipe and Filter;1
+P029;intermediate_or_advanced;pre;A13;13;Microkernel vs. Microservices;"pre_post.csv:row=30;column=A13";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";1
+P029;intermediate_or_advanced;post;B13;13;Microkernel vs. Microservices;"pre_post.csv:row=30;column=B13";Microkernel e Microsserviços;Microkernel e Microsserviços;1
+P029;intermediate_or_advanced;pre;A14;14;Event-driven trade-offs;"pre_post.csv:row=30;column=A14";Essa arquitetura elimina problemas de confiabilidade, pois os componentes são totalmente desacoplados;Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;0
+P029;intermediate_or_advanced;post;B14;14;Event-driven trade-offs;"pre_post.csv:row=30;column=B14";Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;1
+P030;intermediate_or_advanced;pre;A1;1;Architectural trade-offs;"pre_post.csv:row=31;column=A1";favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;1
+P030;intermediate_or_advanced;post;B1;1;Architectural trade-offs;"pre_post.csv:row=31;column=B1";um trade-off arquitetural;um trade-off arquitetural;1
+P030;intermediate_or_advanced;pre;A2;2;Quality requirements;"pre_post.csv:row=31;column=A2";O sistema deve seguir disponível mesmo com falha em algum componente;O sistema deve seguir disponível mesmo com falha em algum componente;1
+P030;intermediate_or_advanced;post;B2;2;Quality requirements;"pre_post.csv:row=31;column=B2";O sistema deve impedir o acesso de usuários não autorizados aos dados;O sistema deve impedir o acesso de usuários não autorizados aos dados;1
+P030;intermediate_or_advanced;pre;A3;3;Context-dependent selection;"pre_post.csv:row=31;column=A3";A escolha do padrão depende do contexto, dos requisitos e das consequências;A escolha do padrão depende do contexto, dos requisitos e das consequências;1
+P030;intermediate_or_advanced;post;B3;3;Context-dependent selection;"pre_post.csv:row=31;column=B3";Não. A decisão deve considerar o contexto de cada projeto;Não. A decisão deve considerar o contexto de cada projeto;1
+P030;intermediate_or_advanced;pre;A4;4;MVC;"pre_post.csv:row=31;column=A4";MVC;MVC;1
+P030;intermediate_or_advanced;post;B4;4;MVC;"pre_post.csv:row=31;column=B4";MVC;MVC;1
+P030;intermediate_or_advanced;pre;A5;5;Client–Server;"pre_post.csv:row=31;column=A5";Cliente-Servidor;Cliente-Servidor;1
+P030;intermediate_or_advanced;post;B5;5;Client–Server;"pre_post.csv:row=31;column=B5";Cliente-Servidor;Cliente-Servidor;1
+P030;intermediate_or_advanced;pre;A6;6;Layered Architecture;"pre_post.csv:row=31;column=A6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P030;intermediate_or_advanced;post;B6;6;Layered Architecture;"pre_post.csv:row=31;column=B6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P030;intermediate_or_advanced;pre;A7;7;Microservices;"pre_post.csv:row=31;column=A7";Microsserviços;Microsserviços;1
+P030;intermediate_or_advanced;post;B7;7;Microservices;"pre_post.csv:row=31;column=B7";Microsserviços;Microsserviços;1
+P030;intermediate_or_advanced;pre;A8;8;Pipe and Filter;"pre_post.csv:row=31;column=A8";Pipe and Filter;Pipe and Filter;1
+P030;intermediate_or_advanced;post;B8;8;Pipe and Filter;"pre_post.csv:row=31;column=B8";Pipe and Filter;Pipe and Filter;1
+P030;intermediate_or_advanced;pre;A9;9;Event-Driven Architecture;"pre_post.csv:row=31;column=A9";Event-Driven Architecture;Event-Driven Architecture;1
+P030;intermediate_or_advanced;post;B9;9;Event-Driven Architecture;"pre_post.csv:row=31;column=B9";Event-Driven Architecture;Event-Driven Architecture;1
+P030;intermediate_or_advanced;pre;A10;10;Microkernel;"pre_post.csv:row=31;column=A10";Microkernel;Microkernel;1
+P030;intermediate_or_advanced;post;B10;10;Microkernel;"pre_post.csv:row=31;column=B10";Microkernel;Microkernel;1
+P030;intermediate_or_advanced;pre;A11;11;Layered: security priorities;"pre_post.csv:row=31;column=A11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P030;intermediate_or_advanced;post;B11;11;Layered: security priorities;"pre_post.csv:row=31;column=B11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P030;intermediate_or_advanced;pre;A12;12;Pipeline application;"pre_post.csv:row=31;column=A12";Pipe and Filter;Pipe and Filter;1
+P030;intermediate_or_advanced;post;B12;12;Pipeline application;"pre_post.csv:row=31;column=B12";Pipe and Filter;Pipe and Filter;1
+P030;intermediate_or_advanced;pre;A13;13;Microkernel vs. Microservices;"pre_post.csv:row=31;column=A13";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";1
+P030;intermediate_or_advanced;post;B13;13;Microkernel vs. Microservices;"pre_post.csv:row=31;column=B13";Microkernel e Microsserviços;Microkernel e Microsserviços;1
+P030;intermediate_or_advanced;pre;A14;14;Event-driven trade-offs;"pre_post.csv:row=31;column=A14";Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;1
+P030;intermediate_or_advanced;post;B14;14;Event-driven trade-offs;"pre_post.csv:row=31;column=B14";Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;1
+P031;none_or_basic;pre;A1;1;Architectural trade-offs;"pre_post.csv:row=32;column=A1";favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;1
+P031;none_or_basic;post;B1;1;Architectural trade-offs;"pre_post.csv:row=32;column=B1";um trade-off arquitetural;um trade-off arquitetural;1
+P031;none_or_basic;pre;A2;2;Quality requirements;"pre_post.csv:row=32;column=A2";O sistema deve seguir disponível mesmo com falha em algum componente;O sistema deve seguir disponível mesmo com falha em algum componente;1
+P031;none_or_basic;post;B2;2;Quality requirements;"pre_post.csv:row=32;column=B2";O sistema deve impedir o acesso de usuários não autorizados aos dados;O sistema deve impedir o acesso de usuários não autorizados aos dados;1
+P031;none_or_basic;pre;A3;3;Context-dependent selection;"pre_post.csv:row=32;column=A3";A escolha do padrão depende do contexto, dos requisitos e das consequências;A escolha do padrão depende do contexto, dos requisitos e das consequências;1
+P031;none_or_basic;post;B3;3;Context-dependent selection;"pre_post.csv:row=32;column=B3";Não. A decisão deve considerar o contexto de cada projeto;Não. A decisão deve considerar o contexto de cada projeto;1
+P031;none_or_basic;pre;A4;4;MVC;"pre_post.csv:row=32;column=A4";MVC;MVC;1
+P031;none_or_basic;post;B4;4;MVC;"pre_post.csv:row=32;column=B4";MVC;MVC;1
+P031;none_or_basic;pre;A5;5;Client–Server;"pre_post.csv:row=32;column=A5";Cliente-Servidor;Cliente-Servidor;1
+P031;none_or_basic;post;B5;5;Client–Server;"pre_post.csv:row=32;column=B5";Cliente-Servidor;Cliente-Servidor;1
+P031;none_or_basic;pre;A6;6;Layered Architecture;"pre_post.csv:row=32;column=A6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P031;none_or_basic;post;B6;6;Layered Architecture;"pre_post.csv:row=32;column=B6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P031;none_or_basic;pre;A7;7;Microservices;"pre_post.csv:row=32;column=A7";Microsserviços;Microsserviços;1
+P031;none_or_basic;post;B7;7;Microservices;"pre_post.csv:row=32;column=B7";Microsserviços;Microsserviços;1
+P031;none_or_basic;pre;A8;8;Pipe and Filter;"pre_post.csv:row=32;column=A8";Pipe and Filter;Pipe and Filter;1
+P031;none_or_basic;post;B8;8;Pipe and Filter;"pre_post.csv:row=32;column=B8";Pipe and Filter;Pipe and Filter;1
+P031;none_or_basic;pre;A9;9;Event-Driven Architecture;"pre_post.csv:row=32;column=A9";Event-Driven Architecture;Event-Driven Architecture;1
+P031;none_or_basic;post;B9;9;Event-Driven Architecture;"pre_post.csv:row=32;column=B9";Event-Driven Architecture;Event-Driven Architecture;1
+P031;none_or_basic;pre;A10;10;Microkernel;"pre_post.csv:row=32;column=A10";Microsserviços;Microkernel;0
+P031;none_or_basic;post;B10;10;Microkernel;"pre_post.csv:row=32;column=B10";Microkernel;Microkernel;1
+P031;none_or_basic;pre;A11;11;Layered: security priorities;"pre_post.csv:row=32;column=A11";Pipe and Filter;Arquitetura em Camadas;0
+P031;none_or_basic;post;B11;11;Layered: security priorities;"pre_post.csv:row=32;column=B11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P031;none_or_basic;pre;A12;12;Pipeline application;"pre_post.csv:row=32;column=A12";Pipe and Filter;Pipe and Filter;1
+P031;none_or_basic;post;B12;12;Pipeline application;"pre_post.csv:row=32;column=B12";Pipe and Filter;Pipe and Filter;1
+P031;none_or_basic;pre;A13;13;Microkernel vs. Microservices;"pre_post.csv:row=32;column=A13";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";1
+P031;none_or_basic;post;B13;13;Microkernel vs. Microservices;"pre_post.csv:row=32;column=B13";Microkernel e Microsserviços;Microkernel e Microsserviços;1
+P031;none_or_basic;pre;A14;14;Event-driven trade-offs;"pre_post.csv:row=32;column=A14";Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;1
+P031;none_or_basic;post;B14;14;Event-driven trade-offs;"pre_post.csv:row=32;column=B14";Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;1
+P032;none_or_basic;pre;A1;1;Architectural trade-offs;"pre_post.csv:row=33;column=A1";favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;1
+P032;none_or_basic;post;B1;1;Architectural trade-offs;"pre_post.csv:row=33;column=B1";um trade-off arquitetural;um trade-off arquitetural;1
+P032;none_or_basic;pre;A2;2;Quality requirements;"pre_post.csv:row=33;column=A2";O administrador deve ser capaz de emitir um relatório mensal completo;O sistema deve seguir disponível mesmo com falha em algum componente;0
+P032;none_or_basic;post;B2;2;Quality requirements;"pre_post.csv:row=33;column=B2";O sistema deve impedir o acesso de usuários não autorizados aos dados;O sistema deve impedir o acesso de usuários não autorizados aos dados;1
+P032;none_or_basic;pre;A3;3;Context-dependent selection;"pre_post.csv:row=33;column=A3";A escolha do padrão depende do contexto, dos requisitos e das consequências;A escolha do padrão depende do contexto, dos requisitos e das consequências;1
+P032;none_or_basic;post;B3;3;Context-dependent selection;"pre_post.csv:row=33;column=B3";Não. A decisão deve considerar o contexto de cada projeto;Não. A decisão deve considerar o contexto de cada projeto;1
+P032;none_or_basic;pre;A4;4;MVC;"pre_post.csv:row=33;column=A4";MVC;MVC;1
+P032;none_or_basic;post;B4;4;MVC;"pre_post.csv:row=33;column=B4";MVC;MVC;1
+P032;none_or_basic;pre;A5;5;Client–Server;"pre_post.csv:row=33;column=A5";Cliente-Servidor;Cliente-Servidor;1
+P032;none_or_basic;post;B5;5;Client–Server;"pre_post.csv:row=33;column=B5";Cliente-Servidor;Cliente-Servidor;1
+P032;none_or_basic;pre;A6;6;Layered Architecture;"pre_post.csv:row=33;column=A6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P032;none_or_basic;post;B6;6;Layered Architecture;"pre_post.csv:row=33;column=B6";Microsserviços;Arquitetura em Camadas;0
+P032;none_or_basic;pre;A7;7;Microservices;"pre_post.csv:row=33;column=A7";Microsserviços;Microsserviços;1
+P032;none_or_basic;post;B7;7;Microservices;"pre_post.csv:row=33;column=B7";Microsserviços;Microsserviços;1
+P032;none_or_basic;pre;A8;8;Pipe and Filter;"pre_post.csv:row=33;column=A8";Pipe and Filter;Pipe and Filter;1
+P032;none_or_basic;post;B8;8;Pipe and Filter;"pre_post.csv:row=33;column=B8";Pipe and Filter;Pipe and Filter;1
+P032;none_or_basic;pre;A9;9;Event-Driven Architecture;"pre_post.csv:row=33;column=A9";Event-Driven Architecture;Event-Driven Architecture;1
+P032;none_or_basic;post;B9;9;Event-Driven Architecture;"pre_post.csv:row=33;column=B9";Event-Driven Architecture;Event-Driven Architecture;1
+P032;none_or_basic;pre;A10;10;Microkernel;"pre_post.csv:row=33;column=A10";Microkernel;Microkernel;1
+P032;none_or_basic;post;B10;10;Microkernel;"pre_post.csv:row=33;column=B10";Microkernel;Microkernel;1
+P032;none_or_basic;pre;A11;11;Layered: security priorities;"pre_post.csv:row=33;column=A11";Cliente-Servidor;Arquitetura em Camadas;0
+P032;none_or_basic;post;B11;11;Layered: security priorities;"pre_post.csv:row=33;column=B11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P032;none_or_basic;pre;A12;12;Pipeline application;"pre_post.csv:row=33;column=A12";Pipe and Filter;Pipe and Filter;1
+P032;none_or_basic;post;B12;12;Pipeline application;"pre_post.csv:row=33;column=B12";Pipe and Filter;Pipe and Filter;1
+P032;none_or_basic;pre;A13;13;Microkernel vs. Microservices;"pre_post.csv:row=33;column=A13";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";1
+P032;none_or_basic;post;B13;13;Microkernel vs. Microservices;"pre_post.csv:row=33;column=B13";Microkernel e Microsserviços;Microkernel e Microsserviços;1
+P032;none_or_basic;pre;A14;14;Event-driven trade-offs;"pre_post.csv:row=33;column=A14";Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;1
+P032;none_or_basic;post;B14;14;Event-driven trade-offs;"pre_post.csv:row=33;column=B14";Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;1
+P033;none_or_basic;pre;A1;1;Architectural trade-offs;"pre_post.csv:row=34;column=A1";favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;1
+P033;none_or_basic;post;B1;1;Architectural trade-offs;"pre_post.csv:row=34;column=B1";um trade-off arquitetural;um trade-off arquitetural;1
+P033;none_or_basic;pre;A2;2;Quality requirements;"pre_post.csv:row=34;column=A2";O sistema deve seguir disponível mesmo com falha em algum componente;O sistema deve seguir disponível mesmo com falha em algum componente;1
+P033;none_or_basic;post;B2;2;Quality requirements;"pre_post.csv:row=34;column=B2";O sistema deve impedir o acesso de usuários não autorizados aos dados;O sistema deve impedir o acesso de usuários não autorizados aos dados;1
+P033;none_or_basic;pre;A3;3;Context-dependent selection;"pre_post.csv:row=34;column=A3";A escolha do padrão depende do contexto, dos requisitos e das consequências;A escolha do padrão depende do contexto, dos requisitos e das consequências;1
+P033;none_or_basic;post;B3;3;Context-dependent selection;"pre_post.csv:row=34;column=B3";Não. A decisão deve considerar o contexto de cada projeto;Não. A decisão deve considerar o contexto de cada projeto;1
+P033;none_or_basic;pre;A4;4;MVC;"pre_post.csv:row=34;column=A4";MVC;MVC;1
+P033;none_or_basic;post;B4;4;MVC;"pre_post.csv:row=34;column=B4";MVC;MVC;1
+P033;none_or_basic;pre;A5;5;Client–Server;"pre_post.csv:row=34;column=A5";Cliente-Servidor;Cliente-Servidor;1
+P033;none_or_basic;post;B5;5;Client–Server;"pre_post.csv:row=34;column=B5";Cliente-Servidor;Cliente-Servidor;1
+P033;none_or_basic;pre;A6;6;Layered Architecture;"pre_post.csv:row=34;column=A6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P033;none_or_basic;post;B6;6;Layered Architecture;"pre_post.csv:row=34;column=B6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P033;none_or_basic;pre;A7;7;Microservices;"pre_post.csv:row=34;column=A7";Microsserviços;Microsserviços;1
+P033;none_or_basic;post;B7;7;Microservices;"pre_post.csv:row=34;column=B7";Microsserviços;Microsserviços;1
+P033;none_or_basic;pre;A8;8;Pipe and Filter;"pre_post.csv:row=34;column=A8";Pipe and Filter;Pipe and Filter;1
+P033;none_or_basic;post;B8;8;Pipe and Filter;"pre_post.csv:row=34;column=B8";Pipe and Filter;Pipe and Filter;1
+P033;none_or_basic;pre;A9;9;Event-Driven Architecture;"pre_post.csv:row=34;column=A9";Event-Driven Architecture;Event-Driven Architecture;1
+P033;none_or_basic;post;B9;9;Event-Driven Architecture;"pre_post.csv:row=34;column=B9";Event-Driven Architecture;Event-Driven Architecture;1
+P033;none_or_basic;pre;A10;10;Microkernel;"pre_post.csv:row=34;column=A10";Microkernel;Microkernel;1
+P033;none_or_basic;post;B10;10;Microkernel;"pre_post.csv:row=34;column=B10";Microkernel;Microkernel;1
+P033;none_or_basic;pre;A11;11;Layered: security priorities;"pre_post.csv:row=34;column=A11";Cliente-Servidor;Arquitetura em Camadas;0
+P033;none_or_basic;post;B11;11;Layered: security priorities;"pre_post.csv:row=34;column=B11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P033;none_or_basic;pre;A12;12;Pipeline application;"pre_post.csv:row=34;column=A12";Pipe and Filter;Pipe and Filter;1
+P033;none_or_basic;post;B12;12;Pipeline application;"pre_post.csv:row=34;column=B12";Pipe and Filter;Pipe and Filter;1
+P033;none_or_basic;pre;A13;13;Microkernel vs. Microservices;"pre_post.csv:row=34;column=A13";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";1
+P033;none_or_basic;post;B13;13;Microkernel vs. Microservices;"pre_post.csv:row=34;column=B13";Microkernel e Microsserviços;Microkernel e Microsserviços;1
+P033;none_or_basic;pre;A14;14;Event-driven trade-offs;"pre_post.csv:row=34;column=A14";Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;1
+P033;none_or_basic;post;B14;14;Event-driven trade-offs;"pre_post.csv:row=34;column=B14";Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;1
+P034;none_or_basic;pre;A1;1;Architectural trade-offs;"pre_post.csv:row=35;column=A1";favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;1
+P034;none_or_basic;post;B1;1;Architectural trade-offs;"pre_post.csv:row=35;column=B1";um trade-off arquitetural;um trade-off arquitetural;1
+P034;none_or_basic;pre;A2;2;Quality requirements;"pre_post.csv:row=35;column=A2";O cliente deve ser capaz de cancelar um pedido que já foi realizado;O sistema deve seguir disponível mesmo com falha em algum componente;0
+P034;none_or_basic;post;B2;2;Quality requirements;"pre_post.csv:row=35;column=B2";O cliente deve conseguir consultar o status atual do seu próprio pedido;O sistema deve impedir o acesso de usuários não autorizados aos dados;0
+P034;none_or_basic;pre;A3;3;Context-dependent selection;"pre_post.csv:row=35;column=A3";A escolha do padrão depende do contexto, dos requisitos e das consequências;A escolha do padrão depende do contexto, dos requisitos e das consequências;1
+P034;none_or_basic;post;B3;3;Context-dependent selection;"pre_post.csv:row=35;column=B3";Não. A decisão deve considerar o contexto de cada projeto;Não. A decisão deve considerar o contexto de cada projeto;1
+P034;none_or_basic;pre;A4;4;MVC;"pre_post.csv:row=35;column=A4";MVC;MVC;1
+P034;none_or_basic;post;B4;4;MVC;"pre_post.csv:row=35;column=B4";MVC;MVC;1
+P034;none_or_basic;pre;A5;5;Client–Server;"pre_post.csv:row=35;column=A5";Cliente-Servidor;Cliente-Servidor;1
+P034;none_or_basic;post;B5;5;Client–Server;"pre_post.csv:row=35;column=B5";Cliente-Servidor;Cliente-Servidor;1
+P034;none_or_basic;pre;A6;6;Layered Architecture;"pre_post.csv:row=35;column=A6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P034;none_or_basic;post;B6;6;Layered Architecture;"pre_post.csv:row=35;column=B6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P034;none_or_basic;pre;A7;7;Microservices;"pre_post.csv:row=35;column=A7";Microsserviços;Microsserviços;1
+P034;none_or_basic;post;B7;7;Microservices;"pre_post.csv:row=35;column=B7";Microsserviços;Microsserviços;1
+P034;none_or_basic;pre;A8;8;Pipe and Filter;"pre_post.csv:row=35;column=A8";Pipe and Filter;Pipe and Filter;1
+P034;none_or_basic;post;B8;8;Pipe and Filter;"pre_post.csv:row=35;column=B8";Pipe and Filter;Pipe and Filter;1
+P034;none_or_basic;pre;A9;9;Event-Driven Architecture;"pre_post.csv:row=35;column=A9";Event-Driven Architecture;Event-Driven Architecture;1
+P034;none_or_basic;post;B9;9;Event-Driven Architecture;"pre_post.csv:row=35;column=B9";Event-Driven Architecture;Event-Driven Architecture;1
+P034;none_or_basic;pre;A10;10;Microkernel;"pre_post.csv:row=35;column=A10";Microkernel;Microkernel;1
+P034;none_or_basic;post;B10;10;Microkernel;"pre_post.csv:row=35;column=B10";Microkernel;Microkernel;1
+P034;none_or_basic;pre;A11;11;Layered: security priorities;"pre_post.csv:row=35;column=A11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P034;none_or_basic;post;B11;11;Layered: security priorities;"pre_post.csv:row=35;column=B11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P034;none_or_basic;pre;A12;12;Pipeline application;"pre_post.csv:row=35;column=A12";Pipe and Filter;Pipe and Filter;1
+P034;none_or_basic;post;B12;12;Pipeline application;"pre_post.csv:row=35;column=B12";Pipe and Filter;Pipe and Filter;1
+P034;none_or_basic;pre;A13;13;Microkernel vs. Microservices;"pre_post.csv:row=35;column=A13";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";1
+P034;none_or_basic;post;B13;13;Microkernel vs. Microservices;"pre_post.csv:row=35;column=B13";Microkernel e Microsserviços;Microkernel e Microsserviços;1
+P034;none_or_basic;pre;A14;14;Event-driven trade-offs;"pre_post.csv:row=35;column=A14";Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;1
+P034;none_or_basic;post;B14;14;Event-driven trade-offs;"pre_post.csv:row=35;column=B14";Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;1
+P035;none_or_basic;pre;A1;1;Architectural trade-offs;"pre_post.csv:row=36;column=A1";favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;1
+P035;none_or_basic;post;B1;1;Architectural trade-offs;"pre_post.csv:row=36;column=B1";um trade-off arquitetural;um trade-off arquitetural;1
+P035;none_or_basic;pre;A2;2;Quality requirements;"pre_post.csv:row=36;column=A2";O sistema deve seguir disponível mesmo com falha em algum componente;O sistema deve seguir disponível mesmo com falha em algum componente;1
+P035;none_or_basic;post;B2;2;Quality requirements;"pre_post.csv:row=36;column=B2";O sistema deve impedir o acesso de usuários não autorizados aos dados;O sistema deve impedir o acesso de usuários não autorizados aos dados;1
+P035;none_or_basic;pre;A3;3;Context-dependent selection;"pre_post.csv:row=36;column=A3";A escolha do padrão depende do contexto, dos requisitos e das consequências;A escolha do padrão depende do contexto, dos requisitos e das consequências;1
+P035;none_or_basic;post;B3;3;Context-dependent selection;"pre_post.csv:row=36;column=B3";Não. A decisão deve considerar o contexto de cada projeto;Não. A decisão deve considerar o contexto de cada projeto;1
+P035;none_or_basic;pre;A4;4;MVC;"pre_post.csv:row=36;column=A4";MVC;MVC;1
+P035;none_or_basic;post;B4;4;MVC;"pre_post.csv:row=36;column=B4";MVC;MVC;1
+P035;none_or_basic;pre;A5;5;Client–Server;"pre_post.csv:row=36;column=A5";Cliente-Servidor;Cliente-Servidor;1
+P035;none_or_basic;post;B5;5;Client–Server;"pre_post.csv:row=36;column=B5";Cliente-Servidor;Cliente-Servidor;1
+P035;none_or_basic;pre;A6;6;Layered Architecture;"pre_post.csv:row=36;column=A6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P035;none_or_basic;post;B6;6;Layered Architecture;"pre_post.csv:row=36;column=B6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P035;none_or_basic;pre;A7;7;Microservices;"pre_post.csv:row=36;column=A7";Microsserviços;Microsserviços;1
+P035;none_or_basic;post;B7;7;Microservices;"pre_post.csv:row=36;column=B7";Microsserviços;Microsserviços;1
+P035;none_or_basic;pre;A8;8;Pipe and Filter;"pre_post.csv:row=36;column=A8";Pipe and Filter;Pipe and Filter;1
+P035;none_or_basic;post;B8;8;Pipe and Filter;"pre_post.csv:row=36;column=B8";Pipe and Filter;Pipe and Filter;1
+P035;none_or_basic;pre;A9;9;Event-Driven Architecture;"pre_post.csv:row=36;column=A9";Event-Driven Architecture;Event-Driven Architecture;1
+P035;none_or_basic;post;B9;9;Event-Driven Architecture;"pre_post.csv:row=36;column=B9";Event-Driven Architecture;Event-Driven Architecture;1
+P035;none_or_basic;pre;A10;10;Microkernel;"pre_post.csv:row=36;column=A10";Microkernel;Microkernel;1
+P035;none_or_basic;post;B10;10;Microkernel;"pre_post.csv:row=36;column=B10";Microkernel;Microkernel;1
+P035;none_or_basic;pre;A11;11;Layered: security priorities;"pre_post.csv:row=36;column=A11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P035;none_or_basic;post;B11;11;Layered: security priorities;"pre_post.csv:row=36;column=B11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P035;none_or_basic;pre;A12;12;Pipeline application;"pre_post.csv:row=36;column=A12";Pipe and Filter;Pipe and Filter;1
+P035;none_or_basic;post;B12;12;Pipeline application;"pre_post.csv:row=36;column=B12";Pipe and Filter;Pipe and Filter;1
+P035;none_or_basic;pre;A13;13;Microkernel vs. Microservices;"pre_post.csv:row=36;column=A13";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";1
+P035;none_or_basic;post;B13;13;Microkernel vs. Microservices;"pre_post.csv:row=36;column=B13";Microkernel e Microsserviços;Microkernel e Microsserviços;1
+P035;none_or_basic;pre;A14;14;Event-driven trade-offs;"pre_post.csv:row=36;column=A14";Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;1
+P035;none_or_basic;post;B14;14;Event-driven trade-offs;"pre_post.csv:row=36;column=B14";Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;1
+P036;none_or_basic;pre;A1;1;Architectural trade-offs;"pre_post.csv:row=37;column=A1";favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;1
+P036;none_or_basic;post;B1;1;Architectural trade-offs;"pre_post.csv:row=37;column=B1";um trade-off arquitetural;um trade-off arquitetural;1
+P036;none_or_basic;pre;A2;2;Quality requirements;"pre_post.csv:row=37;column=A2";O sistema deve seguir disponível mesmo com falha em algum componente;O sistema deve seguir disponível mesmo com falha em algum componente;1
+P036;none_or_basic;post;B2;2;Quality requirements;"pre_post.csv:row=37;column=B2";O sistema deve impedir o acesso de usuários não autorizados aos dados;O sistema deve impedir o acesso de usuários não autorizados aos dados;1
+P036;none_or_basic;pre;A3;3;Context-dependent selection;"pre_post.csv:row=37;column=A3";A escolha do padrão depende do contexto, dos requisitos e das consequências;A escolha do padrão depende do contexto, dos requisitos e das consequências;1
+P036;none_or_basic;post;B3;3;Context-dependent selection;"pre_post.csv:row=37;column=B3";Não. A decisão deve considerar o contexto de cada projeto;Não. A decisão deve considerar o contexto de cada projeto;1
+P036;none_or_basic;pre;A4;4;MVC;"pre_post.csv:row=37;column=A4";Event-Driven Architecture;MVC;0
+P036;none_or_basic;post;B4;4;MVC;"pre_post.csv:row=37;column=B4";MVC;MVC;1
+P036;none_or_basic;pre;A5;5;Client–Server;"pre_post.csv:row=37;column=A5";Cliente-Servidor;Cliente-Servidor;1
+P036;none_or_basic;post;B5;5;Client–Server;"pre_post.csv:row=37;column=B5";Cliente-Servidor;Cliente-Servidor;1
+P036;none_or_basic;pre;A6;6;Layered Architecture;"pre_post.csv:row=37;column=A6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P036;none_or_basic;post;B6;6;Layered Architecture;"pre_post.csv:row=37;column=B6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P036;none_or_basic;pre;A7;7;Microservices;"pre_post.csv:row=37;column=A7";Microsserviços;Microsserviços;1
+P036;none_or_basic;post;B7;7;Microservices;"pre_post.csv:row=37;column=B7";Microsserviços;Microsserviços;1
+P036;none_or_basic;pre;A8;8;Pipe and Filter;"pre_post.csv:row=37;column=A8";Pipe and Filter;Pipe and Filter;1
+P036;none_or_basic;post;B8;8;Pipe and Filter;"pre_post.csv:row=37;column=B8";Pipe and Filter;Pipe and Filter;1
+P036;none_or_basic;pre;A9;9;Event-Driven Architecture;"pre_post.csv:row=37;column=A9";Microkernel;Event-Driven Architecture;0
+P036;none_or_basic;post;B9;9;Event-Driven Architecture;"pre_post.csv:row=37;column=B9";Arquitetura em Camadas;Event-Driven Architecture;0
+P036;none_or_basic;pre;A10;10;Microkernel;"pre_post.csv:row=37;column=A10";Microkernel;Microkernel;1
+P036;none_or_basic;post;B10;10;Microkernel;"pre_post.csv:row=37;column=B10";Microkernel;Microkernel;1
+P036;none_or_basic;pre;A11;11;Layered: security priorities;"pre_post.csv:row=37;column=A11";Event-Driven Architecture;Arquitetura em Camadas;0
+P036;none_or_basic;post;B11;11;Layered: security priorities;"pre_post.csv:row=37;column=B11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P036;none_or_basic;pre;A12;12;Pipeline application;"pre_post.csv:row=37;column=A12";Pipe and Filter;Pipe and Filter;1
+P036;none_or_basic;post;B12;12;Pipeline application;"pre_post.csv:row=37;column=B12";Pipe and Filter;Pipe and Filter;1
+P036;none_or_basic;pre;A13;13;Microkernel vs. Microservices;"pre_post.csv:row=37;column=A13";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";1
+P036;none_or_basic;post;B13;13;Microkernel vs. Microservices;"pre_post.csv:row=37;column=B13";Microkernel e Microsserviços;Microkernel e Microsserviços;1
+P036;none_or_basic;pre;A14;14;Event-driven trade-offs;"pre_post.csv:row=37;column=A14";Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;1
+P036;none_or_basic;post;B14;14;Event-driven trade-offs;"pre_post.csv:row=37;column=B14";Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;1
+P037;none_or_basic;pre;A1;1;Architectural trade-offs;"pre_post.csv:row=38;column=A1";favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;1
+P037;none_or_basic;post;B1;1;Architectural trade-offs;"pre_post.csv:row=38;column=B1";um trade-off arquitetural;um trade-off arquitetural;1
+P037;none_or_basic;pre;A2;2;Quality requirements;"pre_post.csv:row=38;column=A2";O sistema deve seguir disponível mesmo com falha em algum componente;O sistema deve seguir disponível mesmo com falha em algum componente;1
+P037;none_or_basic;post;B2;2;Quality requirements;"pre_post.csv:row=38;column=B2";O sistema deve impedir o acesso de usuários não autorizados aos dados;O sistema deve impedir o acesso de usuários não autorizados aos dados;1
+P037;none_or_basic;pre;A3;3;Context-dependent selection;"pre_post.csv:row=38;column=A3";A escolha do padrão depende do contexto, dos requisitos e das consequências;A escolha do padrão depende do contexto, dos requisitos e das consequências;1
+P037;none_or_basic;post;B3;3;Context-dependent selection;"pre_post.csv:row=38;column=B3";Não. A decisão deve considerar o contexto de cada projeto;Não. A decisão deve considerar o contexto de cada projeto;1
+P037;none_or_basic;pre;A4;4;MVC;"pre_post.csv:row=38;column=A4";MVC;MVC;1
+P037;none_or_basic;post;B4;4;MVC;"pre_post.csv:row=38;column=B4";MVC;MVC;1
+P037;none_or_basic;pre;A5;5;Client–Server;"pre_post.csv:row=38;column=A5";Cliente-Servidor;Cliente-Servidor;1
+P037;none_or_basic;post;B5;5;Client–Server;"pre_post.csv:row=38;column=B5";Cliente-Servidor;Cliente-Servidor;1
+P037;none_or_basic;pre;A6;6;Layered Architecture;"pre_post.csv:row=38;column=A6";Microsserviços;Arquitetura em Camadas;0
+P037;none_or_basic;post;B6;6;Layered Architecture;"pre_post.csv:row=38;column=B6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P037;none_or_basic;pre;A7;7;Microservices;"pre_post.csv:row=38;column=A7";Microsserviços;Microsserviços;1
+P037;none_or_basic;post;B7;7;Microservices;"pre_post.csv:row=38;column=B7";Microsserviços;Microsserviços;1
+P037;none_or_basic;pre;A8;8;Pipe and Filter;"pre_post.csv:row=38;column=A8";Event-Driven Architecture;Pipe and Filter;0
+P037;none_or_basic;post;B8;8;Pipe and Filter;"pre_post.csv:row=38;column=B8";Pipe and Filter;Pipe and Filter;1
+P037;none_or_basic;pre;A9;9;Event-Driven Architecture;"pre_post.csv:row=38;column=A9";Event-Driven Architecture;Event-Driven Architecture;1
+P037;none_or_basic;post;B9;9;Event-Driven Architecture;"pre_post.csv:row=38;column=B9";Arquitetura em Camadas;Event-Driven Architecture;0
+P037;none_or_basic;pre;A10;10;Microkernel;"pre_post.csv:row=38;column=A10";Microkernel;Microkernel;1
+P037;none_or_basic;post;B10;10;Microkernel;"pre_post.csv:row=38;column=B10";Microkernel;Microkernel;1
+P037;none_or_basic;pre;A11;11;Layered: security priorities;"pre_post.csv:row=38;column=A11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P037;none_or_basic;post;B11;11;Layered: security priorities;"pre_post.csv:row=38;column=B11";Pipe and Filter;Arquitetura em Camadas;0
+P037;none_or_basic;pre;A12;12;Pipeline application;"pre_post.csv:row=38;column=A12";Pipe and Filter;Pipe and Filter;1
+P037;none_or_basic;post;B12;12;Pipeline application;"pre_post.csv:row=38;column=B12";Pipe and Filter;Pipe and Filter;1
+P037;none_or_basic;pre;A13;13;Microkernel vs. Microservices;"pre_post.csv:row=38;column=A13";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";1
+P037;none_or_basic;post;B13;13;Microkernel vs. Microservices;"pre_post.csv:row=38;column=B13";Microkernel e Microsserviços;Microkernel e Microsserviços;1
+P037;none_or_basic;pre;A14;14;Event-driven trade-offs;"pre_post.csv:row=38;column=A14";Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;1
+P037;none_or_basic;post;B14;14;Event-driven trade-offs;"pre_post.csv:row=38;column=B14";A arquitetura deve processar todos os eventos de maneira absolutamente síncrona;Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;0
+P038;none_or_basic;pre;A1;1;Architectural trade-offs;"pre_post.csv:row=39;column=A1";favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;1
+P038;none_or_basic;post;B1;1;Architectural trade-offs;"pre_post.csv:row=39;column=B1";um trade-off arquitetural;um trade-off arquitetural;1
+P038;none_or_basic;pre;A2;2;Quality requirements;"pre_post.csv:row=39;column=A2";O sistema deve seguir disponível mesmo com falha em algum componente;O sistema deve seguir disponível mesmo com falha em algum componente;1
+P038;none_or_basic;post;B2;2;Quality requirements;"pre_post.csv:row=39;column=B2";O cliente deve conseguir consultar o status atual do seu próprio pedido;O sistema deve impedir o acesso de usuários não autorizados aos dados;0
+P038;none_or_basic;pre;A3;3;Context-dependent selection;"pre_post.csv:row=39;column=A3";A escolha do padrão depende do contexto, dos requisitos e das consequências;A escolha do padrão depende do contexto, dos requisitos e das consequências;1
+P038;none_or_basic;post;B3;3;Context-dependent selection;"pre_post.csv:row=39;column=B3";Não. A decisão deve considerar o contexto de cada projeto;Não. A decisão deve considerar o contexto de cada projeto;1
+P038;none_or_basic;pre;A4;4;MVC;"pre_post.csv:row=39;column=A4";MVC;MVC;1
+P038;none_or_basic;post;B4;4;MVC;"pre_post.csv:row=39;column=B4";MVC;MVC;1
+P038;none_or_basic;pre;A5;5;Client–Server;"pre_post.csv:row=39;column=A5";Cliente-Servidor;Cliente-Servidor;1
+P038;none_or_basic;post;B5;5;Client–Server;"pre_post.csv:row=39;column=B5";Cliente-Servidor;Cliente-Servidor;1
+P038;none_or_basic;pre;A6;6;Layered Architecture;"pre_post.csv:row=39;column=A6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P038;none_or_basic;post;B6;6;Layered Architecture;"pre_post.csv:row=39;column=B6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P038;none_or_basic;pre;A7;7;Microservices;"pre_post.csv:row=39;column=A7";Microsserviços;Microsserviços;1
+P038;none_or_basic;post;B7;7;Microservices;"pre_post.csv:row=39;column=B7";Microsserviços;Microsserviços;1
+P038;none_or_basic;pre;A8;8;Pipe and Filter;"pre_post.csv:row=39;column=A8";Pipe and Filter;Pipe and Filter;1
+P038;none_or_basic;post;B8;8;Pipe and Filter;"pre_post.csv:row=39;column=B8";Pipe and Filter;Pipe and Filter;1
+P038;none_or_basic;pre;A9;9;Event-Driven Architecture;"pre_post.csv:row=39;column=A9";Event-Driven Architecture;Event-Driven Architecture;1
+P038;none_or_basic;post;B9;9;Event-Driven Architecture;"pre_post.csv:row=39;column=B9";Event-Driven Architecture;Event-Driven Architecture;1
+P038;none_or_basic;pre;A10;10;Microkernel;"pre_post.csv:row=39;column=A10";Microkernel;Microkernel;1
+P038;none_or_basic;post;B10;10;Microkernel;"pre_post.csv:row=39;column=B10";Microkernel;Microkernel;1
+P038;none_or_basic;pre;A11;11;Layered: security priorities;"pre_post.csv:row=39;column=A11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P038;none_or_basic;post;B11;11;Layered: security priorities;"pre_post.csv:row=39;column=B11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P038;none_or_basic;pre;A12;12;Pipeline application;"pre_post.csv:row=39;column=A12";Pipe and Filter;Pipe and Filter;1
+P038;none_or_basic;post;B12;12;Pipeline application;"pre_post.csv:row=39;column=B12";Pipe and Filter;Pipe and Filter;1
+P038;none_or_basic;pre;A13;13;Microkernel vs. Microservices;"pre_post.csv:row=39;column=A13";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";1
+P038;none_or_basic;post;B13;13;Microkernel vs. Microservices;"pre_post.csv:row=39;column=B13";Microkernel e Microsserviços;Microkernel e Microsserviços;1
+P038;none_or_basic;pre;A14;14;Event-driven trade-offs;"pre_post.csv:row=39;column=A14";Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;1
+P038;none_or_basic;post;B14;14;Event-driven trade-offs;"pre_post.csv:row=39;column=B14";O desacoplamento total elimina a necessidade de rastrear o fluxo executado no sistema;Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;0
+P039;intermediate_or_advanced;pre;A1;1;Architectural trade-offs;"pre_post.csv:row=40;column=A1";favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;1
+P039;intermediate_or_advanced;post;B1;1;Architectural trade-offs;"pre_post.csv:row=40;column=B1";um trade-off arquitetural;um trade-off arquitetural;1
+P039;intermediate_or_advanced;pre;A2;2;Quality requirements;"pre_post.csv:row=40;column=A2";O sistema deve seguir disponível mesmo com falha em algum componente;O sistema deve seguir disponível mesmo com falha em algum componente;1
+P039;intermediate_or_advanced;post;B2;2;Quality requirements;"pre_post.csv:row=40;column=B2";O sistema deve impedir o acesso de usuários não autorizados aos dados;O sistema deve impedir o acesso de usuários não autorizados aos dados;1
+P039;intermediate_or_advanced;pre;A3;3;Context-dependent selection;"pre_post.csv:row=40;column=A3";A escolha do padrão depende do contexto, dos requisitos e das consequências;A escolha do padrão depende do contexto, dos requisitos e das consequências;1
+P039;intermediate_or_advanced;post;B3;3;Context-dependent selection;"pre_post.csv:row=40;column=B3";Não. A decisão deve considerar o contexto de cada projeto;Não. A decisão deve considerar o contexto de cada projeto;1
+P039;intermediate_or_advanced;pre;A4;4;MVC;"pre_post.csv:row=40;column=A4";MVC;MVC;1
+P039;intermediate_or_advanced;post;B4;4;MVC;"pre_post.csv:row=40;column=B4";MVC;MVC;1
+P039;intermediate_or_advanced;pre;A5;5;Client–Server;"pre_post.csv:row=40;column=A5";Cliente-Servidor;Cliente-Servidor;1
+P039;intermediate_or_advanced;post;B5;5;Client–Server;"pre_post.csv:row=40;column=B5";Cliente-Servidor;Cliente-Servidor;1
+P039;intermediate_or_advanced;pre;A6;6;Layered Architecture;"pre_post.csv:row=40;column=A6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P039;intermediate_or_advanced;post;B6;6;Layered Architecture;"pre_post.csv:row=40;column=B6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P039;intermediate_or_advanced;pre;A7;7;Microservices;"pre_post.csv:row=40;column=A7";Microsserviços;Microsserviços;1
+P039;intermediate_or_advanced;post;B7;7;Microservices;"pre_post.csv:row=40;column=B7";Microsserviços;Microsserviços;1
+P039;intermediate_or_advanced;pre;A8;8;Pipe and Filter;"pre_post.csv:row=40;column=A8";Pipe and Filter;Pipe and Filter;1
+P039;intermediate_or_advanced;post;B8;8;Pipe and Filter;"pre_post.csv:row=40;column=B8";Pipe and Filter;Pipe and Filter;1
+P039;intermediate_or_advanced;pre;A9;9;Event-Driven Architecture;"pre_post.csv:row=40;column=A9";Event-Driven Architecture;Event-Driven Architecture;1
+P039;intermediate_or_advanced;post;B9;9;Event-Driven Architecture;"pre_post.csv:row=40;column=B9";Event-Driven Architecture;Event-Driven Architecture;1
+P039;intermediate_or_advanced;pre;A10;10;Microkernel;"pre_post.csv:row=40;column=A10";Microkernel;Microkernel;1
+P039;intermediate_or_advanced;post;B10;10;Microkernel;"pre_post.csv:row=40;column=B10";Microkernel;Microkernel;1
+P039;intermediate_or_advanced;pre;A11;11;Layered: security priorities;"pre_post.csv:row=40;column=A11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P039;intermediate_or_advanced;post;B11;11;Layered: security priorities;"pre_post.csv:row=40;column=B11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P039;intermediate_or_advanced;pre;A12;12;Pipeline application;"pre_post.csv:row=40;column=A12";Pipe and Filter;Pipe and Filter;1
+P039;intermediate_or_advanced;post;B12;12;Pipeline application;"pre_post.csv:row=40;column=B12";Pipe and Filter;Pipe and Filter;1
+P039;intermediate_or_advanced;pre;A13;13;Microkernel vs. Microservices;"pre_post.csv:row=40;column=A13";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";1
+P039;intermediate_or_advanced;post;B13;13;Microkernel vs. Microservices;"pre_post.csv:row=40;column=B13";Microkernel e Microsserviços;Microkernel e Microsserviços;1
+P039;intermediate_or_advanced;pre;A14;14;Event-driven trade-offs;"pre_post.csv:row=40;column=A14";Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;1
+P039;intermediate_or_advanced;post;B14;14;Event-driven trade-offs;"pre_post.csv:row=40;column=B14";Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;1
+P040;none_or_basic;pre;A1;1;Architectural trade-offs;"pre_post.csv:row=41;column=A1";favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;1
+P040;none_or_basic;post;B1;1;Architectural trade-offs;"pre_post.csv:row=41;column=B1";um trade-off arquitetural;um trade-off arquitetural;1
+P040;none_or_basic;pre;A2;2;Quality requirements;"pre_post.csv:row=41;column=A2";O sistema deve seguir disponível mesmo com falha em algum componente;O sistema deve seguir disponível mesmo com falha em algum componente;1
+P040;none_or_basic;post;B2;2;Quality requirements;"pre_post.csv:row=41;column=B2";O sistema deve impedir o acesso de usuários não autorizados aos dados;O sistema deve impedir o acesso de usuários não autorizados aos dados;1
+P040;none_or_basic;pre;A3;3;Context-dependent selection;"pre_post.csv:row=41;column=A3";A escolha do padrão depende do contexto, dos requisitos e das consequências;A escolha do padrão depende do contexto, dos requisitos e das consequências;1
+P040;none_or_basic;post;B3;3;Context-dependent selection;"pre_post.csv:row=41;column=B3";Não. A decisão deve considerar o contexto de cada projeto;Não. A decisão deve considerar o contexto de cada projeto;1
+P040;none_or_basic;pre;A4;4;MVC;"pre_post.csv:row=41;column=A4";Event-Driven Architecture;MVC;0
+P040;none_or_basic;post;B4;4;MVC;"pre_post.csv:row=41;column=B4";MVC;MVC;1
+P040;none_or_basic;pre;A5;5;Client–Server;"pre_post.csv:row=41;column=A5";Cliente-Servidor;Cliente-Servidor;1
+P040;none_or_basic;post;B5;5;Client–Server;"pre_post.csv:row=41;column=B5";Cliente-Servidor;Cliente-Servidor;1
+P040;none_or_basic;pre;A6;6;Layered Architecture;"pre_post.csv:row=41;column=A6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P040;none_or_basic;post;B6;6;Layered Architecture;"pre_post.csv:row=41;column=B6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P040;none_or_basic;pre;A7;7;Microservices;"pre_post.csv:row=41;column=A7";Microsserviços;Microsserviços;1
+P040;none_or_basic;post;B7;7;Microservices;"pre_post.csv:row=41;column=B7";Microsserviços;Microsserviços;1
+P040;none_or_basic;pre;A8;8;Pipe and Filter;"pre_post.csv:row=41;column=A8";Pipe and Filter;Pipe and Filter;1
+P040;none_or_basic;post;B8;8;Pipe and Filter;"pre_post.csv:row=41;column=B8";Pipe and Filter;Pipe and Filter;1
+P040;none_or_basic;pre;A9;9;Event-Driven Architecture;"pre_post.csv:row=41;column=A9";Event-Driven Architecture;Event-Driven Architecture;1
+P040;none_or_basic;post;B9;9;Event-Driven Architecture;"pre_post.csv:row=41;column=B9";Event-Driven Architecture;Event-Driven Architecture;1
+P040;none_or_basic;pre;A10;10;Microkernel;"pre_post.csv:row=41;column=A10";Microkernel;Microkernel;1
+P040;none_or_basic;post;B10;10;Microkernel;"pre_post.csv:row=41;column=B10";Microkernel;Microkernel;1
+P040;none_or_basic;pre;A11;11;Layered: security priorities;"pre_post.csv:row=41;column=A11";Cliente-Servidor;Arquitetura em Camadas;0
+P040;none_or_basic;post;B11;11;Layered: security priorities;"pre_post.csv:row=41;column=B11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P040;none_or_basic;pre;A12;12;Pipeline application;"pre_post.csv:row=41;column=A12";Pipe and Filter;Pipe and Filter;1
+P040;none_or_basic;post;B12;12;Pipeline application;"pre_post.csv:row=41;column=B12";Pipe and Filter;Pipe and Filter;1
+P040;none_or_basic;pre;A13;13;Microkernel vs. Microservices;"pre_post.csv:row=41;column=A13";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";1
+P040;none_or_basic;post;B13;13;Microkernel vs. Microservices;"pre_post.csv:row=41;column=B13";Microkernel e Microsserviços;Microkernel e Microsserviços;1
+P040;none_or_basic;pre;A14;14;Event-driven trade-offs;"pre_post.csv:row=41;column=A14";Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;1
+P040;none_or_basic;post;B14;14;Event-driven trade-offs;"pre_post.csv:row=41;column=B14";Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;1
+P041;none_or_basic;pre;A1;1;Architectural trade-offs;"pre_post.csv:row=42;column=A1";favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;1
+P041;none_or_basic;post;B1;1;Architectural trade-offs;"pre_post.csv:row=42;column=B1";um trade-off arquitetural;um trade-off arquitetural;1
+P041;none_or_basic;pre;A2;2;Quality requirements;"pre_post.csv:row=42;column=A2";O sistema deve seguir disponível mesmo com falha em algum componente;O sistema deve seguir disponível mesmo com falha em algum componente;1
+P041;none_or_basic;post;B2;2;Quality requirements;"pre_post.csv:row=42;column=B2";O sistema deve impedir o acesso de usuários não autorizados aos dados;O sistema deve impedir o acesso de usuários não autorizados aos dados;1
+P041;none_or_basic;pre;A3;3;Context-dependent selection;"pre_post.csv:row=42;column=A3";A escolha do padrão depende do contexto, dos requisitos e das consequências;A escolha do padrão depende do contexto, dos requisitos e das consequências;1
+P041;none_or_basic;post;B3;3;Context-dependent selection;"pre_post.csv:row=42;column=B3";Não. A decisão deve considerar o contexto de cada projeto;Não. A decisão deve considerar o contexto de cada projeto;1
+P041;none_or_basic;pre;A4;4;MVC;"pre_post.csv:row=42;column=A4";MVC;MVC;1
+P041;none_or_basic;post;B4;4;MVC;"pre_post.csv:row=42;column=B4";MVC;MVC;1
+P041;none_or_basic;pre;A5;5;Client–Server;"pre_post.csv:row=42;column=A5";Cliente-Servidor;Cliente-Servidor;1
+P041;none_or_basic;post;B5;5;Client–Server;"pre_post.csv:row=42;column=B5";Cliente-Servidor;Cliente-Servidor;1
+P041;none_or_basic;pre;A6;6;Layered Architecture;"pre_post.csv:row=42;column=A6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P041;none_or_basic;post;B6;6;Layered Architecture;"pre_post.csv:row=42;column=B6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P041;none_or_basic;pre;A7;7;Microservices;"pre_post.csv:row=42;column=A7";Microsserviços;Microsserviços;1
+P041;none_or_basic;post;B7;7;Microservices;"pre_post.csv:row=42;column=B7";Microsserviços;Microsserviços;1
+P041;none_or_basic;pre;A8;8;Pipe and Filter;"pre_post.csv:row=42;column=A8";Pipe and Filter;Pipe and Filter;1
+P041;none_or_basic;post;B8;8;Pipe and Filter;"pre_post.csv:row=42;column=B8";Pipe and Filter;Pipe and Filter;1
+P041;none_or_basic;pre;A9;9;Event-Driven Architecture;"pre_post.csv:row=42;column=A9";Event-Driven Architecture;Event-Driven Architecture;1
+P041;none_or_basic;post;B9;9;Event-Driven Architecture;"pre_post.csv:row=42;column=B9";Event-Driven Architecture;Event-Driven Architecture;1
+P041;none_or_basic;pre;A10;10;Microkernel;"pre_post.csv:row=42;column=A10";Microkernel;Microkernel;1
+P041;none_or_basic;post;B10;10;Microkernel;"pre_post.csv:row=42;column=B10";Microkernel;Microkernel;1
+P041;none_or_basic;pre;A11;11;Layered: security priorities;"pre_post.csv:row=42;column=A11";Event-Driven Architecture;Arquitetura em Camadas;0
+P041;none_or_basic;post;B11;11;Layered: security priorities;"pre_post.csv:row=42;column=B11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P041;none_or_basic;pre;A12;12;Pipeline application;"pre_post.csv:row=42;column=A12";Pipe and Filter;Pipe and Filter;1
+P041;none_or_basic;post;B12;12;Pipeline application;"pre_post.csv:row=42;column=B12";Pipe and Filter;Pipe and Filter;1
+P041;none_or_basic;pre;A13;13;Microkernel vs. Microservices;"pre_post.csv:row=42;column=A13";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";1
+P041;none_or_basic;post;B13;13;Microkernel vs. Microservices;"pre_post.csv:row=42;column=B13";Microkernel e Microsserviços;Microkernel e Microsserviços;1
+P041;none_or_basic;pre;A14;14;Event-driven trade-offs;"pre_post.csv:row=42;column=A14";Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;1
+P041;none_or_basic;post;B14;14;Event-driven trade-offs;"pre_post.csv:row=42;column=B14";Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;1
+P042;intermediate_or_advanced;pre;A1;1;Architectural trade-offs;"pre_post.csv:row=43;column=A1";favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;1
+P042;intermediate_or_advanced;post;B1;1;Architectural trade-offs;"pre_post.csv:row=43;column=B1";um trade-off arquitetural;um trade-off arquitetural;1
+P042;intermediate_or_advanced;pre;A2;2;Quality requirements;"pre_post.csv:row=43;column=A2";O usuário deve ser capaz de cadastrar um novo equipamento no sistema;O sistema deve seguir disponível mesmo com falha em algum componente;0
+P042;intermediate_or_advanced;post;B2;2;Quality requirements;"pre_post.csv:row=43;column=B2";O cliente deve conseguir consultar o status atual do seu próprio pedido;O sistema deve impedir o acesso de usuários não autorizados aos dados;0
+P042;intermediate_or_advanced;pre;A3;3;Context-dependent selection;"pre_post.csv:row=43;column=A3";A escolha do padrão depende do contexto, dos requisitos e das consequências;A escolha do padrão depende do contexto, dos requisitos e das consequências;1
+P042;intermediate_or_advanced;post;B3;3;Context-dependent selection;"pre_post.csv:row=43;column=B3";Não. A decisão deve considerar o contexto de cada projeto;Não. A decisão deve considerar o contexto de cada projeto;1
+P042;intermediate_or_advanced;pre;A4;4;MVC;"pre_post.csv:row=43;column=A4";MVC;MVC;1
+P042;intermediate_or_advanced;post;B4;4;MVC;"pre_post.csv:row=43;column=B4";Microsserviços;MVC;0
+P042;intermediate_or_advanced;pre;A5;5;Client–Server;"pre_post.csv:row=43;column=A5";Cliente-Servidor;Cliente-Servidor;1
+P042;intermediate_or_advanced;post;B5;5;Client–Server;"pre_post.csv:row=43;column=B5";Cliente-Servidor;Cliente-Servidor;1
+P042;intermediate_or_advanced;pre;A6;6;Layered Architecture;"pre_post.csv:row=43;column=A6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P042;intermediate_or_advanced;post;B6;6;Layered Architecture;"pre_post.csv:row=43;column=B6";Cliente-Servidor;Arquitetura em Camadas;0
+P042;intermediate_or_advanced;pre;A7;7;Microservices;"pre_post.csv:row=43;column=A7";Microsserviços;Microsserviços;1
+P042;intermediate_or_advanced;post;B7;7;Microservices;"pre_post.csv:row=43;column=B7";Microsserviços;Microsserviços;1
+P042;intermediate_or_advanced;pre;A8;8;Pipe and Filter;"pre_post.csv:row=43;column=A8";Pipe and Filter;Pipe and Filter;1
+P042;intermediate_or_advanced;post;B8;8;Pipe and Filter;"pre_post.csv:row=43;column=B8";Pipe and Filter;Pipe and Filter;1
+P042;intermediate_or_advanced;pre;A9;9;Event-Driven Architecture;"pre_post.csv:row=43;column=A9";MVC;Event-Driven Architecture;0
+P042;intermediate_or_advanced;post;B9;9;Event-Driven Architecture;"pre_post.csv:row=43;column=B9";Event-Driven Architecture;Event-Driven Architecture;1
+P042;intermediate_or_advanced;pre;A10;10;Microkernel;"pre_post.csv:row=43;column=A10";Microsserviços;Microkernel;0
+P042;intermediate_or_advanced;post;B10;10;Microkernel;"pre_post.csv:row=43;column=B10";Microsserviços;Microkernel;0
+P042;intermediate_or_advanced;pre;A11;11;Layered: security priorities;"pre_post.csv:row=43;column=A11";Cliente-Servidor;Arquitetura em Camadas;0
+P042;intermediate_or_advanced;post;B11;11;Layered: security priorities;"pre_post.csv:row=43;column=B11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P042;intermediate_or_advanced;pre;A12;12;Pipeline application;"pre_post.csv:row=43;column=A12";Pipe and Filter;Pipe and Filter;1
+P042;intermediate_or_advanced;post;B12;12;Pipeline application;"pre_post.csv:row=43;column=B12";Pipe and Filter;Pipe and Filter;1
+P042;intermediate_or_advanced;pre;A13;13;Microkernel vs. Microservices;"pre_post.csv:row=43;column=A13";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";1
+P042;intermediate_or_advanced;post;B13;13;Microkernel vs. Microservices;"pre_post.csv:row=43;column=B13";Microkernel e Microsserviços;Microkernel e Microsserviços;1
+P042;intermediate_or_advanced;pre;A14;14;Event-driven trade-offs;"pre_post.csv:row=43;column=A14";Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;1
+P042;intermediate_or_advanced;post;B14;14;Event-driven trade-offs;"pre_post.csv:row=43;column=B14";Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;1
+P043;none_or_basic;pre;A1;1;Architectural trade-offs;"pre_post.csv:row=44;column=A1";favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;1
+P043;none_or_basic;post;B1;1;Architectural trade-offs;"pre_post.csv:row=44;column=B1";um trade-off arquitetural;um trade-off arquitetural;1
+P043;none_or_basic;pre;A2;2;Quality requirements;"pre_post.csv:row=44;column=A2";O sistema deve seguir disponível mesmo com falha em algum componente;O sistema deve seguir disponível mesmo com falha em algum componente;1
+P043;none_or_basic;post;B2;2;Quality requirements;"pre_post.csv:row=44;column=B2";O sistema deve impedir o acesso de usuários não autorizados aos dados;O sistema deve impedir o acesso de usuários não autorizados aos dados;1
+P043;none_or_basic;pre;A3;3;Context-dependent selection;"pre_post.csv:row=44;column=A3";A escolha do padrão depende do contexto, dos requisitos e das consequências;A escolha do padrão depende do contexto, dos requisitos e das consequências;1
+P043;none_or_basic;post;B3;3;Context-dependent selection;"pre_post.csv:row=44;column=B3";Não. A decisão deve considerar o contexto de cada projeto;Não. A decisão deve considerar o contexto de cada projeto;1
+P043;none_or_basic;pre;A4;4;MVC;"pre_post.csv:row=44;column=A4";MVC;MVC;1
+P043;none_or_basic;post;B4;4;MVC;"pre_post.csv:row=44;column=B4";MVC;MVC;1
+P043;none_or_basic;pre;A5;5;Client–Server;"pre_post.csv:row=44;column=A5";Cliente-Servidor;Cliente-Servidor;1
+P043;none_or_basic;post;B5;5;Client–Server;"pre_post.csv:row=44;column=B5";Cliente-Servidor;Cliente-Servidor;1
+P043;none_or_basic;pre;A6;6;Layered Architecture;"pre_post.csv:row=44;column=A6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P043;none_or_basic;post;B6;6;Layered Architecture;"pre_post.csv:row=44;column=B6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P043;none_or_basic;pre;A7;7;Microservices;"pre_post.csv:row=44;column=A7";Microsserviços;Microsserviços;1
+P043;none_or_basic;post;B7;7;Microservices;"pre_post.csv:row=44;column=B7";Microsserviços;Microsserviços;1
+P043;none_or_basic;pre;A8;8;Pipe and Filter;"pre_post.csv:row=44;column=A8";Pipe and Filter;Pipe and Filter;1
+P043;none_or_basic;post;B8;8;Pipe and Filter;"pre_post.csv:row=44;column=B8";Pipe and Filter;Pipe and Filter;1
+P043;none_or_basic;pre;A9;9;Event-Driven Architecture;"pre_post.csv:row=44;column=A9";Event-Driven Architecture;Event-Driven Architecture;1
+P043;none_or_basic;post;B9;9;Event-Driven Architecture;"pre_post.csv:row=44;column=B9";Event-Driven Architecture;Event-Driven Architecture;1
+P043;none_or_basic;pre;A10;10;Microkernel;"pre_post.csv:row=44;column=A10";Microkernel;Microkernel;1
+P043;none_or_basic;post;B10;10;Microkernel;"pre_post.csv:row=44;column=B10";Microkernel;Microkernel;1
+P043;none_or_basic;pre;A11;11;Layered: security priorities;"pre_post.csv:row=44;column=A11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P043;none_or_basic;post;B11;11;Layered: security priorities;"pre_post.csv:row=44;column=B11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P043;none_or_basic;pre;A12;12;Pipeline application;"pre_post.csv:row=44;column=A12";Pipe and Filter;Pipe and Filter;1
+P043;none_or_basic;post;B12;12;Pipeline application;"pre_post.csv:row=44;column=B12";Pipe and Filter;Pipe and Filter;1
+P043;none_or_basic;pre;A13;13;Microkernel vs. Microservices;"pre_post.csv:row=44;column=A13";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";1
+P043;none_or_basic;post;B13;13;Microkernel vs. Microservices;"pre_post.csv:row=44;column=B13";Microkernel e Microsserviços;Microkernel e Microsserviços;1
+P043;none_or_basic;pre;A14;14;Event-driven trade-offs;"pre_post.csv:row=44;column=A14";Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;1
+P043;none_or_basic;post;B14;14;Event-driven trade-offs;"pre_post.csv:row=44;column=B14";Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;1
+P044;intermediate_or_advanced;pre;A1;1;Architectural trade-offs;"pre_post.csv:row=45;column=A1";favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;favorece alguns aspectos do sistema, mas prejudica outros em contrapartida;1
+P044;intermediate_or_advanced;post;B1;1;Architectural trade-offs;"pre_post.csv:row=45;column=B1";um trade-off arquitetural;um trade-off arquitetural;1
+P044;intermediate_or_advanced;pre;A2;2;Quality requirements;"pre_post.csv:row=45;column=A2";O usuário deve ser capaz de cadastrar um novo equipamento no sistema;O sistema deve seguir disponível mesmo com falha em algum componente;0
+P044;intermediate_or_advanced;post;B2;2;Quality requirements;"pre_post.csv:row=45;column=B2";O sistema deve impedir o acesso de usuários não autorizados aos dados;O sistema deve impedir o acesso de usuários não autorizados aos dados;1
+P044;intermediate_or_advanced;pre;A3;3;Context-dependent selection;"pre_post.csv:row=45;column=A3";A escolha do padrão depende do contexto, dos requisitos e das consequências;A escolha do padrão depende do contexto, dos requisitos e das consequências;1
+P044;intermediate_or_advanced;post;B3;3;Context-dependent selection;"pre_post.csv:row=45;column=B3";Não. A decisão deve considerar o contexto de cada projeto;Não. A decisão deve considerar o contexto de cada projeto;1
+P044;intermediate_or_advanced;pre;A4;4;MVC;"pre_post.csv:row=45;column=A4";Event-Driven Architecture;MVC;0
+P044;intermediate_or_advanced;post;B4;4;MVC;"pre_post.csv:row=45;column=B4";MVC;MVC;1
+P044;intermediate_or_advanced;pre;A5;5;Client–Server;"pre_post.csv:row=45;column=A5";Cliente-Servidor;Cliente-Servidor;1
+P044;intermediate_or_advanced;post;B5;5;Client–Server;"pre_post.csv:row=45;column=B5";Cliente-Servidor;Cliente-Servidor;1
+P044;intermediate_or_advanced;pre;A6;6;Layered Architecture;"pre_post.csv:row=45;column=A6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P044;intermediate_or_advanced;post;B6;6;Layered Architecture;"pre_post.csv:row=45;column=B6";Arquitetura em Camadas;Arquitetura em Camadas;1
+P044;intermediate_or_advanced;pre;A7;7;Microservices;"pre_post.csv:row=45;column=A7";MVC;Microsserviços;0
+P044;intermediate_or_advanced;post;B7;7;Microservices;"pre_post.csv:row=45;column=B7";Microsserviços;Microsserviços;1
+P044;intermediate_or_advanced;pre;A8;8;Pipe and Filter;"pre_post.csv:row=45;column=A8";Pipe and Filter;Pipe and Filter;1
+P044;intermediate_or_advanced;post;B8;8;Pipe and Filter;"pre_post.csv:row=45;column=B8";Pipe and Filter;Pipe and Filter;1
+P044;intermediate_or_advanced;pre;A9;9;Event-Driven Architecture;"pre_post.csv:row=45;column=A9";Event-Driven Architecture;Event-Driven Architecture;1
+P044;intermediate_or_advanced;post;B9;9;Event-Driven Architecture;"pre_post.csv:row=45;column=B9";Event-Driven Architecture;Event-Driven Architecture;1
+P044;intermediate_or_advanced;pre;A10;10;Microkernel;"pre_post.csv:row=45;column=A10";Microkernel;Microkernel;1
+P044;intermediate_or_advanced;post;B10;10;Microkernel;"pre_post.csv:row=45;column=B10";Microkernel;Microkernel;1
+P044;intermediate_or_advanced;pre;A11;11;Layered: security priorities;"pre_post.csv:row=45;column=A11";Cliente-Servidor;Arquitetura em Camadas;0
+P044;intermediate_or_advanced;post;B11;11;Layered: security priorities;"pre_post.csv:row=45;column=B11";Arquitetura em Camadas;Arquitetura em Camadas;1
+P044;intermediate_or_advanced;pre;A12;12;Pipeline application;"pre_post.csv:row=45;column=A12";MVC;Pipe and Filter;0
+P044;intermediate_or_advanced;post;B12;12;Pipeline application;"pre_post.csv:row=45;column=B12";Pipe and Filter;Pipe and Filter;1
+P044;intermediate_or_advanced;pre;A13;13;Microkernel vs. Microservices;"pre_post.csv:row=45;column=A13";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";"No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes";1
+P044;intermediate_or_advanced;post;B13;13;Microkernel vs. Microservices;"pre_post.csv:row=45;column=B13";Microkernel e Microsserviços;Microkernel e Microsserviços;1
+P044;intermediate_or_advanced;pre;A14;14;Event-driven trade-offs;"pre_post.csv:row=45;column=A14";Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos;1
+P044;intermediate_or_advanced;post;B14;14;Event-driven trade-offs;"pre_post.csv:row=45;column=B14";Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração;1

@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+.cache/
+.test_tmp/
+.matplotlib/
+tmp/
+private/
+*.xlsx
+*.xls
+*.docx
+*.log
+results_replay/
+*.zip
+!.github/

@@ -1,0 +1,181 @@
+scenario,participant_id,instrument,dimension,n_items,score
+main_corrected,M001,IMI,Interest/Enjoyment,7,6.285714285714286
+main_corrected,M001,IMI,Perceived Competence,6,1.8333333333333333
+main_corrected,M001,IMI,Effort/Importance,5,3
+main_corrected,M001,IMI,Pressure/Tension,5,3.2
+main_corrected,M001,IMI,Perceived Choice,7,3.4285714285714284
+main_corrected,M001,IMI,Value/Usefulness,7,5.857142857142857
+main_corrected,M001,IMMS,Confidence,9,4.444444444444445
+main_corrected,M001,IMMS,Attention,12,4.666666666666667
+main_corrected,M001,IMMS,Satisfaction,6,5
+main_corrected,M001,IMMS,Relevance,9,4.777777777777778
+main_corrected,M002,IMI,Interest/Enjoyment,7,5.142857142857143
+main_corrected,M002,IMI,Perceived Competence,6,3.3333333333333335
+main_corrected,M002,IMI,Effort/Importance,5,3.2
+main_corrected,M002,IMI,Pressure/Tension,5,1
+main_corrected,M002,IMI,Perceived Choice,7,7
+main_corrected,M002,IMI,Value/Usefulness,7,5.285714285714286
+main_corrected,M002,IMMS,Confidence,9,4
+main_corrected,M002,IMMS,Attention,12,4.333333333333333
+main_corrected,M002,IMMS,Satisfaction,6,4.333333333333333
+main_corrected,M002,IMMS,Relevance,9,4.666666666666667
+main_corrected,M003,IMI,Interest/Enjoyment,7,5.142857142857143
+main_corrected,M003,IMI,Perceived Competence,6,4.166666666666667
+main_corrected,M003,IMI,Effort/Importance,5,1.6
+main_corrected,M003,IMI,Pressure/Tension,5,1
+main_corrected,M003,IMI,Perceived Choice,7,6.714285714285714
+main_corrected,M003,IMI,Value/Usefulness,7,5.714285714285714
+main_corrected,M003,IMMS,Confidence,9,4.222222222222222
+main_corrected,M003,IMMS,Attention,12,3.75
+main_corrected,M003,IMMS,Satisfaction,6,2.8333333333333335
+main_corrected,M003,IMMS,Relevance,9,3.111111111111111
+main_corrected,M004,IMI,Interest/Enjoyment,7,4.857142857142857
+main_corrected,M004,IMI,Perceived Competence,6,3.6666666666666665
+main_corrected,M004,IMI,Effort/Importance,5,2.6
+main_corrected,M004,IMI,Pressure/Tension,5,1
+main_corrected,M004,IMI,Perceived Choice,7,7
+main_corrected,M004,IMI,Value/Usefulness,7,5.571428571428571
+main_corrected,M004,IMMS,Confidence,9,3.3333333333333335
+main_corrected,M004,IMMS,Attention,12,3.9166666666666665
+main_corrected,M004,IMMS,Satisfaction,6,3.1666666666666665
+main_corrected,M004,IMMS,Relevance,9,3.111111111111111
+main_corrected,M005,IMI,Interest/Enjoyment,7,4.142857142857143
+main_corrected,M005,IMI,Perceived Competence,6,4.166666666666667
+main_corrected,M005,IMI,Effort/Importance,5,3
+main_corrected,M005,IMI,Pressure/Tension,5,2
+main_corrected,M005,IMI,Perceived Choice,7,6.571428571428571
+main_corrected,M005,IMI,Value/Usefulness,7,1.5714285714285714
+main_corrected,M005,IMMS,Confidence,9,3.3333333333333335
+main_corrected,M005,IMMS,Attention,12,3.5
+main_corrected,M005,IMMS,Satisfaction,6,3
+main_corrected,M005,IMMS,Relevance,9,3
+main_corrected,M006,IMI,Interest/Enjoyment,7,6
+main_corrected,M006,IMI,Perceived Competence,6,5.5
+main_corrected,M006,IMI,Effort/Importance,5,4.8
+main_corrected,M006,IMI,Pressure/Tension,5,2.2
+main_corrected,M006,IMI,Perceived Choice,7,6.571428571428571
+main_corrected,M006,IMI,Value/Usefulness,7,6
+main_corrected,M006,IMMS,Confidence,9,3.7777777777777777
+main_corrected,M006,IMMS,Attention,12,4.25
+main_corrected,M006,IMMS,Satisfaction,6,3.8333333333333335
+main_corrected,M006,IMMS,Relevance,9,4.111111111111111
+main_corrected,M007,IMI,Interest/Enjoyment,7,6.571428571428571
+main_corrected,M007,IMI,Perceived Competence,6,7
+main_corrected,M007,IMI,Effort/Importance,5,4.4
+main_corrected,M007,IMI,Pressure/Tension,5,1.2
+main_corrected,M007,IMI,Perceived Choice,7,6
+main_corrected,M007,IMI,Value/Usefulness,7,5.857142857142857
+main_corrected,M007,IMMS,Confidence,9,3.7777777777777777
+main_corrected,M007,IMMS,Attention,12,3.8333333333333335
+main_corrected,M007,IMMS,Satisfaction,6,4.666666666666667
+main_corrected,M007,IMMS,Relevance,9,4.444444444444445
+main_corrected,M008,IMI,Interest/Enjoyment,7,1.2857142857142858
+main_corrected,M008,IMI,Perceived Competence,6,2.8333333333333335
+main_corrected,M008,IMI,Effort/Importance,5,3.4
+main_corrected,M008,IMI,Pressure/Tension,5,1
+main_corrected,M008,IMI,Perceived Choice,7,5.857142857142857
+main_corrected,M008,IMI,Value/Usefulness,7,5.571428571428571
+main_corrected,M008,IMMS,Confidence,9,4.111111111111111
+main_corrected,M008,IMMS,Attention,12,3.6666666666666665
+main_corrected,M008,IMMS,Satisfaction,6,3.6666666666666665
+main_corrected,M008,IMMS,Relevance,9,4.222222222222222
+main_corrected,M009,IMI,Interest/Enjoyment,7,7
+main_corrected,M009,IMI,Perceived Competence,6,4.666666666666667
+main_corrected,M009,IMI,Effort/Importance,5,5
+main_corrected,M009,IMI,Pressure/Tension,5,2.2
+main_corrected,M009,IMI,Perceived Choice,7,7
+main_corrected,M009,IMI,Value/Usefulness,7,7
+main_corrected,M009,IMMS,Confidence,9,5
+main_corrected,M009,IMMS,Attention,12,5
+main_corrected,M009,IMMS,Satisfaction,6,5
+main_corrected,M009,IMMS,Relevance,9,4.555555555555555
+main_corrected,M010,IMI,Interest/Enjoyment,7,6.714285714285714
+main_corrected,M010,IMI,Perceived Competence,6,6.166666666666667
+main_corrected,M010,IMI,Effort/Importance,5,5.6
+main_corrected,M010,IMI,Pressure/Tension,5,2.6
+main_corrected,M010,IMI,Perceived Choice,7,6.285714285714286
+main_corrected,M010,IMI,Value/Usefulness,7,6
+main_corrected,M010,IMMS,Confidence,9,4.111111111111111
+main_corrected,M010,IMMS,Attention,12,4.666666666666667
+main_corrected,M010,IMMS,Satisfaction,6,4.333333333333333
+main_corrected,M010,IMMS,Relevance,9,4.555555555555555
+main_corrected,M011,IMI,Interest/Enjoyment,7,6.285714285714286
+main_corrected,M011,IMI,Perceived Competence,6,5.166666666666667
+main_corrected,M011,IMI,Effort/Importance,5,6.6
+main_corrected,M011,IMI,Pressure/Tension,5,2
+main_corrected,M011,IMI,Perceived Choice,7,6.142857142857143
+main_corrected,M011,IMI,Value/Usefulness,7,7
+main_corrected,M011,IMMS,Confidence,9,4.555555555555555
+main_corrected,M011,IMMS,Attention,12,4.583333333333333
+main_corrected,M011,IMMS,Satisfaction,6,5
+main_corrected,M011,IMMS,Relevance,9,4.666666666666667
+main_corrected,M012,IMI,Interest/Enjoyment,7,6.714285714285714
+main_corrected,M012,IMI,Perceived Competence,6,5.666666666666667
+main_corrected,M012,IMI,Effort/Importance,5,4.2
+main_corrected,M012,IMI,Pressure/Tension,5,1.8
+main_corrected,M012,IMI,Perceived Choice,7,6.857142857142857
+main_corrected,M012,IMI,Value/Usefulness,7,6.571428571428571
+main_corrected,M012,IMMS,Confidence,9,4.444444444444445
+main_corrected,M012,IMMS,Attention,12,4.583333333333333
+main_corrected,M012,IMMS,Satisfaction,6,4.666666666666667
+main_corrected,M012,IMMS,Relevance,9,4.333333333333333
+main_corrected,M013,IMI,Interest/Enjoyment,7,6.285714285714286
+main_corrected,M013,IMI,Perceived Competence,6,6
+main_corrected,M013,IMI,Effort/Importance,5,2.4
+main_corrected,M013,IMI,Pressure/Tension,5,2.4
+main_corrected,M013,IMI,Perceived Choice,7,6.571428571428571
+main_corrected,M013,IMI,Value/Usefulness,7,6.428571428571429
+main_corrected,M013,IMMS,Confidence,9,3.6666666666666665
+main_corrected,M013,IMMS,Attention,12,4.75
+main_corrected,M013,IMMS,Satisfaction,6,4.5
+main_corrected,M013,IMMS,Relevance,9,3.3333333333333335
+main_corrected,M014,IMI,Interest/Enjoyment,7,4.428571428571429
+main_corrected,M014,IMI,Perceived Competence,6,3.6666666666666665
+main_corrected,M014,IMI,Effort/Importance,5,4
+main_corrected,M014,IMI,Pressure/Tension,5,3
+main_corrected,M014,IMI,Perceived Choice,7,4.714285714285714
+main_corrected,M014,IMI,Value/Usefulness,7,5
+main_corrected,M014,IMMS,Confidence,9,3.5555555555555554
+main_corrected,M014,IMMS,Attention,12,3.75
+main_corrected,M014,IMMS,Satisfaction,6,3.8333333333333335
+main_corrected,M014,IMMS,Relevance,9,3.888888888888889
+main_corrected,M015,IMI,Interest/Enjoyment,7,5.714285714285714
+main_corrected,M015,IMI,Perceived Competence,6,4.5
+main_corrected,M015,IMI,Effort/Importance,5,3.2
+main_corrected,M015,IMI,Pressure/Tension,5,1.4
+main_corrected,M015,IMI,Perceived Choice,7,6.285714285714286
+main_corrected,M015,IMI,Value/Usefulness,7,6.285714285714286
+main_corrected,M015,IMMS,Confidence,9,3.7777777777777777
+main_corrected,M015,IMMS,Attention,12,4.666666666666667
+main_corrected,M015,IMMS,Satisfaction,6,4.666666666666667
+main_corrected,M015,IMMS,Relevance,9,3.6666666666666665
+main_corrected,M016,IMI,Interest/Enjoyment,7,2.857142857142857
+main_corrected,M016,IMI,Perceived Competence,6,5.333333333333333
+main_corrected,M016,IMI,Effort/Importance,5,1.4
+main_corrected,M016,IMI,Pressure/Tension,5,1.6
+main_corrected,M016,IMI,Perceived Choice,7,6.857142857142857
+main_corrected,M016,IMI,Value/Usefulness,7,4
+main_corrected,M016,IMMS,Confidence,9,5
+main_corrected,M016,IMMS,Attention,12,3.1666666666666665
+main_corrected,M016,IMMS,Satisfaction,6,3.5
+main_corrected,M016,IMMS,Relevance,9,4
+main_corrected,M017,IMI,Interest/Enjoyment,7,6.571428571428571
+main_corrected,M017,IMI,Perceived Competence,6,4.5
+main_corrected,M017,IMI,Effort/Importance,5,6
+main_corrected,M017,IMI,Pressure/Tension,5,4.6
+main_corrected,M017,IMI,Perceived Choice,7,6.142857142857143
+main_corrected,M017,IMI,Value/Usefulness,7,6.857142857142857
+main_corrected,M017,IMMS,Confidence,9,4
+main_corrected,M017,IMMS,Attention,12,4.166666666666667
+main_corrected,M017,IMMS,Satisfaction,6,5
+main_corrected,M017,IMMS,Relevance,9,5
+main_corrected,M018,IMI,Interest/Enjoyment,7,6.571428571428571
+main_corrected,M018,IMI,Perceived Competence,6,5.333333333333333
+main_corrected,M018,IMI,Effort/Importance,5,5.4
+main_corrected,M018,IMI,Pressure/Tension,5,2
+main_corrected,M018,IMI,Perceived Choice,7,6.428571428571429
+main_corrected,M018,IMI,Value/Usefulness,7,5.142857142857143
+main_corrected,M018,IMMS,Confidence,9,3.4444444444444446
+main_corrected,M018,IMMS,Attention,12,4.166666666666667
+main_corrected,M018,IMMS,Satisfaction,6,4.666666666666667
+main_corrected,M018,IMMS,Relevance,9,4.333333333333333

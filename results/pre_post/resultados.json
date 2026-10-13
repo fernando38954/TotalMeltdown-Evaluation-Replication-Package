@@ -1,0 +1,1763 @@
+{
+  "overall": {
+    "group": "all",
+    "n": 44,
+    "pre_score_mean": 12.590909090909092,
+    "pre_score_median": 13.0,
+    "pre_score_sd": 1.4677649805248005,
+    "pre_score_min": 9,
+    "pre_score_max": 14,
+    "post_score_mean": 12.931818181818182,
+    "post_score_median": 13.0,
+    "post_score_sd": 1.1693314980021163,
+    "post_score_min": 10,
+    "post_score_max": 14,
+    "change_mean": 0.3409090909090909,
+    "change_median": 0.0,
+    "change_sd": 1.3458494649257824,
+    "change_min": -3,
+    "change_max": 5,
+    "increased_n": 17,
+    "increased_pct": 38.63636363636363,
+    "unchanged_below_max_n": 10,
+    "unchanged_below_max_pct": 22.727272727272727,
+    "unchanged_at_max_n": 10,
+    "unchanged_at_max_pct": 22.727272727272727,
+    "decreased_n": 7,
+    "decreased_pct": 15.909090909090908,
+    "unchanged_n": 20,
+    "pre_at_max_n": 16,
+    "post_at_max_n": 19,
+    "same_total_changed_pattern_n": 9
+  },
+  "groups": [
+    {
+      "group": "none_or_basic",
+      "n": 30,
+      "pre_score_mean": 12.633333333333333,
+      "pre_score_median": 13.0,
+      "pre_score_sd": 1.2726115785600325,
+      "pre_score_min": 10,
+      "pre_score_max": 14,
+      "post_score_mean": 12.866666666666667,
+      "post_score_median": 13.0,
+      "post_score_sd": 1.1058881072455415,
+      "post_score_min": 11,
+      "post_score_max": 14,
+      "change_mean": 0.23333333333333334,
+      "change_median": 0.0,
+      "change_sd": 1.2228664272317622,
+      "change_min": -3,
+      "change_max": 2,
+      "increased_n": 13,
+      "increased_pct": 43.333333333333336,
+      "unchanged_below_max_n": 6,
+      "unchanged_below_max_pct": 20.0,
+      "unchanged_at_max_n": 5,
+      "unchanged_at_max_pct": 16.666666666666668,
+      "decreased_n": 6,
+      "decreased_pct": 20.0,
+      "unchanged_n": 11,
+      "pre_at_max_n": 10,
+      "post_at_max_n": 11,
+      "same_total_changed_pattern_n": 5
+    },
+    {
+      "group": "intermediate_or_advanced",
+      "n": 14,
+      "pre_score_mean": 12.5,
+      "pre_score_median": 13.0,
+      "pre_score_sd": 1.8708286933869707,
+      "pre_score_min": 9,
+      "pre_score_max": 14,
+      "post_score_mean": 13.071428571428571,
+      "post_score_median": 14.0,
+      "post_score_sd": 1.328057326976612,
+      "post_score_min": 10,
+      "post_score_max": 14,
+      "change_mean": 0.5714285714285714,
+      "change_median": 0.0,
+      "change_sd": 1.6035674514745464,
+      "change_min": -2,
+      "change_max": 5,
+      "increased_n": 4,
+      "increased_pct": 28.571428571428573,
+      "unchanged_below_max_n": 4,
+      "unchanged_below_max_pct": 28.571428571428573,
+      "unchanged_at_max_n": 5,
+      "unchanged_at_max_pct": 35.714285714285715,
+      "decreased_n": 1,
+      "decreased_pct": 7.142857142857143,
+      "unchanged_n": 9,
+      "pre_at_max_n": 6,
+      "post_at_max_n": 8,
+      "same_total_changed_pattern_n": 4
+    }
+  ],
+  "items": [
+    {
+      "pair": 1,
+      "concept": "Architectural trade-offs",
+      "domain": "foundational_concepts",
+      "n": 44,
+      "pre_correct": 42,
+      "post_correct": 44,
+      "pre_pct": 95.45454545454545,
+      "post_pct": 100.0,
+      "difference_n": 2,
+      "difference_pp": 4.545454545454546,
+      "wrong_wrong": 0,
+      "wrong_right": 2,
+      "right_wrong": 0,
+      "right_right": 42
+    },
+    {
+      "pair": 2,
+      "concept": "Quality requirements",
+      "domain": "foundational_concepts",
+      "n": 44,
+      "pre_correct": 40,
+      "post_correct": 32,
+      "pre_pct": 90.9090909090909,
+      "post_pct": 72.72727272727273,
+      "difference_n": -8,
+      "difference_pp": -18.181818181818183,
+      "wrong_wrong": 2,
+      "wrong_right": 2,
+      "right_wrong": 10,
+      "right_right": 30
+    },
+    {
+      "pair": 3,
+      "concept": "Context-dependent selection",
+      "domain": "foundational_concepts",
+      "n": 44,
+      "pre_correct": 43,
+      "post_correct": 44,
+      "pre_pct": 97.72727272727273,
+      "post_pct": 100.0,
+      "difference_n": 1,
+      "difference_pp": 2.272727272727273,
+      "wrong_wrong": 0,
+      "wrong_right": 1,
+      "right_wrong": 0,
+      "right_right": 43
+    },
+    {
+      "pair": 4,
+      "concept": "MVC",
+      "domain": "pattern_recognition",
+      "n": 44,
+      "pre_correct": 35,
+      "post_correct": 41,
+      "pre_pct": 79.54545454545455,
+      "post_pct": 93.18181818181819,
+      "difference_n": 6,
+      "difference_pp": 13.636363636363637,
+      "wrong_wrong": 1,
+      "wrong_right": 8,
+      "right_wrong": 2,
+      "right_right": 33
+    },
+    {
+      "pair": 5,
+      "concept": "Client–Server",
+      "domain": "pattern_recognition",
+      "n": 44,
+      "pre_correct": 42,
+      "post_correct": 39,
+      "pre_pct": 95.45454545454545,
+      "post_pct": 88.63636363636364,
+      "difference_n": -3,
+      "difference_pp": -6.818181818181818,
+      "wrong_wrong": 1,
+      "wrong_right": 1,
+      "right_wrong": 4,
+      "right_right": 38
+    },
+    {
+      "pair": 6,
+      "concept": "Layered Architecture",
+      "domain": "pattern_recognition",
+      "n": 44,
+      "pre_correct": 42,
+      "post_correct": 37,
+      "pre_pct": 95.45454545454545,
+      "post_pct": 84.0909090909091,
+      "difference_n": -5,
+      "difference_pp": -11.363636363636363,
+      "wrong_wrong": 0,
+      "wrong_right": 2,
+      "right_wrong": 7,
+      "right_right": 35
+    },
+    {
+      "pair": 7,
+      "concept": "Microservices",
+      "domain": "pattern_recognition",
+      "n": 44,
+      "pre_correct": 39,
+      "post_correct": 42,
+      "pre_pct": 88.63636363636364,
+      "post_pct": 95.45454545454545,
+      "difference_n": 3,
+      "difference_pp": 6.818181818181818,
+      "wrong_wrong": 1,
+      "wrong_right": 4,
+      "right_wrong": 1,
+      "right_right": 38
+    },
+    {
+      "pair": 8,
+      "concept": "Pipe and Filter",
+      "domain": "pattern_recognition",
+      "n": 44,
+      "pre_correct": 42,
+      "post_correct": 44,
+      "pre_pct": 95.45454545454545,
+      "post_pct": 100.0,
+      "difference_n": 2,
+      "difference_pp": 4.545454545454546,
+      "wrong_wrong": 0,
+      "wrong_right": 2,
+      "right_wrong": 0,
+      "right_right": 42
+    },
+    {
+      "pair": 9,
+      "concept": "Event-Driven Architecture",
+      "domain": "pattern_recognition",
+      "n": 44,
+      "pre_correct": 37,
+      "post_correct": 39,
+      "pre_pct": 84.0909090909091,
+      "post_pct": 88.63636363636364,
+      "difference_n": 2,
+      "difference_pp": 4.545454545454546,
+      "wrong_wrong": 3,
+      "wrong_right": 4,
+      "right_wrong": 2,
+      "right_right": 35
+    },
+    {
+      "pair": 10,
+      "concept": "Microkernel",
+      "domain": "pattern_recognition",
+      "n": 44,
+      "pre_correct": 40,
+      "post_correct": 41,
+      "pre_pct": 90.9090909090909,
+      "post_pct": 93.18181818181819,
+      "difference_n": 1,
+      "difference_pp": 2.272727272727273,
+      "wrong_wrong": 1,
+      "wrong_right": 3,
+      "right_wrong": 2,
+      "right_right": 38
+    },
+    {
+      "pair": 11,
+      "concept": "Layered: security priorities",
+      "domain": "application_and_tradeoffs",
+      "n": 44,
+      "pre_correct": 32,
+      "post_correct": 42,
+      "pre_pct": 72.72727272727273,
+      "post_pct": 95.45454545454545,
+      "difference_n": 10,
+      "difference_pp": 22.727272727272727,
+      "wrong_wrong": 1,
+      "wrong_right": 11,
+      "right_wrong": 1,
+      "right_right": 31
+    },
+    {
+      "pair": 12,
+      "concept": "Pipeline application",
+      "domain": "application_and_tradeoffs",
+      "n": 44,
+      "pre_correct": 35,
+      "post_correct": 39,
+      "pre_pct": 79.54545454545455,
+      "post_pct": 88.63636363636364,
+      "difference_n": 4,
+      "difference_pp": 9.090909090909092,
+      "wrong_wrong": 2,
+      "wrong_right": 7,
+      "right_wrong": 3,
+      "right_right": 32
+    },
+    {
+      "pair": 13,
+      "concept": "Microkernel vs. Microservices",
+      "domain": "application_and_tradeoffs",
+      "n": 44,
+      "pre_correct": 43,
+      "post_correct": 43,
+      "pre_pct": 97.72727272727273,
+      "post_pct": 97.72727272727273,
+      "difference_n": 0,
+      "difference_pp": 0.0,
+      "wrong_wrong": 0,
+      "wrong_right": 1,
+      "right_wrong": 1,
+      "right_right": 42
+    },
+    {
+      "pair": 14,
+      "concept": "Event-driven trade-offs",
+      "domain": "application_and_tradeoffs",
+      "n": 44,
+      "pre_correct": 42,
+      "post_correct": 42,
+      "pre_pct": 95.45454545454545,
+      "post_pct": 95.45454545454545,
+      "difference_n": 0,
+      "difference_pp": 0.0,
+      "wrong_wrong": 0,
+      "wrong_right": 2,
+      "right_wrong": 2,
+      "right_right": 40
+    }
+  ],
+  "matrix": [
+    {
+      "pre_score": 0,
+      "post_score": 0,
+      "n": 0
+    },
+    {
+      "pre_score": 0,
+      "post_score": 1,
+      "n": 0
+    },
+    {
+      "pre_score": 0,
+      "post_score": 2,
+      "n": 0
+    },
+    {
+      "pre_score": 0,
+      "post_score": 3,
+      "n": 0
+    },
+    {
+      "pre_score": 0,
+      "post_score": 4,
+      "n": 0
+    },
+    {
+      "pre_score": 0,
+      "post_score": 5,
+      "n": 0
+    },
+    {
+      "pre_score": 0,
+      "post_score": 6,
+      "n": 0
+    },
+    {
+      "pre_score": 0,
+      "post_score": 7,
+      "n": 0
+    },
+    {
+      "pre_score": 0,
+      "post_score": 8,
+      "n": 0
+    },
+    {
+      "pre_score": 0,
+      "post_score": 9,
+      "n": 0
+    },
+    {
+      "pre_score": 0,
+      "post_score": 10,
+      "n": 0
+    },
+    {
+      "pre_score": 0,
+      "post_score": 11,
+      "n": 0
+    },
+    {
+      "pre_score": 0,
+      "post_score": 12,
+      "n": 0
+    },
+    {
+      "pre_score": 0,
+      "post_score": 13,
+      "n": 0
+    },
+    {
+      "pre_score": 0,
+      "post_score": 14,
+      "n": 0
+    },
+    {
+      "pre_score": 1,
+      "post_score": 0,
+      "n": 0
+    },
+    {
+      "pre_score": 1,
+      "post_score": 1,
+      "n": 0
+    },
+    {
+      "pre_score": 1,
+      "post_score": 2,
+      "n": 0
+    },
+    {
+      "pre_score": 1,
+      "post_score": 3,
+      "n": 0
+    },
+    {
+      "pre_score": 1,
+      "post_score": 4,
+      "n": 0
+    },
+    {
+      "pre_score": 1,
+      "post_score": 5,
+      "n": 0
+    },
+    {
+      "pre_score": 1,
+      "post_score": 6,
+      "n": 0
+    },
+    {
+      "pre_score": 1,
+      "post_score": 7,
+      "n": 0
+    },
+    {
+      "pre_score": 1,
+      "post_score": 8,
+      "n": 0
+    },
+    {
+      "pre_score": 1,
+      "post_score": 9,
+      "n": 0
+    },
+    {
+      "pre_score": 1,
+      "post_score": 10,
+      "n": 0
+    },
+    {
+      "pre_score": 1,
+      "post_score": 11,
+      "n": 0
+    },
+    {
+      "pre_score": 1,
+      "post_score": 12,
+      "n": 0
+    },
+    {
+      "pre_score": 1,
+      "post_score": 13,
+      "n": 0
+    },
+    {
+      "pre_score": 1,
+      "post_score": 14,
+      "n": 0
+    },
+    {
+      "pre_score": 2,
+      "post_score": 0,
+      "n": 0
+    },
+    {
+      "pre_score": 2,
+      "post_score": 1,
+      "n": 0
+    },
+    {
+      "pre_score": 2,
+      "post_score": 2,
+      "n": 0
+    },
+    {
+      "pre_score": 2,
+      "post_score": 3,
+      "n": 0
+    },
+    {
+      "pre_score": 2,
+      "post_score": 4,
+      "n": 0
+    },
+    {
+      "pre_score": 2,
+      "post_score": 5,
+      "n": 0
+    },
+    {
+      "pre_score": 2,
+      "post_score": 6,
+      "n": 0
+    },
+    {
+      "pre_score": 2,
+      "post_score": 7,
+      "n": 0
+    },
+    {
+      "pre_score": 2,
+      "post_score": 8,
+      "n": 0
+    },
+    {
+      "pre_score": 2,
+      "post_score": 9,
+      "n": 0
+    },
+    {
+      "pre_score": 2,
+      "post_score": 10,
+      "n": 0
+    },
+    {
+      "pre_score": 2,
+      "post_score": 11,
+      "n": 0
+    },
+    {
+      "pre_score": 2,
+      "post_score": 12,
+      "n": 0
+    },
+    {
+      "pre_score": 2,
+      "post_score": 13,
+      "n": 0
+    },
+    {
+      "pre_score": 2,
+      "post_score": 14,
+      "n": 0
+    },
+    {
+      "pre_score": 3,
+      "post_score": 0,
+      "n": 0
+    },
+    {
+      "pre_score": 3,
+      "post_score": 1,
+      "n": 0
+    },
+    {
+      "pre_score": 3,
+      "post_score": 2,
+      "n": 0
+    },
+    {
+      "pre_score": 3,
+      "post_score": 3,
+      "n": 0
+    },
+    {
+      "pre_score": 3,
+      "post_score": 4,
+      "n": 0
+    },
+    {
+      "pre_score": 3,
+      "post_score": 5,
+      "n": 0
+    },
+    {
+      "pre_score": 3,
+      "post_score": 6,
+      "n": 0
+    },
+    {
+      "pre_score": 3,
+      "post_score": 7,
+      "n": 0
+    },
+    {
+      "pre_score": 3,
+      "post_score": 8,
+      "n": 0
+    },
+    {
+      "pre_score": 3,
+      "post_score": 9,
+      "n": 0
+    },
+    {
+      "pre_score": 3,
+      "post_score": 10,
+      "n": 0
+    },
+    {
+      "pre_score": 3,
+      "post_score": 11,
+      "n": 0
+    },
+    {
+      "pre_score": 3,
+      "post_score": 12,
+      "n": 0
+    },
+    {
+      "pre_score": 3,
+      "post_score": 13,
+      "n": 0
+    },
+    {
+      "pre_score": 3,
+      "post_score": 14,
+      "n": 0
+    },
+    {
+      "pre_score": 4,
+      "post_score": 0,
+      "n": 0
+    },
+    {
+      "pre_score": 4,
+      "post_score": 1,
+      "n": 0
+    },
+    {
+      "pre_score": 4,
+      "post_score": 2,
+      "n": 0
+    },
+    {
+      "pre_score": 4,
+      "post_score": 3,
+      "n": 0
+    },
+    {
+      "pre_score": 4,
+      "post_score": 4,
+      "n": 0
+    },
+    {
+      "pre_score": 4,
+      "post_score": 5,
+      "n": 0
+    },
+    {
+      "pre_score": 4,
+      "post_score": 6,
+      "n": 0
+    },
+    {
+      "pre_score": 4,
+      "post_score": 7,
+      "n": 0
+    },
+    {
+      "pre_score": 4,
+      "post_score": 8,
+      "n": 0
+    },
+    {
+      "pre_score": 4,
+      "post_score": 9,
+      "n": 0
+    },
+    {
+      "pre_score": 4,
+      "post_score": 10,
+      "n": 0
+    },
+    {
+      "pre_score": 4,
+      "post_score": 11,
+      "n": 0
+    },
+    {
+      "pre_score": 4,
+      "post_score": 12,
+      "n": 0
+    },
+    {
+      "pre_score": 4,
+      "post_score": 13,
+      "n": 0
+    },
+    {
+      "pre_score": 4,
+      "post_score": 14,
+      "n": 0
+    },
+    {
+      "pre_score": 5,
+      "post_score": 0,
+      "n": 0
+    },
+    {
+      "pre_score": 5,
+      "post_score": 1,
+      "n": 0
+    },
+    {
+      "pre_score": 5,
+      "post_score": 2,
+      "n": 0
+    },
+    {
+      "pre_score": 5,
+      "post_score": 3,
+      "n": 0
+    },
+    {
+      "pre_score": 5,
+      "post_score": 4,
+      "n": 0
+    },
+    {
+      "pre_score": 5,
+      "post_score": 5,
+      "n": 0
+    },
+    {
+      "pre_score": 5,
+      "post_score": 6,
+      "n": 0
+    },
+    {
+      "pre_score": 5,
+      "post_score": 7,
+      "n": 0
+    },
+    {
+      "pre_score": 5,
+      "post_score": 8,
+      "n": 0
+    },
+    {
+      "pre_score": 5,
+      "post_score": 9,
+      "n": 0
+    },
+    {
+      "pre_score": 5,
+      "post_score": 10,
+      "n": 0
+    },
+    {
+      "pre_score": 5,
+      "post_score": 11,
+      "n": 0
+    },
+    {
+      "pre_score": 5,
+      "post_score": 12,
+      "n": 0
+    },
+    {
+      "pre_score": 5,
+      "post_score": 13,
+      "n": 0
+    },
+    {
+      "pre_score": 5,
+      "post_score": 14,
+      "n": 0
+    },
+    {
+      "pre_score": 6,
+      "post_score": 0,
+      "n": 0
+    },
+    {
+      "pre_score": 6,
+      "post_score": 1,
+      "n": 0
+    },
+    {
+      "pre_score": 6,
+      "post_score": 2,
+      "n": 0
+    },
+    {
+      "pre_score": 6,
+      "post_score": 3,
+      "n": 0
+    },
+    {
+      "pre_score": 6,
+      "post_score": 4,
+      "n": 0
+    },
+    {
+      "pre_score": 6,
+      "post_score": 5,
+      "n": 0
+    },
+    {
+      "pre_score": 6,
+      "post_score": 6,
+      "n": 0
+    },
+    {
+      "pre_score": 6,
+      "post_score": 7,
+      "n": 0
+    },
+    {
+      "pre_score": 6,
+      "post_score": 8,
+      "n": 0
+    },
+    {
+      "pre_score": 6,
+      "post_score": 9,
+      "n": 0
+    },
+    {
+      "pre_score": 6,
+      "post_score": 10,
+      "n": 0
+    },
+    {
+      "pre_score": 6,
+      "post_score": 11,
+      "n": 0
+    },
+    {
+      "pre_score": 6,
+      "post_score": 12,
+      "n": 0
+    },
+    {
+      "pre_score": 6,
+      "post_score": 13,
+      "n": 0
+    },
+    {
+      "pre_score": 6,
+      "post_score": 14,
+      "n": 0
+    },
+    {
+      "pre_score": 7,
+      "post_score": 0,
+      "n": 0
+    },
+    {
+      "pre_score": 7,
+      "post_score": 1,
+      "n": 0
+    },
+    {
+      "pre_score": 7,
+      "post_score": 2,
+      "n": 0
+    },
+    {
+      "pre_score": 7,
+      "post_score": 3,
+      "n": 0
+    },
+    {
+      "pre_score": 7,
+      "post_score": 4,
+      "n": 0
+    },
+    {
+      "pre_score": 7,
+      "post_score": 5,
+      "n": 0
+    },
+    {
+      "pre_score": 7,
+      "post_score": 6,
+      "n": 0
+    },
+    {
+      "pre_score": 7,
+      "post_score": 7,
+      "n": 0
+    },
+    {
+      "pre_score": 7,
+      "post_score": 8,
+      "n": 0
+    },
+    {
+      "pre_score": 7,
+      "post_score": 9,
+      "n": 0
+    },
+    {
+      "pre_score": 7,
+      "post_score": 10,
+      "n": 0
+    },
+    {
+      "pre_score": 7,
+      "post_score": 11,
+      "n": 0
+    },
+    {
+      "pre_score": 7,
+      "post_score": 12,
+      "n": 0
+    },
+    {
+      "pre_score": 7,
+      "post_score": 13,
+      "n": 0
+    },
+    {
+      "pre_score": 7,
+      "post_score": 14,
+      "n": 0
+    },
+    {
+      "pre_score": 8,
+      "post_score": 0,
+      "n": 0
+    },
+    {
+      "pre_score": 8,
+      "post_score": 1,
+      "n": 0
+    },
+    {
+      "pre_score": 8,
+      "post_score": 2,
+      "n": 0
+    },
+    {
+      "pre_score": 8,
+      "post_score": 3,
+      "n": 0
+    },
+    {
+      "pre_score": 8,
+      "post_score": 4,
+      "n": 0
+    },
+    {
+      "pre_score": 8,
+      "post_score": 5,
+      "n": 0
+    },
+    {
+      "pre_score": 8,
+      "post_score": 6,
+      "n": 0
+    },
+    {
+      "pre_score": 8,
+      "post_score": 7,
+      "n": 0
+    },
+    {
+      "pre_score": 8,
+      "post_score": 8,
+      "n": 0
+    },
+    {
+      "pre_score": 8,
+      "post_score": 9,
+      "n": 0
+    },
+    {
+      "pre_score": 8,
+      "post_score": 10,
+      "n": 0
+    },
+    {
+      "pre_score": 8,
+      "post_score": 11,
+      "n": 0
+    },
+    {
+      "pre_score": 8,
+      "post_score": 12,
+      "n": 0
+    },
+    {
+      "pre_score": 8,
+      "post_score": 13,
+      "n": 0
+    },
+    {
+      "pre_score": 8,
+      "post_score": 14,
+      "n": 0
+    },
+    {
+      "pre_score": 9,
+      "post_score": 0,
+      "n": 0
+    },
+    {
+      "pre_score": 9,
+      "post_score": 1,
+      "n": 0
+    },
+    {
+      "pre_score": 9,
+      "post_score": 2,
+      "n": 0
+    },
+    {
+      "pre_score": 9,
+      "post_score": 3,
+      "n": 0
+    },
+    {
+      "pre_score": 9,
+      "post_score": 4,
+      "n": 0
+    },
+    {
+      "pre_score": 9,
+      "post_score": 5,
+      "n": 0
+    },
+    {
+      "pre_score": 9,
+      "post_score": 6,
+      "n": 0
+    },
+    {
+      "pre_score": 9,
+      "post_score": 7,
+      "n": 0
+    },
+    {
+      "pre_score": 9,
+      "post_score": 8,
+      "n": 0
+    },
+    {
+      "pre_score": 9,
+      "post_score": 9,
+      "n": 0
+    },
+    {
+      "pre_score": 9,
+      "post_score": 10,
+      "n": 0
+    },
+    {
+      "pre_score": 9,
+      "post_score": 11,
+      "n": 1
+    },
+    {
+      "pre_score": 9,
+      "post_score": 12,
+      "n": 0
+    },
+    {
+      "pre_score": 9,
+      "post_score": 13,
+      "n": 0
+    },
+    {
+      "pre_score": 9,
+      "post_score": 14,
+      "n": 1
+    },
+    {
+      "pre_score": 10,
+      "post_score": 0,
+      "n": 0
+    },
+    {
+      "pre_score": 10,
+      "post_score": 1,
+      "n": 0
+    },
+    {
+      "pre_score": 10,
+      "post_score": 2,
+      "n": 0
+    },
+    {
+      "pre_score": 10,
+      "post_score": 3,
+      "n": 0
+    },
+    {
+      "pre_score": 10,
+      "post_score": 4,
+      "n": 0
+    },
+    {
+      "pre_score": 10,
+      "post_score": 5,
+      "n": 0
+    },
+    {
+      "pre_score": 10,
+      "post_score": 6,
+      "n": 0
+    },
+    {
+      "pre_score": 10,
+      "post_score": 7,
+      "n": 0
+    },
+    {
+      "pre_score": 10,
+      "post_score": 8,
+      "n": 0
+    },
+    {
+      "pre_score": 10,
+      "post_score": 9,
+      "n": 0
+    },
+    {
+      "pre_score": 10,
+      "post_score": 10,
+      "n": 1
+    },
+    {
+      "pre_score": 10,
+      "post_score": 11,
+      "n": 1
+    },
+    {
+      "pre_score": 10,
+      "post_score": 12,
+      "n": 1
+    },
+    {
+      "pre_score": 10,
+      "post_score": 13,
+      "n": 0
+    },
+    {
+      "pre_score": 10,
+      "post_score": 14,
+      "n": 0
+    },
+    {
+      "pre_score": 11,
+      "post_score": 0,
+      "n": 0
+    },
+    {
+      "pre_score": 11,
+      "post_score": 1,
+      "n": 0
+    },
+    {
+      "pre_score": 11,
+      "post_score": 2,
+      "n": 0
+    },
+    {
+      "pre_score": 11,
+      "post_score": 3,
+      "n": 0
+    },
+    {
+      "pre_score": 11,
+      "post_score": 4,
+      "n": 0
+    },
+    {
+      "pre_score": 11,
+      "post_score": 5,
+      "n": 0
+    },
+    {
+      "pre_score": 11,
+      "post_score": 6,
+      "n": 0
+    },
+    {
+      "pre_score": 11,
+      "post_score": 7,
+      "n": 0
+    },
+    {
+      "pre_score": 11,
+      "post_score": 8,
+      "n": 0
+    },
+    {
+      "pre_score": 11,
+      "post_score": 9,
+      "n": 0
+    },
+    {
+      "pre_score": 11,
+      "post_score": 10,
+      "n": 0
+    },
+    {
+      "pre_score": 11,
+      "post_score": 11,
+      "n": 2
+    },
+    {
+      "pre_score": 11,
+      "post_score": 12,
+      "n": 1
+    },
+    {
+      "pre_score": 11,
+      "post_score": 13,
+      "n": 1
+    },
+    {
+      "pre_score": 11,
+      "post_score": 14,
+      "n": 0
+    },
+    {
+      "pre_score": 12,
+      "post_score": 0,
+      "n": 0
+    },
+    {
+      "pre_score": 12,
+      "post_score": 1,
+      "n": 0
+    },
+    {
+      "pre_score": 12,
+      "post_score": 2,
+      "n": 0
+    },
+    {
+      "pre_score": 12,
+      "post_score": 3,
+      "n": 0
+    },
+    {
+      "pre_score": 12,
+      "post_score": 4,
+      "n": 0
+    },
+    {
+      "pre_score": 12,
+      "post_score": 5,
+      "n": 0
+    },
+    {
+      "pre_score": 12,
+      "post_score": 6,
+      "n": 0
+    },
+    {
+      "pre_score": 12,
+      "post_score": 7,
+      "n": 0
+    },
+    {
+      "pre_score": 12,
+      "post_score": 8,
+      "n": 0
+    },
+    {
+      "pre_score": 12,
+      "post_score": 9,
+      "n": 0
+    },
+    {
+      "pre_score": 12,
+      "post_score": 10,
+      "n": 0
+    },
+    {
+      "pre_score": 12,
+      "post_score": 11,
+      "n": 1
+    },
+    {
+      "pre_score": 12,
+      "post_score": 12,
+      "n": 2
+    },
+    {
+      "pre_score": 12,
+      "post_score": 13,
+      "n": 3
+    },
+    {
+      "pre_score": 12,
+      "post_score": 14,
+      "n": 3
+    },
+    {
+      "pre_score": 13,
+      "post_score": 0,
+      "n": 0
+    },
+    {
+      "pre_score": 13,
+      "post_score": 1,
+      "n": 0
+    },
+    {
+      "pre_score": 13,
+      "post_score": 2,
+      "n": 0
+    },
+    {
+      "pre_score": 13,
+      "post_score": 3,
+      "n": 0
+    },
+    {
+      "pre_score": 13,
+      "post_score": 4,
+      "n": 0
+    },
+    {
+      "pre_score": 13,
+      "post_score": 5,
+      "n": 0
+    },
+    {
+      "pre_score": 13,
+      "post_score": 6,
+      "n": 0
+    },
+    {
+      "pre_score": 13,
+      "post_score": 7,
+      "n": 0
+    },
+    {
+      "pre_score": 13,
+      "post_score": 8,
+      "n": 0
+    },
+    {
+      "pre_score": 13,
+      "post_score": 9,
+      "n": 0
+    },
+    {
+      "pre_score": 13,
+      "post_score": 10,
+      "n": 0
+    },
+    {
+      "pre_score": 13,
+      "post_score": 11,
+      "n": 0
+    },
+    {
+      "pre_score": 13,
+      "post_score": 12,
+      "n": 0
+    },
+    {
+      "pre_score": 13,
+      "post_score": 13,
+      "n": 5
+    },
+    {
+      "pre_score": 13,
+      "post_score": 14,
+      "n": 5
+    },
+    {
+      "pre_score": 14,
+      "post_score": 0,
+      "n": 0
+    },
+    {
+      "pre_score": 14,
+      "post_score": 1,
+      "n": 0
+    },
+    {
+      "pre_score": 14,
+      "post_score": 2,
+      "n": 0
+    },
+    {
+      "pre_score": 14,
+      "post_score": 3,
+      "n": 0
+    },
+    {
+      "pre_score": 14,
+      "post_score": 4,
+      "n": 0
+    },
+    {
+      "pre_score": 14,
+      "post_score": 5,
+      "n": 0
+    },
+    {
+      "pre_score": 14,
+      "post_score": 6,
+      "n": 0
+    },
+    {
+      "pre_score": 14,
+      "post_score": 7,
+      "n": 0
+    },
+    {
+      "pre_score": 14,
+      "post_score": 8,
+      "n": 0
+    },
+    {
+      "pre_score": 14,
+      "post_score": 9,
+      "n": 0
+    },
+    {
+      "pre_score": 14,
+      "post_score": 10,
+      "n": 0
+    },
+    {
+      "pre_score": 14,
+      "post_score": 11,
+      "n": 1
+    },
+    {
+      "pre_score": 14,
+      "post_score": 12,
+      "n": 3
+    },
+    {
+      "pre_score": 14,
+      "post_score": 13,
+      "n": 2
+    },
+    {
+      "pre_score": 14,
+      "post_score": 14,
+      "n": 10
+    }
+  ],
+  "distribution": [
+    {
+      "group": "all",
+      "score": 0,
+      "pre_n": 0,
+      "post_n": 0
+    },
+    {
+      "group": "all",
+      "score": 1,
+      "pre_n": 0,
+      "post_n": 0
+    },
+    {
+      "group": "all",
+      "score": 2,
+      "pre_n": 0,
+      "post_n": 0
+    },
+    {
+      "group": "all",
+      "score": 3,
+      "pre_n": 0,
+      "post_n": 0
+    },
+    {
+      "group": "all",
+      "score": 4,
+      "pre_n": 0,
+      "post_n": 0
+    },
+    {
+      "group": "all",
+      "score": 5,
+      "pre_n": 0,
+      "post_n": 0
+    },
+    {
+      "group": "all",
+      "score": 6,
+      "pre_n": 0,
+      "post_n": 0
+    },
+    {
+      "group": "all",
+      "score": 7,
+      "pre_n": 0,
+      "post_n": 0
+    },
+    {
+      "group": "all",
+      "score": 8,
+      "pre_n": 0,
+      "post_n": 0
+    },
+    {
+      "group": "all",
+      "score": 9,
+      "pre_n": 2,
+      "post_n": 0
+    },
+    {
+      "group": "all",
+      "score": 10,
+      "pre_n": 3,
+      "post_n": 1
+    },
+    {
+      "group": "all",
+      "score": 11,
+      "pre_n": 4,
+      "post_n": 6
+    },
+    {
+      "group": "all",
+      "score": 12,
+      "pre_n": 9,
+      "post_n": 7
+    },
+    {
+      "group": "all",
+      "score": 13,
+      "pre_n": 10,
+      "post_n": 11
+    },
+    {
+      "group": "all",
+      "score": 14,
+      "pre_n": 16,
+      "post_n": 19
+    },
+    {
+      "group": "none_or_basic",
+      "score": 0,
+      "pre_n": 0,
+      "post_n": 0
+    },
+    {
+      "group": "none_or_basic",
+      "score": 1,
+      "pre_n": 0,
+      "post_n": 0
+    },
+    {
+      "group": "none_or_basic",
+      "score": 2,
+      "pre_n": 0,
+      "post_n": 0
+    },
+    {
+      "group": "none_or_basic",
+      "score": 3,
+      "pre_n": 0,
+      "post_n": 0
+    },
+    {
+      "group": "none_or_basic",
+      "score": 4,
+      "pre_n": 0,
+      "post_n": 0
+    },
+    {
+      "group": "none_or_basic",
+      "score": 5,
+      "pre_n": 0,
+      "post_n": 0
+    },
+    {
+      "group": "none_or_basic",
+      "score": 6,
+      "pre_n": 0,
+      "post_n": 0
+    },
+    {
+      "group": "none_or_basic",
+      "score": 7,
+      "pre_n": 0,
+      "post_n": 0
+    },
+    {
+      "group": "none_or_basic",
+      "score": 8,
+      "pre_n": 0,
+      "post_n": 0
+    },
+    {
+      "group": "none_or_basic",
+      "score": 9,
+      "pre_n": 0,
+      "post_n": 0
+    },
+    {
+      "group": "none_or_basic",
+      "score": 10,
+      "pre_n": 2,
+      "post_n": 0
+    },
+    {
+      "group": "none_or_basic",
+      "score": 11,
+      "pre_n": 4,
+      "post_n": 5
+    },
+    {
+      "group": "none_or_basic",
+      "score": 12,
+      "pre_n": 7,
+      "post_n": 5
+    },
+    {
+      "group": "none_or_basic",
+      "score": 13,
+      "pre_n": 7,
+      "post_n": 9
+    },
+    {
+      "group": "none_or_basic",
+      "score": 14,
+      "pre_n": 10,
+      "post_n": 11
+    },
+    {
+      "group": "intermediate_or_advanced",
+      "score": 0,
+      "pre_n": 0,
+      "post_n": 0
+    },
+    {
+      "group": "intermediate_or_advanced",
+      "score": 1,
+      "pre_n": 0,
+      "post_n": 0
+    },
+    {
+      "group": "intermediate_or_advanced",
+      "score": 2,
+      "pre_n": 0,
+      "post_n": 0
+    },
+    {
+      "group": "intermediate_or_advanced",
+      "score": 3,
+      "pre_n": 0,
+      "post_n": 0
+    },
+    {
+      "group": "intermediate_or_advanced",
+      "score": 4,
+      "pre_n": 0,
+      "post_n": 0
+    },
+    {
+      "group": "intermediate_or_advanced",
+      "score": 5,
+      "pre_n": 0,
+      "post_n": 0
+    },
+    {
+      "group": "intermediate_or_advanced",
+      "score": 6,
+      "pre_n": 0,
+      "post_n": 0
+    },
+    {
+      "group": "intermediate_or_advanced",
+      "score": 7,
+      "pre_n": 0,
+      "post_n": 0
+    },
+    {
+      "group": "intermediate_or_advanced",
+      "score": 8,
+      "pre_n": 0,
+      "post_n": 0
+    },
+    {
+      "group": "intermediate_or_advanced",
+      "score": 9,
+      "pre_n": 2,
+      "post_n": 0
+    },
+    {
+      "group": "intermediate_or_advanced",
+      "score": 10,
+      "pre_n": 1,
+      "post_n": 1
+    },
+    {
+      "group": "intermediate_or_advanced",
+      "score": 11,
+      "pre_n": 0,
+      "post_n": 1
+    },
+    {
+      "group": "intermediate_or_advanced",
+      "score": 12,
+      "pre_n": 2,
+      "post_n": 2
+    },
+    {
+      "group": "intermediate_or_advanced",
+      "score": 13,
+      "pre_n": 3,
+      "post_n": 2
+    },
+    {
+      "group": "intermediate_or_advanced",
+      "score": 14,
+      "pre_n": 6,
+      "post_n": 8
+    }
+  ],
+  "domains": [
+    {
+      "domain": "foundational_concepts",
+      "items_n": 3,
+      "participants_n": 44,
+      "response_pairs_n": 132,
+      "pre_correct": 125,
+      "post_correct": 120,
+      "pre_pct": 94.6969696969697,
+      "post_pct": 90.9090909090909
+    },
+    {
+      "domain": "pattern_recognition",
+      "items_n": 7,
+      "participants_n": 44,
+      "response_pairs_n": 308,
+      "pre_correct": 277,
+      "post_correct": 283,
+      "pre_pct": 89.93506493506493,
+      "post_pct": 91.88311688311688
+    },
+    {
+      "domain": "application_and_tradeoffs",
+      "items_n": 4,
+      "participants_n": 44,
+      "response_pairs_n": 176,
+      "pre_correct": 152,
+      "post_correct": 166,
+      "pre_pct": 86.36363636363636,
+      "post_pct": 94.31818181818181
+    }
+  ],
+  "checks": {
+    "participants_equal_group_total": true,
+    "trajectory_total": true,
+    "item_transition_totals": true,
+    "pre_totals": true,
+    "post_totals": true,
+    "paired_change_identity": true,
+    "score_matrix_total": true
+  }
+}

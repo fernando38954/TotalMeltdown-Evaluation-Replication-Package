@@ -1,0 +1,5 @@
+# Preserve exact release bytes so Git checkout does not invalidate SHA-256.
+# Files remain human-readable; this disables automatic newline conversion.
+* -text
+*.pdf binary
+*.png binary
