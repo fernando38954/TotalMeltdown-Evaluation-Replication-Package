@@ -1,0 +1,7 @@
+{
+  "key": "Compatibility",
+  "order": 3,
+  "title": "Compatibilidade",
+  "image": "res://assets/sprites/attribute_icons/Compatibility.png",
+  "description": "\tDefine o quão bem o sistema opera em conjunto com outros sistemas ou ambientes. Um software compatível consegue coexistir e interoperar sem conflitos.\n[ul]\n[b]Coexistência[/b]: funciona sem prejudicar outros sistemas.\n[b]Interoperabilidade[/b]: troca e utiliza informações corretamente.[/ul]"
+}

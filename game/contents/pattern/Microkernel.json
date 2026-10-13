@@ -1,0 +1,32 @@
+{
+  "key": "Microkernel",
+  "quarter": 3,
+  "title": "Microkernel",
+  "icon": "res://assets/sprites/pattern_icons/Microkernel.png",
+  "cost": 50,
+  "attribute": {
+    "Functional Suitability": 1.1,
+    "Performance Efficiency": 0.8,
+    "Compatibility": 1.1,
+    "Interaction Capability": 1.1,
+    "Reliability": 1.4,
+    "Security": 1.1,
+    "Maintainability": 1.8,
+    "Flexibility": 1.4,
+    "Safety": 1.1
+  },
+  "complexity_level": 3,
+  "time_level": 3,
+  "cost_level": 3,
+  "description": "\tA arquitetura Microkernel organiza sistemas em torno de um núcleo mínimo responsável por funcionalidades essenciais, enquanto funcionalidades adicionais são implementadas como módulos externos independentes. Essa abordagem é comum em sistemas que demandam extensibilidade e adaptação a diferentes contextos. Sua organização fundamenta-se em três blocos conceituais:\n[ul]\n[b]Núcleo Mínimo (Microkernel)[/b]: Responsável por prover os serviços essenciais do sistema, como gerenciamento básico de recursos e controle de comunicação entre componentes.\n[b]Plug-ins (Servidores/Extensões)[/b]: Componentes externos que implementam funcionalidades adicionais, podendo ser adicionados, removidos ou modificados sem impactar diretamente o núcleo.\n[b]Mecanismo de Comunicação[/b]: Interface padronizada que permite a interação entre o núcleo e os plug-ins, garantindo desacoplamento e interoperabilidade interna.\n\tEssa arquitetura oferece vantagens como: [b]alta manutenibilidade[/b], uma vez que alterações em funcionalidades específicas podem ser realizadas por meio da modificação ou substituição de plug-ins sem afetar o núcleo; [b]boa flexibilidade[/b], pois o núcleo mínimo pode ser adaptado a diferentes ambientes enquanto os plug-ins permanecem reutilizáveis; e [b]boa confiabilidade[/b], já que falhas em plug-ins tendem a ser isoladas, reduzindo o impacto no sistema como um todo.\n\tComo desvantagem, destaca-se o [b]baixo desempenho[/b], devido à sobrecarga de comunicação entre o núcleo e os módulos externos, o que pode introduzir latência adicional em comparação a arquiteturas mais monolíticas. Além disso, o gerenciamento das interações entre múltiplos plug-ins pode aumentar a complexidade do sistema.",
+  "concept": "Um núcleo mínimo essencial cercado por plug-ins (módulos externos) que estendem o sistema.",
+  "advantage": "Extensibilidade. É muito fácil adicionar ou remover funcionalidades sem tocar no núcleo.",
+  "disadvantage": "Sobrecarga de Comunicação. A troca de mensagens entre o núcleo e os plug-ins gera latência.",
+  "bullet_point": {
+    "bullet1": "Núcleo mínimo controla funções essenciais",
+    "bullet2": "Plug-ins adicionam funcionalidades externas",
+    "bullet3": "Extensões independentes conectadas ao núcleo",
+    "bullet4": "Comunicação padronizada entre componentes internos",
+    "bullet5": "Funcionalidades separadas em módulos reutilizáveis"
+  }
+}

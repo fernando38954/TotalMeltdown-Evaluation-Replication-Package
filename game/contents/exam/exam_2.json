@@ -1,0 +1,30 @@
+{
+  "key": "Exam2",
+  "quarter": 2,
+  "exam": {
+    "question1": {
+      "description": "Uma plataforma de streaming decidiu migrar parte do sistema para microserviços. Agora, autenticação, catálogo e recomendações funcionam como serviços independentes.\nQual atributo de qualidade é mais favorecido por essa decisão?",
+      "choices": {
+        "correct": "Flexibilidade",
+        "wrong1": "Segurança física",
+        "wrong2": "Baixa latência"
+      }
+    },
+    "question2": {
+      "description": "Um sistema de processamento de imagens utiliza Pipe and Filter. Cada filtro aplica uma transformação diferente antes de enviar o resultado ao próximo estágio.\nQual vantagem dessa arquitetura está mais evidente?",
+      "choices": {
+        "correct": "Facilidade de modificar filtros isoladamente",
+        "wrong1": "Interface gráfica altamente interativa",
+        "wrong2": "Centralização completa do processamento"
+      }
+    },
+    "question3": {
+      "description": "Uma empresa percebeu que seu sistema em microserviços começou a apresentar atrasos devido ao excesso de comunicação entre serviços pela rede.\nEssa situação representa uma desvantagem relacionada principalmente à:",
+      "choices": {
+        "correct": "Eficiência de desempenho",
+        "wrong1": "Segurança",
+        "wrong2": "Adequação funcional"
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": "NeuroMatch",
+  "quarter": 1,
+  "title": "NeuroMatch",
+  "icon": "res://assets/sprites/quest_icons/NeuroMatch.png",
+  "difficult": "Medium",
+  "attribute": {
+    "Functional Suitability": "Medium",
+    "Performance Efficiency": "Medium",
+    "Compatibility": "Medium",
+    "Interaction Capability": "Low",
+    "Reliability": "High",
+    "Security": "High",
+    "Maintainability": "Low",
+    "Flexibility": "High",
+    "Safety": "Medium"
+  },
+  "description": {
+    "paragraph1": "Uma empresa criou um aplicativo de relacionamentos que usa escaneamento cerebral para encontrar ‘compatibilidade emocional perfeita’.",
+    "paragraph2": "Os usuários acessam o sistema por vários dispositivos: celulares, óculos neurais, consoles holográficos e até espelhos inteligentes.",
+    "paragraph3": "Todo o processamento pesado acontece em um servidor central gigantesco chamado CUP1D0.",
+    "paragraph4": "O problema é que, quando o servidor caiu por 11 minutos, milhares de casais tiveram suas memórias sincronizadas com pessoas aleatórias."
+  },
+  "bullet_point": {
+    "bullet1": "O sistema precisa funcionar em [b]dispositivos extremamente diferentes[/b].",
+    "bullet2": "Se o servidor principal falhar, praticamente tudo para de funcionar.",
+    "bullet3": "Precisa [b]evitar penetras[/b] de acessar informações pessoais de outros usuários."
+  },
+  "footnote": "[i]~ A taxa de divórcios aumentou 3000% neste mês, qual será o motivo?.[/i]",
+  "requirements": {
+    "pattern1": "ClientServer"
+  },
+  "bug": {
+    "bug1": {
+      "description": "Durante uma atualização, a equipe decidiu desligar o servidor CUP1D0 sem redundância. Imediatamente todos os aplicativos ficaram inutilizáveis e usuários começaram a perder sincronizações emocionais. Qual fraqueza clássica da arquitetura Cliente-Servidor causou isso?",
+      "choices": {
+        "correct": "Dependência de um servidor central",
+        "wrong1": "Separação rígida em camadas",
+        "wrong2": "Excesso de interfaces gráficas"
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "key": "Fridge",
+  "quarter": 0,
+  "title": "Geladeira Social",
+  "icon": "res://assets/sprites/quest_icons/Fridge.png",
+  "difficult": "Easy",
+  "attribute": {
+    "Functional Suitability": "Medium",
+    "Performance Efficiency": "Low",
+    "Compatibility": "Low",
+    "Interaction Capability": "High",
+    "Reliability": "Medium",
+    "Security": "Low",
+    "Maintainability": "High",
+    "Flexibility": "Medium",
+    "Safety": "Irrelevant"
+  },
+  "description": {
+    "paragraph1": "Minha geladeira começou a postar receitas automaticamente usando o que tem dentro dela. Agora ela tem seguidores. Muitos seguidores.",
+    "paragraph2": "A tela da porta da geladeira, o aplicativo do celular, os visores de geladeira e os óculos inteligentes precisam mostrar as mesmas receitas… mas cada um de um jeito diferente.",
+    "paragraph3": "Depois da última atualização, a tela da geladeira começou a exibir propaganda de ração pra hamster em toda receita de bolo."
+  },
+  "bullet_point": {
+    "bullet1": "As receitas precisam aparecer em vários dispositivos diferentes, que compartilham um mesmo padrão estrutural.",
+    "bullet2": "Está [b]difícil de analisar[/b] o código do sistema. Quero alterar a aparência sem reescrever a lógica.",
+    "bullet3": "A IA que programou isso misturou os botões de receita com controle de temperatura. Tem que melhorar a [b]usabilidade[/b]."
+  },
+  "footnote": "[i]~ Minha geladeira tem mais seguidores do que eu. E olha que eu posto fotos de comida também.[/i]",
+  "requirements": {
+    "pattern1": "MVC"
+  },
+  "bug": {
+    "bug1": {
+      "description": "Precisamos mudar as interfaces. Qual parte do sistema deveria ser alterada para trocar apenas a aparência da aplicação?",
+      "choices": {
+        "correct": "View",
+        "wrong1": "Model",
+        "wrong2": "Banco de Dados"
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "key": "Event",
+  "order": -5,
+  "title": "Eventos do Jogo",
+  "image": "res://assets/tutorial_images/Event.png",
+  "description": "\tO jogo possui 3 tipos de eventos distintas:\n[ul]\n1 - Feira de Recrutamento: Onde o jogador possa contratar um dos desenvolvedores oferecido.\n2 - Sessão de Estudo: Onde o jogador possa estudar um dos padrões arquiteturais oferecido.\n3 - Contrato: Onde o jogador possa assinar um contrato de desenvolvimento de sistema.[/ul]"
+}

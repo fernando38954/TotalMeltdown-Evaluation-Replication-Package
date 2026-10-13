@@ -1,0 +1,7 @@
+{
+  "key": "Security",
+  "order": 6,
+  "title": "Segurança",
+  "image": "res://assets/sprites/attribute_icons/Security.png",
+  "description": "\tRefere-se à proteção das informações e dos recursos do sistema contra acessos indevidos. Um sistema seguro garante confidencialidade, integridade e rastreabilidade.\n[ul]\n[b]Confidencialidade[/b]: acesso restrito a autorizados.\n[b]Integridade[/b]: dados protegidos contra alterações indevidas.\n[b]Ausência de repúdio[/b]: ações não podem ser negadas posteriormente.\n[b]Rastreabilidade de uso[/b]:  ações rastreáveis a usuários.\n[b]Autenticidade[/b]: identidade verificada.\n[b]Resistência[/b]: mantém operação sob ataque.[/ul]"
+}

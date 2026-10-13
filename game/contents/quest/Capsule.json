@@ -1,0 +1,46 @@
+{
+  "key": "Capsule",
+  "quarter": 3,
+  "title": "Cápsula de Transporte",
+  "icon": "res://assets/sprites/quest_icons/Capsule.png",
+  "difficult": "Hard",
+  "attribute": {
+    "Functional Suitability": "High",
+    "Performance Efficiency": "High",
+    "Compatibility": "Medium",
+    "Interaction Capability": "Medium",
+    "Reliability": "Low",
+    "Security": "Medium",
+    "Maintainability": "Low",
+    "Flexibility": "Medium",
+    "Safety": "High"
+  },
+  "description": {
+    "paragraph1": "Uma cidade futurista substituiu todos os meios de transporte por uma malha inteligente de cápsulas autônomas.",
+    "paragraph2": "Cada veículo, semáforo, estação e drone urbano publica eventos constantemente: trânsito, clima, acidentes, manutenção, fluxo populacional e comportamento dos passageiros.",
+    "paragraph3": "Os sistemas não se comunicam diretamente. Tudo acontece através de eventos distribuídos.",
+    "paragraph4": "Novos serviços urbanos podem ser adicionados rapidamente sem alterar os sistemas existentes.",
+    "paragraph5": "O problema é que ninguém mais entende completamente o fluxo do sistema.",
+    "paragraph6": "Após uma atualização aparentemente simples no serviço de previsão climática, cápsulas começaram a evitar bairros inteiros porque um evento meteorológico foi interpretado como ameaça biológica."
+  },
+  "bullet_point": {
+    "bullet1": "Novos módulos urbanos precisam ser adicionados sem interromper o restante do sistema.",
+    "bullet2": "Os módulos precisam chegar nos locais corretos.",
+    "bullet3": "Os fluxos de comunicação entre sistemas têm que ser rápidos, assim como o cálculo de rotas.",
+    "bullet4": "As cápsula precisam identificar possíveis riscos a integridade do usuários."
+  },
+  "footnote": "[i]~ Hoje a cápsula tá demorando mais do que nunca, já se passaram 3 horas e ninguém atendeu.[/i]",
+  "requirements": {
+    "pattern1": "EDA"
+  },
+  "bug": {
+    "bug1": {
+      "description": "Durante uma falha na rede, alguns eventos de aviso foram processados duas vezes enquanto outros nunca chegaram aos serviços responsáveis. Como consequência, cidadãos receberam cápsulas de transporte para destinos de viagens anteriores. Qual problema típico da arquitetura orientada a eventos isso representa?",
+      "choices": {
+        "correct": "Dificuldade em garantir consistência e confiabilidade dos eventos",
+        "wrong1": "Dependência rígida entre componentes",
+        "wrong2": "Excesso de comunicação síncrona entre módulos"
+      }
+    }
+  }
+}

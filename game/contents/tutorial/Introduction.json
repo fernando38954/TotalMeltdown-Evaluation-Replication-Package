@@ -1,0 +1,26 @@
+{
+  "key": "Introduction",
+  "disappear_when_finished": true,
+  "dialogue": {
+    "dialogue1": {
+      "portrait": "surprised",
+      "phrase": "Olá! Eu sou o Clipper, assistente virtual oficial da RetroCODE!"
+    },
+    "dialogue2": {
+      "portrait": "sweating",
+      "phrase": " ...Tá, “oficial” talvez seja uma palavra forte. Digamos que eu apareço sem ser chamado."
+    },
+    "dialogue3": {
+      "portrait": "normal",
+      "phrase": "As pessoas costumam me ignorar. Algumas fecham minha janela antes mesmo do “olá”."
+    },
+    "dialogue4": {
+      "portrait": "admiring",
+      "phrase": "Mas eu juro que sou útil! E moderadamente engraçado!"
+    },
+    "dialogue5": {
+      "portrait": "normal",
+      "phrase": "Vou te ajudar a sobreviver ao seu primeiro dia aqui.\nOu pelo menos evitar que você derrube os servidores logo no tutorial."
+    }
+  }
+}

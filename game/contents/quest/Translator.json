@@ -1,0 +1,45 @@
+{
+  "key": "Translator",
+  "quarter": 2,
+  "title": "Tradutor Universal",
+  "icon": "res://assets/sprites/quest_icons/Translator.png",
+  "difficult": "Hard",
+  "attribute": {
+    "Functional Suitability": "Medium",
+    "Performance Efficiency": "Medium",
+    "Compatibility": "High",
+    "Interaction Capability": "High",
+    "Reliability": "Medium",
+    "Security": "Medium",
+    "Maintainability": "Low",
+    "Flexibility": "High",
+    "Safety": "Irrelevant"
+  },
+  "description": {
+    "paragraph1": "Uma corporação lançou um tradutor universal em tempo real capaz de converter voz, gestos, expressões faciais e até gírias entre espécies diferentes.",
+    "paragraph2": "Humanos, robôs domésticos, animais, carros inteligentes e até torradeiras conscientes utilizam o sistema diariamente.",
+    "paragraph3": "O servidor central processa linguagem, contexto cultural e autenticação dos dispositivos.",
+    "paragraph4": "O problema começou quando fabricantes independentes começaram a criar clientes alternativos não oficiais.",
+    "paragraph5": "Agora alguns dispositivos traduzem ‘bom dia’ como ameaça diplomática, outros simplesmente explodem tentando interpretar emojis emocionais da geração mais nova.",
+    "paragraph6": "A empresa quer continuar permitindo novos tipos de clientes no sistema… mas toda atualização no servidor parece quebrar metade dos dispositivos antigos."
+  },
+  "bullet_point": {
+    "bullet1": "Novos dispositivos precisam conseguir se conectar constantemente ao sistema.",
+    "bullet2": "Clientes possuem interfaces e capacidades extremamente diferentes.",
+    "bullet3": "As interações precisam se adaptar ao contexto de cada plataforma. Os usuário não podem se perder."
+  },
+  "footnote": "[i]~ Meu gato disse que me odeia, a máquina deve estar quebrada.[/i]",
+  "requirements": {
+    "pattern1": "ClientServer"
+  },
+  "bug": {
+    "bug1": {
+      "description": "Após uma atualização no servidor do OmniTranslate, torradeiras inteligentes começaram a interpretar cantigas de ninar como receitas culinárias. O problema ocorreu porque muitos clientes antigos não conseguiam entender o novo formato de comunicação enviado pelo servidor. Qual desafio arquitetural isso representa?",
+      "choices": {
+        "correct": "Problemas de compatibilidade entre clientes e servidor",
+        "wrong1": "Falta de separação entre interface e regra de negócio",
+        "wrong2": "Excesso de validações em múltiplas camadas"
+      }
+    }
+  }
+}

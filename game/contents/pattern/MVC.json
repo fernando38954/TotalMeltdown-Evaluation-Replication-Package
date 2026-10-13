@@ -1,0 +1,32 @@
+{
+  "key": "MVC",
+  "quarter": 0,
+  "title": "Modelo-Visão-Controlador",
+  "icon": "res://assets/sprites/pattern_icons/MVC.png",
+  "cost": 50,
+  "attribute": {
+    "Functional Suitability": 1.1,
+    "Performance Efficiency": 1.1,
+    "Compatibility": 0.8,
+    "Interaction Capability": 1.7,
+    "Reliability": 1.1,
+    "Security": 1.1,
+    "Maintainability": 1.4,
+    "Flexibility": 1.1,
+    "Safety": 1.1
+  },
+  "complexity_level": 1,
+  "time_level": 2,
+  "cost_level": 2,
+  "description": "\tA arquitetura MVC organiza sistemas interativos separando responsabilidades em três componentes principais, com o objetivo de isolar a lógica de negócio da interface com o usuário e do controle de fluxo da aplicação. Essa separação promove uma estrutura modular e facilita a evolução do sistema ao longo do tempo. Sua organização fundamenta-se em três blocos conceituais:\n[ul]\n[b]Model (Modelo)[/b]: Responsável por representar os dados e a lógica de negócio da aplicação. Gerencia o estado do sistema e define regras de domínio, sendo independente da interface do usuário.\n[b]View (Visão)[/b]: Camada de apresentação responsável por exibir os dados ao usuário. Obtém informações do modelo e as renderiza de forma adequada, podendo haver múltiplas visões para o mesmo modelo.\n[b]Controller (Controlador)[/b]: Atua como intermediário entre Model e View. Recebe entradas do usuário, interpreta essas ações e coordena as atualizações no modelo e na visão.[/ul]\n\tEssa arquitetura oferece vantagens como: [b]alta usabilidade[/b], pois a separação permite múltiplas interfaces e facilita a adaptação da apresentação ao usuário; e [b]boa manutenibilidade[/b], já que alterações em uma camada (especialmente na interface) podem ser realizadas com impacto reduzido nas demais.\n\tComo desvantagem, destaca-se a [b]baixa compatibilidade[/b], uma vez que a separação rígida entre componentes pode dificultar a integração com sistemas legados ou arquiteturas que não seguem o mesmo padrão estrutural.",
+  "concept": "Separação entre dados (Model), interface (View) e lógica de entrada (Controller).",
+  "advantage": "Alta Usabilidade. Permite criar múltiplas interfaces para os mesmos dados com facilidade.",
+  "disadvantage": "Baixa Compatibilidade. Difícil de integrar com sistemas que não seguem esse padrão rígido.",
+  "bullet_point": {
+    "bullet1": "Divide sistema em Model, View, Controller",
+    "bullet2": "Controller intermedia usuário e aplicação",
+    "bullet3": "Views exibem dados do modelo",
+    "bullet4": "Model centraliza regras de negócio",
+    "bullet5": "Interface separada da lógica principal"
+  }
+}

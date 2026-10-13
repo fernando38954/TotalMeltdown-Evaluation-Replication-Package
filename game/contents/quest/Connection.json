@@ -1,0 +1,43 @@
+{
+  "key": "Connection",
+  "quarter": 2,
+  "title": "Conexão Mental",
+  "icon": "res://assets/sprites/quest_icons/Connection.png",
+  "difficult": "Medium",
+  "attribute": {
+    "Functional Suitability": "Medium",
+    "Performance Efficiency": "High",
+    "Compatibility": "Low",
+    "Interaction Capability": "Medium",
+    "Reliability": "Medium",
+    "Security": "Medium",
+    "Maintainability": "High",
+    "Flexibility": "Medium",
+    "Safety": "Low"
+  },
+  "description": {
+    "paragraph1": "Criamos uma plataforma de streaming diretamente conectada ao córtex cerebral.",
+    "paragraph2": "O usuário pode assistir séries usando celular, relógio, projetor de parede ou diretamente pelos implantes neurais.",
+    "paragraph3": "O problema é que o sistema original foi construído por uma IA treinada exclusivamente em tutoriais de 2012.",
+    "paragraph4": "Agora cada interface tem comportamento diferente, ninguém entende o código e toda atualização quebra algum dispositivo."
+  },
+  "bullet_point": {
+    "bullet1": "Os usuários acessam o sistema por interfaces extremamente diferentes.",
+    "bullet2": "As streams [b]não podem travar[/b], mesmo com mudanças visuais.",
+    "bullet3": "Novas formas de visualização surgem constantemente. Mas todas precisam ser [b]reconhecíveis[/b] pelo usuário, ele bate o olho e entende o que fazer"
+  },
+  "footnote": "[i]~ Streaming direto no cérebro? Posso agora assitir série enquanto durmo.[/i]",
+  "requirements": {
+    "pattern1": "MVC"
+  },
+  "bug": {
+    "bug1": {
+      "description": "Qual característica do MVC pode dificultar integração com sistemas legados?",
+      "choices": {
+        "correct": "Separação rígida entre componentes",
+        "wrong1": "Uso de interface gráfica",
+        "wrong2": "Existência de controladores"
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "key": "EDA",
+  "quarter": 3,
+  "title": "Arquitetura Orientada a Eventos",
+  "icon": "res://assets/sprites/pattern_icons/EDA.png",
+  "cost": 50,
+  "attribute": {
+    "Functional Suitability": 1.0,
+    "Performance Efficiency": 1.8,
+    "Compatibility": 1.1,
+    "Interaction Capability": 1.1,
+    "Reliability": 0.7,
+    "Security": 1.0,
+    "Maintainability": 0.8,
+    "Flexibility": 1.1,
+    "Safety": 1.0
+  },
+  "complexity_level": 4,
+  "time_level": 3,
+  "cost_level": 3,
+  "description": "\tA arquitetura orientada a eventos estrutura sistemas em torno da produção, detecção, consumo e reação a eventos, utilizando comunicação assíncrona e desacoplada entre componentes. Nesse modelo, produtores emitem eventos sem conhecimento direto dos consumidores, permitindo alta independência entre partes do sistema. Sua organização fundamenta-se nos seguintes blocos conceituais:\n[ul]\n[b]Geradores de Eventos[/b]: Componentes responsáveis por emitir eventos quando ocorre uma mudança de estado no sistema. Os eventos geralmente contêm metadados (headers) e dados contextuais (payload).\n[b]Canais de Eventos[/b]: Responsáveis por transportar os eventos entre produtores e consumidores, garantindo entrega assíncrona e desacoplamento (ex.: filas, tópicos).\n[b]Processamento de Eventos[/b]: Camada que interpreta e reage aos eventos, podendo operar de diferentes formas:\n[ul]\n[b]Simples[/b]: Reação direta a eventos individuais.\n[b]Stream[/b]: Processamento contínuo de fluxos de eventos.\n[b]Processamento Complexo (CEP)[/b]: Correlação entre múltiplos eventos para inferir situações mais elaboradas.[/ul]\n[b]Consumidores[/b]: Componentes que reagem aos eventos, executando ações como atualização de estado, chamadas de serviços ou disparo de novos eventos.[/ul]\n\tEssa arquitetura oferece vantagens como: [b]alta flexibilidade[/b], devido ao forte desacoplamento entre componentes; e [b]boa performance[/b] em cenários distribuídos, já que a comunicação assíncrona permite paralelismo e melhor uso de recursos.\n\tComo desvantagens, destacam-se a [b]baixa manutenibilidade[/b], devido à dificuldade de rastrear fluxos de execução e depurar sistemas orientados a eventos; e a [b]baixa confiabilidade[/b], uma vez que a natureza assíncrona pode introduzir problemas como perda de eventos, processamento duplicado e dificuldade em garantir consistência.",
+  "concept": "Componentes reagem a eventos disparados de forma assíncrona, sem se conhecerem diretamente.",
+  "advantage": "Agilidade e Paralelismo. Ótimo desempenho em sistemas distribuídos e altamente desacoplados.",
+  "disadvantage": "Rastreabilidade Difícil. É um desafio depurar ou garantir que um evento não seja perdido (Baixa Confiabilidade).",
+  "bullet_point": {
+    "bullet1": "Componentes comunicam-se através de eventos",
+    "bullet2": "Eventos trafegam por canais assíncronos",
+    "bullet3": "Produtores desconhecem consumidores dos eventos",
+    "bullet4": "Consumidores reagem a mudanças detectadas",
+    "bullet5": "Fluxo baseado em emissão de eventos"
+  }
+}

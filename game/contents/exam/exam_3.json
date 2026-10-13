@@ -1,0 +1,30 @@
+{
+  "key": "Exam3",
+  "quarter": 3,
+  "exam": {
+    "question1": {
+      "description": "Uma aplicação baseada em eventos processa milhares de ações simultaneamente. Entretanto, os desenvolvedores estão encontrando dificuldades para rastrear a origem de erros e entender o fluxo completo das operações.\nQual atributo de qualidade está sendo mais prejudicado?",
+      "choices": {
+        "correct": "Manutenibilidade",
+        "wrong1": "Capacidade de interação",
+        "wrong2": "Adequação funcional"
+      }
+    },
+    "question2": {
+      "description": "Um software educacional utiliza arquitetura Microkernel. Novas funcionalidades podem ser adicionadas como plug-ins sem alterar o núcleo principal do sistema.\nQual alternativa melhor explica a principal vantagem desse modelo?",
+      "choices": {
+        "correct": "Facilidade de extensão e adaptação do sistema",
+        "wrong1": "Comunicação síncrona reduzida entre clientes",
+        "wrong2": "Processamento linear em múltiplas etapas"
+      }
+    },
+    "question3": {
+      "description": "Uma empresa desenvolveu um sistema híbrido: o núcleo principal utiliza Microkernel; notificações usam arquitetura orientada a eventos; e módulos extras são instalados como plug-ins.\nDurante testes, percebeu-se que falhas em um plug-in não derrubavam o núcleo, mas eventos perdidos causavam inconsistências temporárias.\nQual alternativa apresenta a análise MAIS adequada?",
+      "choices": {
+        "correct": "O Microkernel melhora isolamento de falhas, mas eventos assíncronos podem reduzir confiabilidade",
+        "wrong1": "O sistema possui alta confiabilidade em todos os componentes",
+        "wrong2": "Arquiteturas orientadas a eventos eliminam problemas de consistência"
+      }
+    }
+  }
+}

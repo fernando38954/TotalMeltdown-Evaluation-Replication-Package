@@ -1,0 +1,8 @@
+pattern_key,pattern_title,Functional Suitability,Performance Efficiency,Compatibility,Interaction Capability,Reliability,Security,Maintainability,Flexibility,Safety
+ClientServer,Cliente-Servidor,1.1,1.1,1.1,1.4,0.8,1.4,0.8,1.7,1.1
+EDA,Arquitetura Orientada a Eventos,1.0,1.8,1.1,1.1,0.7,1.0,0.8,1.1,1.0
+Layered,Arquitetura em Camadas,1.1,0.8,0.8,1.1,1.4,1.8,1.4,1.1,1.1
+Microkernel,Microkernel,1.1,0.8,1.1,1.1,1.4,1.1,1.8,1.4,1.1
+Microservice,Microserviços,1.1,0.8,1.1,1.1,1.1,1.1,1.4,1.8,1.1
+MVC,Modelo-Visão-Controlador,1.1,1.1,0.8,1.7,1.1,1.1,1.4,1.1,1.1
+PipeFilter,Pipe and Filter,1.1,1.4,1.8,0.8,0.8,1.1,1.4,1.1,1.1

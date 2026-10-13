@@ -1,0 +1,45 @@
+{
+  "key": "Signals",
+  "quarter": 2,
+  "title": "Interpretando Sinais Espaciáis",
+  "icon": "res://assets/sprites/quest_icons/Signals.png",
+  "difficult": "Hard",
+  "attribute": {
+    "Functional Suitability": "High",
+    "Performance Efficiency": "Low",
+    "Compatibility": "Low",
+    "Interaction Capability": "Low",
+    "Reliability": "Low",
+    "Security": "High",
+    "Maintainability": "High",
+    "Flexibility": "Medium",
+    "Safety": "Low"
+  },
+  "description": {
+    "paragraph1": "Uma agência internacional criou um sistema capaz de interceptar, traduzir e analisar transmissões vindas do espaço profundo.",
+    "paragraph2": "Bilhões de sinais passam continuamente por uma cadeia de processamento.",
+    "paragraph3": "Um filtro limpa ruídos. Outro detecta padrões. Outro traduz linguagens desconhecidas. Outro classifica ameaças potenciais.",
+    "paragraph4": "O problema começou quando um filtro experimental de interpretação semântica passou a gerar pequenas inconsistências nos sinais.",
+    "paragraph5": "Como consequência, o sistema classificou uma receita alienígena de sopa como declaração formal de guerra.",
+    "paragraph6": "O incidente quase iniciou um conflito interestelar por causa de cebola espacial."
+  },
+  "bullet_point": {
+    "bullet1": "Os módulos de análise precisam evoluir independentemente.",
+    "bullet2": "As mensagems devem ser protegidas, afinal, alienígenas prezam muito por discrição.",
+    "bullet3": "Falhas em etapas intermediárias estão contaminando o restante da análise. Mas a tradução precisa estar correta."
+  },
+  "footnote": "[i]~ Primeira guerra das sopa universal.[/i]",
+  "requirements": {
+    "pattern1": "PipeFilter"
+  },
+  "bug": {
+    "bug1": {
+      "description": "Um filtro de tradução começou a produzir pequenas inconsistências semânticas. Como os filtros seguintes confiaram totalmente na saída recebida, o erro se propagou por toda a cadeia até gerar uma falsa ameaça militar. Qual fraqueza da arquitetura Pipe and Filter isso demonstra?",
+      "choices": {
+        "correct": "Falhas em filtros intermediários podem comprometer todo o pipeline",
+        "wrong1": "O forte acoplamento entre interface gráfica e processamento",
+        "wrong2": "A dependência obrigatória de processamento síncrono centralizado"
+      }
+    }
+  }
+}

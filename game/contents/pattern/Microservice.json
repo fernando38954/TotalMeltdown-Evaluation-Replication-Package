@@ -1,0 +1,32 @@
+{
+  "key": "Microservice",
+  "quarter": 2,
+  "title": "Microserviços",
+  "icon": "res://assets/sprites/pattern_icons/Microservice.png",
+  "cost": 50,
+  "attribute": {
+    "Functional Suitability": 1.1,
+    "Performance Efficiency": 0.8,
+    "Compatibility": 1.1,
+    "Interaction Capability": 1.1,
+    "Reliability": 1.1,
+    "Security": 1.1,
+    "Maintainability": 1.4,
+    "Flexibility": 1.8,
+    "Safety": 1.1
+  },
+  "complexity_level": 4,
+  "time_level": 4,
+  "cost_level": 4,
+  "description": "\tA arquitetura de microserviços estrutura sistemas como um conjunto de serviços pequenos, independentes e fracamente acoplados, onde cada serviço implementa uma capacidade específica do domínio. Esses serviços são desenvolvidos, implantados e escalados de forma autônoma, comunicando-se por meio de mecanismos leves, geralmente baseados em rede. Sua organização fundamenta-se nos seguintes blocos conceituais:\n[ul]\n[b]Serviços Independentes[/b]: Unidades autônomas que encapsulam funcionalidades específicas do sistema, com controle próprio de lógica e, frequentemente, de dados.\n[b]Comunicação entre Serviços[/b]: Realizada por meio de APIs (ex.: HTTP/REST, mensageria), permitindo integração entre serviços distribuídos.\n[b]Gerenciamento e Orquestração[/b]: Responsável por lidar com descoberta de serviços, balanceamento de carga, monitoramento e coordenação (ex.: API Gateway, service registry).\n[b]Infraestrutura Distribuída[/b]: Ambiente que suporta a execução dos serviços, incluindo containers, orquestradores e mecanismos de deploy contínuo.[/ul]\n\tEssa arquitetura oferece vantagens como: [b]boa manutenibilidade[/b], pois serviços menores e isolados facilitam entendimento, testes e evolução independente; e [b]alta flexibilidade[/b], já que cada serviço pode ser implantado em diferentes ambientes de forma independente, favorecendo adaptação e escalabilidade.\n\tComo desvantagem, destaca-se o [b]baixo desempenho[/b] em determinados cenários, devido à sobrecarga de comunicação em rede, latência entre serviços e necessidade de sincronização distribuída. Além disso, a natureza distribuída pode aumentar a complexidade operacional e exigir mecanismos adicionais de gerenciamento.",
+  "concept": "Sistema composto por pequenos serviços independentes que se comunicam via rede.",
+  "advantage": "Escalabilidade e Evolução. Cada serviço pode ser atualizado ou substituído sem parar os outros.",
+  "disadvantage": "Complexidade de Rede. A latência da comunicação distribuída pode prejudicar o desempenho.",
+  "bullet_point": {
+    "bullet1": "Sistema dividido em serviços independentes",
+    "bullet2": "Cada serviço possui responsabilidade própria",
+    "bullet3": "Comunicação baseada em APIs distribuídas",
+    "bullet4": "Serviços implantados de forma autônoma",
+    "bullet5": "Infraestrutura distribuída coordena serviços"
+  }
+}

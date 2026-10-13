@@ -1,0 +1,30 @@
+{
+  "key": "Exam0",
+  "quarter": 0,
+  "exam": {
+    "question1": {
+      "description": "Qual é o meu nome?",
+      "choices": {
+        "correct": "Clipper",
+        "wrong1": "Peppa",
+        "wrong2": "ISO/IECer"
+      }
+    },
+    "question2": {
+      "description": "Qual é o nome da norma internacional do modelo de qualidade para produtos e sistemas de software?",
+      "choices": {
+        "correct": "ISO/IEC 25010",
+        "wrong1": "UNS 9820",
+        "wrong2": "MCS 57030"
+      }
+    },
+    "question3": {
+      "description": "Na norma ISO/IEC 25010 mais recente, não existe qual dos atributos de qualidade abaixo:",
+      "choices": {
+        "correct": "Usabilidade",
+        "wrong1": "Manutenibilidade",
+        "wrong2": "Capacidade de Interação"
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "key": "PersonaForge",
+  "quarter": 3,
+  "title": "PersonaForge",
+  "icon": "res://assets/sprites/quest_icons/PersonaForge.png",
+  "difficult": "Hard",
+  "attribute": {
+    "Functional Suitability": "Medium",
+    "Performance Efficiency": "Low",
+    "Compatibility": "High",
+    "Interaction Capability": "Medium",
+    "Reliability": "High",
+    "Security": "Medium",
+    "Maintainability": "High",
+    "Flexibility": "High",
+    "Safety": "Medium"
+  },
+  "description": {
+    "paragraph1": "Após o colapso das redes sociais tradicionais, surgiu o PersonaForge: um sistema capaz de alterar dinamicamente a personalidade digital dos usuários dependendo do ambiente.",
+    "paragraph2": "No trabalho, você parece profissional. Em jogos, competitivo. Em encontros, misterioso. Em reuniões familiares… minimamente suportável.",
+    "paragraph3": "O núcleo do sistema é pequeno e estável, responsável apenas por identidade, autenticação e sincronização neural.",
+    "paragraph4": "Existem plug-ins para humor, sotaque, filtros emocionais, adaptação cultural, sarcasmo automático e até ‘modo empreendedor agressivo’.",
+    "paragraph5": "O problema começou quando diferentes plug-ins passaram a competir entre si.",
+    "paragraph6": "Semana passada um usuário tentou ativar o ‘Modo Diplomático’ durante uma reunião corporativa, mas o plug-in de ‘Sinceridade Brutal Gamer Edition’ assumiu prioridade.",
+    "paragraph7": "As ações judiciais já ultrapassaram 14 países."
+  },
+  "bullet_point": {
+    "bullet1": "Novos comportamentos precisam ser adicionados sem alterar o núcleo principal.",
+    "bullet2": "Plug-ins de empresas diferentes devem coexistir corretamente.",
+    "bullet3": "Falhas em módulos sociais não podem comprometer identidade e autenticação.",
+    "bullet4": "A comunicação entre extensões está ficando imprevisível conforme o sistema cresce."
+  },
+  "footnote": "[i]~ Cartão de teste de Múltiplas Personalidades ativada.[/i]",
+  "requirements": {
+    "pattern1": "Microkernel"
+  },
+  "bug": {
+    "bug1": {
+      "description": "Dois plug-ins sociais começaram a modificar simultaneamente o comportamento do usuário porque ambos assumiam controle sobre as mesmas funções internas de personalidade. O núcleo permaneceu estável, mas os módulos entraram em conflito constante. Qual problema típico da arquitetura Microkernel isso representa?",
+      "choices": {
+        "correct": "Complexidade de coordenação entre plug-ins independentes",
+        "wrong1": "Dependência exclusiva de um banco de dados central",
+        "wrong2": "Forte acoplamento entre interface gráfica e processamento"
+      }
+    }
+  }
+}

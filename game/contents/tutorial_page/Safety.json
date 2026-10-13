@@ -1,0 +1,7 @@
+{
+  "key": "Safety",
+  "order": 9,
+  "title": "Segurança Operacional",
+  "image": "res://assets/sprites/attribute_icons/Safety.png",
+  "description": "\tRelaciona-se à prevenção de danos ao ambiente, usuários ou ao próprio sistema durante sua operação. É crítica em sistemas sensíveis.\n[ul]\n[b]Restrição operacional[/b]: mantém operação em limites seguros.\n[b]Identificação de riscos[/b]: detecta situações perigosas.\n[b]Falha segura[/b]: entra em estado seguro em falhas.\n[b]Aviso de perigo[/b]: alerta sobre riscos.\n[b]Integração segura[/b]: mantém segurança ao integrar sistemas.[/ul]"
+}

@@ -1,0 +1,43 @@
+{
+  "key": "MegaJus",
+  "quarter": 3,
+  "title": "MegaJus: Tribunal Automatizado",
+  "icon": "res://assets/sprites/quest_icons/MegaJus.png",
+  "difficult": "Medium",
+  "attribute": {
+    "Functional Suitability": "High",
+    "Performance Efficiency": "Low",
+    "Compatibility": "Low",
+    "Interaction Capability": "Medium",
+    "Reliability": "High",
+    "Security": "High",
+    "Maintainability": "Low",
+    "Flexibility": "Medium",
+    "Safety": "Medium"
+  },
+  "description": {
+    "paragraph1": "O governo substituiu praticamente todo o sistema judiciário por uma plataforma automatizada.",
+    "paragraph2": "Cada denúncia passa por análise, validação, autenticação, verificação jurídica, auditoria ética e só então chega ao juiz virtual.",
+    "paragraph3": "O sistema é absurdamente seguro... mas também absurdamente lento.",
+    "paragraph4": "Semana passada um cidadão recebeu resposta para um processo aberto em 2049. Estamos em 2058 e o pior condenou um inocente."
+  },
+  "bullet_point": {
+    "bullet1": "Sinceramente, ele pode até demorar, mas [b]não pode errar[/b] no julgamento.",
+    "bullet2": "Cada nível do sistema precisa validar informações antes de repassá-las.",
+    "bullet3": "Auditorias precisam [b]rastrear[/b] exatamente onde um erro aconteceu. Mas seria melhor se eles nem acontecessem."
+  },
+  "footnote": "[i]~ Resposta antes do mundo acabar, pelo menos.[/i]",
+  "requirements": {
+    "pattern1": "Layered"
+  },
+  "bug": {
+    "bug1": {
+      "description": "Um desenvolvedor decidiu fazer a interface do MegaJus acessar diretamente a camada de banco de dados para “acelerar os julgamentos”. Poucos dias depois, processos começaram a aparecer sem validação jurídica nem autenticação oficial. Qual princípio arquitetural foi quebrado?",
+      "choices": {
+        "correct": "O isolamento entre camadas",
+        "wrong1": "O uso de múltiplas interfaces",
+        "wrong2": "A renderização distribuída"
+      }
+    }
+  }
+}

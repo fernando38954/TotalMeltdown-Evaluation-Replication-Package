@@ -1,0 +1,30 @@
+{
+  "key": "Exam1",
+  "quarter": 1,
+  "exam": {
+    "question1": {
+      "description": "Uma equipe está desenvolvendo um sistema web utilizando MVC. Durante uma reunião, o desenvolvedor afirma que a interface poderá ser alterada sem modificar as regras principais do sistema.\nEssa característica está relacionada principalmente a qual atributo de qualidade?",
+      "choices": {
+        "correct": "Manutenibilidade",
+        "wrong1": "Eficiência de desempenho",
+        "wrong2": "Confiabilidade"
+      }
+    },
+    "question2": {
+      "description": "Um sistema bancário foi organizado em camadas. As regras financeiras ficaram isoladas da interface e do banco de dados, facilitando testes e controle das responsabilidades.\nQual característica da arquitetura em camadas está sendo aplicada?",
+      "choices": {
+        "correct": "Separação hierárquica de responsabilidades",
+        "wrong1": "Processamento contínuo em pipeline",
+        "wrong2": "Uso de plug-ins independentes"
+      }
+    },
+    "question3": {
+      "description": "Uma empresa utiliza arquitetura Cliente-Servidor em seu sistema de vendas. Certo dia, o servidor principal falhou e todos os clientes ficaram impossibilitados de acessar o sistema.\nEsse cenário representa principalmente um problema relacionado à:",
+      "choices": {
+        "correct": "Confiabilidade",
+        "wrong1": "Compatibilidade",
+        "wrong2": "Usabilidade"
+      }
+    }
+  }
+}

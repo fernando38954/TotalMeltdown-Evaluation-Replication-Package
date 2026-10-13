@@ -1,0 +1,47 @@
+{
+  "key": "FoodChain",
+  "quarter": 2,
+  "title": "Food Chain",
+  "icon": "res://assets/sprites/quest_icons/FoodChain.png",
+  "difficult": "Hard",
+  "attribute": {
+    "Functional Suitability": "High",
+    "Performance Efficiency": "High",
+    "Compatibility": "Low",
+    "Interaction Capability": "Low",
+    "Reliability": "Low",
+    "Security": "Medium",
+    "Maintainability": "High",
+    "Flexibility": "High",
+    "Safety": "Medium"
+  },
+  "description": {
+    "paragraph1": "Uma megafábrica produz refeições sintéticas para metade da população terrestre.",
+    "paragraph2": "O processo inteiro funciona como uma gigantesca linha automatizada de transformação de dados e matéria.",
+    "paragraph3": "Cada estágio da produção é tratado por um filtro independente: análise nutricional, balanceamento químico, esterilização, personalização de sabor, embalagem e distribuição.",
+    "paragraph4": "Tudo funciona… desde que cada etapa entregue exatamente o formato esperado pela próxima.",
+    "paragraph5": "O problema começou quando um novo filtro de ‘otimização calórica por IA’ foi instalado no meio da cadeia.",
+    "paragraph6": "A atualização aumentou a performance em 23%.",
+    "paragraph7": "E também transformou 14 toneladas de macarrão em espuma com gosto de bateria."
+  },
+  "bullet_point": {
+    "bullet1": "Cada etapa da produção deve poder ser alterada independentemente.",
+    "bullet2": "Os módulos utilizam tecnologias diferentes, mas precisam trocar dados corretamente.",
+    "bullet3": "O processamento contínuo da fábrica não pode perder velocidade.",
+    "bullet4": "Uma falha em um único estágio pode comprometer toda a cadeia produtiva."
+  },
+  "footnote": "[i]~ O novo filtro otimizou até processo de decomposição.[/i]",
+  "requirements": {
+    "pattern1": "PipeFilter"
+  },
+  "bug": {
+    "bug1": {
+      "description": "Após instalar o novo filtro nutricional, os filtros seguintes começaram a interpretar incorretamente os dados recebidos, gerando alimentos inutilizáveis em toda a linha de produção. Qual característica da arquitetura Pipe and Filter ficou mais evidente?",
+      "choices": {
+        "correct": "A dependência de formatos compatíveis entre filtros do pipeline",
+        "wrong1": "O compartilhamento de memória global entre módulos",
+        "wrong2": "A existência de um servidor central responsável pelo processamento"
+      }
+    }
+  }
+}

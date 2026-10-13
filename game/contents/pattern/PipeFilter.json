@@ -1,0 +1,32 @@
+{
+  "key": "PipeFilter",
+  "quarter": 2,
+  "title": "Pipe and Filter",
+  "icon": "res://assets/sprites/pattern_icons/PipeFilter.png",
+  "cost": 50,
+  "attribute": {
+    "Functional Suitability": 1.1,
+    "Performance Efficiency": 1.4,
+    "Compatibility": 1.8,
+    "Interaction Capability": 0.8,
+    "Reliability": 0.8,
+    "Security": 1.1,
+    "Maintainability": 1.4,
+    "Flexibility": 1.1,
+    "Safety": 1.1
+  },
+  "complexity_level": 2,
+  "time_level": 2,
+  "cost_level": 2,
+  "description": "\tA arquitetura Pipe-and-Filter organiza o sistema como uma sequência de etapas de processamento independentes (filtros), conectadas por canais de comunicação (pipes). Cada filtro recebe dados de entrada, realiza uma transformação e produz uma saída que é repassada ao próximo estágio, formando um fluxo contínuo de processamento. Essa abordagem é comum em sistemas de processamento de dados, compiladores e pipelines de transformação. Sua organização fundamenta-se nos seguintes blocos conceituais:\n[ul]\n[b]Filtros (Filters)[/b]: Componentes responsáveis por processar dados de entrada e gerar dados de saída, sem conhecimento direto sobre a origem ou destino final dos dados. Cada filtro executa uma tarefa específica e bem definida.\n[b]Pipes (Canais)[/b]: Estruturas responsáveis por transportar os dados entre filtros, garantindo o fluxo sequencial ou em streaming das informações.\n[b]Fluxo de Dados (Data Flow)[/b]: Define a ordem de execução dos filtros, podendo ser linear ou mais complexo, dependendo da composição do pipeline.[/ul]\n\tEssa arquitetura oferece vantagens como: [b]boa manutenibilidade[/b], pois filtros podem ser modificados ou substituídos isoladamente; [b]boa performance[/b], especialmente em cenários de processamento em fluxo ou paralelismo entre filtros; e [b]alta compatibilidade[/b], já que diferentes filtros podem ser desenvolvidos em tecnologias distintas, desde que respeitem o formato de entrada e saída.\n\tComo desvantagens, destacam-se a [b]baixa confiabilidade[/b], uma vez que falhas em um filtro podem interromper todo o pipeline; e a [b]baixa usabilidade[/b], já que essa arquitetura não é naturalmente voltada para interação com o usuário final, sendo mais adequada para processamento interno de dados.",
+  "concept": "Sequência de transformações onde a saída de um filtro é a entrada do próximo através de “canos”.",
+  "advantage": "Processamento de Fluxo. Excelente performance para dados em massa e alta modularidade.",
+  "disadvantage": "Interatividade Limitada. Baixa usabilidade para o usuário final, sendo focada em processamento interno.",
+  "bullet_point": {
+    "bullet1": "Processamento dividido em filtros independentes",
+    "bullet2": "Pipes conectam etapas do processamento",
+    "bullet3": "Dados percorrem fluxo sequencial contínuo",
+    "bullet4": "Cada filtro transforma dados recebidos",
+    "bullet5": "Pipeline organiza processamento em etapas"
+  }
+}

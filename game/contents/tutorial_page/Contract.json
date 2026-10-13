@@ -1,0 +1,7 @@
+{
+  "key": "Contract",
+  "order": -4,
+  "title": "Contrato",
+  "image": "res://assets/tutorial_images/Contract.png",
+  "description": "\tNa tela do contrato é revelado os pedidos do cliente e os pontos chaves do pedido, a qual o jogador deve escolher padrões e desenvolvedores adequados para desenvolver o sistema solicitado.\n\tPara selecionar padrão ou desenvolvedor, é necessário clicar nos quadrados escuros com botão esquerdo do mouse para abrir o panel de escolhas, a qual o jogador possa clicar no icone para ver informações detalhadas e arrastar icone para quadrado para fazeer escolha. Para desselecionar o conteúdo, utilize botão direito do mouse.\n\tO atributo adquirido pelo jogador é calculado com a fórmula: (atributo do padrão) x (soma total dos atributos dos desenvolvedores).\n\tPara assinar o contrato, deve se escolher pelo menos um padrão e um desenvolvedor."
+}

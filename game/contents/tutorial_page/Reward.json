@@ -1,0 +1,7 @@
+{
+  "key": "Reward",
+  "order": -3,
+  "title": "Lucro",
+  "image": "res://assets/tutorial_images/Reward.png",
+  "description": "\tDepois de assinar o contrato, é necessário esperar um período para que o sistema seja desenvolvido.\n\tOs detalhes do contrato pode ser visualizado no Painel de Desenvolvedores.\n\tDepois do projeto finalizar, o lucro pode ser recebido através do Painel.\n\tO resultado é calculado a base da diferença do atributo alcançado (laranja) e o atributo requerido pelo cliente (azul). Quando maior a diferença, menor o lucro adquirido."
+}

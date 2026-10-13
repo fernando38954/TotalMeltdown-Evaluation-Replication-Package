@@ -1,0 +1,7 @@
+{
+  "key": "Reliability",
+  "order": 5,
+  "title": "Confiabilidade",
+  "image": "res://assets/sprites/attribute_icons/Reliability.png",
+  "description": "\tIndica a capacidade do sistema de operar de forma consistente e sem falhas ao longo do tempo. Um sistema confiável mantém seu funcionamento mesmo sob condições adversas.\n[ul]\n[b]Ausência de falhas[/b]: funciona sem falhas frequentes.\n[b]Disponibilidade[/b]: está acessível quando necessário.\n[b]Tolerância a falhas[/b]: continua operando mesmo com erros.\n[b]Recuperabilidade[/b]: recupera dados e estado após falhas.[/ul]"
+}

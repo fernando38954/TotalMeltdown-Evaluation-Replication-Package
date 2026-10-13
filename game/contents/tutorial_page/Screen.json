@@ -1,0 +1,7 @@
+{
+  "key": "Screen",
+  "order": -6,
+  "title": "Telas do Jogo",
+  "image": "res://assets/tutorial_images/Screens.png",
+  "description": "\tO jogo é dividido em 3 regiões:\n[ul]\n1 - Mapa: Tela contendo o mapa do jogo, é onde que será realizado as principais interações com o jogo.\n2 - Painel de Desenvolvedores: Tela utilizada para verificar os status do developers que possui atualmente e o andamento do contrato aceito.\n3 - Nota: Tela utilizada para verificar os conhecimentos básicos do jogo e as informações das arquiteturas que já foram aprendidas até o momento.[/ul]"
+}

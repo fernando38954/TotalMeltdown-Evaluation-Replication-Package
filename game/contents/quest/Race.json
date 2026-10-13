@@ -1,0 +1,47 @@
+{
+  "key": "Race",
+  "quarter": 3,
+  "title": "Corrida nas Estrelas",
+  "icon": "res://assets/sprites/quest_icons/Race.png",
+  "difficult": "Hard",
+  "attribute": {
+    "Functional Suitability": "High",
+    "Performance Efficiency": "High",
+    "Compatibility": "High",
+    "Interaction Capability": "Low",
+    "Reliability": "Low",
+    "Security": "Medium",
+    "Maintainability": "Low",
+    "Flexibility": "High",
+    "Safety": "Low"
+  },
+  "description": {
+    "paragraph1": "O maior campeonato de eSports da galáxia decidiu automatizar completamente suas transmissões.",
+    "paragraph2": "Milhões de espectadores acompanham partidas em tempo real por hologramas, VR, TVs tradicionais, cinemas imersivos e até painéis urbanos.",
+    "paragraph3": "Tudo no sistema funciona através de eventos.",
+    "paragraph4": "Quando um jogador elimina outro, dezenas de serviços reagem simultaneamente: placar, replay automático, apostas, narração e até geração instantânea de memes patrocinados.",
+    "paragraph5": "O problema começou durante a final mundial.",
+    "paragraph6": "Alguns eventos de eliminação chegaram duplicados. Outros chegaram atrasados. O sistema de apostas pagou milhões indevidamente, o narrador anunciou vencedores errados e os telões exibiram replay de um jogador sendo eliminado… antes mesmo da jogada acontecer.",
+    "paragraph7": "Tecnicamente foi descrito como ‘latência eventual’. Os fãs descreveram como ‘o pior dia da história dos esportes’."
+  },
+  "bullet_point": {
+    "bullet1": "Diversos sistemas precisam reagir instantaneamente aos acontecimentos da partida.",
+    "bullet2": "Novos módulos de transmissão devem ser adicionados sem interromper o campeonato.",
+    "bullet3": "Eventos duplicados estão causando inconsistências entre serviços.",
+    "bullet4": "Todos os dispositivos devem reagir bem aos eventos da transmissão."
+  },
+  "footnote": "[i]~ O replay do evento chegou antes do evento… alguém avisa o físico quântico?[/i]",
+  "requirements": {
+    "pattern1": "EDA"
+  },
+  "bug": {
+    "bug1": {
+      "description": "Durante a final, um único evento de eliminação foi processado duas vezes por alguns serviços e ignorado por outros. Isso fez o sistema de apostas registrar vitórias inexistentes enquanto os replays mostravam informações conflitantes. Qual característica da arquitetura orientada a eventos contribuiu diretamente para esse problema?",
+      "choices": {
+        "correct": "A comunicação assíncrona e distribuída entre múltiplos consumidores de eventos",
+        "wrong1": "O forte acoplamento entre interface e lógica",
+        "wrong2": "A dependência de uma única camada centralizada"
+      }
+    }
+  }
+}

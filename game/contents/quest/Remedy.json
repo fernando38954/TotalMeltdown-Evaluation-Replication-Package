@@ -1,0 +1,43 @@
+{
+  "key": "Remedy",
+  "quarter": 1,
+  "title": "Melhor remediar",
+  "icon": "res://assets/sprites/quest_icons/Remedy.png",
+  "difficult": "Easy",
+  "attribute": {
+    "Functional Suitability": "High",
+    "Performance Efficiency": "High",
+    "Compatibility": "Low",
+    "Interaction Capability": "Medium",
+    "Reliability": "High",
+    "Security": "Low",
+    "Maintainability": "Low",
+    "Flexibility": "Medium",
+    "Safety": "High"
+  },
+  "description": {
+    "paragraph1": "Uma rede hospitalar usa drones autônomos para entregar medicamentos e realizar primeiros socorros em megacidades congestionadas.",
+    "paragraph2": "O sistema possui camadas separadas para autenticação médica, análise de risco, controle de estoque, roteamento aéreo e comunicação com hospitais.",
+    "paragraph3": "Depois que uma IA tentou ‘otimizar’ o sistema removendo verificações intermediárias, um drone entregou laxante no lugar de antialérgico.",
+    "paragraph4": "Agora ninguém mais confia no botão ‘Entrega Urgente’."
+  },
+  "bullet_point": {
+    "bullet1": "O sistema [b]não pode errar[/b] nos pedidos.",
+    "bullet2": "Mesmo com falhas [b]ele precisa continuar operando[/b], vidas dependem disso!",
+    "bullet3": "Problemas em roteamento não podem atrasar pedidos. A resposta precisa ser quase instânea."
+  },
+  "footnote": "[i]~ Pelo menos minha constipação foi resolvida.[/i]",
+  "requirements": {
+    "pattern1": "Layered"
+  },
+  "bug": {
+    "bug1": {
+      "description": "Para acelerar entregas, uma IA fez os drones acessarem diretamente a camada de estoque sem passar pelas validações médicas intermediárias. Qual foi a principal consequência arquitetural dessa decisão?",
+      "choices": {
+        "correct": "Redução do isolamento e da confiabilidade do sistema",
+        "wrong1": "Melhoria da compatibilidade entre drones",
+        "wrong2": "Diminuição da necessidade de autenticação médica"
+      }
+    }
+  }
+}

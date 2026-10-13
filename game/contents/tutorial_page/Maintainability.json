@@ -1,0 +1,7 @@
+{
+  "key": "Maintainability",
+  "order": 7,
+  "title": "Manutenibilidade",
+  "image": "res://assets/sprites/attribute_icons/Maintainability.png",
+  "description": "\tAvalia a facilidade com que o sistema pode ser modificado para corrigir erros, melhorar funcionalidades ou se adaptar a mudanças.\n[ul]\n[b]Modularidade[/b]: componentes independentes.\n[b]Reusabilidade[/b]: partes podem ser reutilizadas.\n[b]Analisabilidade[/b]: fácil de diagnosticar e avaliar impactos.\n[b]Modificabilidade[/b]: fácil de alterar sem causar problemas.\n[b]Testabilidade[/b]: fácil de testar.[/ul]"
+}

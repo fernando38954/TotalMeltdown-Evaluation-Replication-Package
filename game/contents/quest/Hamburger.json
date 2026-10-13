@@ -1,0 +1,43 @@
+{
+  "key": "Hamburger",
+  "quarter": 2,
+  "title": "Fábrica de Hamburguers",
+  "icon": "res://assets/sprites/quest_icons/Hamburger.png",
+  "difficult": "Medium",
+  "attribute": {
+    "Functional Suitability": "High",
+    "Performance Efficiency": "Medium",
+    "Compatibility": "Medium",
+    "Interaction Capability": "Medium",
+    "Reliability": "Medium",
+    "Security": "High",
+    "Maintainability": "High",
+    "Flexibility": "Medium",
+    "Safety": "Medium"
+  },
+  "description": {
+    "paragraph1": "Uma rede de fast-food que utiliza bioimpressoras para criar hambúrgueres personalizados em segundos.",
+    "paragraph2": "Cada parte do sistema funciona separadamente: pagamento, impressão de comida, validação genética, controle nutricional, entregas e recomendação alimentar.",
+    "paragraph3": "O sistema antigo era gigantesco e impossível de atualizar. Então uma IA sugeriu dividir tudo em pequenos serviços independentes.",
+    "paragraph4": "Funcionou… até o serviço de ‘molhos premium’ parar de responder e transformar metade dos pedidos em água quente com alface."
+  },
+  "bullet_point": {
+    "bullet1": "Cada funcionalidade precisa evoluir [b]sem afetar[/b] o restante do sistema. Atualizar o cardápio precisa ser fácil.",
+    "bullet2": "Os serviços precisam cooperar corretamente para montar [b]pedidos completos e corretos[/b].",
+    "bullet3": "Dados genéticos, utilizados na recomendação alimentar, dos [b]clientes precisam ser protegidos[/b]."
+  },
+  "footnote": "[i]~ Parece até Hell's Kitchen.[/i]",
+  "requirements": {
+    "pattern1": "Microservice"
+  },
+  "bug": {
+    "bug1": {
+      "description": "Após uma atualização no serviço de pagamentos, o sistema de impressão de hambúrgueres começou a liberar pedidos sem confirmação financeira. A equipe percebeu que os serviços estavam confiando diretamente uns nos outros sem validação adequada. Qual prática seria mais importante nesse cenário distribuído?",
+      "choices": {
+        "correct": "Garantir comunicação segura e validação entre serviços",
+        "wrong1": "Centralizar toda a lógica em um único módulo",
+        "wrong2": "Remover a separação entre serviços para reduzir mensagens"
+      }
+    }
+  }
+}

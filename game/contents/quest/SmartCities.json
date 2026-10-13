@@ -1,0 +1,45 @@
+{
+  "key": "SmartCities",
+  "quarter": 3,
+  "title": "Cidades Inteligêntes",
+  "icon": "res://assets/sprites/quest_icons/SmartCities.png",
+  "difficult": "Hard",
+  "attribute": {
+    "Functional Suitability": "Medium",
+    "Performance Efficiency": "Low",
+    "Compatibility": "High",
+    "Interaction Capability": "Medium",
+    "Reliability": "Medium",
+    "Security": "Medium",
+    "Maintainability": "High",
+    "Flexibility": "High",
+    "Safety": "High"
+  },
+  "description": {
+    "paragraph1": "Megacidades orbitais passaram a utilizar um sistema distribuído para controlar moradia, energia, transporte, clima artificial, drones urbanos e serviços civis.",
+    "paragraph2": "Cada setor da cidade evolui de maneira independente porque fornecedores diferentes desenvolvem partes específicas da infraestrutura.",
+    "paragraph3": "Alguns módulos rodam em servidores quânticos mais modernos. Outros ainda executam em máquinas absurdamente antigas porque ninguém quer arriscar desligar o reator que sustenta o bairro 12.",
+    "paragraph4": "Nos últimos meses, atualizações independentes começaram a gerar incompatibilidades bizarras: elevadores estão tentado fazer entregas de aplicativo, drones de limpeza tentam cobrar imposto e o sistema climático ocasionalmente interpreta notificações de trânsito como pedidos de furacão.",
+    "paragraph5": "A prefeitura insiste que a arquitetura distribuída é necessária porque a cidade não pode parar inteira durante atualizações."
+  },
+  "bullet_point": {
+    "bullet1": "Partes diferentes da cidade precisam evoluir de maneira independente.",
+    "bullet2": "Serviços antigos e modernos precisam continuar se comunicando.",
+    "bullet3": "Atualizações isoladas não deveriam interromper o funcionamento urbano. Os sistemas precisam se adaptar ao contexto.",
+    "bullet4": "A comunicação entre módulos distribuídos está cada vez mais complexa, precisamos garantir que seja fácil de compreender."
+  },
+  "footnote": "[i]~ Quase recebi multa de imposto, bem lembrado.[/i]",
+  "requirements": {
+    "pattern1": "Microservice"
+  },
+  "bug": {
+    "bug1": {
+      "description": "Após uma atualização do serviço climático, drones antigos de manutenção começaram a interpretar mensagens meteorológicas como comandos operacionais. O problema ocorreu porque diferentes serviços passaram a utilizar versões incompatíveis do protocolo de comunicação. Em arquiteturas de microserviços, qual prática ajuda a reduzir esse tipo de problema?",
+      "choices": {
+        "correct": "Definir contratos e versionamento claro entre serviços",
+        "wrong1": "Concentrar todos os serviços em um único processo",
+        "wrong2": "Eliminar comunicação em rede entre componentes"
+      }
+    }
+  }
+}

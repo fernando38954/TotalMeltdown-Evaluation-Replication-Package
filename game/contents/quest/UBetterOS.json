@@ -1,0 +1,45 @@
+{
+  "key": "UBetterOS",
+  "quarter": 3,
+  "title": "UBetterOS Marketplace",
+  "icon": "res://assets/sprites/quest_icons/UBetterOS.png",
+  "difficult": "Medium",
+  "attribute": {
+    "Functional Suitability": "High",
+    "Performance Efficiency": "Low",
+    "Compatibility": "Medium",
+    "Interaction Capability": "Medium",
+    "Reliability": "High",
+    "Security": "Medium",
+    "Maintainability": "High",
+    "Flexibility": "Medium",
+    "Safety": "Medium"
+  },
+  "description": {
+    "paragraph1": "Uma empresa desenvolveu um sistema operacional modular para implantes neurais.",
+    "paragraph2": "O núcleo do sistema é extremamente pequeno: apenas gerencia memória cerebral, autenticação e comunicação básica.",
+    "paragraph3": "Todo o resto funciona por plug-ins: visão noturna, filtro de anúncios mentais, tradução instantânea, bloqueador de pensamentos cringe e até simuladores de coragem para reuniões.",
+    "paragraph4": "O problema começou quando usuários instalaram centenas de plug-ins criados por IA sem qualquer padrão de qualidade.",
+    "paragraph5": "Agora o sistema continua funcionando… mas algumas pessoas estão ouvindo propaganda de energético toda vez que piscam."
+  },
+  "bullet_point": {
+    "bullet1": "Novas funcionalidades devem ser adicionadas [b]sem alterar o núcleo[/b].",
+    "bullet2": "Falhas em um plug-in não podem derrubar o sistema inteiro.",
+    "bullet3": "Os módulos precisam ser [b]facilmente substituíveis[/b].",
+    "bullet4": "Sem mais pensamentos intrusivos aleatórios."
+  },
+  "footnote": "[i]~ Onde está a opção premium para se livrar do anúncio?[/i]",
+  "requirements": {
+    "pattern1": "Microkernel"
+  },
+  "bug": {
+    "bug1": {
+      "description": "Um plug-in de “motivação pessoal” começou a travar constantemente após uma atualização. Felizmente, o restante do sistema operacional continuou funcionando normalmente. Qual característica da arquitetura Microkernel explica esse comportamento?",
+      "choices": {
+        "correct": "O isolamento entre núcleo e plug-ins",
+        "wrong1": "O uso de múltiplos servidores independentes",
+        "wrong2": "A separação rígida em camadas"
+      }
+    }
+  }
+}

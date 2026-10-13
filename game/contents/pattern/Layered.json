@@ -1,0 +1,32 @@
+{
+  "key": "Layered",
+  "quarter": 1,
+  "title": "Arquitetura em Camadas",
+  "icon": "res://assets/sprites/pattern_icons/Layered.png",
+  "cost": 50,
+  "attribute": {
+    "Functional Suitability": 1.1,
+    "Performance Efficiency": 0.8,
+    "Compatibility": 0.8,
+    "Interaction Capability": 1.1,
+    "Reliability": 1.4,
+    "Security": 1.8,
+    "Maintainability": 1.4,
+    "Flexibility": 1.1,
+    "Safety": 1.1
+  },
+  "complexity_level": 2,
+  "time_level": 2,
+  "cost_level": 2,
+  "description": "\tA arquitetura em camadas organiza o sistema em níveis hierárquicos, onde cada camada possui responsabilidades bem definidas e se comunica, em geral, apenas com as camadas adjacentes. Essa estrutura promove separação de interesses e controle sobre o fluxo de dados e dependências. Sua organização fundamenta-se em blocos conceituais organizados verticalmente:\n[ul]\n[b]Camada de Apresentação[/b]: Responsável pela interface com o usuário, tratando entrada e saída de dados.\n[b]Camada de Aplicação[/b]: Coordena os fluxos de uso do sistema, orquestrando operações e regras de negócio sem implementá-las diretamente.\n[b]Camada de Domínio[/b]: Contém a lógica de negócio central, regras e políticas que governam o funcionamento do sistema.\n[b]Camada de Infraestrutura[/b]: Responsável pelo acesso a dados, persistência e comunicação com sistemas externos (bancos de dados, APIs, etc.).[/ul]\n\tEssa arquitetura oferece vantagens como: [b]alta segurança[/b], pois o controle de acesso pode ser centralizado e restrito entre camadas; [b]boa manutenibilidade[/b], devido ao baixo acoplamento entre níveis e à organização modular; e [b]boa confiabilidade[/b], uma vez que a separação facilita testes, isolamento de falhas e previsibilidade no comportamento do sistema.\n\tComo desvantagens, destacam-se o [b]baixo desempenho[/b], já que requisições frequentemente precisam atravessar múltiplas camadas, aumentando a sobrecarga; e a [b]baixa compatibilidade[/b], pois a rigidez estrutural pode dificultar a integração com sistemas externos ou arquiteturas que não seguem a mesma organização em camadas.",
+  "concept": "Organização hierárquica (Apresentação, Aplicação, Domínio e Infraestrutura).",
+  "advantage": "Segurança e Confiabilidade. Controle rigoroso de acesso e isolamento de falhas entre os níveis.",
+  "disadvantage": "Baixo Desempenho. O dado precisa atravessar todas as camadas, gerando sobrecarga.",
+  "bullet_point": {
+    "bullet1": "Sistema organizado em camadas hierárquicas",
+    "bullet2": "Cada camada possui responsabilidade específica",
+    "bullet3": "Comunicação ocorre entre camadas adjacentes",
+    "bullet4": "Domínio separado da infraestrutura externa",
+    "bullet5": "Fluxo controlado entre diferentes níveis"
+  }
+}

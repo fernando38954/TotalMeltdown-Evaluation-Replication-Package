@@ -1,0 +1,7 @@
+{
+  "key": "FunctionalSuitability",
+  "order": 1,
+  "title": "Adequação Funcional",
+  "image": "res://assets/sprites/attribute_icons/FunctionalSuitability.png",
+  "description": "\tRefere-se à capacidade do sistema de fornecer funções que atendam corretamente às necessidades do usuário. Um software adequado resolve o problema proposto com completude e precisão.\n[ul]\n[b]Integridade funcional[/b]: cobre todas as tarefas e objetivos esperados.\n[b]Correção funcional[/b]: produz resultados corretos.\n[b]Adequação funcional[/b]: facilita a realização das tarefas[/ul]"
+}
