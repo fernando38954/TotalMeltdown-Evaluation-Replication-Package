@@ -1,0 +1,27 @@
+characteristic,category,n,denominator,percent
+education,Ensino Superior (Cursando),38,44,86.36363636363636
+education,Ensino Superior Completo,3,44,6.818181818181818
+education,Mestrado (Cursando),3,44,6.818181818181818
+entry_year,2020/2021,4,44,9.090909090909092
+entry_year,2022/2023,12,44,27.272727272727273
+entry_year,2024,27,44,61.36363636363637
+entry_year,2026,1,44,2.272727272727273
+age,18 a 28 anos,40,44,90.9090909090909
+age,29 a 39 anos,4,44,9.090909090909092
+gender,Homem,35,44,79.54545454545455
+gender,Mulher,7,44,15.909090909090908
+gender,Other (free-text),1,44,2.272727272727273
+gender,prefiro não responder,1,44,2.272727272727273
+software_engineering_course,Não,15,44,34.09090909090909
+software_engineering_course,Sim,29,44,65.9090909090909
+architecture_course,Não,21,44,47.72727272727273
+architecture_course,Sim,23,44,52.27272727272727
+gaming_frequency,Diariamente: jogo todos os dias.,12,44,27.272727272727273
+gaming_frequency,Mensalmente: jogo pelo menos uma vez por mês.,10,44,22.727272727272727
+gaming_frequency,Nunca: nunca jogo.,1,44,2.272727272727273
+gaming_frequency,Raramente: jogo de tempos em tempos.,6,44,13.636363636363637
+gaming_frequency,Semanalmente: jogo pelo menos uma vez por semana.,15,44,34.09090909090909
+prior_knowledge,Conhecimento avançado,2,44,4.545454545454546
+prior_knowledge,Conhecimento básico,27,44,61.36363636363637
+prior_knowledge,Conhecimento intermediário,12,44,27.272727272727273
+prior_knowledge,Nenhum conhecimento,3,44,6.818181818181818

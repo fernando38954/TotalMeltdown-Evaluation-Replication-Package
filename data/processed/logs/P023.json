@@ -1,0 +1,755 @@
+{
+  "schema_version": "1.0",
+  "participant_id": "P023",
+  "header_game_time_seconds": 2008.355,
+  "header_current_quarter": 4,
+  "declared_actions": 46,
+  "events": [
+    {
+      "index": 1,
+      "event": "swebok_closed",
+      "time_spent_seconds": 12.9,
+      "final_page": "Profit",
+      "relative_time_seconds": 0
+    },
+    {
+      "index": 2,
+      "event": "swebok_closed",
+      "time_spent_seconds": 15.517,
+      "final_page": "Model-View-Controller",
+      "relative_time_seconds": 322
+    },
+    {
+      "index": 3,
+      "event": "swebok_closed",
+      "time_spent_seconds": 1.25,
+      "final_page": "Game Screens",
+      "relative_time_seconds": 360
+    },
+    {
+      "index": 4,
+      "event": "minigame_pipe_finished",
+      "pattern_name": "Model-View-Controller",
+      "correct_bullets_count": 3,
+      "correct_bullets": [
+        "Divides system into Model, View, Controller",
+        "Model centralizes business rules",
+        "Interface separated from main logic"
+      ],
+      "wrong_bullets_count": 1,
+      "wrong_bullets": [
+        "Plug-ins add external functionalities"
+      ],
+      "time_spent_seconds": 273.389,
+      "relative_time_seconds": 496
+    },
+    {
+      "index": 5,
+      "event": "contract_started",
+      "quest_name": "Social Fridge",
+      "quest_description": "{ \"paragraph1\": \"My fridge started automatically posting recipes using what\\'s inside it. Now it has followers. Many followers.\", \"paragraph2\": \"The fridge door screen, the mobile app, refrigerator displays, and smart glasses need to show the same recipes… but each in a different way.\", \"paragraph3\": \"After the last update, the fridge screen started showing hamster food ads on every cake recipe.\" }",
+      "pattern_required": {
+        "pattern1": "MVC"
+      },
+      "pattern_chosen": "Model-View-Controller",
+      "total_attribute_provided": {
+        "Functional Suitability": 6.6,
+        "Performance Efficiency": 4.4,
+        "Compatibility": 6.4,
+        "Interaction Capability": 9.01,
+        "Reliability": 9.9,
+        "Security": 6.05,
+        "Maintainability": 11.2,
+        "Flexibility": 5.5,
+        "Safety": 3.85
+      },
+      "required_attribute": {
+        "Functional Suitability": 5.4,
+        "Performance Efficiency": 3.1,
+        "Compatibility": 3.9,
+        "Interaction Capability": 8.9,
+        "Reliability": 5.1,
+        "Security": 3.7,
+        "Maintainability": 9.0,
+        "Flexibility": 5.9,
+        "Safety": 0.2
+      },
+      "relative_time_seconds": 542
+    },
+    {
+      "index": 6,
+      "event": "swebok_closed",
+      "time_spent_seconds": 9.226,
+      "final_page": "Model-View-Controller",
+      "relative_time_seconds": 641
+    },
+    {
+      "index": 7,
+      "event": "quiz_answer",
+      "question": "What is the name of the company?",
+      "correct_answer": "✓ RetroCODE",
+      "player_answer": "✓ RetroCODE",
+      "is_correct": true,
+      "time_spent_seconds": 3.065,
+      "quiz_type": "Exam",
+      "question_number": 1,
+      "total_questions": 3,
+      "relative_time_seconds": 667
+    },
+    {
+      "index": 8,
+      "event": "quiz_answer",
+      "question": "What is the name of the international standard for the quality model of software products and systems?",
+      "correct_answer": "✓ ISO/IEC 25010",
+      "player_answer": "✓ ISO/IEC 25010",
+      "is_correct": true,
+      "time_spent_seconds": 2.15,
+      "quiz_type": "Exam",
+      "question_number": 2,
+      "total_questions": 3,
+      "relative_time_seconds": 671
+    },
+    {
+      "index": 9,
+      "event": "quiz_answer",
+      "question": "In the latest ISO/IEC 25010 standard, which of the following quality attributes does NOT exist?",
+      "correct_answer": "✓ Usability",
+      "player_answer": "✓ Usability",
+      "is_correct": true,
+      "time_spent_seconds": 8.417,
+      "quiz_type": "Exam",
+      "question_number": 3,
+      "total_questions": 3,
+      "relative_time_seconds": 682
+    },
+    {
+      "index": 10,
+      "event": "quarter_finished",
+      "current_quarter": 0,
+      "money": 125,
+      "total_gain": -75,
+      "developer_hired_number": 2,
+      "time_spent_seconds": 804.606,
+      "relative_time_seconds": 687
+    },
+    {
+      "index": 11,
+      "event": "swebok_closed",
+      "time_spent_seconds": 31.601,
+      "final_page": "Layered Architecture",
+      "relative_time_seconds": 757
+    },
+    {
+      "index": 12,
+      "event": "minigame_pipe_finished",
+      "pattern_name": "Layered Architecture",
+      "correct_bullets_count": 4,
+      "correct_bullets": [
+        "Controlled flow between different levels",
+        "Communication occurs between adjacent layers",
+        "System organized into hierarchical layers",
+        "Domain separated from external infrastructure"
+      ],
+      "wrong_bullets_count": 2,
+      "wrong_bullets": [
+        "System divided into independent services",
+        "Plug-ins add external functionalities"
+      ],
+      "time_spent_seconds": 100.342,
+      "relative_time_seconds": 822
+    },
+    {
+      "index": 13,
+      "event": "minigame_pipe_finished",
+      "pattern_name": "Layered Architecture",
+      "correct_bullets_count": 4,
+      "correct_bullets": [
+        "Controlled flow between different levels",
+        "Communication occurs between adjacent layers",
+        "System organized into hierarchical layers",
+        "Domain separated from external infrastructure"
+      ],
+      "wrong_bullets_count": 2,
+      "wrong_bullets": [
+        "System divided into independent services",
+        "Plug-ins add external functionalities"
+      ],
+      "time_spent_seconds": 100.541,
+      "relative_time_seconds": 822
+    },
+    {
+      "index": 14,
+      "event": "contract_started",
+      "quest_name": "Better Remedy",
+      "quest_description": "{ \"paragraph1\": \"A hospital network uses autonomous drones to deliver medicine and provide first aid in congested megacities.\", \"paragraph2\": \"The system has separate layers for medical authentication, risk analysis, inventory control, air routing, and hospital communication.\", \"paragraph3\": \"After an AI tried to \\'optimize\\' the system by removing intermediate checks, a drone delivered laxative instead of antihistamine.\", \"paragraph4\": \"Now no one trusts the \\'Urgent Delivery\\' button anymore.\" }",
+      "pattern_required": {
+        "pattern1": "Layered"
+      },
+      "pattern_chosen": "Layered Architecture",
+      "total_attribute_provided": {
+        "Functional Suitability": 3.3,
+        "Performance Efficiency": 1.6,
+        "Compatibility": 3.2,
+        "Interaction Capability": 1.98,
+        "Reliability": 5.6,
+        "Security": 3.6,
+        "Maintainability": 7.0,
+        "Flexibility": 3.3,
+        "Safety": 1.65
+      },
+      "required_attribute": {
+        "Functional Suitability": 8.3,
+        "Performance Efficiency": 8.9,
+        "Compatibility": 3.2,
+        "Interaction Capability": 5.5,
+        "Reliability": 9.5,
+        "Security": 2.1,
+        "Maintainability": 2.3,
+        "Flexibility": 5.7,
+        "Safety": 8.1
+      },
+      "relative_time_seconds": 856
+    },
+    {
+      "index": 15,
+      "event": "swebok_closed",
+      "time_spent_seconds": 103.136,
+      "final_page": "Client-Server",
+      "relative_time_seconds": 981
+    },
+    {
+      "index": 16,
+      "event": "swebok_closed",
+      "time_spent_seconds": 59.517,
+      "final_page": "Game Screens",
+      "relative_time_seconds": 1056
+    },
+    {
+      "index": 17,
+      "event": "minigame_pipe_finished",
+      "pattern_name": "Client-Server",
+      "correct_bullets_count": 3,
+      "correct_bullets": [
+        "Clients consume services from the server",
+        "Communication occurs over the network",
+        "Multiple clients access the same server"
+      ],
+      "wrong_bullets_count": 3,
+      "wrong_bullets": [
+        "Controller mediates between user and application",
+        "Distributed infrastructure coordinates services",
+        "Services deployed autonomously"
+      ],
+      "time_spent_seconds": 208.825,
+      "relative_time_seconds": 1084
+    },
+    {
+      "index": 18,
+      "event": "contract_started",
+      "quest_name": "Metaverse City Hall",
+      "quest_description": {
+        "paragraph1": "The city hall launched a holographic portal for issuing documents.",
+        "paragraph2": "The problem is that the elderly use a physical terminal, young people use a neural app, and employees use an old computer with Ubuntu 24.04.",
+        "paragraph3": "Each update breaks half of the screens, but curiously, the tax system continues to work perfectly."
+      },
+      "pattern_required": {
+        "pattern1": "MVC"
+      },
+      "pattern_chosen": "Client-Server",
+      "total_attribute_provided": {
+        "Functional Suitability": 3.3,
+        "Performance Efficiency": 2.2,
+        "Compatibility": 4.4,
+        "Interaction Capability": 4.9,
+        "Reliability": 4.0,
+        "Security": 4.9,
+        "Maintainability": 2.4,
+        "Flexibility": 3.4,
+        "Safety": 2.2
+      },
+      "required_attribute": {
+        "Functional Suitability": 5.9,
+        "Performance Efficiency": 3.8,
+        "Compatibility": 3.3,
+        "Interaction Capability": 8.9,
+        "Reliability": 9.9,
+        "Security": 5.3,
+        "Maintainability": 5.1,
+        "Flexibility": 5.2,
+        "Safety": 0.7
+      },
+      "relative_time_seconds": 1157
+    },
+    {
+      "index": 19,
+      "event": "contract_started",
+      "quest_name": "NeuroMatch",
+      "quest_description": "{ \"paragraph1\": \"A company created a dating app that uses brain scanning to find \\'perfect emotional compatibility\\'.\", \"paragraph2\": \"Users access the system through various devices: phones, neural glasses, holographic consoles, and even smart mirrors.\", \"paragraph3\": \"All heavy processing happens on a giant central server called CUP1D0.\", \"paragraph4\": \"The problem is that when the server went down for 11 minutes, thousands of couples had their memories synchronized with random people.\" }",
+      "pattern_required": {
+        "pattern1": "ClientServer"
+      },
+      "pattern_chosen": "Client-Server",
+      "total_attribute_provided": {
+        "Functional Suitability": 7.15,
+        "Performance Efficiency": 4.4,
+        "Compatibility": 6.05,
+        "Interaction Capability": 4.9,
+        "Reliability": 6.4,
+        "Security": 10.5,
+        "Maintainability": 6.0,
+        "Flexibility": 11.05,
+        "Safety": 7.15
+      },
+      "required_attribute": {
+        "Functional Suitability": 5.9,
+        "Performance Efficiency": 5.8,
+        "Compatibility": 5.3,
+        "Interaction Capability": 3.1,
+        "Reliability": 8.7,
+        "Security": 8.7,
+        "Maintainability": 3.7,
+        "Flexibility": 8.4,
+        "Safety": 5.0
+      },
+      "relative_time_seconds": 1177
+    },
+    {
+      "index": 20,
+      "event": "quiz_answer",
+      "question": "A team is developing a web system using MVC. During a meeting, the developer states that the interface can be changed without modifying the core business rules.\nThis characteristic is mainly related to which quality attribute?",
+      "correct_answer": "✓ Maintainability",
+      "player_answer": "✗ Reliability",
+      "is_correct": false,
+      "time_spent_seconds": 10.982,
+      "quiz_type": "Exam",
+      "question_number": 1,
+      "total_questions": 3,
+      "relative_time_seconds": 1226
+    },
+    {
+      "index": 21,
+      "event": "quiz_answer",
+      "question": "A team is developing a web system using MVC. During a meeting, the developer states that the interface can be changed without modifying the core business rules.\nThis characteristic is mainly related to which quality attribute?",
+      "correct_answer": "✓ Maintainability",
+      "player_answer": "✓ Maintainability",
+      "is_correct": true,
+      "time_spent_seconds": 11.965,
+      "quiz_type": "Exam",
+      "question_number": 1,
+      "total_questions": 3,
+      "relative_time_seconds": 1227
+    },
+    {
+      "index": 22,
+      "event": "quiz_answer",
+      "question": "A banking system was organized into layers. Financial rules were isolated from the interface and the database, making testing and responsibility control easier.\nWhich characteristic of layered architecture is being applied?",
+      "correct_answer": "✓ Hierarchical separation of responsibilities",
+      "player_answer": "✓ Hierarchical separation of responsibilities",
+      "is_correct": true,
+      "time_spent_seconds": 14.317,
+      "quiz_type": "Exam",
+      "question_number": 2,
+      "total_questions": 3,
+      "relative_time_seconds": 1242
+    },
+    {
+      "index": 23,
+      "event": "quiz_answer",
+      "question": "A company uses a Client-Server architecture in its sales system. One day, the main server failed and all clients were unable to access the system.\nThis scenario mainly represents a problem related to:",
+      "correct_answer": "✓ Reliability",
+      "player_answer": "✗ Usability",
+      "is_correct": false,
+      "time_spent_seconds": 8.7,
+      "quiz_type": "Exam",
+      "question_number": 3,
+      "total_questions": 3,
+      "relative_time_seconds": 1252
+    },
+    {
+      "index": 24,
+      "event": "quarter_finished",
+      "current_quarter": 1,
+      "money": 208,
+      "total_gain": 13,
+      "developer_hired_number": 2,
+      "time_spent_seconds": 563.216,
+      "relative_time_seconds": 1263
+    },
+    {
+      "index": 25,
+      "event": "contract_started",
+      "quest_name": "Hamburger Factory",
+      "quest_description": "{ \"paragraph1\": \"A fast-food chain uses bioprinters to create customized hamburgers in seconds.\", \"paragraph2\": \"Each part of the system works separately: payment, food printing, genetic validation, nutritional control, deliveries, and food recommendation.\", \"paragraph3\": \"The old system was gigantic and impossible to update. So an AI suggested dividing everything into small independent services.\", \"paragraph4\": \"It worked… until the \\'premium sauces\\' service stopped responding and turned half the orders into hot water with lettuce.\" }",
+      "pattern_required": {
+        "pattern1": "Microservice"
+      },
+      "pattern_chosen": "Layered Architecture",
+      "total_attribute_provided": {
+        "Functional Suitability": 3.3,
+        "Performance Efficiency": 2.0,
+        "Compatibility": 2.8,
+        "Interaction Capability": 1.65,
+        "Reliability": 4.2,
+        "Security": 4.5,
+        "Maintainability": 7.0,
+        "Flexibility": 4.95,
+        "Safety": 4.4
+      },
+      "required_attribute": {
+        "Functional Suitability": 9.9,
+        "Performance Efficiency": 5.2,
+        "Compatibility": 5.3,
+        "Interaction Capability": 5.0,
+        "Reliability": 5.5,
+        "Security": 9.2,
+        "Maintainability": 9.8,
+        "Flexibility": 5.5,
+        "Safety": 5.1
+      },
+      "relative_time_seconds": 1321
+    },
+    {
+      "index": 26,
+      "event": "contract_started",
+      "quest_name": "Interpreting Space Signals",
+      "quest_description": {
+        "paragraph1": "An international agency created a system capable of intercepting, translating, and analyzing transmissions from deep space.",
+        "paragraph2": "Billions of signals continuously pass through a processing chain.",
+        "paragraph3": "One filter removes noise. Another detects patterns. Another translates unknown languages. Another classifies potential threats.",
+        "paragraph4": "The problem started when an experimental semantic interpretation filter began generating small inconsistencies in the signals.",
+        "paragraph5": "As a consequence, the system classified an alien soup recipe as a formal declaration of war.",
+        "paragraph6": "The incident nearly started an interstellar conflict over space onions."
+      },
+      "pattern_required": {
+        "pattern1": "PipeFilter"
+      },
+      "pattern_chosen": "Client-Server",
+      "total_attribute_provided": {
+        "Functional Suitability": 3.3,
+        "Performance Efficiency": 2.2,
+        "Compatibility": 4.4,
+        "Interaction Capability": 4.9,
+        "Reliability": 4.0,
+        "Security": 4.9,
+        "Maintainability": 2.4,
+        "Flexibility": 3.4,
+        "Safety": 2.2
+      },
+      "required_attribute": {
+        "Functional Suitability": 8.3,
+        "Performance Efficiency": 3.0,
+        "Compatibility": 3.8,
+        "Interaction Capability": 3.4,
+        "Reliability": 2.4,
+        "Security": 9.3,
+        "Maintainability": 8.7,
+        "Flexibility": 5.7,
+        "Safety": 2.8
+      },
+      "relative_time_seconds": 1360
+    },
+    {
+      "index": 27,
+      "event": "swebok_closed",
+      "time_spent_seconds": 47.368,
+      "final_page": "Microservices",
+      "relative_time_seconds": 1414
+    },
+    {
+      "index": 28,
+      "event": "minigame_pipe_finished",
+      "pattern_name": "Microservices",
+      "correct_bullets_count": 2,
+      "correct_bullets": [
+        "Communication based on distributed APIs",
+        "Each service has its own responsibility"
+      ],
+      "wrong_bullets_count": 3,
+      "wrong_bullets": [
+        "Standardized communication between internal components",
+        "Consumers react to detected changes",
+        "Each layer has specific responsibilities"
+      ],
+      "time_spent_seconds": 67.191,
+      "relative_time_seconds": 1431
+    },
+    {
+      "index": 29,
+      "event": "contract_started",
+      "quest_name": "Universal Translator",
+      "quest_description": "{ \"paragraph1\": \"A corporation launched a real‑time universal translator capable of converting voice, gestures, facial expressions, and even slang between different species.\", \"paragraph2\": \"Humans, domestic robots, animals, smart cars, and even conscious toasters use the system daily.\", \"paragraph3\": \"The central server processes language, cultural context, and device authentication.\", \"paragraph4\": \"The problem started when independent manufacturers began creating unofficial alternative clients.\", \"paragraph5\": \"Now some devices translate \\'good morning\\' as a diplomatic threat, others simply explode trying to interpret emotional emojis from the younger generation.\", \"paragraph6\": \"The company wants to continue allowing new client types in the system… but every server update seems to break half of the old devices.\" }",
+      "pattern_required": {
+        "pattern1": "ClientServer"
+      },
+      "pattern_chosen": "Microservices",
+      "total_attribute_provided": {
+        "Functional Suitability": 3.85,
+        "Performance Efficiency": 1.2,
+        "Compatibility": 2.2,
+        "Interaction Capability": 2.2,
+        "Reliability": 5.5,
+        "Security": 5.5,
+        "Maintainability": 3.5,
+        "Flexibility": 3.6,
+        "Safety": 2.75
+      },
+      "required_attribute": {
+        "Functional Suitability": 5.1,
+        "Performance Efficiency": 5.8,
+        "Compatibility": 8.5,
+        "Interaction Capability": 8.2,
+        "Reliability": 5.8,
+        "Security": 5.3,
+        "Maintainability": 2.3,
+        "Flexibility": 9.1,
+        "Safety": 0.1
+      },
+      "relative_time_seconds": 1455
+    },
+    {
+      "index": 30,
+      "event": "swebok_closed",
+      "time_spent_seconds": 35.034,
+      "final_page": "Pipe and Filter",
+      "relative_time_seconds": 1514
+    },
+    {
+      "index": 31,
+      "event": "minigame_pipe_finished",
+      "pattern_name": "Pipe and Filter",
+      "correct_bullets_count": 2,
+      "correct_bullets": [
+        "Processing divided into independent filters",
+        "Each filter transforms received data"
+      ],
+      "wrong_bullets_count": 3,
+      "wrong_bullets": [
+        "Independent extensions connected to the core",
+        "Each service has its own responsibility",
+        "Flow based on event emission"
+      ],
+      "time_spent_seconds": 64.274,
+      "relative_time_seconds": 1538
+    },
+    {
+      "index": 32,
+      "event": "quiz_answer",
+      "question": "A streaming platform decided to migrate part of its system to microservices. Now authentication, catalog, and recommendations work as independent services.\nWhich quality attribute is most favored by this decision?",
+      "correct_answer": "✓ Flexibility",
+      "player_answer": "✓ Flexibility",
+      "is_correct": true,
+      "time_spent_seconds": 6.248,
+      "quiz_type": "Exam",
+      "question_number": 1,
+      "total_questions": 3,
+      "relative_time_seconds": 1553
+    },
+    {
+      "index": 33,
+      "event": "quiz_answer",
+      "question": "An image processing system uses Pipe and Filter. Each filter applies a different transformation before sending the result to the next stage.\nWhich advantage of this architecture is most evident?",
+      "correct_answer": "✓ Ease of modifying filters in isolation",
+      "player_answer": "✓ Ease of modifying filters in isolation",
+      "is_correct": true,
+      "time_spent_seconds": 14.234,
+      "quiz_type": "Exam",
+      "question_number": 2,
+      "total_questions": 3,
+      "relative_time_seconds": 1568
+    },
+    {
+      "index": 34,
+      "event": "quiz_answer",
+      "question": "A company realized that its microservices system started experiencing delays due to excessive network communication between services.\nThis situation represents a disadvantage mainly related to:",
+      "correct_answer": "✓ Performance Efficiency",
+      "player_answer": "✓ Performance Efficiency",
+      "is_correct": true,
+      "time_spent_seconds": 15.417,
+      "quiz_type": "Exam",
+      "question_number": 3,
+      "total_questions": 3,
+      "relative_time_seconds": 1585
+    },
+    {
+      "index": 35,
+      "event": "quarter_finished",
+      "current_quarter": 2,
+      "money": 231,
+      "total_gain": 3,
+      "developer_hired_number": 2,
+      "time_spent_seconds": 312.463,
+      "relative_time_seconds": 1586
+    },
+    {
+      "index": 36,
+      "event": "swebok_closed",
+      "time_spent_seconds": 47.398,
+      "final_page": "Event-Driven Architecture",
+      "relative_time_seconds": 1652
+    },
+    {
+      "index": 37,
+      "event": "minigame_pipe_finished",
+      "pattern_name": "Event-Driven Architecture",
+      "correct_bullets_count": 2,
+      "correct_bullets": [
+        "Producers are unaware of event consumers",
+        "Components communicate through events"
+      ],
+      "wrong_bullets_count": 2,
+      "wrong_bullets": [
+        "Services deployed autonomously",
+        "Data flows through a continuous sequential stream"
+      ],
+      "time_spent_seconds": 60.441,
+      "relative_time_seconds": 1664
+    },
+    {
+      "index": 38,
+      "event": "contract_started",
+      "quest_name": "Race Among the Stars",
+      "quest_description": "{ \"paragraph1\": \"The galaxy\\'s biggest eSports championship decided to fully automate its broadcasts.\", \"paragraph2\": \"Millions of spectators follow matches in real time through holograms, VR, traditional TVs, immersive cinemas, and even urban panels.\", \"paragraph3\": \"Everything in the system works through events.\", \"paragraph4\": \"When one player eliminates another, dozens of services react simultaneously: scoreboard, automatic replay, betting, narration, and even instant generation of sponsored memes.\", \"paragraph5\": \"The problem started during the world finals.\", \"paragraph6\": \"Some elimination events arrived duplicated. Others arrived late. The betting system paid out millions incorrectly, the announcer announced wrong winners, and the big screens showed a replay of a player being eliminated… before the play even happened.\", \"paragraph7\": \"Technically it was described as \\'eventual latency\\'. Fans described it as \\'the worst day in sports history\\'.\" }",
+      "pattern_required": {
+        "pattern1": "EDA"
+      },
+      "pattern_chosen": "Event-Driven Architecture",
+      "total_attribute_provided": {
+        "Functional Suitability": 3.0,
+        "Performance Efficiency": 3.6,
+        "Compatibility": 4.4,
+        "Interaction Capability": 3.85,
+        "Reliability": 3.5,
+        "Security": 3.5,
+        "Maintainability": 4.2,
+        "Flexibility": 2.2,
+        "Safety": 2.0
+      },
+      "required_attribute": {
+        "Functional Suitability": 9.9,
+        "Performance Efficiency": 9.0,
+        "Compatibility": 8.3,
+        "Interaction Capability": 2.8,
+        "Reliability": 4.0,
+        "Security": 6.0,
+        "Maintainability": 4.0,
+        "Flexibility": 8.6,
+        "Safety": 3.9
+      },
+      "relative_time_seconds": 1693
+    },
+    {
+      "index": 39,
+      "event": "contract_started",
+      "quest_name": "Transport Capsule",
+      "quest_description": "{ \"paragraph1\": \"A futuristic city replaced all means of transport with an intelligent mesh of autonomous capsules.\", \"paragraph2\": \"Each vehicle, traffic light, station, and urban drone constantly publishes events: traffic, weather, accidents, maintenance, population flow, and passenger behavior.\", \"paragraph3\": \"The systems do not communicate directly. Everything happens through distributed events.\", \"paragraph4\": \"New urban services can be added quickly without altering existing systems.\", \"paragraph5\": \"The problem is that no one fully understands the system\\'s flow anymore.\", \"paragraph6\": \"After a seemingly simple update to the weather forecasting service, capsules started avoiding entire neighborhoods because a weather event was interpreted as a biological threat.\" }",
+      "pattern_required": {
+        "pattern1": "EDA"
+      },
+      "pattern_chosen": "Pipe and Filter",
+      "total_attribute_provided": {
+        "Functional Suitability": 2.75,
+        "Performance Efficiency": 7.0,
+        "Compatibility": 6.3,
+        "Interaction Capability": 0.8,
+        "Reliability": 3.6,
+        "Security": 2.75,
+        "Maintainability": 4.2,
+        "Flexibility": 4.4,
+        "Safety": 5.5
+      },
+      "required_attribute": {
+        "Functional Suitability": 9.8,
+        "Performance Efficiency": 8.8,
+        "Compatibility": 5.6,
+        "Interaction Capability": 5.1,
+        "Reliability": 3.4,
+        "Security": 5.0,
+        "Maintainability": 2.9,
+        "Flexibility": 5.5,
+        "Safety": 8.5
+      },
+      "relative_time_seconds": 1709
+    },
+    {
+      "index": 40,
+      "event": "swebok_closed",
+      "time_spent_seconds": 0.533,
+      "final_page": "<null>",
+      "relative_time_seconds": 1737
+    },
+    {
+      "index": 41,
+      "event": "swebok_closed",
+      "time_spent_seconds": 19.796,
+      "final_page": "Microkernel",
+      "relative_time_seconds": 1757
+    },
+    {
+      "index": 42,
+      "event": "minigame_pipe_finished",
+      "pattern_name": "Microkernel",
+      "correct_bullets_count": 3,
+      "correct_bullets": [
+        "Minimal core controls essential functions",
+        "Plug-ins add external functionalities",
+        "Independent extensions connected to the core"
+      ],
+      "wrong_bullets_count": 2,
+      "wrong_bullets": [
+        "System divided into independent services",
+        "Each filter transforms received data"
+      ],
+      "time_spent_seconds": 77.056,
+      "relative_time_seconds": 1810
+    },
+    {
+      "index": 43,
+      "event": "quiz_answer",
+      "question": "An event-driven application processes thousands of actions simultaneously. However, developers are finding it difficult to trace the origin of errors and understand the complete flow of operations.\nWhich quality attribute is being most compromised?",
+      "correct_answer": "✓ Maintainability",
+      "player_answer": "✓ Maintainability",
+      "is_correct": true,
+      "time_spent_seconds": 11.099,
+      "quiz_type": "Exam",
+      "question_number": 1,
+      "total_questions": 3,
+      "relative_time_seconds": 1832
+    },
+    {
+      "index": 44,
+      "event": "quiz_answer",
+      "question": "Educational software uses a Microkernel architecture. New features can be added as plug-ins without changing the main core of the system.\nWhich alternative best explains the main advantage of this model?",
+      "correct_answer": "✓ Ease of extension and system adaptation",
+      "player_answer": "✗ Linear multi-stage processing",
+      "is_correct": false,
+      "time_spent_seconds": 26.901,
+      "quiz_type": "Exam",
+      "question_number": 2,
+      "total_questions": 3,
+      "relative_time_seconds": 1860
+    },
+    {
+      "index": 45,
+      "event": "quiz_answer",
+      "question": "A company developed a hybrid system: the main core uses Microkernel; notifications use an event-driven architecture; and extra modules are installed as plug-ins.\nDuring testing, it was noticed that failures in a plug-in did not bring down the core, but lost events caused temporary inconsistencies.\nWhich alternative presents the MOST appropriate analysis?",
+      "correct_answer": "✓ The Microkernel improves fault isolation, but asynchronous events can reduce reliability",
+      "player_answer": "✗ The system has high reliability in all components",
+      "is_correct": false,
+      "time_spent_seconds": 10.501,
+      "quiz_type": "Exam",
+      "question_number": 3,
+      "total_questions": 3,
+      "relative_time_seconds": 1871
+    },
+    {
+      "index": 46,
+      "event": "quarter_finished",
+      "current_quarter": 3,
+      "money": 246,
+      "total_gain": -15,
+      "developer_hired_number": 2,
+      "time_spent_seconds": 274.38,
+      "relative_time_seconds": 1873
+    }
+  ]
+}

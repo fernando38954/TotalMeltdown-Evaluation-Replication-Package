@@ -1,0 +1,199 @@
+{
+  "schema_version": "1.0",
+  "participant_id": "P034",
+  "header_game_time_seconds": 1843.506,
+  "header_current_quarter": 1,
+  "declared_actions": 11,
+  "events": [
+    {
+      "index": 1,
+      "event": "minigame_pipe_finished",
+      "pattern_name": "Modelo-Visão-Controlador",
+      "correct_bullets_count": 4,
+      "correct_bullets": [
+        "Divide sistema em Model, View, Controller",
+        "Controller intermedia usuário e aplicação",
+        "Model centraliza regras de negócio",
+        "Views exibem dados do modelo"
+      ],
+      "wrong_bullets_count": 1,
+      "wrong_bullets": [
+        "Dados percorrem fluxo sequencial contínuo"
+      ],
+      "time_spent_seconds": 115.79,
+      "relative_time_seconds": 0
+    },
+    {
+      "index": 2,
+      "event": "contract_started",
+      "quest_name": "Geladeira Social",
+      "quest_description": {
+        "paragraph1": "Minha geladeira começou a postar receitas automaticamente usando o que tem dentro dela. Agora ela tem seguidores. Muitos seguidores.",
+        "paragraph2": "A tela da porta da geladeira, o aplicativo do celular, os visores de geladeira e os óculos inteligentes precisam mostrar as mesmas receitas… mas cada um de um jeito diferente.",
+        "paragraph3": "Depois da última atualização, a tela da geladeira começou a exibir propaganda de ração pra hamster em toda receita de bolo."
+      },
+      "pattern_required": {
+        "pattern1": "MVC"
+      },
+      "pattern_chosen": "Modelo-Visão-Controlador",
+      "total_attribute_provided": {
+        "Functional Suitability": 8.25,
+        "Performance Efficiency": 9.35,
+        "Compatibility": 5.2,
+        "Interaction Capability": 10.2,
+        "Reliability": 7.7,
+        "Security": 4.4,
+        "Maintainability": 8.4,
+        "Flexibility": 7.7,
+        "Safety": 8.25
+      },
+      "required_attribute": {
+        "Functional Suitability": 5.0,
+        "Performance Efficiency": 3.8,
+        "Compatibility": 3.9,
+        "Interaction Capability": 9.9,
+        "Reliability": 5.5,
+        "Security": 2.2,
+        "Maintainability": 8.3,
+        "Flexibility": 5.4,
+        "Safety": 0.6
+      },
+      "relative_time_seconds": 504
+    },
+    {
+      "index": 3,
+      "event": "swebok_closed",
+      "time_spent_seconds": 102.015,
+      "final_page": "Telas do Jogo",
+      "relative_time_seconds": 666
+    },
+    {
+      "index": 4,
+      "event": "quiz_answer",
+      "question": "Qual é o nome da empresa?",
+      "correct_answer": "✓ RetroCODE",
+      "player_answer": "✓ RetroCODE",
+      "is_correct": true,
+      "time_spent_seconds": 9.09,
+      "quiz_type": "Exam",
+      "question_number": 1,
+      "total_questions": 3,
+      "relative_time_seconds": 718
+    },
+    {
+      "index": 5,
+      "event": "quiz_answer",
+      "question": "Qual é o nome da norma internacional do modelo de qualidade para produtos e sistemas de software?",
+      "correct_answer": "✓ ISO/IEC 25010",
+      "player_answer": "✓ ISO/IEC 25010",
+      "is_correct": true,
+      "time_spent_seconds": 6.159,
+      "quiz_type": "Exam",
+      "question_number": 2,
+      "total_questions": 3,
+      "relative_time_seconds": 726
+    },
+    {
+      "index": 6,
+      "event": "quiz_answer",
+      "question": "Na norma ISO/IEC 25010 mais recente, não existe qual dos atributos de qualidade abaixo:",
+      "correct_answer": "✓ Usabilidade",
+      "player_answer": "✗ Capacidade de Interação",
+      "is_correct": false,
+      "time_spent_seconds": 13.679,
+      "quiz_type": "Exam",
+      "question_number": 3,
+      "total_questions": 3,
+      "relative_time_seconds": 741
+    },
+    {
+      "index": 7,
+      "event": "quarter_finished",
+      "current_quarter": 0,
+      "money": 125,
+      "total_gain": -75,
+      "developer_hired_number": 2,
+      "time_spent_seconds": 1092.021,
+      "relative_time_seconds": 744
+    },
+    {
+      "index": 8,
+      "event": "minigame_pipe_finished",
+      "pattern_name": "Cliente-Servidor",
+      "correct_bullets_count": 2,
+      "correct_bullets": [
+        "Clientes consomem serviços do servidor",
+        "Comunicação ocorre através da rede"
+      ],
+      "wrong_bullets_count": 2,
+      "wrong_bullets": [
+        "Infraestrutura distribuída coordena serviços",
+        "Serviços implantados de forma autônoma"
+      ],
+      "time_spent_seconds": 127.59,
+      "relative_time_seconds": 1089
+    },
+    {
+      "index": 9,
+      "event": "minigame_pipe_finished",
+      "pattern_name": "Cliente-Servidor",
+      "correct_bullets_count": 2,
+      "correct_bullets": [
+        "Clientes consomem serviços do servidor",
+        "Comunicação ocorre através da rede"
+      ],
+      "wrong_bullets_count": 2,
+      "wrong_bullets": [
+        "Infraestrutura distribuída coordena serviços",
+        "Serviços implantados de forma autônoma"
+      ],
+      "time_spent_seconds": 127.754,
+      "relative_time_seconds": 1089
+    },
+    {
+      "index": 10,
+      "event": "contract_started",
+      "quest_name": "NeuroMatch",
+      "quest_description": {
+        "paragraph1": "Uma empresa criou um aplicativo de relacionamentos que usa escaneamento cerebral para encontrar ‘compatibilidade emocional perfeita’.",
+        "paragraph2": "Os usuários acessam o sistema por vários dispositivos: celulares, óculos neurais, consoles holográficos e até espelhos inteligentes.",
+        "paragraph3": "Todo o processamento pesado acontece em um servidor central gigantesco chamado CUP1D0.",
+        "paragraph4": "O problema é que, quando o servidor caiu por 11 minutos, milhares de casais tiveram suas memórias sincronizadas com pessoas aleatórias."
+      },
+      "pattern_required": {
+        "pattern1": "ClientServer"
+      },
+      "pattern_chosen": "Cliente-Servidor",
+      "total_attribute_provided": {
+        "Functional Suitability": 12.65,
+        "Performance Efficiency": 8.25,
+        "Compatibility": 9.35,
+        "Interaction Capability": 11.9,
+        "Reliability": 8.4,
+        "Security": 12.6,
+        "Maintainability": 8.4,
+        "Flexibility": 16.15,
+        "Safety": 9.9
+      },
+      "required_attribute": {
+        "Functional Suitability": 5.1,
+        "Performance Efficiency": 5.5,
+        "Compatibility": 5.5,
+        "Interaction Capability": 2.5,
+        "Reliability": 8.9,
+        "Security": 8.6,
+        "Maintainability": 3.2,
+        "Flexibility": 9.1,
+        "Safety": 5.6
+      },
+      "relative_time_seconds": 1270
+    },
+    {
+      "index": 11,
+      "event": "swebok_closed",
+      "time_spent_seconds": 18.398,
+      "final_page": "Modelo-Visão-Controlador",
+      "relative_time_seconds": 1456
+    }
+  ]
+}

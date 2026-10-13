@@ -1,0 +1,11 @@
+record_id,speaker_code,kind,topic,text,source,relation_note
+W01,S1,observation,IN5,"A necessidade de voltar ao livro de tutoriais foi constante; IN5 foi considerado o ponto mais crítico.",user_supplied_chat,Paraphrase of distinct message; not linked to an evaluator ID
+W02,S1,positive,documentation,"O livro foi considerado fácil de navegar e esclareceu as dúvidas conforme surgiam.",user_supplied_chat,Paraphrase; usefulness distinguished from accessibility
+W03,S1,suggestion,attribute_labels,"Adicionar legenda ao passar o ponteiro sobre cada atributo na atribuição de programadores a um contrato.",user_supplied_chat,Paraphrase
+W04,S1,suggestion,notebook_access,"Adicionar acesso ao manual pela tela de contratos, onde surgem as dúvidas.",user_supplied_chat,Paraphrase
+W05,S1,suggestion,onboarding,"Introduzir interações gradualmente e guiar o primeiro contrato, a primeira contratação e a navegação pelo manual e pelos desenvolvedores.",user_supplied_chat,Exact repeated message consolidated once; related examples merged
+W06,S2,agreement,attribute_labels,"A quantidade de ícones dificulta lembrar o significado de cada um.",user_supplied_chat,Agreement retained as a separate contribution; cannot infer independent severity rating
+W07,S3,suggestion,attribute_labels,"Combinar texto e ícones para facilitar o reconhecimento dos atributos.",user_supplied_chat,Paraphrase; quoted reply text omitted
+W08,S3,observation,navigation,"Elementos de navegação são discretos, incluindo o retorno ao menu do notebook.",user_supplied_chat,Paraphrase
+W09,S3,suggestion,help,"Um tutorial e um botão de ajuda com legendas do menu podem facilitar a navegação.",user_supplied_chat,Paraphrase
+W10,S2,suggestion,notebook_overlay,"Apresentar o livro sobre o fundo do monitor pode integrar a consulta à interface.",user_supplied_chat,Paraphrase

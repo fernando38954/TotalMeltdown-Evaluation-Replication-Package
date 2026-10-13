@@ -1,0 +1,170 @@
+participant_id,question,response,missing,redaction
+P001,liked,"Estética Retro muito bem pensada, controles intuitivos, mascote (clippy) divertido e pouco invasivo.",0,none_required
+P001,difficulty,"Alguns textos eram dificeis de ler devido a textura da caixa onde eles se encontravam ou o tamanho da fonte nao parecia adequado dada a importancia da informacao, penso principalmente no minigame de desbloquear arquiteturas. Tambem me sentia pressionado a ler rapido, ja que quando abria um menu com texto os contratos com timer nao pausavam",0,none_required
+P001,improvement,"Pausaria os contratos com timer em telas com texto para permitir que o usuario leia corretamente o conteudo. Seguindo a inspiracao do Dispatch, la também pausava, serve como tatica.",0,none_required
+P002,liked,"Eu acho que é uma maneira genuinamente boa de aprender, acho que a escolha do jogo modelo dispatch foi bem inteligente pq combina com ensino de conteudo.
+
+ficou bem legal, os graficos ficarem bem maneiros e eu provavelmente jogaria pra estudar pra materia",0,none_required
+P002,difficulty,"eu tive um bug que tornou o jogo injogavel 
+apareceram duas cidades inteligentes pra mim, eu fiz as duas e ai depois o jogo bugou completamente, o processo de todos os eventos não so pararam mas por algum motivo todos viraram cidades inteligentes (na tela do jogo tinha 4 cidades inteligentes).
+
+um dos icones dos eventos ficou em branco
+
+eu tentei clicar em ver resultados e não fazia nada, ai eu chamei eu acho que o Enzo e pelo jeito o jogo realmente bugou mesmo ai tive q fechar
+
+Nao faço a menor ideia do porque apareceram duas cidades inteligentes, eu joguei o jogo normalmente.",0,none_required
+P002,improvement,"1-> muito texto do clipper, pulei todos
+2-> seria legal adicionar aquela animacao das bolinhas no fim dos eventos igual no dispatch pq ela é bem satisfatoria
+3-> talvez adicionar um botao de concluir ao inves de fechar as guias com x
+4-> adicionar highlight dos botoes talvez",0,none_required
+P003,liked,,1,none_required
+P003,difficulty,,1,none_required
+P003,improvement,,1,none_required
+P004,liked,O Loop de gameplay.,0,none_required
+P004,difficulty,Tutorial meio confuso e muita leitura.,0,none_required
+P004,improvement,"Fazer o tutorial ir te acompanhando em um primeiro contrato, fazendo assim o jogo reduzir a leitura de um textão enorme e ir lendo de pouco em pouco.",0,none_required
+P005,liked,"A dinamicidade das escolhas, eventos, e iteração continua com o jogador de forma a permitir / sugerir uma gameplay mais rápida.",0,none_required
+P005,difficulty,"Na minha visão, o aspecto que mais me incomodou, foram nos eventos de descoberta de novas arquiteturas em que as letras ficavam muito pequenas e pixeladas de forma tal que dificultavam a visualização (ao final, eu praticamente não lia elas).",0,none_required
+P005,improvement,"Alterar o estilo das fontes, a coloração e o contraste entre as cores de azul para com os fundos, talvez a adição de eventos dinâmicos além da resolução de bugs que possam fazer com que os usuários tenham uma iteração maior com as decisões feitas durante o processo de desenvolvimento de software.",0,none_required
+P006,liked,Do design e do dinamismo,0,none_required
+P006,difficulty,"Acho que seria mais amigável se tivesse mais tempo para entender cada atributo, apenas ler no notebook logo no início torna monótono e absorvemos pouco, ainda mais em 30 minutos",0,none_required
+P006,improvement,Dividiria o tutorial em partes para explicar melhor os atributos,0,none_required
+P007,liked,Gostei bastante do Clipper,0,none_required
+P007,difficulty,,1,none_required
+P007,improvement,"Adicionaria features ou descrições que o cliente quer, e precisaria decidir mini-coisas sobre essas. Algo com System Design (relativamente mais avançado) também seria bem interessante, por exemplo montar um rascunho do sistema, no estilo Excalidraw, e conectar as componentes, e comparar se o rascunho está ""próximo"" ou similar à ""respota ótima""",0,none_required
+P008,liked,"Os elementos gráficos são bem feitos e atrativos, tasks divertidas e historia engraçada",0,none_required
+P008,difficulty,"A fonte é bem ruim para ler... alem disso, o minigame de conectar as caixas não me agradou muito, pois meu primeiro instinto é completar o caminho sem ler e após fzr isso a tela fecha e eu nao aprendi nada.",0,none_required
+P008,improvement,"Removeria a quantidade de elementos gráficos que parecem clicáveis na tela do jogo. A interface parece um pouco ""suja"" com a quantidade de botões laranja que chamam a atenção no meio de uma tela azulada. Também gostaria que reformulassem o jogo de aprendizado dos sistemas, nao tenho uma ideia melhor pra ser sincero, mas senti essa sendo pouco eficiente.
+Ademais a parte de montar o time e a arquitetura é bem divertida.
+Se a ideia do jogo é apenas aprendizado, eu tiraria o tempo pra completar a tarefa do time, se é para ser jogado como algo mais divertido eu colocaria mais tempo para deixar mais desafiador.",0,none_required
+P009,liked,"O estilo visual do jogo é interessante, junto com sua progressão e a inclusão de contratos com tempo de expiração.",0,none_required
+P009,difficulty,"Muitos menus requerem que você clique para saber mais, e ao voltar frequentemente você é levado ao mapa novamente invés da página anterior. Além disso a tecla esc poderia ser usada para fechar modais invés de sair de fullscreen.",0,none_required
+P009,improvement,,1,none_required
+P010,liked,Eu mais gostei da arte do jogo,0,none_required
+P010,difficulty,O jogo te apresenta muita informação em pouco tempo ao invés de ensinar enquanto joga. Também acho que ficou pouco claro o que cada atributo dos desenvolvedores afeta o projeto e qual eh a melhor forma de escolher o desenvolvedor certo para o projeto certo,0,none_required
+P010,improvement,Eu acho que o jogo poderia ser um pouco mais direto para prender melhor a atenção do jogador e apresentar os conceitos e mecânicas do jogo aos poucos,0,none_required
+P011,liked,,1,none_required
+P011,difficulty,,1,none_required
+P011,improvement,"Na tela de resultados, a parte que diz se a arquitetura utilizada foi a correta ou não me confundiu um pouco. Acho que seria mais intuitivo se, caso estivesse errada, apontar a arquitetura usada e a correta, ao invés de só a correta. Também teve caso de eu ter errado a arquitetura do projeto por não possuí-la, seria legal se tivesse um indicador para lembrar o jogador de tentar obtê-la.",0,none_required
+P012,liked,,1,none_required
+P012,difficulty,,1,none_required
+P012,improvement,,1,none_required
+P013,liked,"Gostei de progressivamente melhorar meu time e conhecimento de arquiteturas, dando um senso de progressão no jogo. Além disso, considero que o jogo ajuda a aprender conceitos básicos sobre Arquitetura de Software.",0,none_required
+P013,difficulty,"Creio que o início do jogo é parte mais ""chata"", pois requer ler muito texto.
+Naturalmente, muitos jogadores (incluindo eu) pulam algumas partes e não leem o manual por completo, no entanto, isso acaba sendo um problema nas questões que requerem conhecimento das arquiteturas e padrões.
+
+Também fiquei confuso quando fiz o minigame de aprender arquiteturas, pois não entendi que deveria conectar a fonte de energia à saída, conectando os componentes, simplesmente fiquei clicando nas peças de quebra cabeça até algo acontecer.
+
+Também não entendi inicialmente que os desenvolvedores devem satisfazer os requisitos da arquitetura, pois o indicador de requisitos (polígono laranja no centro da tela) é extremamente pequeno, assim tive a impressão de que em todos os contratos um único desenvolvedor era suficiente.",0,none_required
+P013,improvement,Acho que seria interessante ter um tutorial simples que ensina as mecânicas do jogo através de ações ao invés de texto.,0,none_required
+P014,liked,"Achei que a estrutura de aprender o padrão, contratar devs e analisar o projeto foi muito bom para aprender os padrões de arquitetura.",0,none_required
+P014,difficulty,O limite de tempo para iniciar os projetos.,0,none_required
+P014,improvement,"Retirar o limite de tempo dos projetos irá ajudar muito o aprendizado. Eu senti que precisava de mais tempo para ler as características e estudar os padrões, mas o limite de tempo me pressionou para fazer rápido e não tive tempo de aprender o quanto gostaria.",0,none_required
+P015,liked,,1,none_required
+P015,difficulty,,1,none_required
+P015,improvement,,1,none_required
+P016,liked,,1,none_required
+P016,difficulty,,1,none_required
+P016,improvement,"A interface de quando um projeto possui um bug é extremamente difícil de ler. O noise adicionado à interface reduz demais a legibilidade a ponto de não conseguir ler o que estava escrito. Além disso, não achei muito bom que as tarefas de tempo continuem rodando (""contando tempo"") enquanto estou realizando e pensando em outras tarefas, perdi algumas tarefas pois estava pensando nas outras.",0,none_required
+P017,liked,Ter que tomar decisões dependo do pedido.,0,none_required
+P017,difficulty,"- Não compreendi em que momentos o tempo de um contrato rodava.
+- Talvez tenha feito algum contrato antes de aprender a arquitetura para ele.
+- Lembrar o que cada empregado faz e como devo combiná-los.
+- Ter que ler a descrição dos resultados e o que deu errado enquanto os outros contatos estão rodando.",0,none_required
+P017,improvement,"- Ser possível entender os atributos sem ter que ler o notebook.
+- Simplificar os textos dos contratos e seus resultados.",0,none_required
+P018,liked,,1,none_required
+P018,difficulty,"Poderia ter uma parte que mostra em qual trimestre você está. Além disso, naquela parte de conectar os quadradinhos para aprender as arquiteturas era meio difícil de ler o que estavam escritos neles.",0,none_required
+P018,improvement,,1,none_required
+P019,liked,"A proposta do jogo como método de aprendizado é interessante, com uma boa adaptação da gameplay de ""Dispatch"", com um desenho legal",0,none_required
+P019,difficulty,"O timer das tarefas não pausarem quando você está recrutando alguém, aprendendo um novo tipo de arquitetura, ou revisando o notebook",0,none_required
+P019,improvement,"o timer pausar, além de visual cues melhores para bugs nas tarefas e para direcionar o usuário durante o jogo",0,none_required
+P020,liked,Arte e interação diverta.,0,none_required
+P020,difficulty,Contratos com tempo de espera limitado que dependiam de uma arquitetura ainda não aprendida faziam com que eu lesse rapidamente o que era a arquitetura sem tomar o devido cuidado.,0,none_required
+P020,improvement,"Além de extensão da demo, alterar o supracitado e adicionar mais mecânicas para evitar monotonicidade e melhor visualização de trade-offs.",0,none_required
+P021,liked,Gostei que foi um jogo com mecânicas simples e fáceis de pegar.,0,none_required
+P021,difficulty,O texto pequeno.,0,none_required
+P021,improvement,Aumentar o tamanho da fonte.,0,none_required
+P022,liked,A explicação dos diferentes padrões de arquitetura foram claros e concisos o suficiente para a aprendizagem sem interromper o divertimento do jogo.,0,none_required
+P022,difficulty,Os limites de tempo dos contratos me forçou a ter mais pressa a ler descrições dos padrões de arquitetura.,0,none_required
+P022,improvement,Aumentar os limites de tempo.,0,none_required
+P023,liked,Acho que a gestão dos desenvolvedores é um tanto confusa e não permite escolher de forma realmente adequada de acordo com as necessidades específicas que a gente tem,0,none_required
+P023,difficulty,,1,none_required
+P023,improvement,,1,none_required
+P024,liked,"Gostei bastante da forma como que os desafios foram aumentando com cada fase (primeiro apenas poucas tarefas, depois mais tarefas e com tempo para terminar).",0,none_required
+P024,difficulty,"Achei a letra pequena, então fica um pouco difícil de enxergar.",0,none_required
+P024,improvement,,1,none_required
+P025,liked,Eu gostei do design dos bonequinhos e da mecânica de usar um sistema correto.,0,none_required
+P025,difficulty,"Eu achei que no começo tinha muito texto, mas depois ficou mais dinâmico.",0,none_required
+P025,improvement,Eu acho que tentaria colocar algum gancho no começo e tentar fazer uma história que prenda quem está jogando.,0,none_required
+P026,liked,"Gostei da inspiração em Dispatch, visual bem bonito",0,none_required
+P026,difficulty,Muito texto e limitador de tempo para quantidade de texto me fez parar de ler atentamente como antes,0,none_required
+P026,improvement,"Mudaria o jogo dos quebra cabeças, depois de um tempo estava resolvendo apenas com lógica e manipulando o texto em baixo, girando peças e vendo qual resultado faria. ACho que conectar algo como os jogos dos fios do Among us ficaria mais legal ou algo do tipo. Acho que o jogo deveria ter elementos mais visuais depois que apre dessemos uma arquitetura. Para quem não é habituado, o excesso de informação acaba confundindo.",0,none_required
+P027,liked,"Estilo de arte e a simplicidade nos controles, lore também legalzinha.",0,none_required
+P027,difficulty,,1,none_required
+P027,improvement,"puzzles mais diversos para desbloquear novas arquiteturas, o puzzle se tornou repetitivo bem rápido.
+
+Personagens raros, adiciona o Linus Torvalds sendo maximizado em tudo :)",0,none_required
+P028,liked,"O design gráfico do jogo, é bem estilizado e organizado.",0,none_required
+P028,difficulty,O fato de contratos terem tempo máximo a partir de um certo nível. Tal aspecto me incentivou a priorizar outras atividades a ler de fato sobre as arquiteturas.,0,none_required
+P028,improvement,Tornar o jogo mais descontraído com personagens e projetos que carregam uma referência à computação.,0,none_required
+P029,liked,O loop de gameplay,0,none_required
+P029,difficulty,"Falta de explicações sobre a pontuação, quantas contratações me restam ou que sou obrigado a fazer. Além disso a explicação sobre os bugs no projeto apareceu enquanto eu estava resolvendo um mini-game para aprender uma nova arquitetura, e eu não entendi o que fazer para resolver o bug no projeto. Só depois de alguns minutos eu vi a indicação visual de que havia um bug em um projeto e entendi o que tinha que fazer.",0,none_required
+P029,improvement,,1,none_required
+P030,liked,"Gostei da interface, música e jogabilidade.",0,none_required
+P030,difficulty,,1,none_required
+P030,improvement,"- Poderia ter um botão para sair de um puzzle, mesmo que ele estivesse incompleto (tentei fazer isso no caso em que tinha um contrato para vencer e eu não ia conseguir terminar o puzzle a tempo)
+- Adicionar informações da partida no cache do navegador, nessa situação do puzzle eu dei um Ctrl+R e voltei o jogo do começo.
+- Habilitar teclas Enter ou Espaço para passar os diálogos também.",0,none_required
+P031,liked,,1,none_required
+P031,difficulty,,1,none_required
+P031,improvement,,1,none_required
+P032,liked,Ele cumpre seu propósito de botar na prática a capacidade de tomada de decisões sobre arquitetura de software.,0,none_required
+P032,difficulty,"Muitas caixas de texto, no começo é confuso saber o que eu devo ler e onde devo encontrá-las, e há um excesso de informações que torna tudo um tanto maçante.",0,none_required
+P032,improvement,"As tarefas que possuíam limite de tempo foram extremamente desbalanceadas. Se alguém quiser realmente aprender, tomar as melhores decisões e entender os detalhes de cada arquitetura, é impossível fazer isso a tempo com o pouquíssimo tempo que cada tarefa tem. Ao chegar no final, se eu quisesse completar alguma tarefa, deveria apenas spammar soluções no minigame de aprender arquiteturas novas, e escolher qualquer funcionário que parecesse ter alguma característica alta, pois não havia nem de perto tempo suficiente para analisar de forma correta. No entanto, gostei do sentimento de que você deve priorizar qual a próxima atividade que irá aprender e quais funcionários irá contratar agora, pois com duas tarefas você precisa escolher qual delas irá fazer (é impossível fazer as duas). Portanto apenas aumentar o tempo não resolve e perde algumas qualidades. Acredito que a melhor solução é fazer com que alguns elementos e atividades pausem o tempo. Por exemplo, ao abrir o minigame de aprender arquiteturas, o tempo deveria ser pausado para que ao retornar ainda haja tempo de analisar os outros aspectos, e você já tomou sua decisão sobre qual arquitetura deveria aprender mesmo. Algumas outras abas poderiam parar o tempo, mas se todas fizerem isso então o tempo perde o propósito, e deve ser algo cuidadosamente balanceado. Mesmo assim, ainda deveriam aumentar o tempo total, pois mesmo focando em uma ainda não há tempo bastante para resolver de forma satisfatória. Os bugs de cada tarefa também devem ser melhor notificados e indicados, eu perdi o primeiro pois estava em outra atividade quando recebi o aviso ensinando o que era. E ao procurar para resolver, não sabia onde estava. Quando achei ele já estava prestes a sumir e não pude fazer nada.",0,none_required
+P033,liked,"O quão divertido ele é, ele realmente não parece tanto um jogo ""educacional"", e consegue ser verdadeiramente divertido, além de representar de forma muito legal os trade-offs das arquiteturas e a ideia de contratação de profissionais. Achei a interface dele de mostrar os atributos de uma arquitetura bem bem bem legal também, sendo fácil de ler",0,none_required
+P033,difficulty,"Achei que a forma como interagir com as diferentes partes do jogo talvez um pouco confusas para quem não está acostumado com jogos. Mas a principal falha, pra mim, foi que a pressão com tempo atrapalha que você possa verdadeiramente ler e entender o que cada arquitetura faz, então, às vezes, faz mais sentido se apoiar só nos gráficos e tentar correr o máximo que dá.",0,none_required
+P033,improvement,"Acredito que seria bom diminuir um pouco a penalização do tempo gasto e aumentar a recompensa por escolher a arquitetura e os profissionais corretos, se tornando um jogo mais estratégico do que de velocidade",0,none_required
+P034,liked,"Gostei da ideia de aprender sobre arquiteturas, aplicá-las nos projetos e contratar pessoas adequadas.",0,none_required
+P034,difficulty,"Eu fiquei extremamente confusa sobre o que fazer e onde deveria clicar. Em certo momento, o ícone de aprender desapareceu, havia apenas projetos e eu não sabia como prosseguir. Não foi um jogo intuitivo para mim (não estou acostumada a jogar video games).",0,none_required
+P034,improvement,"Explicaria melhor ao jogador o que ele deve fazer em seguida, pelo menos no começo do jogo.",0,none_required
+P035,liked,Amei o estilo,0,none_required
+P035,difficulty,O Clipper,0,none_required
+P035,improvement,Deixaria as mensagens do clipper opcionais,0,none_required
+P036,liked,Gostei do aspecto visual e a história do jogo.,0,none_required
+P036,difficulty,"Na parte de aprendizado dos padrões pelo ""labirinto"" gostaria que o tempo fosse maior após eu acertar o caminho, já que em algumas vezes não deu tempo de ler as informações que estavam corretas. Também colocaria maior tempo nos projetos com tempo, já que algumas vezes não deu tempo de aprender o padrão rápido suficiente para eu poder usar no projeto e ele acabou desaparecendo.",0,none_required
+P036,improvement,"Foram muitas informações iniciais, com textos um pouco longos, então fiquei um pouco confusa de como jogar inicialmente. Assim, relacionaria mais algumas partes e a jogabilidade, para não ficar muito cansativo no início.",0,none_required
+P037,liked,Gostei de aprender sobre as diferentes arquiteturas.,0,none_required
+P037,difficulty,Achei que o tempo para fazer as atividades finais era muito rápido.,0,none_required
+P037,improvement,,1,none_required
+P038,liked,,1,none_required
+P038,difficulty,,1,none_required
+P038,improvement,,1,none_required
+P039,liked,A temática é muito boa,0,none_required
+P039,difficulty,"Acho que o fato de ser possível terminar o jogo sem necessariamente ler as definições das arquiteturas e claro sem entendê-las, afinal ainda cometi alguns erros e não achei o jogo punitivo o suficiente para que eu gaste mais tempo relendo as arquiteturas e entendendo melhor o conteúdo, ou seja por ser relativamente tranquilo de chegar até o final saudável financeiramente tira um pouco a importância de estudar. Outro ponto que pode ter contribuído foi a introdução muito cedo das tarefas por tempo ou o tempo das tarefas serem o mesmo, creio que o fato de ter que correr rápido no 2º trimestre la. faz com que eu pare de pensar muito e jogue meio que na intuição para n perder o contrato, para o intuito de aprender acho que mais atrapalha do que ajuda, talvez inserido depois que ja aprendi todas as arquiteturas para testar as habilidades e tomada de decisão ok, mas tão cedo atrapalhou",0,none_required
+P039,improvement,"colocaria os contratos com tempo mais pra frente no jogo, criaria mais trimestres para reforçar aprendizagem, penalizaria o jogador por escolher arquitetura errada ou errar na prova final la de modo que ele tenha que refazer alguma coisa para garantir que ele aprendeu aquilo que errou, e modificaria o mini-game de aprendizado das arquiteturas la, complicar de algum modo pois é possível terminar apenas tentando as combinações com um pouco de logica, talvez uma etapa a mais de questionário ou possibilitar que o usuario envie sua resposta ai se algo estiver errado no fluxo pegar o dinheiro e não permitir que ele aprenda a arquitetura fazendo ele gastar novamente e tentar de novo conseguir a skill, e junto com isso deixaria mais caro aprender a arquitetura conforme avança as fases para dar mais peso por assim dizer, inclusive aceitaria arquiteturas meio certa nos projetos pois principalmente com o tempo as vezes ainda não consegui a arquitetura perfeita para a tarefa e o tempo tava acabando",0,none_required
+P040,liked,O design é extremamente lindo!,0,none_required
+P040,difficulty,"Tutorial com muito texto, pouca imagem/demo; Tempo das tarefas muito curto.",0,none_required
+P040,improvement,"- Inicialmente não entendi o que era para fazer no minigame para aprender, acredito que o tutorial foi muito texto e pouca demonstração visual
+- Os textos no minigame foram difíceis de ler, mas a qualidade do monitor em que foi testado não era bom
+- é possível vencer o minigame sem saber de fato sobre o padrão de arquitetura
+- peças sem conexão no minigame são desnecessárias
+- Não senti que aprendi com o minigame em si, mais com o Notebook (às vezes acertava sem querer e passava sem ler direito), seria interessante ter uma sessão de revisão após concluir o minigame
+- Não foi imediatamente claro que o notebook era clicável
+- Não foi inicialmente claro em que ordem era para fazer as tarefas , eu fiquei perdido no começo; aliás, quando começou a contar tempo eu me senti pressionado a ler por cima os ""Aprender"" para completar as tarefas logo; Talvez fosse melhor separar a parte de ""Aprender"" da realização de tarefas (?)
+- No quadro da tarefa, não é claro que o quadrado da esquerda é o padrão e à direita são os devs
+- A questão do tempo também me fez não avaliar as forças de cada dev, apenas mandar vários de uma vez e torcer para dar certo
+- também não deu tempo de contratar mais devs (e também não senti necessidade, com uns 4 devs era possível ter a maioria das forças)
+- Quando errava o padrão de arquitetura, gostaria de ter uma explicação do por quê e qual o padrão correto",0,none_required
+P041,liked,"O gráfico está com uma temática legal. A ideia do estilo de jogo é bem legal e o tipo de puzzle utilizado. Ele te faz pensar, discutir e analisar bem as opções (mas falta tempo hábil pra isso ser muito bom)",0,none_required
+P041,difficulty,Tem texto demais. Tem muito conteúdo. As informações poderiam ser melhor editadas e resumidas. Não da tempo de ler tudo e pensar na solução com a velocidade que o jogo exige de resposta.,0,none_required
+P041,improvement,"Mudaria as fontes. Não está acessível. Fontes maiores e com fundo contrastante. Alguns ícones não são clicáveis ou perdem o histórico. Tem um pouco de poluição visual de excesso de ícones, isso poderia melhorar a usabilidade se tivesse uma edição pra diminuir um pouco.",0,none_required
+P042,liked,,1,none_required
+P042,difficulty,,1,none_required
+P042,improvement,,1,none_required
+P043,liked,"Jogo simples, estilo legal, abordagem leve, etc.",0,none_required
+P043,difficulty,Não ter como sair do quebra-cabeças para retornar depois. Também crashou uma vez.,0,none_required
+P043,improvement,,1,none_required
+P044,liked,Design e mini-game,0,none_required
+P044,difficulty,Cores e quantidade de informação a cada etapa,0,none_required
+P044,improvement,Distribuir melhor as informações de alguma forma,0,none_required

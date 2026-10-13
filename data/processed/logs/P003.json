@@ -1,0 +1,445 @@
+{
+  "schema_version": "1.0",
+  "participant_id": "P003",
+  "header_game_time_seconds": 1203.453,
+  "header_current_quarter": 2,
+  "declared_actions": 30,
+  "events": [
+    {
+      "index": 1,
+      "event": "swebok_closed",
+      "time_spent_seconds": 11.336,
+      "final_page": "Adequação Funcional",
+      "relative_time_seconds": 0
+    },
+    {
+      "index": 2,
+      "event": "swebok_closed",
+      "time_spent_seconds": 8.548,
+      "final_page": "Contrato",
+      "relative_time_seconds": 173
+    },
+    {
+      "index": 3,
+      "event": "swebok_closed",
+      "time_spent_seconds": 1.064,
+      "final_page": "Telas do Jogo",
+      "relative_time_seconds": 181
+    },
+    {
+      "index": 4,
+      "event": "swebok_closed",
+      "time_spent_seconds": 24.198,
+      "final_page": "Modelo-Visão-Controlador",
+      "relative_time_seconds": 219
+    },
+    {
+      "index": 5,
+      "event": "minigame_pipe_finished",
+      "pattern_name": "Modelo-Visão-Controlador",
+      "correct_bullets_count": 2,
+      "correct_bullets": [
+        "Divide sistema em Model, View, Controller",
+        "Views exibem dados do modelo"
+      ],
+      "wrong_bullets_count": 2,
+      "wrong_bullets": [
+        "Infraestrutura distribuída coordena serviços",
+        "Comunicação baseada em APIs distribuídas"
+      ],
+      "time_spent_seconds": 193.898,
+      "relative_time_seconds": 257
+    },
+    {
+      "index": 6,
+      "event": "swebok_closed",
+      "time_spent_seconds": 0.985,
+      "final_page": "Telas do Jogo",
+      "relative_time_seconds": 342
+    },
+    {
+      "index": 7,
+      "event": "swebok_closed",
+      "time_spent_seconds": 6.152,
+      "final_page": "Eventos do Jogo",
+      "relative_time_seconds": 411
+    },
+    {
+      "index": 8,
+      "event": "contract_started",
+      "quest_name": "Geladeira Social",
+      "quest_description": {
+        "paragraph1": "Minha geladeira começou a postar receitas automaticamente usando o que tem dentro dela. Agora ela tem seguidores. Muitos seguidores.",
+        "paragraph2": "A tela da porta da geladeira, o aplicativo do celular, os visores de geladeira e os óculos inteligentes precisam mostrar as mesmas receitas… mas cada um de um jeito diferente.",
+        "paragraph3": "Depois da última atualização, a tela da geladeira começou a exibir propaganda de ração pra hamster em toda receita de bolo."
+      },
+      "pattern_required": {
+        "pattern1": "MVC"
+      },
+      "pattern_chosen": "Modelo-Visão-Controlador",
+      "total_attribute_provided": {
+        "Functional Suitability": 8.8,
+        "Performance Efficiency": 6.6,
+        "Compatibility": 5.2,
+        "Interaction Capability": 11.05,
+        "Reliability": 6.05,
+        "Security": 4.4,
+        "Maintainability": 11.2,
+        "Flexibility": 8.25,
+        "Safety": 7.15
+      },
+      "required_attribute": {
+        "Functional Suitability": 5.5,
+        "Performance Efficiency": 2.3,
+        "Compatibility": 3.8,
+        "Interaction Capability": 9.6,
+        "Reliability": 5.9,
+        "Security": 3.0,
+        "Maintainability": 9.7,
+        "Flexibility": 5.1,
+        "Safety": 0.7
+      },
+      "relative_time_seconds": 542
+    },
+    {
+      "index": 9,
+      "event": "swebok_closed",
+      "time_spent_seconds": 1.617,
+      "final_page": "Telas do Jogo",
+      "relative_time_seconds": 564
+    },
+    {
+      "index": 10,
+      "event": "swebok_closed",
+      "time_spent_seconds": 1.49,
+      "final_page": "Telas do Jogo",
+      "relative_time_seconds": 568
+    },
+    {
+      "index": 11,
+      "event": "swebok_closed",
+      "time_spent_seconds": 4.127,
+      "final_page": "Telas do Jogo",
+      "relative_time_seconds": 575
+    },
+    {
+      "index": 12,
+      "event": "swebok_closed",
+      "time_spent_seconds": 18.356,
+      "final_page": "Telas do Jogo",
+      "relative_time_seconds": 596
+    },
+    {
+      "index": 13,
+      "event": "quiz_answer",
+      "question": "Qual é o nome da empresa?",
+      "correct_answer": "✓ RetroCODE",
+      "player_answer": "✗ TotalMeltdown",
+      "is_correct": false,
+      "time_spent_seconds": 3.012,
+      "quiz_type": "Exam",
+      "question_number": 1,
+      "total_questions": 3,
+      "relative_time_seconds": 617
+    },
+    {
+      "index": 14,
+      "event": "quiz_answer",
+      "question": "Qual é o nome da empresa?",
+      "correct_answer": "✓ RetroCODE",
+      "player_answer": "✗ TotalMeltdown",
+      "is_correct": false,
+      "time_spent_seconds": 4.968,
+      "quiz_type": "Exam",
+      "question_number": 1,
+      "total_questions": 3,
+      "relative_time_seconds": 619
+    },
+    {
+      "index": 15,
+      "event": "quiz_answer",
+      "question": "Qual é o nome da empresa?",
+      "correct_answer": "✓ RetroCODE",
+      "player_answer": "✗ TotalMeltdown",
+      "is_correct": false,
+      "time_spent_seconds": 6.351,
+      "quiz_type": "Exam",
+      "question_number": 1,
+      "total_questions": 3,
+      "relative_time_seconds": 620
+    },
+    {
+      "index": 16,
+      "event": "quiz_answer",
+      "question": "Qual é o nome da empresa?",
+      "correct_answer": "✓ RetroCODE",
+      "player_answer": "✓ RetroCODE",
+      "is_correct": true,
+      "time_spent_seconds": 7.483,
+      "quiz_type": "Exam",
+      "question_number": 1,
+      "total_questions": 3,
+      "relative_time_seconds": 622
+    },
+    {
+      "index": 17,
+      "event": "quiz_answer",
+      "question": "Qual é o nome da empresa?",
+      "correct_answer": "✓ RetroCODE",
+      "player_answer": "✓ RetroCODE",
+      "is_correct": true,
+      "time_spent_seconds": 8.699,
+      "quiz_type": "Exam",
+      "question_number": 1,
+      "total_questions": 3,
+      "relative_time_seconds": 623
+    },
+    {
+      "index": 18,
+      "event": "quiz_answer",
+      "question": "Qual é o nome da empresa?",
+      "correct_answer": "✓ RetroCODE",
+      "player_answer": "✗ TotalMeltdown",
+      "is_correct": false,
+      "time_spent_seconds": 9.904,
+      "quiz_type": "Exam",
+      "question_number": 1,
+      "total_questions": 3,
+      "relative_time_seconds": 624
+    },
+    {
+      "index": 19,
+      "event": "quiz_answer",
+      "question": "Qual é o nome da norma internacional do modelo de qualidade para produtos e sistemas de software?",
+      "correct_answer": "✓ ISO/IEC 25010",
+      "player_answer": "✓ ISO/IEC 25010",
+      "is_correct": true,
+      "time_spent_seconds": 3.433,
+      "quiz_type": "Exam",
+      "question_number": 2,
+      "total_questions": 3,
+      "relative_time_seconds": 628
+    },
+    {
+      "index": 20,
+      "event": "quiz_answer",
+      "question": "Na norma ISO/IEC 25010 mais recente, não existe qual dos atributos de qualidade abaixo:",
+      "correct_answer": "✓ Usabilidade",
+      "player_answer": "✗ Capacidade de Interação",
+      "is_correct": false,
+      "time_spent_seconds": 5.414,
+      "quiz_type": "Exam",
+      "question_number": 3,
+      "total_questions": 3,
+      "relative_time_seconds": 634
+    },
+    {
+      "index": 21,
+      "event": "quarter_finished",
+      "current_quarter": 0,
+      "money": 125,
+      "total_gain": -75,
+      "developer_hired_number": 2,
+      "time_spent_seconds": 702.359,
+      "relative_time_seconds": 644
+    },
+    {
+      "index": 22,
+      "event": "minigame_pipe_finished",
+      "pattern_name": "Cliente-Servidor",
+      "correct_bullets_count": 4,
+      "correct_bullets": [
+        "Clientes consomem serviços do servidor",
+        "Múltiplos clientes acessam mesmo servidor",
+        "Comunicação ocorre através da rede",
+        "Servidor centraliza processamento e dados"
+      ],
+      "wrong_bullets_count": 2,
+      "wrong_bullets": [
+        "Comunicação padronizada entre componentes internos",
+        "Componentes comunicam-se através de eventos"
+      ],
+      "time_spent_seconds": 43.831,
+      "relative_time_seconds": 720
+    },
+    {
+      "index": 23,
+      "event": "minigame_pipe_finished",
+      "pattern_name": "Arquitetura em Camadas",
+      "correct_bullets_count": 2,
+      "correct_bullets": [
+        "Cada camada possui responsabilidade específica",
+        "Comunicação ocorre entre camadas adjacentes"
+      ],
+      "wrong_bullets_count": 2,
+      "wrong_bullets": [
+        "Núcleo mínimo controla funções essenciais",
+        "Divide sistema em Model, View, Controller"
+      ],
+      "time_spent_seconds": 81.855,
+      "relative_time_seconds": 841
+    },
+    {
+      "index": 24,
+      "event": "contract_started",
+      "quest_name": "NeuroMatch",
+      "quest_description": {
+        "paragraph1": "Uma empresa criou um aplicativo de relacionamentos que usa escaneamento cerebral para encontrar ‘compatibilidade emocional perfeita’.",
+        "paragraph2": "Os usuários acessam o sistema por vários dispositivos: celulares, óculos neurais, consoles holográficos e até espelhos inteligentes.",
+        "paragraph3": "Todo o processamento pesado acontece em um servidor central gigantesco chamado CUP1D0.",
+        "paragraph4": "O problema é que, quando o servidor caiu por 11 minutos, milhares de casais tiveram suas memórias sincronizadas com pessoas aleatórias."
+      },
+      "pattern_required": {
+        "pattern1": "ClientServer"
+      },
+      "pattern_chosen": "Cliente-Servidor",
+      "total_attribute_provided": {
+        "Functional Suitability": 3.3,
+        "Performance Efficiency": 2.75,
+        "Compatibility": 3.85,
+        "Interaction Capability": 2.1,
+        "Reliability": 2.4,
+        "Security": 3.5,
+        "Maintainability": 4.0,
+        "Flexibility": 7.65,
+        "Safety": 4.4
+      },
+      "required_attribute": {
+        "Functional Suitability": 5.4,
+        "Performance Efficiency": 5.0,
+        "Compatibility": 5.0,
+        "Interaction Capability": 2.5,
+        "Reliability": 8.7,
+        "Security": 8.7,
+        "Maintainability": 2.5,
+        "Flexibility": 8.5,
+        "Safety": 5.4
+      },
+      "relative_time_seconds": 994
+    },
+    {
+      "index": 25,
+      "event": "contract_started",
+      "quest_name": "Prefeitura do Metaverso",
+      "quest_description": {
+        "paragraph1": "A prefeitura lançou um portal holográfico para emissão de documentos.",
+        "paragraph2": "O problema é que idosos usam terminal físico, jovens usam aplicativo neural e os funcionários usam computador antigo com Ubuntu 24.04.",
+        "paragraph3": "Cada atualização quebra metade das telas mas, curiosamente, o imposto continua funcionando perfeitamente."
+      },
+      "pattern_required": {
+        "pattern1": "MVC"
+      },
+      "pattern_chosen": "Modelo-Visão-Controlador",
+      "total_attribute_provided": {
+        "Functional Suitability": 3.3,
+        "Performance Efficiency": 2.2,
+        "Compatibility": 3.2,
+        "Interaction Capability": 5.95,
+        "Reliability": 5.5,
+        "Security": 3.85,
+        "Maintainability": 4.2,
+        "Flexibility": 2.2,
+        "Safety": 2.2
+      },
+      "required_attribute": {
+        "Functional Suitability": 5.5,
+        "Performance Efficiency": 3.7,
+        "Compatibility": 3.6,
+        "Interaction Capability": 8.9,
+        "Reliability": 8.3,
+        "Security": 5.6,
+        "Maintainability": 5.5,
+        "Flexibility": 5.6,
+        "Safety": 0.4
+      },
+      "relative_time_seconds": 1041
+    },
+    {
+      "index": 26,
+      "event": "contract_started",
+      "quest_name": "Melhor remediar",
+      "quest_description": {
+        "paragraph1": "Uma rede hospitalar usa drones autônomos para entregar medicamentos e realizar primeiros socorros em megacidades congestionadas.",
+        "paragraph2": "O sistema possui camadas separadas para autenticação médica, análise de risco, controle de estoque, roteamento aéreo e comunicação com hospitais.",
+        "paragraph3": "Depois que uma IA tentou ‘otimizar’ o sistema removendo verificações intermediárias, um drone entregou laxante no lugar de antialérgico.",
+        "paragraph4": "Agora ninguém mais confia no botão ‘Entrega Urgente’."
+      },
+      "pattern_required": {
+        "pattern1": "Layered"
+      },
+      "pattern_chosen": "Arquitetura em Camadas",
+      "total_attribute_provided": {
+        "Functional Suitability": 8.8,
+        "Performance Efficiency": 4.4,
+        "Compatibility": 5.6,
+        "Interaction Capability": 7.48,
+        "Reliability": 9.1,
+        "Security": 6.3,
+        "Maintainability": 11.2,
+        "Flexibility": 6.6,
+        "Safety": 4.4
+      },
+      "required_attribute": {
+        "Functional Suitability": 8.2,
+        "Performance Efficiency": 9.8,
+        "Compatibility": 2.5,
+        "Interaction Capability": 5.6,
+        "Reliability": 9.5,
+        "Security": 2.8,
+        "Maintainability": 3.9,
+        "Flexibility": 5.0,
+        "Safety": 8.5
+      },
+      "relative_time_seconds": 1064
+    },
+    {
+      "index": 27,
+      "event": "quiz_answer",
+      "question": "Uma equipe está desenvolvendo um sistema web utilizando MVC. Durante uma reunião, o desenvolvedor afirma que a interface poderá ser alterada sem modificar as regras principais do sistema.\nEssa característica está relacionada principalmente a qual atributo de qualidade?",
+      "correct_answer": "✓ Manutenibilidade",
+      "player_answer": "✓ Manutenibilidade",
+      "is_correct": true,
+      "time_spent_seconds": 12.923,
+      "quiz_type": "Exam",
+      "question_number": 1,
+      "total_questions": 3,
+      "relative_time_seconds": 1093
+    },
+    {
+      "index": 28,
+      "event": "quiz_answer",
+      "question": "Um sistema bancário foi organizado em camadas. As regras financeiras ficaram isoladas da interface e do banco de dados, facilitando testes e controle das responsabilidades.\nQual característica da arquitetura em camadas está sendo aplicada?",
+      "correct_answer": "✓ Separação hierárquica de responsabilidades",
+      "player_answer": "✓ Separação hierárquica de responsabilidades",
+      "is_correct": true,
+      "time_spent_seconds": 7.55,
+      "quiz_type": "Exam",
+      "question_number": 2,
+      "total_questions": 3,
+      "relative_time_seconds": 1101
+    },
+    {
+      "index": 29,
+      "event": "quiz_answer",
+      "question": "Uma empresa utiliza arquitetura Cliente-Servidor em seu sistema de vendas. Certo dia, o servidor principal falhou e todos os clientes ficaram impossibilitados de acessar o sistema.\nEsse cenário representa principalmente um problema relacionado à:",
+      "correct_answer": "✓ Confiabilidade",
+      "player_answer": "✓ Confiabilidade",
+      "is_correct": true,
+      "time_spent_seconds": 7.369,
+      "quiz_type": "Exam",
+      "question_number": 3,
+      "total_questions": 3,
+      "relative_time_seconds": 1109
+    },
+    {
+      "index": 30,
+      "event": "quarter_finished",
+      "current_quarter": 1,
+      "money": 216,
+      "total_gain": 21,
+      "developer_hired_number": 2,
+      "time_spent_seconds": 461.074,
+      "relative_time_seconds": 1113
+    }
+  ]
+}

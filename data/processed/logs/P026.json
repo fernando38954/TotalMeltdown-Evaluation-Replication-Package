@@ -1,0 +1,753 @@
+{
+  "schema_version": "1.0",
+  "participant_id": "P026",
+  "header_game_time_seconds": 2510.457,
+  "header_current_quarter": 4,
+  "declared_actions": 38,
+  "events": [
+    {
+      "index": 1,
+      "event": "minigame_pipe_finished",
+      "pattern_name": "Modelo-Visão-Controlador",
+      "correct_bullets_count": 3,
+      "correct_bullets": [
+        "Divide sistema em Model, View, Controller",
+        "Views exibem dados do modelo",
+        "Controller intermedia usuário e aplicação"
+      ],
+      "wrong_bullets_count": 3,
+      "wrong_bullets": [
+        "Pipes conectam etapas do processamento",
+        "Domínio separado da infraestrutura externa",
+        "Fluxo controlado entre diferentes níveis"
+      ],
+      "time_spent_seconds": 202.767,
+      "relative_time_seconds": 0
+    },
+    {
+      "index": 2,
+      "event": "minigame_pipe_finished",
+      "pattern_name": "Modelo-Visão-Controlador",
+      "correct_bullets_count": 3,
+      "correct_bullets": [
+        "Divide sistema em Model, View, Controller",
+        "Views exibem dados do modelo",
+        "Controller intermedia usuário e aplicação"
+      ],
+      "wrong_bullets_count": 3,
+      "wrong_bullets": [
+        "Pipes conectam etapas do processamento",
+        "Domínio separado da infraestrutura externa",
+        "Fluxo controlado entre diferentes níveis"
+      ],
+      "time_spent_seconds": 203.72,
+      "relative_time_seconds": 1
+    },
+    {
+      "index": 3,
+      "event": "minigame_pipe_finished",
+      "pattern_name": "Modelo-Visão-Controlador",
+      "correct_bullets_count": 3,
+      "correct_bullets": [
+        "Divide sistema em Model, View, Controller",
+        "Views exibem dados do modelo",
+        "Controller intermedia usuário e aplicação"
+      ],
+      "wrong_bullets_count": 3,
+      "wrong_bullets": [
+        "Pipes conectam etapas do processamento",
+        "Domínio separado da infraestrutura externa",
+        "Fluxo controlado entre diferentes níveis"
+      ],
+      "time_spent_seconds": 204.637,
+      "relative_time_seconds": 1
+    },
+    {
+      "index": 4,
+      "event": "contract_started",
+      "quest_name": "Geladeira Social",
+      "quest_description": {
+        "paragraph1": "Minha geladeira começou a postar receitas automaticamente usando o que tem dentro dela. Agora ela tem seguidores. Muitos seguidores.",
+        "paragraph2": "A tela da porta da geladeira, o aplicativo do celular, os visores de geladeira e os óculos inteligentes precisam mostrar as mesmas receitas… mas cada um de um jeito diferente.",
+        "paragraph3": "Depois da última atualização, a tela da geladeira começou a exibir propaganda de ração pra hamster em toda receita de bolo."
+      },
+      "pattern_required": {
+        "pattern1": "MVC"
+      },
+      "pattern_chosen": "Modelo-Visão-Controlador",
+      "total_attribute_provided": {
+        "Functional Suitability": 7.15,
+        "Performance Efficiency": 3.85,
+        "Compatibility": 4.8,
+        "Interaction Capability": 6.46,
+        "Reliability": 9.9,
+        "Security": 7.7,
+        "Maintainability": 10.5,
+        "Flexibility": 5.5,
+        "Safety": 4.4
+      },
+      "required_attribute": {
+        "Functional Suitability": 5.5,
+        "Performance Efficiency": 3.4,
+        "Compatibility": 3.1,
+        "Interaction Capability": 8.5,
+        "Reliability": 5.6,
+        "Security": 2.9,
+        "Maintainability": 8.5,
+        "Flexibility": 5.9,
+        "Safety": 0.4
+      },
+      "relative_time_seconds": 188
+    },
+    {
+      "index": 5,
+      "event": "quiz_answer",
+      "question": "Qual é o nome da empresa?",
+      "correct_answer": "✓ RetroCODE",
+      "player_answer": "✓ RetroCODE",
+      "is_correct": true,
+      "time_spent_seconds": 5.222,
+      "quiz_type": "Exam",
+      "question_number": 1,
+      "total_questions": 3,
+      "relative_time_seconds": 312
+    },
+    {
+      "index": 6,
+      "event": "quiz_answer",
+      "question": "Qual é o nome da norma internacional do modelo de qualidade para produtos e sistemas de software?",
+      "correct_answer": "✓ ISO/IEC 25010",
+      "player_answer": "✓ ISO/IEC 25010",
+      "is_correct": true,
+      "time_spent_seconds": 3.967,
+      "quiz_type": "Exam",
+      "question_number": 2,
+      "total_questions": 3,
+      "relative_time_seconds": 317
+    },
+    {
+      "index": 7,
+      "event": "quiz_answer",
+      "question": "Na norma ISO/IEC 25010 mais recente, não existe qual dos atributos de qualidade abaixo:",
+      "correct_answer": "✓ Usabilidade",
+      "player_answer": "✗ Manutenibilidade",
+      "is_correct": false,
+      "time_spent_seconds": 5.879,
+      "quiz_type": "Exam",
+      "question_number": 3,
+      "total_questions": 3,
+      "relative_time_seconds": 324
+    },
+    {
+      "index": 8,
+      "event": "quarter_finished",
+      "current_quarter": 0,
+      "money": 123,
+      "total_gain": -77,
+      "developer_hired_number": 2,
+      "time_spent_seconds": 970.992,
+      "relative_time_seconds": 328
+    },
+    {
+      "index": 9,
+      "event": "minigame_pipe_finished",
+      "pattern_name": "Arquitetura em Camadas",
+      "correct_bullets_count": 4,
+      "correct_bullets": [
+        "Domínio separado da infraestrutura externa",
+        "Sistema organizado em camadas hierárquicas",
+        "Cada camada possui responsabilidade específica",
+        "Fluxo controlado entre diferentes níveis"
+      ],
+      "wrong_bullets_count": 1,
+      "wrong_bullets": [
+        "Interface separada da lógica principal"
+      ],
+      "time_spent_seconds": 20.6,
+      "relative_time_seconds": 426
+    },
+    {
+      "index": 10,
+      "event": "contract_started",
+      "quest_name": "Prefeitura do Metaverso",
+      "quest_description": {
+        "paragraph1": "A prefeitura lançou um portal holográfico para emissão de documentos.",
+        "paragraph2": "O problema é que idosos usam terminal físico, jovens usam aplicativo neural e os funcionários usam computador antigo com Ubuntu 24.04.",
+        "paragraph3": "Cada atualização quebra metade das telas mas, curiosamente, o imposto continua funcionando perfeitamente."
+      },
+      "pattern_required": {
+        "pattern1": "MVC"
+      },
+      "pattern_chosen": "Arquitetura em Camadas",
+      "total_attribute_provided": {
+        "Functional Suitability": 7.15,
+        "Performance Efficiency": 2.8,
+        "Compatibility": 4.8,
+        "Interaction Capability": 4.18,
+        "Reliability": 12.6,
+        "Security": 12.6,
+        "Maintainability": 10.5,
+        "Flexibility": 5.5,
+        "Safety": 4.4
+      },
+      "required_attribute": {
+        "Functional Suitability": 5.1,
+        "Performance Efficiency": 3.7,
+        "Compatibility": 2.3,
+        "Interaction Capability": 9.1,
+        "Reliability": 9.1,
+        "Security": 5.1,
+        "Maintainability": 5.6,
+        "Flexibility": 5.2,
+        "Safety": 0.5
+      },
+      "relative_time_seconds": 482
+    },
+    {
+      "index": 11,
+      "event": "contract_started",
+      "quest_name": "Melhor remediar",
+      "quest_description": {
+        "paragraph1": "Uma rede hospitalar usa drones autônomos para entregar medicamentos e realizar primeiros socorros em megacidades congestionadas.",
+        "paragraph2": "O sistema possui camadas separadas para autenticação médica, análise de risco, controle de estoque, roteamento aéreo e comunicação com hospitais.",
+        "paragraph3": "Depois que uma IA tentou ‘otimizar’ o sistema removendo verificações intermediárias, um drone entregou laxante no lugar de antialérgico.",
+        "paragraph4": "Agora ninguém mais confia no botão ‘Entrega Urgente’."
+      },
+      "pattern_required": {
+        "pattern1": "Layered"
+      },
+      "pattern_chosen": "Arquitetura em Camadas",
+      "total_attribute_provided": {
+        "Functional Suitability": 7.15,
+        "Performance Efficiency": 2.8,
+        "Compatibility": 4.8,
+        "Interaction Capability": 4.18,
+        "Reliability": 12.6,
+        "Security": 12.6,
+        "Maintainability": 10.5,
+        "Flexibility": 5.5,
+        "Safety": 4.4
+      },
+      "required_attribute": {
+        "Functional Suitability": 9.6,
+        "Performance Efficiency": 8.2,
+        "Compatibility": 2.7,
+        "Interaction Capability": 5.1,
+        "Reliability": 8.3,
+        "Security": 3.2,
+        "Maintainability": 3.7,
+        "Flexibility": 5.9,
+        "Safety": 9.1
+      },
+      "relative_time_seconds": 568
+    },
+    {
+      "index": 12,
+      "event": "minigame_pipe_finished",
+      "pattern_name": "Cliente-Servidor",
+      "correct_bullets_count": 3,
+      "correct_bullets": [
+        "Múltiplos clientes acessam mesmo servidor",
+        "Clientes consomem serviços do servidor",
+        "Servidor centraliza processamento e dados"
+      ],
+      "wrong_bullets_count": 2,
+      "wrong_bullets": [
+        "Infraestrutura distribuída coordena serviços",
+        "Núcleo mínimo controla funções essenciais"
+      ],
+      "time_spent_seconds": 28.747,
+      "relative_time_seconds": 658
+    },
+    {
+      "index": 13,
+      "event": "minigame_pipe_finished",
+      "pattern_name": "Cliente-Servidor",
+      "correct_bullets_count": 3,
+      "correct_bullets": [
+        "Múltiplos clientes acessam mesmo servidor",
+        "Clientes consomem serviços do servidor",
+        "Servidor centraliza processamento e dados"
+      ],
+      "wrong_bullets_count": 2,
+      "wrong_bullets": [
+        "Infraestrutura distribuída coordena serviços",
+        "Núcleo mínimo controla funções essenciais"
+      ],
+      "time_spent_seconds": 28.946,
+      "relative_time_seconds": 658
+    },
+    {
+      "index": 14,
+      "event": "contract_started",
+      "quest_name": "NeuroMatch",
+      "quest_description": {
+        "paragraph1": "Uma empresa criou um aplicativo de relacionamentos que usa escaneamento cerebral para encontrar ‘compatibilidade emocional perfeita’.",
+        "paragraph2": "Os usuários acessam o sistema por vários dispositivos: celulares, óculos neurais, consoles holográficos e até espelhos inteligentes.",
+        "paragraph3": "Todo o processamento pesado acontece em um servidor central gigantesco chamado CUP1D0.",
+        "paragraph4": "O problema é que, quando o servidor caiu por 11 minutos, milhares de casais tiveram suas memórias sincronizadas com pessoas aleatórias."
+      },
+      "pattern_required": {
+        "pattern1": "ClientServer"
+      },
+      "pattern_chosen": "Cliente-Servidor",
+      "total_attribute_provided": {
+        "Functional Suitability": 10.45,
+        "Performance Efficiency": 6.05,
+        "Compatibility": 11.55,
+        "Interaction Capability": 10.92,
+        "Reliability": 9.2,
+        "Security": 11.9,
+        "Maintainability": 7.6,
+        "Flexibility": 17.0,
+        "Safety": 6.05
+      },
+      "required_attribute": {
+        "Functional Suitability": 5.7,
+        "Performance Efficiency": 5.8,
+        "Compatibility": 5.8,
+        "Interaction Capability": 4.0,
+        "Reliability": 10.0,
+        "Security": 8.7,
+        "Maintainability": 3.8,
+        "Flexibility": 9.6,
+        "Safety": 5.2
+      },
+      "relative_time_seconds": 714
+    },
+    {
+      "index": 15,
+      "event": "swebok_closed",
+      "time_spent_seconds": 6.207,
+      "final_page": "Lucro",
+      "relative_time_seconds": 747
+    },
+    {
+      "index": 16,
+      "event": "quiz_answer",
+      "question": "Uma equipe está desenvolvendo um sistema web utilizando MVC. Durante uma reunião, o desenvolvedor afirma que a interface poderá ser alterada sem modificar as regras principais do sistema.\nEssa característica está relacionada principalmente a qual atributo de qualidade?",
+      "correct_answer": "✓ Manutenibilidade",
+      "player_answer": "✓ Manutenibilidade",
+      "is_correct": true,
+      "time_spent_seconds": 23.965,
+      "quiz_type": "Exam",
+      "question_number": 1,
+      "total_questions": 3,
+      "relative_time_seconds": 781
+    },
+    {
+      "index": 17,
+      "event": "quiz_answer",
+      "question": "Um sistema bancário foi organizado em camadas. As regras financeiras ficaram isoladas da interface e do banco de dados, facilitando testes e controle das responsabilidades.\nQual característica da arquitetura em camadas está sendo aplicada?",
+      "correct_answer": "✓ Separação hierárquica de responsabilidades",
+      "player_answer": "✓ Separação hierárquica de responsabilidades",
+      "is_correct": true,
+      "time_spent_seconds": 18.041,
+      "quiz_type": "Exam",
+      "question_number": 2,
+      "total_questions": 3,
+      "relative_time_seconds": 801
+    },
+    {
+      "index": 18,
+      "event": "quiz_answer",
+      "question": "Uma empresa utiliza arquitetura Cliente-Servidor em seu sistema de vendas. Certo dia, o servidor principal falhou e todos os clientes ficaram impossibilitados de acessar o sistema.\nEsse cenário representa principalmente um problema relacionado à:",
+      "correct_answer": "✓ Confiabilidade",
+      "player_answer": "✓ Confiabilidade",
+      "is_correct": true,
+      "time_spent_seconds": 15.758,
+      "quiz_type": "Exam",
+      "question_number": 3,
+      "total_questions": 3,
+      "relative_time_seconds": 818
+    },
+    {
+      "index": 19,
+      "event": "quarter_finished",
+      "current_quarter": 1,
+      "money": 208,
+      "total_gain": 45,
+      "developer_hired_number": 2,
+      "time_spent_seconds": 480.415,
+      "relative_time_seconds": 821
+    },
+    {
+      "index": 20,
+      "event": "contract_started",
+      "quest_name": "Tradutor Universal",
+      "quest_description": {
+        "paragraph1": "Uma corporação lançou um tradutor universal em tempo real capaz de converter voz, gestos, expressões faciais e até gírias entre espécies diferentes.",
+        "paragraph2": "Humanos, robôs domésticos, animais, carros inteligentes e até torradeiras conscientes utilizam o sistema diariamente.",
+        "paragraph3": "O servidor central processa linguagem, contexto cultural e autenticação dos dispositivos.",
+        "paragraph4": "O problema começou quando fabricantes independentes começaram a criar clientes alternativos não oficiais.",
+        "paragraph5": "Agora alguns dispositivos traduzem ‘bom dia’ como ameaça diplomática, outros simplesmente explodem tentando interpretar emojis emocionais da geração mais nova.",
+        "paragraph6": "A empresa quer continuar permitindo novos tipos de clientes no sistema… mas toda atualização no servidor parece quebrar metade dos dispositivos antigos."
+      },
+      "pattern_required": {
+        "pattern1": "ClientServer"
+      },
+      "pattern_chosen": "Cliente-Servidor",
+      "total_attribute_provided": {
+        "Functional Suitability": 11.55,
+        "Performance Efficiency": 9.35,
+        "Compatibility": 9.35,
+        "Interaction Capability": 9.8,
+        "Reliability": 8.4,
+        "Security": 11.9,
+        "Maintainability": 5.2,
+        "Flexibility": 14.45,
+        "Safety": 9.9
+      },
+      "required_attribute": {
+        "Functional Suitability": 5.5,
+        "Performance Efficiency": 5.7,
+        "Compatibility": 8.4,
+        "Interaction Capability": 8.1,
+        "Reliability": 5.0,
+        "Security": 5.3,
+        "Maintainability": 3.9,
+        "Flexibility": 9.2,
+        "Safety": 0.1
+      },
+      "relative_time_seconds": 871
+    },
+    {
+      "index": 21,
+      "event": "contract_started",
+      "quest_name": "Food Chain",
+      "quest_description": {
+        "paragraph1": "Uma megafábrica produz refeições sintéticas para metade da população terrestre.",
+        "paragraph2": "O processo inteiro funciona como uma gigantesca linha automatizada de transformação de dados e matéria.",
+        "paragraph3": "Cada estágio da produção é tratado por um filtro independente: análise nutricional, balanceamento químico, esterilização, personalização de sabor, embalagem e distribuição.",
+        "paragraph4": "Tudo funciona… desde que cada etapa entregue exatamente o formato esperado pela próxima.",
+        "paragraph5": "O problema começou quando um novo filtro de ‘otimização calórica por IA’ foi instalado no meio da cadeia.",
+        "paragraph6": "A atualização aumentou a performance em 23%.",
+        "paragraph7": "E também transformou 14 toneladas de macarrão em espuma com gosto de bateria."
+      },
+      "pattern_required": {
+        "pattern1": "PipeFilter"
+      },
+      "pattern_chosen": "Arquitetura em Camadas",
+      "total_attribute_provided": {
+        "Functional Suitability": 11.0,
+        "Performance Efficiency": 7.2,
+        "Compatibility": 8.4,
+        "Interaction Capability": 7.48,
+        "Reliability": 13.3,
+        "Security": 9.9,
+        "Maintainability": 12.6,
+        "Flexibility": 10.45,
+        "Safety": 8.8
+      },
+      "required_attribute": {
+        "Functional Suitability": 9.2,
+        "Performance Efficiency": 8.8,
+        "Compatibility": 2.0,
+        "Interaction Capability": 3.5,
+        "Reliability": 3.8,
+        "Security": 5.9,
+        "Maintainability": 9.0,
+        "Flexibility": 9.8,
+        "Safety": 5.8
+      },
+      "relative_time_seconds": 952
+    },
+    {
+      "index": 22,
+      "event": "quiz_answer",
+      "question": "Após instalar o novo filtro nutricional, os filtros seguintes começaram a interpretar incorretamente os dados recebidos, gerando alimentos inutilizáveis em toda a linha de produção. Qual característica da arquitetura Pipe and Filter ficou mais evidente?",
+      "correct_answer": "✓ A dependência de formatos compatíveis entre filtros do pipeline",
+      "player_answer": "✓ A dependência de formatos compatíveis entre filtros do pipeline",
+      "is_correct": true,
+      "time_spent_seconds": 37.378,
+      "quiz_type": "Bug",
+      "question_number": 1,
+      "total_questions": 1,
+      "relative_time_seconds": 1033
+    },
+    {
+      "index": 23,
+      "event": "minigame_pipe_finished",
+      "pattern_name": "Pipe and Filter",
+      "correct_bullets_count": 3,
+      "correct_bullets": [
+        "Cada filtro transforma dados recebidos",
+        "Processamento dividido em filtros independentes",
+        "Dados percorrem fluxo sequencial contínuo"
+      ],
+      "wrong_bullets_count": 1,
+      "wrong_bullets": [
+        "Fluxo baseado em emissão de eventos"
+      ],
+      "time_spent_seconds": 21.398,
+      "relative_time_seconds": 1108
+    },
+    {
+      "index": 24,
+      "event": "minigame_pipe_finished",
+      "pattern_name": "Microserviços",
+      "correct_bullets_count": 4,
+      "correct_bullets": [
+        "Comunicação baseada em APIs distribuídas",
+        "Infraestrutura distribuída coordena serviços",
+        "Serviços implantados de forma autônoma",
+        "Sistema dividido em serviços independentes"
+      ],
+      "wrong_bullets_count": 3,
+      "wrong_bullets": [
+        "Comunicação padronizada entre componentes internos",
+        "Componentes comunicam-se através de eventos",
+        "Funcionalidades separadas em módulos reutilizáveis"
+      ],
+      "time_spent_seconds": 90.286,
+      "relative_time_seconds": 1210
+    },
+    {
+      "index": 25,
+      "event": "quiz_answer",
+      "question": "Uma plataforma de streaming decidiu migrar parte do sistema para microserviços. Agora, autenticação, catálogo e recomendações funcionam como serviços independentes.\nQual atributo de qualidade é mais favorecido por essa decisão?",
+      "correct_answer": "✓ Flexibilidade",
+      "player_answer": "✓ Flexibilidade",
+      "is_correct": true,
+      "time_spent_seconds": 21.175,
+      "quiz_type": "Exam",
+      "question_number": 1,
+      "total_questions": 3,
+      "relative_time_seconds": 1264
+    },
+    {
+      "index": 26,
+      "event": "quiz_answer",
+      "question": "Um sistema de processamento de imagens utiliza Pipe and Filter. Cada filtro aplica uma transformação diferente antes de enviar o resultado ao próximo estágio.\nQual vantagem dessa arquitetura está mais evidente?",
+      "correct_answer": "✓ Facilidade de modificar filtros isoladamente",
+      "player_answer": "✓ Facilidade de modificar filtros isoladamente",
+      "is_correct": true,
+      "time_spent_seconds": 13.236,
+      "quiz_type": "Exam",
+      "question_number": 2,
+      "total_questions": 3,
+      "relative_time_seconds": 1279
+    },
+    {
+      "index": 27,
+      "event": "quiz_answer",
+      "question": "Uma empresa percebeu que seu sistema em microserviços começou a apresentar atrasos devido ao excesso de comunicação entre serviços pela rede.\nEssa situação representa uma desvantagem relacionada principalmente à:",
+      "correct_answer": "✓ Eficiência de desempenho",
+      "player_answer": "✗ Segurança",
+      "is_correct": false,
+      "time_spent_seconds": 31.342,
+      "quiz_type": "Exam",
+      "question_number": 3,
+      "total_questions": 3,
+      "relative_time_seconds": 1311
+    },
+    {
+      "index": 28,
+      "event": "quarter_finished",
+      "current_quarter": 2,
+      "money": 321,
+      "total_gain": 63,
+      "developer_hired_number": 2,
+      "time_spent_seconds": 486.734,
+      "relative_time_seconds": 1313
+    },
+    {
+      "index": 29,
+      "event": "contract_started",
+      "quest_name": "Cidades Inteligêntes",
+      "quest_description": {
+        "paragraph1": "Megacidades orbitais passaram a utilizar um sistema distribuído para controlar moradia, energia, transporte, clima artificial, drones urbanos e serviços civis.",
+        "paragraph2": "Cada setor da cidade evolui de maneira independente porque fornecedores diferentes desenvolvem partes específicas da infraestrutura.",
+        "paragraph3": "Alguns módulos rodam em servidores quânticos mais modernos. Outros ainda executam em máquinas absurdamente antigas porque ninguém quer arriscar desligar o reator que sustenta o bairro 12.",
+        "paragraph4": "Nos últimos meses, atualizações independentes começaram a gerar incompatibilidades bizarras: elevadores estão tentado fazer entregas de aplicativo, drones de limpeza tentam cobrar imposto e o sistema climático ocasionalmente interpreta notificações de trânsito como pedidos de furacão.",
+        "paragraph5": "A prefeitura insiste que a arquitetura distribuída é necessária porque a cidade não pode parar inteira durante atualizações."
+      },
+      "pattern_required": {
+        "pattern1": "Microservice"
+      },
+      "pattern_chosen": "Microserviços",
+      "total_attribute_provided": {
+        "Functional Suitability": 12.65,
+        "Performance Efficiency": 5.6,
+        "Compatibility": 10.45,
+        "Interaction Capability": 12.1,
+        "Reliability": 11.0,
+        "Security": 8.8,
+        "Maintainability": 10.5,
+        "Flexibility": 18.0,
+        "Safety": 7.15
+      },
+      "required_attribute": {
+        "Functional Suitability": 5.4,
+        "Performance Efficiency": 2.4,
+        "Compatibility": 8.5,
+        "Interaction Capability": 5.9,
+        "Reliability": 5.9,
+        "Security": 5.2,
+        "Maintainability": 9.2,
+        "Flexibility": 9.8,
+        "Safety": 8.4
+      },
+      "relative_time_seconds": 1384
+    },
+    {
+      "index": 30,
+      "event": "minigame_pipe_finished",
+      "pattern_name": "Microkernel",
+      "correct_bullets_count": 4,
+      "correct_bullets": [
+        "Extensões independentes conectadas ao núcleo",
+        "Núcleo mínimo controla funções essenciais",
+        "Funcionalidades separadas em módulos reutilizáveis",
+        "Comunicação padronizada entre componentes internos"
+      ],
+      "wrong_bullets_count": 1,
+      "wrong_bullets": [
+        "Sistema organizado em camadas hierárquicas"
+      ],
+      "time_spent_seconds": 11.454,
+      "relative_time_seconds": 1427
+    },
+    {
+      "index": 31,
+      "event": "minigame_pipe_finished",
+      "pattern_name": "Microkernel",
+      "correct_bullets_count": 4,
+      "correct_bullets": [
+        "Extensões independentes conectadas ao núcleo",
+        "Núcleo mínimo controla funções essenciais",
+        "Funcionalidades separadas em módulos reutilizáveis",
+        "Comunicação padronizada entre componentes internos"
+      ],
+      "wrong_bullets_count": 1,
+      "wrong_bullets": [
+        "Sistema organizado em camadas hierárquicas"
+      ],
+      "time_spent_seconds": 13.444,
+      "relative_time_seconds": 1429
+    },
+    {
+      "index": 32,
+      "event": "contract_started",
+      "quest_name": "PersonaForge",
+      "quest_description": {
+        "paragraph1": "Após o colapso das redes sociais tradicionais, surgiu o PersonaForge: um sistema capaz de alterar dinamicamente a personalidade digital dos usuários dependendo do ambiente.",
+        "paragraph2": "No trabalho, você parece profissional. Em jogos, competitivo. Em encontros, misterioso. Em reuniões familiares… minimamente suportável.",
+        "paragraph3": "O núcleo do sistema é pequeno e estável, responsável apenas por identidade, autenticação e sincronização neural.",
+        "paragraph4": "Existem plug-ins para humor, sotaque, filtros emocionais, adaptação cultural, sarcasmo automático e até ‘modo empreendedor agressivo’.",
+        "paragraph5": "O problema começou quando diferentes plug-ins passaram a competir entre si.",
+        "paragraph6": "Semana passada um usuário tentou ativar o ‘Modo Diplomático’ durante uma reunião corporativa, mas o plug-in de ‘Sinceridade Brutal Gamer Edition’ assumiu prioridade.",
+        "paragraph7": "As ações judiciais já ultrapassaram 14 países."
+      },
+      "pattern_required": {
+        "pattern1": "Microkernel"
+      },
+      "pattern_chosen": "Microkernel",
+      "total_attribute_provided": {
+        "Functional Suitability": 11.0,
+        "Performance Efficiency": 7.2,
+        "Compatibility": 11.0,
+        "Interaction Capability": 6.93,
+        "Reliability": 16.8,
+        "Security": 8.25,
+        "Maintainability": 18.0,
+        "Flexibility": 9.1,
+        "Safety": 9.35
+      },
+      "required_attribute": {
+        "Functional Suitability": 5.3,
+        "Performance Efficiency": 3.1,
+        "Compatibility": 9.7,
+        "Interaction Capability": 5.4,
+        "Reliability": 8.6,
+        "Security": 5.5,
+        "Maintainability": 9.7,
+        "Flexibility": 9.7,
+        "Safety": 5.3
+      },
+      "relative_time_seconds": 1442
+    },
+    {
+      "index": 33,
+      "event": "quiz_answer",
+      "question": "Dois plug-ins sociais começaram a modificar simultaneamente o comportamento do usuário porque ambos assumiam controle sobre as mesmas funções internas de personalidade. O núcleo permaneceu estável, mas os módulos entraram em conflito constante. Qual problema típico da arquitetura Microkernel isso representa?",
+      "correct_answer": "✓ Complexidade de coordenação entre plug-ins independentes",
+      "player_answer": "✗ Dependência exclusiva de um banco de dados central",
+      "is_correct": false,
+      "time_spent_seconds": 25.951,
+      "quiz_type": "Bug",
+      "question_number": 1,
+      "total_questions": 1,
+      "relative_time_seconds": 1511
+    },
+    {
+      "index": 34,
+      "event": "minigame_pipe_finished",
+      "pattern_name": "Arquitetura Orientada a Eventos",
+      "correct_bullets_count": 4,
+      "correct_bullets": [
+        "Fluxo baseado em emissão de eventos",
+        "Consumidores reagem a mudanças detectadas",
+        "Eventos trafegam por canais assíncronos",
+        "Componentes comunicam-se através de eventos"
+      ],
+      "wrong_bullets_count": 3,
+      "wrong_bullets": [
+        "Comunicação ocorre entre camadas adjacentes",
+        "Comunicação padronizada entre componentes internos",
+        "Controller intermedia usuário e aplicação"
+      ],
+      "time_spent_seconds": 33.72,
+      "relative_time_seconds": 1603
+    },
+    {
+      "index": 35,
+      "event": "quiz_answer",
+      "question": "Uma aplicação baseada em eventos processa milhares de ações simultaneamente. Entretanto, os desenvolvedores estão encontrando dificuldades para rastrear a origem de erros e entender o fluxo completo das operações.\nQual atributo de qualidade está sendo mais prejudicado?",
+      "correct_answer": "✓ Manutenibilidade",
+      "player_answer": "✓ Manutenibilidade",
+      "is_correct": true,
+      "time_spent_seconds": 18.657,
+      "quiz_type": "Exam",
+      "question_number": 1,
+      "total_questions": 3,
+      "relative_time_seconds": 1676
+    },
+    {
+      "index": 36,
+      "event": "quiz_answer",
+      "question": "Um software educacional utiliza arquitetura Microkernel. Novas funcionalidades podem ser adicionadas como plug-ins sem alterar o núcleo principal do sistema.\nQual alternativa melhor explica a principal vantagem desse modelo?",
+      "correct_answer": "✓ Facilidade de extensão e adaptação do sistema",
+      "player_answer": "✗ Processamento linear em múltiplas etapas",
+      "is_correct": false,
+      "time_spent_seconds": 16.412,
+      "quiz_type": "Exam",
+      "question_number": 2,
+      "total_questions": 3,
+      "relative_time_seconds": 1694
+    },
+    {
+      "index": 37,
+      "event": "quiz_answer",
+      "question": "Uma empresa desenvolveu um sistema híbrido: o núcleo principal utiliza Microkernel; notificações usam arquitetura orientada a eventos; e módulos extras são instalados como plug-ins.\nDurante testes, percebeu-se que falhas em um plug-in não derrubavam o núcleo, mas eventos perdidos causavam inconsistências temporárias.\nQual alternativa apresenta a análise MAIS adequada?",
+      "correct_answer": "✓ O Microkernel melhora isolamento de falhas, mas eventos assíncronos podem reduzir confiabilidade",
+      "player_answer": "✓ O Microkernel melhora isolamento de falhas, mas eventos assíncronos podem reduzir confiabilidade",
+      "is_correct": true,
+      "time_spent_seconds": 109.465,
+      "quiz_type": "Exam",
+      "question_number": 3,
+      "total_questions": 3,
+      "relative_time_seconds": 1804
+    },
+    {
+      "index": 38,
+      "event": "quarter_finished",
+      "current_quarter": 3,
+      "money": 408,
+      "total_gain": 87,
+      "developer_hired_number": 2,
+      "time_spent_seconds": 486.172,
+      "relative_time_seconds": 1806
+    }
+  ]
+}
