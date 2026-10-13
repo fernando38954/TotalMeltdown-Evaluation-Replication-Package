@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "expected_n_raw": 19,
+  "expected_n_included": 18,
+  "expected_excluded_ids": [
+    "M019"
+  ],
+  "excluded_reason": "author_instruction_last_respondent",
+  "missing_policy": "error_no_imputation",
+  "dimension_score": "arithmetic_mean_of_reverse_coded_items",
+  "group_mean": "mean_of_participant_dimension_scores",
+  "sd_ddof": 1,
+  "negative_dimension": "Pressure/Tension",
+  "main_reverse_constants": {
+    "IMI": 8,
+    "IMMS": 6
+  },
+  "paper_literal_reverse_constants": {
+    "IMI": 8,
+    "IMMS": 5
+  },
+  "article_reference": "Manuscript, section 7.2 and Figures 6 and 7",
+  "paper_reported_mean_sd": {
+    "IMI": {
+      "Interest/Enjoyment": [
+        5.48,
+        1.52
+      ],
+      "Perceived Competence": [
+        4.64,
+        1.28
+      ],
+      "Effort/Importance": [
+        3.88,
+        1.49
+      ],
+      "Pressure/Tension": [
+        2.01,
+        0.94
+      ],
+      "Perceived Choice": [
+        6.25,
+        0.89
+      ],
+      "Value/Usefulness": [
+        5.65,
+        1.27
+      ]
+    },
+    "IMMS": {
+      "Confidence": [
+        4.03,
+        0.51
+      ],
+      "Attention": [
+        4.19,
+        0.51
+      ],
+      "Satisfaction": [
+        4.2,
+        0.73
+      ],
+      "Relevance": [
+        4.1,
+        0.62
+      ]
+    }
+  }
+}

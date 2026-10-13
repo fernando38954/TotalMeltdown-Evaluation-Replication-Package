@@ -1,0 +1,389 @@
+{
+  "protocol_version": "1.0",
+  "source_note": "Gabarito oficial das Formas A e B informado pelo autor na conversa. Respostas corretas mapeadas explicitamente aos textos exportados do formulário; a pontuação não é inferida da frequência das respostas.",
+  "scoring": "14 pares; um ponto por acerto, zero por resposta incorreta reconhecida; sem ponderação. Vocabulário não reconhecido ou resposta ausente interrompe a análise.",
+  "normalization": "Unicode NFKC, espaços consecutivos e diferenças entre maiúsculas/minúsculas. Sem comparação aproximada ou remoção de acentos.",
+  "accepted_answers_note": "accepted_export_answers registra o vocabulário observado nesta exportação. Uma alternativa nova exige conferência e atualização explícita, mesmo quando incorreta. As letras referem-se ao gabarito oficial, não à ordem de frequência no arquivo.",
+  "sheet_name": "Respostas ao formulário 1",
+  "metadata_headers": {
+    "id": "ID",
+    "consent": "Concordância com o TCLE",
+    "knowledge": "Como você avalia seu conhecimento atual sobre padrões arquiteturais de software? "
+  },
+  "accepted_consent": "Eu li o TCLE e concordo em responder esta pesquisa.",
+  "knowledge_groups": {
+    "Nenhum conhecimento": "none_or_basic",
+    "Conhecimento básico": "none_or_basic",
+    "Conhecimento intermediário": "intermediate_or_advanced",
+    "Conhecimento avançado": "intermediate_or_advanced"
+  },
+  "items": [
+    {
+      "pair": 1,
+      "concept_en": "Architectural trade-offs",
+      "domain": "foundational_concepts",
+      "pre": {
+        "header": "Em Arquitetura de Software, uma decisão é caracterizada como um trade-off quando:",
+        "official_correct_letter": "B",
+        "official_correct_answer": "favorece determinados aspectos do sistema, mas pode introduzir consequências negativas em outros.",
+        "correct_export_answer": "favorece alguns aspectos do sistema, mas prejudica outros em contrapartida",
+        "accepted_export_answers": [
+          "favorece alguns aspectos do sistema, mas prejudica outros em contrapartida",
+          "modifica apenas requisitos funcionais, sem qualquer impacto na qualidade"
+        ]
+      },
+      "post": {
+        "header": "Uma equipe escolhe uma solução que facilita significativamente a manutenção e evolução do sistema, mas aumenta o custo e a complexidade de implantação. Essa situação representa:",
+        "official_correct_letter": "C",
+        "official_correct_answer": "um trade-off arquitetural.",
+        "correct_export_answer": "um trade-off arquitetural",
+        "accepted_export_answers": [
+          "um trade-off arquitetural"
+        ]
+      }
+    },
+    {
+      "pair": 2,
+      "concept_en": "Quality requirements",
+      "domain": "foundational_concepts",
+      "pre": {
+        "header": "Qual alternativa descreve principalmente um requisito de qualidade?",
+        "official_correct_letter": "C",
+        "official_correct_answer": "O sistema deve continuar disponível mesmo quando um de seus componentes apresentar falha.",
+        "correct_export_answer": "O sistema deve seguir disponível mesmo com falha em algum componente",
+        "accepted_export_answers": [
+          "O administrador deve ser capaz de emitir um relatório mensal completo",
+          "O cliente deve ser capaz de cancelar um pedido que já foi realizado",
+          "O sistema deve seguir disponível mesmo com falha em algum componente",
+          "O usuário deve ser capaz de cadastrar um novo equipamento no sistema"
+        ]
+      },
+      "post": {
+        "header": "Qual alternativa representa principalmente um requisito de qualidade?",
+        "official_correct_letter": "B",
+        "official_correct_answer": "O sistema deve impedir o acesso de usuários não autorizados às informações armazenadas.",
+        "correct_export_answer": "O sistema deve impedir o acesso de usuários não autorizados aos dados",
+        "accepted_export_answers": [
+          "O administrador do sistema deve conseguir cadastrar novos funcionários",
+          "O cliente deve conseguir consultar o status atual do seu próprio pedido",
+          "O sistema deve impedir o acesso de usuários não autorizados aos dados",
+          "O sistema deve permitir que o usuário comum possa enviar uma mensagem"
+        ]
+      }
+    },
+    {
+      "pair": 3,
+      "concept_en": "Context-dependent selection",
+      "domain": "foundational_concepts",
+      "pre": {
+        "header": "Qual afirmação representa melhor o processo de escolha de um Padrão de Arquitetura?",
+        "official_correct_letter": "C",
+        "official_correct_answer": "A adequação do padrão depende do contexto, dos requisitos priorizados e das consequências da decisão.",
+        "correct_export_answer": "A escolha do padrão depende do contexto, dos requisitos e das consequências",
+        "accepted_export_answers": [
+          "A escolha do padrão depende do contexto, dos requisitos e das consequências",
+          "Existe um padrão ideal que deve ser utilizado sempre que possível"
+        ]
+      },
+      "post": {
+        "header": "Dois projetos utilizam tecnologias semelhantes, mas possuem prioridades de qualidade diferentes. O mesmo Padrão de Arquitetura deve necessariamente ser escolhido para ambos?",
+        "official_correct_letter": "C",
+        "official_correct_answer": "Não. A decisão deve considerar os requisitos e os trade-offs relevantes em cada contexto.",
+        "correct_export_answer": "Não. A decisão deve considerar o contexto de cada projeto",
+        "accepted_export_answers": [
+          "Não. A decisão deve considerar o contexto de cada projeto"
+        ]
+      }
+    },
+    {
+      "pair": 4,
+      "concept_en": "MVC",
+      "domain": "pattern_recognition",
+      "pre": {
+        "header": "Uma universidade possui um sistema acadêmico acessível por aplicativo móvel, navegador e terminais de autoatendimento. As três interfaces apresentam os mesmos dados acadêmicos e utilizam as mesmas regras de negócio. A instituição pretende modificar frequentemente as interfaces sem alterar essas regras. Qual padrão de arquitetura é mais adequado para esse cenário?",
+        "official_correct_letter": "B",
+        "official_correct_answer": "MVC",
+        "correct_export_answer": "MVC",
+        "accepted_export_answers": [
+          "Event-Driven Architecture",
+          "MVC",
+          "Microkernel",
+          "Pipe and Filter"
+        ]
+      },
+      "post": {
+        "header": "Um sistema hospitalar apresenta as mesmas informações clínicas em telas para médicos, pacientes e recepcionistas. Cada público possui uma interface distinta, mas todos utilizam as mesmas regras e dados. A equipe quer modificar a apresentação para pacientes sem alterar a lógica clínica. Qual arquitetura favorece particularmente esse objetivo?",
+        "official_correct_letter": "A",
+        "official_correct_answer": "MVC",
+        "correct_export_answer": "MVC",
+        "accepted_export_answers": [
+          "Event-Driven Architecture",
+          "MVC",
+          "Microsserviços"
+        ]
+      }
+    },
+    {
+      "pair": 5,
+      "concept_en": "Client–Server",
+      "domain": "pattern_recognition",
+      "pre": {
+        "header": "Uma rede de bibliotecas possui centenas de terminais diferentes. Todos consultam um serviço central responsável pela autenticação, empréstimos e armazenamento dos dados dos usuários. Qual padrão arquitetural melhor descreve esse sistema centralizado?",
+        "official_correct_letter": "A",
+        "official_correct_answer": "Cliente-Servidor",
+        "correct_export_answer": "Cliente-Servidor",
+        "accepted_export_answers": [
+          "Cliente-Servidor",
+          "Microsserviços"
+        ]
+      },
+      "post": {
+        "header": "Diversos caixas eletrônicos acessam uma infraestrutura central responsável por validar usuários, consultar saldos e executar transações. Qual arquitetura melhor descreve essa estrutura?",
+        "official_correct_letter": "B",
+        "official_correct_answer": "Cliente-Servidor",
+        "correct_export_answer": "Cliente-Servidor",
+        "accepted_export_answers": [
+          "Cliente-Servidor",
+          "Microkernel"
+        ]
+      }
+    },
+    {
+      "pair": 6,
+      "concept_en": "Layered Architecture",
+      "domain": "pattern_recognition",
+      "pre": {
+        "header": "Um sistema financeiro separa apresentação, regras de aplicação, domínio e acesso aos dados. Uma solicitação deve passar pelas validações das camadas apropriadas antes de alcançar os dados persistidos. Qual padrão arquitetural organiza o sistema dessa forma?",
+        "official_correct_letter": "C",
+        "official_correct_answer": "Arquitetura em Camadas",
+        "correct_export_answer": "Arquitetura em Camadas",
+        "accepted_export_answers": [
+          "Arquitetura em Camadas",
+          "Microsserviços"
+        ]
+      },
+      "post": {
+        "header": "Em uma plataforma de saúde, a interface não possui acesso direto ao banco de dados. As requisições percorrem componentes responsáveis por aplicação, regras clínicas e persistência. Qual arquitetura está sendo empregada?",
+        "official_correct_letter": "B",
+        "official_correct_answer": "Arquitetura em Camadas",
+        "correct_export_answer": "Arquitetura em Camadas",
+        "accepted_export_answers": [
+          "Arquitetura em Camadas",
+          "Cliente-Servidor",
+          "Event-Driven Architecture",
+          "Microsserviços"
+        ]
+      }
+    },
+    {
+      "pair": 7,
+      "concept_en": "Microservices",
+      "domain": "pattern_recognition",
+      "pre": {
+        "header": "Uma plataforma de comércio eletrônico pretende permitir que catálogo, pagamento, entrega e recomendação sejam desenvolvidos, implantados e atualizados de forma independente. Qual padrão arquitetural viabiliza a implantação independente desses módulos?",
+        "official_correct_letter": "A",
+        "official_correct_answer": "Microserviços",
+        "correct_export_answer": "Microsserviços",
+        "accepted_export_answers": [
+          "Arquitetura em Camadas",
+          "MVC",
+          "Microsserviços"
+        ]
+      },
+      "post": {
+        "header": "Uma empresa de logística quer que rastreamento, cobrança, cálculo de rotas e notificações possam ser implantados e escalados separadamente. Qual arquitetura é particularmente compatível com essa necessidade?",
+        "official_correct_letter": "C",
+        "official_correct_answer": "Microserviços",
+        "correct_export_answer": "Microsserviços",
+        "accepted_export_answers": [
+          "MVC",
+          "Microkernel",
+          "Microsserviços"
+        ]
+      }
+    },
+    {
+      "pair": 8,
+      "concept_en": "Pipe and Filter",
+      "domain": "pattern_recognition",
+      "pre": {
+        "header": "Um sistema de processamento de áudio executa, sucessivamente, remoção de ruído, normalização, detecção de voz e transcrição. Cada etapa recebe a saída da anterior e pode ser substituída independentemente. Qual padrão arquitetural possui esse fluxo sequencial de processamento?",
+        "official_correct_letter": "C",
+        "official_correct_answer": "Pipe and Filter",
+        "correct_export_answer": "Pipe and Filter",
+        "accepted_export_answers": [
+          "Event-Driven Architecture",
+          "Pipe and Filter"
+        ]
+      },
+      "post": {
+        "header": "Um compilador executa sucessivamente análise léxica, análise sintática, otimização e geração de código. Cada etapa transforma os dados recebidos antes de encaminhá-los à próxima. Qual arquitetura melhor representa essa organização?",
+        "official_correct_letter": "A",
+        "official_correct_answer": "Pipe and Filter",
+        "correct_export_answer": "Pipe and Filter",
+        "accepted_export_answers": [
+          "Pipe and Filter"
+        ]
+      }
+    },
+    {
+      "pair": 9,
+      "concept_en": "Event-Driven Architecture",
+      "domain": "pattern_recognition",
+      "pre": {
+        "header": "Em uma fábrica inteligente, sensores publicam eventos sempre que identificam alterações. Diferentes componentes podem reagir ao mesmo evento para atualizar painéis, gerar alertas e iniciar processos, sem que o sensor conheça diretamente esses componentes. Qual padrão arquitetural possibilita essa reação independente?",
+        "official_correct_letter": "B",
+        "official_correct_answer": "Event-Driven Architecture",
+        "correct_export_answer": "Event-Driven Architecture",
+        "accepted_export_answers": [
+          "Event-Driven Architecture",
+          "MVC",
+          "Microkernel"
+        ]
+      },
+      "post": {
+        "header": "Em uma plataforma de entregas, quando um pedido é concluído, diferentes serviços reagem ao evento para atualizar estoque, notificar o cliente e registrar dados analíticos. O emissor não precisa conhecer cada um dos consumidores. Qual arquitetura está sendo utilizada?",
+        "official_correct_letter": "B",
+        "official_correct_answer": "Event-Driven Architecture",
+        "correct_export_answer": "Event-Driven Architecture",
+        "accepted_export_answers": [
+          "Arquitetura em Camadas",
+          "Cliente-Servidor",
+          "Event-Driven Architecture"
+        ]
+      }
+    },
+    {
+      "pair": 10,
+      "concept_en": "Microkernel",
+      "domain": "pattern_recognition",
+      "pre": {
+        "header": "Uma aplicação possui um pequeno núcleo responsável apenas pelas funções essenciais. Funcionalidades adicionais podem ser instaladas ou removidas por meio de extensões independentes sem modificar esse núcleo. Qual padrão arquitetural possui esse núcleo extensível por módulos?",
+        "official_correct_letter": "C",
+        "official_correct_answer": "Microkernel",
+        "correct_export_answer": "Microkernel",
+        "accepted_export_answers": [
+          "Microkernel",
+          "Microsserviços"
+        ]
+      },
+      "post": {
+        "header": "Uma ferramenta de desenvolvimento possui um núcleo pequeno que oferece funções essenciais. Suporte a novas linguagens, analisadores e ferramentas de depuração é adicionado por extensões independentes. Qual arquitetura melhor representa essa solução?",
+        "official_correct_letter": "C",
+        "official_correct_answer": "Microkernel",
+        "correct_export_answer": "Microkernel",
+        "accepted_export_answers": [
+          "Cliente-Servidor",
+          "Microkernel",
+          "Microsserviços"
+        ]
+      }
+    },
+    {
+      "pair": 11,
+      "concept_en": "Layered: security priorities",
+      "domain": "application_and_tradeoffs",
+      "pre": {
+        "header": "Um sistema governamental processará dados altamente sensíveis. É importante controlar rigorosamente como as informações passam entre apresentação, regras de negócio e persistência. A equipe aceita algum custo adicional de processamento para favorecer isolamento, segurança e verificações intermediárias. Qual padrão arquitetural é mais adequado para esse sistema?",
+        "official_correct_letter": "A",
+        "official_correct_answer": "Arquitetura em Camadas",
+        "correct_export_answer": "Arquitetura em Camadas",
+        "accepted_export_answers": [
+          "Arquitetura em Camadas",
+          "Cliente-Servidor",
+          "Event-Driven Architecture",
+          "Pipe and Filter"
+        ]
+      },
+      "post": {
+        "header": "Um sistema de registros médicos prioriza validações, isolamento das responsabilidades e controle do acesso aos dados. A equipe aceita que algumas operações sejam mais lentas se isso permitir um fluxo mais controlado entre os componentes. Qual alternativa é mais coerente?",
+        "official_correct_letter": "B",
+        "official_correct_answer": "Arquitetura em Camadas",
+        "correct_export_answer": "Arquitetura em Camadas",
+        "accepted_export_answers": [
+          "Arquitetura em Camadas",
+          "Cliente-Servidor",
+          "Pipe and Filter"
+        ]
+      }
+    },
+    {
+      "pair": 12,
+      "concept_en": "Pipeline application",
+      "domain": "application_and_tradeoffs",
+      "pre": {
+        "header": "Uma empresa precisa processar grandes volumes de dados por uma sequência bem definida de transformações. As etapas devem ser substituíveis independentemente e poderão utilizar tecnologias diferentes, desde que mantenham formatos de entrada e saída compatíveis. Qual arquitetura permite essa sequência de transformações entre etapas?",
+        "official_correct_letter": "B",
+        "official_correct_answer": "Pipe and Filter",
+        "correct_export_answer": "Pipe and Filter",
+        "accepted_export_answers": [
+          "MVC",
+          "Microkernel",
+          "Pipe and Filter"
+        ]
+      },
+      "post": {
+        "header": "Uma aplicação científica recebe dados brutos que precisam passar por limpeza, transformação, classificação e agregação. Os pesquisadores desejam poder substituir cada etapa sem reconstruir todo o processamento. Qual arquitetura é particularmente adequada?",
+        "official_correct_letter": "C",
+        "official_correct_answer": "Pipe and Filter",
+        "correct_export_answer": "Pipe and Filter",
+        "accepted_export_answers": [
+          "Microsserviços",
+          "Pipe and Filter"
+        ]
+      }
+    },
+    {
+      "pair": 13,
+      "concept_en": "Microkernel vs. Microservices",
+      "domain": "application_and_tradeoffs",
+      "pre": {
+        "header": "Qual alternativa diferencia corretamente Microkernel de Microsserviços?",
+        "official_correct_letter": "B",
+        "official_correct_answer": "No Microkernel, funcionalidades estendem um núcleo essencial por meio de módulos; em Microserviços, capacidades do sistema são distribuídas em serviços independentes.",
+        "correct_export_answer": "No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes",
+        "accepted_export_answers": [
+          "Cada módulo do Microkernel pode ser desenvolvido separadamente; em Microsserviços não permitem que componentes sejam atualizados independentemente",
+          "No Microkernel, funcionalidades se estendem por meio de módulos; em Microsserviços, são distribuídas em serviços independentes"
+        ]
+      },
+      "post": {
+        "header": "Uma empresa está comparando duas alternativas:\nSolução X: mantém um núcleo estável e adiciona funcionalidades por extensões conectadas a ele; Solução Y: divide capacidades de negócio em serviços autônomos que se comunicam pela rede. \nX e Y correspondem, respectivamente, a:",
+        "official_correct_letter": "A",
+        "official_correct_answer": "Microkernel e Microserviços.",
+        "correct_export_answer": "Microkernel e Microsserviços",
+        "accepted_export_answers": [
+          "Arquitetura em Camadas e Cliente-Servidor",
+          "Microkernel e Microsserviços"
+        ]
+      }
+    },
+    {
+      "pair": 14,
+      "concept_en": "Event-driven trade-offs",
+      "domain": "application_and_tradeoffs",
+      "pre": {
+        "header": "Um sistema orientado a eventos consegue processar diversas atividades de forma assíncrona e paralela. Entretanto, alguns eventos são ocasionalmente processados duas vezes ou chegam fora de ordem. Qual das descrições abaixo está correta?",
+        "official_correct_letter": "B",
+        "official_correct_answer": "A comunicação assíncrona pode favorecer desempenho e desacoplamento, mas exige mecanismos para tratar consistência e confiabilidade dos eventos.",
+        "correct_export_answer": "Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos",
+        "accepted_export_answers": [
+          "Assíncrona favorece desempenho e desacoplamento, mas exige tratar consistência e ordem dos eventos",
+          "Essa arquitetura elimina problemas de confiabilidade, pois os componentes são totalmente desacoplados",
+          "O problema ocorre porque todos os componentes dependem diretamente uns dos outros no sistema"
+        ]
+      },
+      "post": {
+        "header": "Uma plataforma recebe milhares de eventos por segundo e permite que vários componentes reajam independentemente. Após algum tempo, a equipe encontra dificuldade para descobrir qual sequência de eventos originou determinados erros. Qual conclusão é mais adequada?",
+        "official_correct_letter": "B",
+        "official_correct_answer": "O processamento orientado a eventos pode favorecer paralelismo e desacoplamento, mas tornar rastreamento e depuração mais difíceis.",
+        "correct_export_answer": "Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração",
+        "accepted_export_answers": [
+          "A arquitetura deve processar todos os eventos de maneira absolutamente síncrona",
+          "Eventos assíncronos favorecem paralelismo e desacoplamento, mas dificultam depuração",
+          "O desacoplamento total elimina a necessidade de rastrear o fluxo executado no sistema"
+        ]
+      }
+    }
+  ]
+}

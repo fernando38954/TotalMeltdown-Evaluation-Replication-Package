@@ -1,0 +1,256 @@
+{
+  "sheet": "Respostas ao formulário 1",
+  "id_header": "ID",
+  "consent_header": "Concordância com o TCLE",
+  "accepted_consent": "Eu li o TCLE e concordo em responder esta pesquisa.",
+  "items": [
+    {
+      "item": "Q01",
+      "panel": "Usability",
+      "dimension": "Aesthetics",
+      "label": "Attractive design",
+      "origin": "MEEGA+ adapted item",
+      "header": "O design do jogo é atraente (tabuleiro, cartas, interfaces, gráficos, etc.)."
+    },
+    {
+      "item": "Q02",
+      "panel": "Usability",
+      "dimension": "Aesthetics",
+      "label": "Consistent text, fonts and colors",
+      "origin": "MEEGA+ adapted item",
+      "header": "Os textos, cores e fontes combinam e são consistentes."
+    },
+    {
+      "item": "Q03",
+      "panel": "Usability",
+      "dimension": "Learnability",
+      "label": "Few things to learn before starting",
+      "origin": "MEEGA+ adapted item",
+      "header": "Eu precisei aprender poucas coisas para poder começar a jogar o jogo."
+    },
+    {
+      "item": "Q04",
+      "panel": "Usability",
+      "dimension": "Learnability",
+      "label": "Easy to learn to play",
+      "origin": "MEEGA+ adapted item",
+      "header": "Aprender a jogar este jogo foi fácil para mim."
+    },
+    {
+      "item": "Q05",
+      "panel": "Usability",
+      "dimension": "Learnability",
+      "label": "Most people would learn quickly",
+      "origin": "MEEGA+ adapted item",
+      "header": "Eu acho que a maioria das pessoas aprenderiam a jogar este jogo rapidamente."
+    },
+    {
+      "item": "Q06",
+      "panel": "Usability",
+      "dimension": "Operability",
+      "label": "Easy to play",
+      "origin": "MEEGA+ adapted item",
+      "header": "Eu considero que o jogo é fácil de jogar."
+    },
+    {
+      "item": "Q07",
+      "panel": "Usability",
+      "dimension": "Operability",
+      "label": "Clear and understandable rules",
+      "origin": "MEEGA+ adapted item",
+      "header": "As regras do jogo são claras e compreensíveis."
+    },
+    {
+      "item": "Q08",
+      "panel": "Usability",
+      "dimension": "Accessibility",
+      "label": "Legible fonts",
+      "origin": "MEEGA+ adapted item",
+      "header": "As fontes (tamanho e estilo) utilizadas no jogo são legíveis."
+    },
+    {
+      "item": "Q09",
+      "panel": "Usability",
+      "dimension": "Accessibility",
+      "label": "Meaningful colors",
+      "origin": "MEEGA+ adapted item",
+      "header": "As cores utilizadas no jogo são compreensíveis."
+    },
+    {
+      "item": "Q10",
+      "panel": "Player experience",
+      "dimension": "Confidence",
+      "label": "Organization supports confidence",
+      "origin": "MEEGA+ adapted item",
+      "header": "A organização do conteúdo me ajudou a estar confiante de que eu iria aprender com este jogo."
+    },
+    {
+      "item": "Q11",
+      "panel": "Player experience",
+      "dimension": "Challenge",
+      "label": "Appropriate challenge",
+      "origin": "MEEGA+ adapted item",
+      "header": "Este jogo é adequadamente desafiador para mim."
+    },
+    {
+      "item": "Q12",
+      "panel": "Player experience",
+      "dimension": "Challenge",
+      "label": "Appropriate pace of new challenges",
+      "origin": "MEEGA+ adapted item",
+      "header": "O jogo oferece novos desafios (oferece novos obstáculos, situações ou variações) com um ritmo adequado."
+    },
+    {
+      "item": "Q13",
+      "panel": "Player experience",
+      "dimension": "Challenge",
+      "label": "Tasks do not become monotonous",
+      "origin": "MEEGA+ adapted item",
+      "header": "O jogo não se torna monótono nas suas tarefas (repetitivo ou com tarefas chatas)."
+    },
+    {
+      "item": "Q14",
+      "panel": "Player experience",
+      "dimension": "Satisfaction",
+      "label": "Sense of accomplishment",
+      "origin": "MEEGA+ adapted item",
+      "header": "Completar as tarefas do jogo me deu um sentimento de realização."
+    },
+    {
+      "item": "Q15",
+      "panel": "Player experience",
+      "dimension": "Satisfaction",
+      "label": "Progress through personal effort",
+      "origin": "MEEGA+ adapted item",
+      "header": "É devido ao meu esforço pessoal que eu consigo avançar no jogo."
+    },
+    {
+      "item": "Q16",
+      "panel": "Player experience",
+      "dimension": "Satisfaction",
+      "label": "Satisfied with what I learned",
+      "origin": "MEEGA+ adapted item",
+      "header": "Me sinto satisfeito com as coisas que aprendi no jogo."
+    },
+    {
+      "item": "Q17",
+      "panel": "Player experience",
+      "dimension": "Satisfaction",
+      "label": "Would recommend to colleagues",
+      "origin": "MEEGA+ adapted item",
+      "header": "Eu recomendaria este jogo para meus colegas."
+    },
+    {
+      "item": "Q18",
+      "panel": "Player experience",
+      "dimension": "Fun",
+      "label": "Had fun",
+      "origin": "MEEGA+ adapted item",
+      "header": "Eu me diverti com o jogo."
+    },
+    {
+      "item": "Q19",
+      "panel": "Player experience",
+      "dimension": "Fun",
+      "label": "Something made me smile",
+      "origin": "MEEGA+ adapted item",
+      "header": "Aconteceu alguma situação durante o jogo (elementos do jogo, competição, etc.) que me fez sorrir."
+    },
+    {
+      "item": "Q20",
+      "panel": "Player experience",
+      "dimension": "Focused attention",
+      "label": "Beginning captured my attention",
+      "origin": "MEEGA+ adapted item",
+      "header": "Houve algo interessante no início do jogo que capturou minha atenção."
+    },
+    {
+      "item": "Q21",
+      "panel": "Player experience",
+      "dimension": "Focused attention",
+      "label": "Lost track of time",
+      "origin": "MEEGA+ adapted item",
+      "header": "Eu estava tão envolvido no jogo que eu perdi a noção do tempo."
+    },
+    {
+      "item": "Q22",
+      "panel": "Player experience",
+      "dimension": "Focused attention",
+      "label": "Forgot my surroundings",
+      "origin": "MEEGA+ adapted item",
+      "header": "Eu esqueci sobre o ambiente ao meu redor enquanto jogava este jogo."
+    },
+    {
+      "item": "Q23",
+      "panel": "Player experience",
+      "dimension": "Relevance",
+      "label": "Content relevant to my interests",
+      "origin": "MEEGA+ adapted item",
+      "header": "O conteúdo do jogo é relevante para os meus interesses."
+    },
+    {
+      "item": "Q24",
+      "panel": "Player experience",
+      "dimension": "Relevance",
+      "label": "Content clearly related to the course",
+      "origin": "MEEGA+ adapted item",
+      "header": "É claro para mim como o conteúdo do jogo está relacionado com a disciplina."
+    },
+    {
+      "item": "Q25",
+      "panel": "Player experience",
+      "dimension": "Relevance",
+      "label": "Appropriate teaching method",
+      "origin": "MEEGA+ adapted item",
+      "header": "O jogo é um método de ensino adequado para esta disciplina."
+    },
+    {
+      "item": "Q26",
+      "panel": "Player experience",
+      "dimension": "Relevance",
+      "label": "Prefer game to other methods",
+      "origin": "MEEGA+ adapted item",
+      "header": "Eu prefiro aprender com este jogo do que de outra forma (outro método de ensino)."
+    },
+    {
+      "item": "Q27",
+      "panel": "Perceived learning",
+      "dimension": "Perceived learning",
+      "label": "Efficient learning vs. other activities",
+      "origin": "MEEGA+ adapted item",
+      "header": "O jogo foi eficiente para minha aprendizagem, em comparação com outras atividades da disciplina."
+    },
+    {
+      "item": "Q28",
+      "panel": "Perceived learning",
+      "dimension": "Learning goals",
+      "label": "Identify relevant quality attributes",
+      "origin": "Architecture learning goal",
+      "header": "O jogo contribuiu para que eu identificasse atributos de qualidade relevantes a partir dos requisitos de um sistema. "
+    },
+    {
+      "item": "Q29",
+      "panel": "Perceived learning",
+      "dimension": "Learning goals",
+      "label": "Understand pattern pros and cons",
+      "origin": "Architecture learning goal",
+      "header": "O jogo contribuiu para que eu compreendesse que diferentes Padrões de Arquitetura apresentam vantagens e desvantagens. "
+    },
+    {
+      "item": "Q30",
+      "panel": "Perceived learning",
+      "dimension": "Learning goals",
+      "label": "Analyze architectural trade-offs",
+      "origin": "Architecture learning goal",
+      "header": "O jogo contribuiu para que eu analisasse trade-offs entre atributos de qualidade ao tomar decisões arquiteturais.  "
+    },
+    {
+      "item": "Q31",
+      "panel": "Perceived learning",
+      "dimension": "Learning goals",
+      "label": "Assess architectural suitability",
+      "origin": "Architecture learning goal",
+      "header": "O jogo contribuiu para que eu avaliasse a adequação de uma decisão arquitetural considerando o contexto e os requisitos do projeto.  "
+    }
+  ]
+}

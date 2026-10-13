@@ -1,0 +1,28 @@
+{
+  "source_label": "motivation_google_export",
+  "download_sha256": "ea75cd0cecb19b561effd4c679359c17cf5773dd63cfb6f8f526a47de2e813e2",
+  "download_sheet": "Respostas ao formulário 1",
+  "download_n": 19,
+  "historical_workbook": "SBIE 2026/Análise Resultados/respostasIMIIMMS.xlsx",
+  "historical_workbook_sha256": "a3fbe9242d242ef2a3d082dfe8c3d9abe0fe9a305f4c25e108722afc904c4dc5",
+  "historical_n": 18,
+  "included_item_matrix_matches_historical_exactly": true,
+  "last_respondent_identified_by_unique_maximum_timestamp": true,
+  "excluded_id": "M019",
+  "excluded_source_row_1based_including_header": 20,
+  "exclusion_basis": "Explicit author instruction in this package request; no empirical reason supplied.",
+  "removed_fields": [
+    "timestamp",
+    "consent_text",
+    "education",
+    "age_band",
+    "gender",
+    "gaming_frequency",
+    "prior_knowledge",
+    "open_feedback"
+  ],
+  "source_script_sha256": {
+    "graficoIMI.py": "86e1f298278df054fd1646a0ee9c32a6c6208f247c0ef2362482c4fd9722885e",
+    "graficoIMMS.py": "58ccd89bc446d9dfba6920e08205f6d5a750b332022fd7fb8516f3a0d136d980"
+  }
+}

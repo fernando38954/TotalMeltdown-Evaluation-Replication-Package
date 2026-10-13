@@ -1,0 +1,83 @@
+item_id,instrument,figure_question_id,dimension,reverse_scored,scale_min,scale_max,source_column_1based,question_pt
+IMI01,IMI,Q1,Interest/Enjoyment,0,1,7,8,Gostei muito de fazer esta atividade.
+IMI02,IMI,Q2,Interest/Enjoyment,0,1,7,9,Esta atividade foi divertida de fazer.
+IMI03,IMI,Q3,Interest/Enjoyment,1,1,7,10,Achei esta atividade entediante.
+IMI04,IMI,Q4,Interest/Enjoyment,1,1,7,11,Esta atividade não prendeu minha atenção.
+IMI05,IMI,Q5,Interest/Enjoyment,0,1,7,12,Eu descreveria esta atividade como muito interessante.
+IMI06,IMI,Q6,Interest/Enjoyment,0,1,7,13,Achei esta atividade bastante agradável.
+IMI07,IMI,Q7,Interest/Enjoyment,0,1,7,14,"Enquanto eu fazia esta atividade, eu pensava no quanto estava gostando."
+IMI08,IMI,Q8,Perceived Competence,0,1,7,15,Acho que sou muito bom nesta atividade.
+IMI09,IMI,Q9,Perceived Competence,0,1,7,16,"Acho que me saí muito bem nesta atividade, em comparação com outros alunos."
+IMI10,IMI,Q10,Perceived Competence,0,1,7,17,"Depois de trabalhar nesta atividade por um tempo, me senti bastante competente."
+IMI11,IMI,Q11,Perceived Competence,0,1,7,18,Estou satisfeito(a) com meu desempenho nesta tarefa.
+IMI12,IMI,Q12,Perceived Competence,0,1,7,19,Eu fui bastante habilidoso(a) nesta atividade.
+IMI13,IMI,Q13,Perceived Competence,1,1,7,20,Esta foi uma atividade que eu não consegui fazer muito bem.
+IMI14,IMI,Q14,Effort/Importance,0,1,7,21,Eu me esforcei muito nisso.
+IMI15,IMI,Q15,Effort/Importance,1,1,7,22,Eu não me esforcei muito para me sair bem nesta atividade.
+IMI16,IMI,Q16,Effort/Importance,0,1,7,23,Eu me esforcei muito nesta atividade.
+IMI17,IMI,Q17,Effort/Importance,0,1,7,24,Era importante para mim me sair bem nesta tarefa.
+IMI18,IMI,Q18,Effort/Importance,1,1,7,25,Eu não dediquei muita energia nisso.
+IMI19,IMI,Q19,Pressure/Tension,1,1,7,26,Não me senti nem um pouco nervoso(a) enquanto fazia isso.
+IMI20,IMI,Q20,Pressure/Tension,0,1,7,27,Eu me senti muito tenso(a) enquanto fazia esta atividade.
+IMI21,IMI,Q21,Pressure/Tension,1,1,7,28,Eu estava muito relaxado(a) fazendo esta atividade.
+IMI22,IMI,Q22,Pressure/Tension,0,1,7,29,Eu estava ansioso(a) enquanto trabalhava nesta atividade.
+IMI23,IMI,Q23,Pressure/Tension,0,1,7,30,Eu me senti pressionado(a) enquanto fazia esta atividade.
+IMI24,IMI,Q24,Perceived Choice,0,1,7,31,Eu acredito que eu tive alguma escolha para fazer essa atividade.
+IMI25,IMI,Q25,Perceived Choice,1,1,7,32,Senti que não foi minha própria escolha fazer esta tarefa.
+IMI26,IMI,Q26,Perceived Choice,1,1,7,33,Eu realmente não tive escolha em fazer esta tarefa.
+IMI27,IMI,Q27,Perceived Choice,1,1,7,34,Senti que eu tinha que fazer isso.
+IMI28,IMI,Q28,Perceived Choice,1,1,7,35,Fiz esta atividade porque não tinha escolha.
+IMI29,IMI,Q29,Perceived Choice,0,1,7,36,Fiz esta atividade porque quis.
+IMI30,IMI,Q30,Perceived Choice,1,1,7,37,Fiz esta atividade porque era obrigado(a).
+IMI31,IMI,Q31,Value/Usefulness,0,1,7,38,Acredito que esta atividade pode ter algum valor para mim.
+IMI32,IMI,Q32,Value/Usefulness,0,1,7,39,Acho que realizar esta atividade é útil para melhorar meu aprendizado sobre o conteúdo.
+IMI33,IMI,Q33,Value/Usefulness,0,1,7,40,Acho importante fazer isso porque pode  e ajudar a compreender melhor o tema estudado.
+IMI34,IMI,Q34,Value/Usefulness,0,1,7,41,Eu estaria disposto a fazer essa atividade novamente porque acrescentou algum valor para mim.
+IMI35,IMI,Q35,Value/Usefulness,0,1,7,42,Acho que fazer esta atividade pode me ajudar a  desenvolver minhas habilidades de resolução de problemas.
+IMI36,IMI,Q36,Value/Usefulness,0,1,7,43,Acredito que realizar esta atividade pode ser benéfico para mim.
+IMI37,IMI,Q37,Value/Usefulness,0,1,7,44,Acho que esta é uma atividade importante.
+IMMS01,IMMS,Q1,Confidence,0,1,5,45,"Quando eu vi essa aula pela primeira vez, eu tive a impressão de que seria fácil para mim."
+IMMS02,IMMS,Q2,Confidence,1,1,5,47,Este material foi mais difícil de entender do que eu gostaria.
+IMMS03,IMMS,Q3,Confidence,0,1,5,48,"Depois de ler as informações iniciais, eu me senti confiante de que sabia o que eu tinha que aprender dessa aula."
+IMMS04,IMMS,Q4,Confidence,1,1,5,51,"Muitas das páginas tinham tanta informação que foi difícil selecionar e me lembrar dos
+pontos importantes."
+IMMS05,IMMS,Q5,Confidence,0,1,5,57,"Enquanto eu trabalhava nesta aula, eu estava confiante de que poderia aprender o
+conteúdo."
+IMMS06,IMMS,Q6,Confidence,1,1,5,63,Os exercícios desta aula foram muito difíceis.
+IMMS07,IMMS,Q7,Confidence,0,1,5,69,"Depois de trabalhar nessa aula por um tempo, eu estava confiante de que eu seria capaz de passar em um teste sobre ela."
+IMMS08,IMMS,Q8,Confidence,1,1,5,78,Eu não pude realmente entender muito do material desta aula.
+IMMS09,IMMS,Q9,Confidence,0,1,5,79,"A boa organização do conteúdo me ajudou a ser confiante de que eu aprenderia este
+material."
+IMMS10,IMMS,Q10,Attention,0,1,5,46,Havia algo interessante no começo desta aula que me chamou a atenção.
+IMMS11,IMMS,Q11,Attention,0,1,5,52,Estes materiais são atraentes.
+IMMS12,IMMS,Q12,Attention,0,1,5,55,A qualidade da escrita ajudou a prender minha atenção.
+IMMS13,IMMS,Q13,Attention,1,1,5,56,Esta aula é tão abstrata que foi difícil manter minha atenção nela
+IMMS14,IMMS,Q14,Attention,1,1,5,59,As páginas desta aula parecem áridas e pouco atraentes.
+IMMS15,IMMS,Q15,Attention,0,1,5,61,A forma como a informação está organizada nas páginas ajudou a prender minha atenção.
+IMMS16,IMMS,Q16,Attention,0,1,5,64,Esta aula tem coisas que estimularam minha curiosidade.
+IMMS17,IMMS,Q17,Attention,1,1,5,66,A quantidade de repetição nesta aula me fez ficar entediada algumas vezes.
+IMMS18,IMMS,Q18,Attention,0,1,5,68,Eu aprendi algumas coisas que foram surpreendentes e não esperadas.
+IMMS19,IMMS,Q19,Attention,0,1,5,72,"A variedade dos trechos de leitura, exercícios, ilustrações, etc., ajudaram a prender minha
+atenção na aula."
+IMMS20,IMMS,Q20,Attention,1,1,5,73,O estilo de escrever é entediante
+IMMS21,IMMS,Q21,Attention,1,1,5,75,Há tantas palavras em cada página que é irritante
+IMMS22,IMMS,Q22,Satisfaction,0,1,5,49,Completar os exercícios nesta aula me deu um sentimento satisfatório de realização.
+IMMS23,IMMS,Q23,Satisfaction,0,1,5,58,"Eu gostei tanto da aula, que eu gostaria de saber mais sobre esse tópico."
+IMMS24,IMMS,Q24,Satisfaction,0,1,5,65,Realmente gostei de estudar essa aula.
+IMMS25,IMMS,Q25,Satisfaction,0,1,5,71,"O trabalho de feedback após os exercícios, ou de outros comentários nesta aula, me
+ajudaram a me sentir recompensada pelo meu esforço."
+IMMS26,IMMS,Q26,Satisfaction,0,1,5,76,Foi bom concluir essa aula com sucesso.
+IMMS27,IMMS,Q27,Satisfaction,0,1,5,80,Foi um prazer trabalhar em uma aula tão bem elaborada.
+IMMS28,IMMS,Q28,Relevance,0,1,5,50,Está claro para mim como o conteúdo deste material está relacionado com as coisas que eu já sei.
+IMMS29,IMMS,Q29,Relevance,0,1,5,53,"Havia histórias, imagens, ou exemplos que me mostraram como este material poderia ser
+importante para algumas pessoas."
+IMMS30,IMMS,Q30,Relevance,0,1,5,54,Completar esta aula com sucesso foi importante para mim.
+IMMS31,IMMS,Q31,Relevance,0,1,5,60,O conteúdo deste material é relevante para meus interesses.
+IMMS32,IMMS,Q32,Relevance,0,1,5,62,Há explicações ou exemplos de como as pessoas usam o conhecimento nesta aula.
+IMMS33,IMMS,Q33,Relevance,0,1,5,67,"O conteúdo e o estilo de escrita desta aula dão a impressão de que vale a pena conhecer
+seu conteúdo."
+IMMS34,IMMS,Q34,Relevance,1,1,5,70,"Esta aula não foi relevante para as minhas necessidades porque eu já sabia a maior parte
+dela."
+IMMS35,IMMS,Q35,Relevance,0,1,5,74,"Eu pude relacionar o conteúdo desta aula com as coisas que eu tenho visto, feito ou
+pensado sobre a minha própria vida."
+IMMS36,IMMS,Q36,Relevance,0,1,5,77,O conteúdo dessa aula será útil para mim.
