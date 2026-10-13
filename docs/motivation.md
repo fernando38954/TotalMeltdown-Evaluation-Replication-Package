@@ -1,76 +1,77 @@
-# Estudo de motivação: IMI e IMMS
+# Motivation study: IMI and IMMS
 
-Este módulo reproduz os resultados da Seção 7.2 e das Figuras 6 e 7 do manuscrito. As respostas aos itens são preservadas sem recodificação no CSV. A análise aplica a exclusão indicada pelo autor e calcula os escores a partir dessas respostas.
+This module reproduces the results in Section 7.2 and Figures 6 and 7 of the manuscript. Item responses are preserved in the CSV without recoding. The analysis applies the exclusion specified by the author and calculates scores from these responses.
 
 
-## Dicionários e regras
+## Dictionaries and rules
 
-`data/raw_anonymized/imi_imms.csv` possui uma linha por respondente e uma coluna por item. Todas as 1.387 respostas numéricas, incluindo o registro excluído, estão completas e dentro da escala correspondente. O nome do diretório é compartilhado pelo pacote; os códigos do arquivo são identificadores substitutos da coorte.
+`data/raw_anonymized/imi_imms.csv` has one row per respondent and one column per item. All 1,387 numeric responses, including the excluded record, are complete and within the corresponding scale. The directory name is shared across the package; the codes in the file are surrogate identifiers for the cohort.
 
-`instruments/motivation_items.csv` associa cada coluna ao enunciado português da fonte, ao instrumento, à dimensão, à coluna original, ao indicador de inversão e ao identificador `Q` da figura. Espaços e quebras de linha foram normalizados apenas durante a correspondência entre cabeçalhos. Os enunciados da fonte foram preservados, inclusive eventuais erros de redação. No IMMS, a ordem da figura reúne as dimensões e difere da ordem de apresentação do formulário.
+`instruments/motivation_items.csv` maps each column to the source's Portuguese item wording, instrument, dimension, original column, reverse-scoring indicator, and the figure's `Q` identifier. Spaces and line breaks were normalized only when matching headers. The source wording was preserved, including any wording errors. For IMMS, the figure order groups the dimensions and differs from the order in which items were presented in the form.
 
-`instruments/motivation_data_dictionary.csv` descreve o formato de cada coluna do dataset. `instruments/motivation_scoring.json` contém os parâmetros e os valores publicados utilizados na comparação.
+`instruments/motivation_data_dictionary.csv` describes the format of each dataset column. `instruments/motivation_scoring.json` contains the parameters and published values used for comparison.
 
-| Instrumento | Dimensão | Itens da figura | Itens invertidos |
+| Instrument | Dimension | Figure items | Reverse-scored items |
 | --- | --- | --- | --- |
 | IMI | Interest/Enjoyment | Q1–Q7 | Q3, Q4 |
 | IMI | Perceived Competence | Q8–Q13 | Q13 |
 | IMI | Effort/Importance | Q14–Q18 | Q15, Q18 |
 | IMI | Pressure/Tension | Q19–Q23 | Q19, Q21 |
 | IMI | Perceived Choice | Q24–Q30 | Q25, Q26, Q27, Q28, Q30 |
-| IMI | Value/Usefulness | Q31–Q37 | Nenhum |
+| IMI | Value/Usefulness | Q31–Q37 | None |
 | IMMS | Confidence | Q1–Q9 | Q2, Q4, Q6, Q8 |
 | IMMS | Attention | Q10–Q21 | Q13, Q14, Q17, Q20, Q21 |
-| IMMS | Satisfaction | Q22–Q27 | Nenhum |
+| IMMS | Satisfaction | Q22–Q27 | None |
 | IMMS | Relevance | Q28–Q36 | Q34 |
 
-No IMI, a escala original é 1–7 e a inversão é `8 - resposta`. No IMMS, a escala original é 1–5 e a inversão é `6 - resposta`. Para cada participante, o escore de uma dimensão é a média aritmética de seus itens já recodificados. Em seguida, calculam-se a média desses escores e o desvio padrão amostral entre participantes, com denominador `n - 1`. Não se agrega todos os itens em um único escore global. **Pressure/Tension mantém orientação negativa**: valores menores indicam menor tensão.
+For IMI, the original scale is 1–7 and reverse scoring is `8 - resposta`. For IMMS, the original scale is 1–5 and reverse scoring is `6 - resposta`. For each participant, a dimension score is the arithmetic mean of its recoded items. The mean of these scores and the sample standard deviation across participants are then calculated, using the denominator `n - 1`. The items are not all combined into a single overall score. **Pressure/Tension retains its negative orientation**: lower values indicate less tension.
 
-Não se imputam respostas, não se eliminam itens e não se filtram casos por conhecimento prévio. O programa interrompe a execução se detectar valores ausentes, não inteiros, fora da escala, campos inesperados ou indicadores de inclusão incompatíveis com a coorte documentada.
+No responses are imputed, no items are removed, and no cases are filtered by prior knowledge. The program stops if it detects missing, non-integer, or out-of-range values, unexpected fields, or inclusion indicators that are inconsistent with the documented cohort.
 
 
 
-## Execução e saídas
+## Execution and outputs
 
-Na raiz do repositório, com Python 3.10 ou superior e Matplotlib instalado:
+From the repository root, with Python 3.10 or later and Matplotlib installed:
 
 ```sh
 python scripts/motivation.py
 ```
 
-O destino padrão é `results/motivation`. Para gerar somente tabelas com a biblioteca padrão de Python, sem Matplotlib:
+The default destination is `results/motivation`. To generate tables only, using the Python standard library without Matplotlib:
 
 ```sh
 python scripts/motivation.py --no-plots
 ```
 
-O argumento `--output` altera a pasta de destino. Para uma análise diagnóstica com os 19 casos, use uma pasta distinta:
+The `--output` argument changes the destination directory. For a diagnostic analysis of all 19 cases, use a separate directory:
 
 ```sh
 python scripts/motivation.py --include-excluded --output results/motivation_unfiltered --no-plots
 ```
 
-Essa opção não altera os indicadores de inclusão no dataset nem corresponde à coorte do artigo. As contagens demográficas continuam sendo o snapshot da coorte principal com 18 casos.
+This option does not change the inclusion indicators in the dataset and does not correspond to the article's cohort. The demographic counts remain the snapshot of the main cohort of 18 cases.
 
-As saídas principais são:
+The main outputs are:
 
-- `scored_items.csv`: respostas originais e recodificadas dos 18 casos incluídos, para auditoria.
-- `participant_dimension_scores.csv`: escores individuais de cada dimensão.
-- `dimension_summary.csv`: médias e desvios padrão amostrais, sem arredondamento intermediário.
-- `item_distribution.csv`: contagens e percentuais para todas as categorias de cada item, com denominador 18.
-- `article_comparison.csv`: comparação de ambos os cenários com os números publicados.
-- `paper_literal_dimension_summary.csv` e `paper_literal_item_distribution.csv`: diagnóstico separado da fórmula `5 - x`, incluindo categoria 0 quando presente.
-- `table_04_demographics.csv`: contagens da fonte, percentuais recalculados e contagens publicadas.
-- `excluded_records.csv`: registro explícito da exclusão.
-- `summary.json`: população analisada, parâmetros, hashes dos insumos distribuídos e resultados.
-- `figure_06_imi_distribution.png/.svg` e `figure_07_imms_distribution.png/.svg`: figuras regeneradas a partir da análise principal.
+- `scored_items.csv`: original and recoded responses from the 18 included cases, for auditing.
+- `participant_dimension_scores.csv`: individual scores for each dimension.
+- `dimension_summary.csv`: means and sample standard deviations, without intermediate rounding.
+- `item_distribution.csv`: counts and percentages for every category of each item, with a denominator of 18.
+- `article_comparison.csv`: comparison of both scenarios with the published numbers.
+- `paper_literal_dimension_summary.csv` and `paper_literal_item_distribution.csv`: a separate diagnostic analysis of the `5 - x` formula, including category 0 when present.
+- `table_04_demographics.csv`: source counts, recalculated percentages, and published counts.
+- `excluded_records.csv`: an explicit record of the exclusion.
+- `summary.json`: analyzed population, parameters, hashes of the distributed inputs, and results.
+- `figure_06_imi_distribution.png/.svg` and `figure_07_imms_distribution.png/.svg`: figures regenerated from the main analysis.
 
-As figuras usam a mesma ordem dos itens e dimensões dos scripts locais, preservam as larguras calculadas e mantêm a categoria neutra à direita do zero. A diagramação foi refeita para leitura independente, sem pretensão de identidade visual com o PDF. Mostram-se rótulos percentuais apenas nos segmentos de pelo menos 10%; todos os percentuais, incluindo segmentos menores, estão nos CSVs. Os rótulos usam arredondamento comum a uma casa decimal e podem não somar exatamente 100%; as contagens e larguras das barras mantêm os valores completos.
+The figures use the same item and dimension order as the local scripts, preserve the calculated widths, and keep the neutral category to the right of zero. The layout was redesigned for standalone reading, without aiming for visual identity with the PDF. Percentage labels are shown only for segments of at least 10%; all percentages, including those for smaller segments, are in the CSV files. The labels use ordinary rounding to one decimal place and may not add up to exactly 100%; the counts and bar widths retain the full values.
 
-Os testes `tests/test_motivation.py` verificam a exclusão, os extremos da inversão, a concordância das dimensões com o artigo, a preservação das categorias 0 no diagnóstico e os denominadores das distribuições:
+The tests in `tests/test_motivation.py` check the exclusion, the reverse-scoring endpoints, agreement between the dimensions and the article, preservation of category 0 in the diagnostic analysis, and the distribution denominators:
 
 ```sh
 python -m unittest discover -s tests -p test_motivation.py
 ```
 
-Esses instrumentos medem percepções retrospectivas de motivação. Os resultados não medem diretamente aprendizagem ou atenção sustentada durante a sessão, conforme os limites descritos no artigo.
+These instruments measure retrospective perceptions of motivation. The results do not directly measure learning or sustained attention during the session, in accordance with the limitations described in the article.
+

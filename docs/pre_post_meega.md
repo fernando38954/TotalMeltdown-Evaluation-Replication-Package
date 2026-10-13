@@ -1,13 +1,13 @@
-# Pré/pós, MEEGA+ e comentários
+# Pre/post, MEEGA+, and comments
 
-O snapshot de 44 participantes do Google foi comparado à exportação local usada no artigo. Todos os valores analíticos e IDs coincidiram; timestamps e links de uploads não foram usados na comparação. A ordem da exportação e os IDs 1–44 coincidem; os códigos públicos são P001–P044.
+The Google snapshot of 44 participants was compared with the local export used in the article. All analytical values and IDs matched; timestamps and upload links were not used in the comparison. The export order and IDs 1–44 match; the public codes are P001–P044.
 
-Os motores `pre_post_engine.py` e `meega_engine.py` foram reaproveitados dos scripts fornecidos nas fontes locais, com adaptação mínima para saídas gráficas PNG/SVG. Os adaptadores públicos leem CSV saneado e preservam o gabarito e o cálculo original. Campos de localização em saídas apontam para o CSV distribuído, não para células de uma planilha privada.
+The `pre_post_engine.py` and `meega_engine.py` engines were reused from scripts supplied in the local sources, with minimal adaptation for PNG/SVG graphical outputs. The public adapters read sanitized CSV files and preserve the answer key and original calculation. Location fields in the outputs point to the distributed CSV, rather than cells in a private spreadsheet.
 
-O gabarito foi encontrado em `analise_reproduzivel/gabarito.json`, com nota explícita de que foi informado pelo autor. O pacote preserva tanto a redação oficial quanto a redação exportada. Não é uma reconstrução pelo padrão de respostas da turma. As alternativas observadas não substituem o formulário original completo: alternativas nunca selecionadas podem faltar.
+The answer key was found in `analise_reproduzivel/gabarito.json`, with an explicit note that it had been supplied by the author. The package preserves both the official wording and the exported wording. It is not a reconstruction based on the class's response patterns. The observed answer choices do not replace the complete original form: choices never selected may be missing.
 
-Formas A/B: conteúdos correspondentes, cenários diferentes, 14 acertos possíveis. São incluídos todos os pares e ambos os grupos de conhecimento autodeclarado. Nenhum participante foi excluído pelo teto. Não foi demonstrada equivalência psicométrica entre as formas. As análises são descritivas, sem teste inferencial, ganho normalizado, regressão ou atribuição causal.
+Forms A/B: corresponding content, different scenarios, 14 possible correct answers. All pairs and both self-reported prior-knowledge groups are included. No participant was excluded for a ceiling score. Psychometric equivalence between the forms has not been demonstrated. The analyses are descriptive, without inferential testing, normalized gain, regression, or causal attribution.
 
-MEEGA+: 31 itens 1–5, com contagens por categoria, média, mediana e SD amostral por item. Os objetivos específicos Q28–Q31 são itens do estudo, não uma escala MEEGA+ validada. A reprodução não inventa um escore global nem atribui aprendizagem medida a uma resposta de percepção.
+MEEGA+: 31 items rated 1–5, with counts by category, mean, median, and sample SD for each item. The specific objectives Q28–Q31 are study items, rather than a validated MEEGA+ scale. The reproduction does not invent an overall score or attribute measured learning to a response about perceptions.
 
-Comentários finais: os três campos são mantidos mesmo quando vazios. `results/feedback/coverage.csv` reproduz cobertura 35/44, 32/44 e 31/44. A análise do artigo seleciona relatos para ilustrar problemas e sugestões. Não foi encontrado um codebook de codificação temática com avaliadores independentes; o pacote não afirma prevalência de temas nem concordância.
+Final comments: all three fields are retained even when empty. `results/feedback/coverage.csv` reproduces coverage of 35/44, 32/44, and 31/44. The article's analysis selects accounts to illustrate problems and suggestions. No codebook for thematic coding with independent evaluators was found; the package does not claim theme prevalence or agreement.

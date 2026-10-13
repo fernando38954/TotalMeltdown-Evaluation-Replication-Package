@@ -1,24 +1,24 @@
-# Filtragem e desidentificação
+# Filtering and de-identification
 
-O pacote mantém as observações necessárias para repetir as análises. `raw_anonymized` significa uma extração dos valores observados com identificadores removidos, e não a exportação original intacta. As planilhas integrais e a correspondência entre nomes e códigos ficam fora do repositório.
+The package retains the observations needed to repeat the analyses. `raw_anonymized` means an extraction of the observed values with identifiers removed, rather than the original, unmodified export. The complete spreadsheets and the mapping between names and codes are kept outside the repository.
 
-| Fonte | Entrada | Análise | Decisão |
+| Source | Input | Analysis | Decision |
 |---|---:|---:|---|
-| AHJED | 5 avaliadores, 42 itens | 5, 210 avaliações | Nenhum avaliador excluído. Severidades 0–4 preservadas. |
-| IMI/IMMS | 18 respostas no Google | 18 | Última resposta excluída por instrução explícita do autor. A exportação local já contém apenas as 18 incluídas. |
-| Pré/pós | 44 pares completos | 44 | Sem exclusão por teto, queda de nota ou mudança pequena. |
-| MEEGA+ adaptado | 44 respostas, 31 itens | 44, 1.364 avaliações | Sem exclusão automática por respostas iguais. |
-| Comentários finais | 132 campos | Campos respondidos e ausentes preservados | Vazios não viram avaliações negativas. |
-| Conversa da heurística | Transcrição da conversa com o autor | 10 unidades parafraseadas | Mensagem repetida, citações em respostas, pontuação solta e mensagens administrativas não duplicam evidência. |
+| AHJED | 5 evaluators, 42 items | 5, 210 ratings | No evaluator excluded. Severity ratings 0–4 preserved. |
+| IMI/IMMS | 18 responses in Google | 18 | Last response excluded at the author's explicit instruction. The local export already contains only the 18 included responses. |
+| Pre/post | 44 complete pairs | 44 | No exclusion for ceiling scores, declining scores, or small changes. |
+| Adapted MEEGA+ | 44 responses, 31 items | 44, 1,364 ratings | No automatic exclusion for identical responses. |
+| Final comments | 132 fields | Answered and missing fields preserved | Empty fields do not become negative ratings. |
+| Heuristic discussion | Transcript of the discussion with the author | 10 paraphrased units | Repeated messages, quotations in replies, isolated punctuation, and administrative messages do not duplicate evidence. |
 
 
-Os códigos `H01–H05`, `M001–M019` e `P001–P044` pertencem a coortes independentes. P001 corresponde ao P1 da avaliação final no artigo, P040 ao P40. Não existe ligação de pessoas entre as três avaliações. Os códigos S1–S3 identificam apenas interlocutores distintos na conversa fornecida, sem presumir sua identidade entre os cinco avaliadores.
+The codes `H01–H05`, `M001–M019`, and `P001–P044` belong to independent cohorts. P001 corresponds to P1 in the article's final evaluation, and P040 to P40. Individuals are not linked across the three evaluations. The codes S1–S3 identify only distinct speakers in the supplied discussion, without assuming their identities among the five evaluators.
 
-Timestamps de formulários, nomes e telefone dos participantes, links de upload e nomes de arquivos de logs foram retirados. Demografia detalhada por pessoa foi substituída por contagens agregadas; conhecimento prévio por participante foi mantido apenas para reproduzir o agrupamento dos testes. Nos logs, tempos absolutos e identificação de sessão são substituídos por offsets relativos. 
+Form timestamps, participant names and phone numbers, upload links, and log filenames were removed. Detailed demographics at the individual level were replaced with aggregate counts; prior knowledge by participant was retained only to reproduce the test groupings. In the logs, absolute times and session identifiers are replaced with relative offsets. 
 
 
-A resposta livre de gênero que não corresponde às categorias padronizadas foi resumida como `Other (free-text)`, seguindo a Tabela 5. Não foi convertida em uma identidade de gênero, nem usada para eliminar o participante. Ausência, valor inválido e zero são distintos.
+The free-text gender response that does not match the standardized categories was summarized as `Other (free-text)`, following Table 5. It was not converted into a gender identity or used to exclude the participant. Missing values, invalid values, and zero are distinct.
 
-Uma resposta repetida não prova duplicidade de participante. IDs de estudo únicos e consentimento foram conferidos na ingestão. As rotinas interrompem a análise em valores quantitativos inesperados. Não há imputação, remoção por resultado indesejado, dedução de gabarito por frequência ou ajuste de dados para coincidir com o artigo.
+A repeated response does not establish that a participant is duplicated. Unique study IDs and consent were checked during ingestion. The routines stop the analysis when unexpected quantitative values occur. There is no imputation, removal based on undesired results, inference of the answer key from response frequencies, or adjustment of data to match the article.
 
-Os comentários abertos foram revisados para nomes, contatos e links pessoais. As paráfrases da conversa não são transcrições literais e não devem ser usadas como citações entre aspas. Os comentários do formulário são mantidos como texto da fonte. A síntese editorial não constitui codificação temática com frequência ou concordância entre avaliadores.
+Open-ended comments were reviewed for names, contact details, and personal links. The discussion paraphrases are not verbatim transcripts and must not be used as direct quotations. Form comments are retained as source text. The editorial synthesis does not constitute thematic coding with frequency counts or agreement between evaluators.
