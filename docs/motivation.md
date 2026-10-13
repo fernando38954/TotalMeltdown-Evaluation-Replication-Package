@@ -1,17 +1,12 @@
 # Motivation study: IMI and IMMS
 
-This module reproduces the results in Section 7.2 and Figures 6 and 7 of the manuscript. Item responses are preserved in the CSV without recoding. The analysis applies the exclusion specified by the author and calculates scores from these responses.
+This analysis generates the IMI and IMMS figures for Section 7.2 of the manuscript. The input file `data/raw_anonymized/imi_imms.csv` contains the **18 participants used in the article**, with 37 IMI responses and 36 IMMS responses per participant. The final respondent has already been removed from this dataset; the script does not exclude another row.
 
+The item dictionary in `instruments/motivation_items.csv` maps each data column to its instrument, dimension, original Portuguese wording, reverse-scoring flag, and figure question number. IMMS questions are grouped by dimension in the figure, so their figure numbers differ from the original form order.
 
-## Dictionaries and rules
+## Scoring
 
-`data/raw_anonymized/imi_imms.csv` has one row per respondent and one column per item. All 1,387 numeric responses, including the excluded record, are complete and within the corresponding scale. The directory name is shared across the package; the codes in the file are surrogate identifiers for the cohort.
-
-`instruments/motivation_items.csv` maps each column to the source's Portuguese item wording, instrument, dimension, original column, reverse-scoring indicator, and the figure's `Q` identifier. Spaces and line breaks were normalized only when matching headers. The source wording was preserved, including any wording errors. For IMMS, the figure order groups the dimensions and differs from the order in which items were presented in the form.
-
-`instruments/motivation_data_dictionary.csv` describes the format of each dataset column. `instruments/motivation_scoring.json` contains the parameters and published values used for comparison.
-
-| Instrument | Dimension | Figure items | Reverse-scored items |
+| Instrument | Dimension | Figure items | Reverse-scored figure items |
 | --- | --- | --- | --- |
 | IMI | Interest/Enjoyment | Q1–Q7 | Q3, Q4 |
 | IMI | Perceived Competence | Q8–Q13 | Q13 |
@@ -24,54 +19,32 @@ This module reproduces the results in Section 7.2 and Figures 6 and 7 of the man
 | IMMS | Satisfaction | Q22–Q27 | None |
 | IMMS | Relevance | Q28–Q36 | Q34 |
 
-For IMI, the original scale is 1–7 and reverse scoring is `8 - resposta`. For IMMS, the original scale is 1–5 and reverse scoring is `6 - resposta`. For each participant, a dimension score is the arithmetic mean of its recoded items. The mean of these scores and the sample standard deviation across participants are then calculated, using the denominator `n - 1`. The items are not all combined into a single overall score. **Pressure/Tension retains its negative orientation**: lower values indicate less tension.
+IMI uses a 1–7 scale and reverse scoring is `8 - response`. IMMS uses a 1–5 scale and reverse scoring is `6 - response`. The historical scoring script uses `6 - response`. The `5 - response` formula printed in the manuscript would generate values outside the 1–5 scale and does not reproduce the reported dimension scores. The correct formulas above reproduce the reported means and standard deviations.
 
-No responses are imputed, no items are removed, and no cases are filtered by prior knowledge. The program stops if it detects missing, non-integer, or out-of-range values, unexpected fields, or inclusion indicators that are inconsistent with the documented cohort.
+For each participant, a dimension score is the arithmetic mean of its recoded items. The group mean and sample standard deviation are then calculated across the 18 participant scores, with the standard deviation denominator `n - 1`. No overall score is calculated across dimensions. **Pressure/Tension keeps its negative orientation:** lower scores indicate less tension.
 
+The script rejects missing, non-integer, or out-of-range responses. It does not impute values or select participants by prior knowledge. `instruments/motivation_scoring.json` records the scoring parameters and article values.
 
+## Run and outputs
 
-## Execution and outputs
-
-From the repository root, with Python 3.10 or later and Matplotlib installed:
+From the repository root, after installing the dependencies:
 
 ```sh
 python scripts/motivation.py
 ```
 
-The default destination is `results/motivation`. To generate tables only, using the Python standard library without Matplotlib:
+Outputs are written to `results/motivation`:
 
-```sh
-python scripts/motivation.py --no-plots
-```
+- `figure_06_imi_distribution.png` and `.svg`: IMI response distributions.
+- `figure_07_imms_distribution.png` and `.svg`: IMMS response distributions.
+- `dimension_summary.csv`: group means and sample standard deviations.
+- `participant_dimension_scores.csv`: dimension scores by anonymous participant code.
+- `scored_items.csv`: original and recoded item responses.
+- `item_distribution.csv`: counts and percentages by item and scored category.
+- `summary.json`: cohort size, scoring constants, and dimension summaries.
 
-The `--output` argument changes the destination directory. For a diagnostic analysis of all 19 cases, use a separate directory:
+Use `--output DIRECTORY` to choose another destination. Use `--no-plots` to calculate tables with the Python standard library alone.
 
-```sh
-python scripts/motivation.py --include-excluded --output results/motivation_unfiltered --no-plots
-```
+The figures retain the original item and dimension order and put the neutral category to the right of zero. Bar widths use exact percentages; labels are shown only for segments of at least 10% and are rounded to one decimal place. The CSV contains all percentages. Rounding may prevent displayed labels from adding up to exactly 100%.
 
-This option does not change the inclusion indicators in the dataset and does not correspond to the article's cohort. The demographic counts remain the snapshot of the main cohort of 18 cases.
-
-The main outputs are:
-
-- `scored_items.csv`: original and recoded responses from the 18 included cases, for auditing.
-- `participant_dimension_scores.csv`: individual scores for each dimension.
-- `dimension_summary.csv`: means and sample standard deviations, without intermediate rounding.
-- `item_distribution.csv`: counts and percentages for every category of each item, with a denominator of 18.
-- `article_comparison.csv`: comparison of both scenarios with the published numbers.
-- `paper_literal_dimension_summary.csv` and `paper_literal_item_distribution.csv`: a separate diagnostic analysis of the `5 - x` formula, including category 0 when present.
-- `table_04_demographics.csv`: source counts, recalculated percentages, and published counts.
-- `excluded_records.csv`: an explicit record of the exclusion.
-- `summary.json`: analyzed population, parameters, hashes of the distributed inputs, and results.
-- `figure_06_imi_distribution.png/.svg` and `figure_07_imms_distribution.png/.svg`: figures regenerated from the main analysis.
-
-The figures use the same item and dimension order as the local scripts, preserve the calculated widths, and keep the neutral category to the right of zero. The layout was redesigned for standalone reading, without aiming for visual identity with the PDF. Percentage labels are shown only for segments of at least 10%; all percentages, including those for smaller segments, are in the CSV files. The labels use ordinary rounding to one decimal place and may not add up to exactly 100%; the counts and bar widths retain the full values.
-
-The tests in `tests/test_motivation.py` check the exclusion, the reverse-scoring endpoints, agreement between the dimensions and the article, preservation of category 0 in the diagnostic analysis, and the distribution denominators:
-
-```sh
-python -m unittest discover -s tests -p test_motivation.py
-```
-
-These instruments measure retrospective perceptions of motivation. The results do not directly measure learning or sustained attention during the session, in accordance with the limitations described in the article.
-
+These questionnaires measure retrospective perceptions of motivation. They do not directly measure learning or sustained attention during the session.

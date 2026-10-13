@@ -1,23 +1,13 @@
 {
-  "schema_version": 1,
-  "expected_n_raw": 19,
-  "expected_n_included": 18,
-  "expected_excluded_ids": [
-    "M019"
-  ],
-  "excluded_reason": "author_instruction_last_respondent",
+  "expected_n": 18,
   "missing_policy": "error_no_imputation",
   "dimension_score": "arithmetic_mean_of_reverse_coded_items",
   "group_mean": "mean_of_participant_dimension_scores",
   "sd_ddof": 1,
   "negative_dimension": "Pressure/Tension",
-  "main_reverse_constants": {
+  "reverse_constants": {
     "IMI": 8,
     "IMMS": 6
-  },
-  "paper_literal_reverse_constants": {
-    "IMI": 8,
-    "IMMS": 5
   },
   "article_reference": "Manuscript, section 7.2 and Figures 6 and 7",
   "paper_reported_mean_sd": {

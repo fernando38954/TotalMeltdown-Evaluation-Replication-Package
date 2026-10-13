@@ -1,32 +1,11 @@
 {
-  "schema_version": 1,
-  "input_n": 19,
   "analyzed_n": 18,
-  "excluded_ids": [
-    "M019"
-  ],
-  "include_excluded_diagnostic": false,
-  "missing_responses": 0,
   "reverse_constants": {
     "IMI": 8,
     "IMMS": 6
   },
-  "paper_literal_reverse_constants": {
-    "IMI": 8,
-    "IMMS": 5
-  },
-  "paper_literal_out_of_scale_scored_responses": 7,
-  "paper_mean_sd_all_match_main_2dp": true,
-  "table_04_demographics_all_counts_match": false,
-  "source_sha256": {
-    "data/raw_anonymized/imi_imms.csv": "d61d871352d1c03c3270f709c9d7af9cd304e16e0958c62d26367e1ae9bfb57a",
-    "instruments/motivation_items.csv": "0545a56eda9b76925330795e3b24fad596afc4b1f123c044c16057c5b170faa7",
-    "instruments/motivation_scoring.json": "6e16fd53eebe98788e9027975469f177ab4990380124209af6c549d311804022",
-    "data/processed/motivation_demographics_aggregate.csv": "d03975281389c58e61a48a7841f893a855588e70b55b799f25d5fb2c336e61bc"
-  },
   "dimensions": [
     {
-      "scenario": "main_corrected",
       "instrument": "IMI",
       "dimension": "Interest/Enjoyment",
       "n": 18,
@@ -37,7 +16,6 @@
       "sample_sd_2dp": "1.52"
     },
     {
-      "scenario": "main_corrected",
       "instrument": "IMI",
       "dimension": "Perceived Competence",
       "n": 18,
@@ -48,7 +26,6 @@
       "sample_sd_2dp": "1.28"
     },
     {
-      "scenario": "main_corrected",
       "instrument": "IMI",
       "dimension": "Effort/Importance",
       "n": 18,
@@ -59,7 +36,6 @@
       "sample_sd_2dp": "1.49"
     },
     {
-      "scenario": "main_corrected",
       "instrument": "IMI",
       "dimension": "Pressure/Tension",
       "n": 18,
@@ -70,7 +46,6 @@
       "sample_sd_2dp": "0.94"
     },
     {
-      "scenario": "main_corrected",
       "instrument": "IMI",
       "dimension": "Perceived Choice",
       "n": 18,
@@ -81,7 +56,6 @@
       "sample_sd_2dp": "0.89"
     },
     {
-      "scenario": "main_corrected",
       "instrument": "IMI",
       "dimension": "Value/Usefulness",
       "n": 18,
@@ -92,7 +66,6 @@
       "sample_sd_2dp": "1.27"
     },
     {
-      "scenario": "main_corrected",
       "instrument": "IMMS",
       "dimension": "Confidence",
       "n": 18,
@@ -103,7 +76,6 @@
       "sample_sd_2dp": "0.51"
     },
     {
-      "scenario": "main_corrected",
       "instrument": "IMMS",
       "dimension": "Attention",
       "n": 18,
@@ -114,7 +86,6 @@
       "sample_sd_2dp": "0.51"
     },
     {
-      "scenario": "main_corrected",
       "instrument": "IMMS",
       "dimension": "Satisfaction",
       "n": 18,
@@ -125,7 +96,6 @@
       "sample_sd_2dp": "0.73"
     },
     {
-      "scenario": "main_corrected",
       "instrument": "IMMS",
       "dimension": "Relevance",
       "n": 18,
@@ -133,118 +103,6 @@
       "mean": 4.098765432098765,
       "sample_sd": 0.6214384523186288,
       "mean_2dp": "4.10",
-      "sample_sd_2dp": "0.62"
-    }
-  ],
-  "paper_literal_dimensions": [
-    {
-      "scenario": "paper_literal_5_minus_x",
-      "instrument": "IMI",
-      "dimension": "Interest/Enjoyment",
-      "n": 18,
-      "n_items": 7,
-      "mean": 5.476190476190476,
-      "sample_sd": 1.5181969466401632,
-      "mean_2dp": "5.48",
-      "sample_sd_2dp": "1.52"
-    },
-    {
-      "scenario": "paper_literal_5_minus_x",
-      "instrument": "IMI",
-      "dimension": "Perceived Competence",
-      "n": 18,
-      "n_items": 6,
-      "mean": 4.638888888888889,
-      "sample_sd": 1.283696154467039,
-      "mean_2dp": "4.64",
-      "sample_sd_2dp": "1.28"
-    },
-    {
-      "scenario": "paper_literal_5_minus_x",
-      "instrument": "IMI",
-      "dimension": "Effort/Importance",
-      "n": 18,
-      "n_items": 5,
-      "mean": 3.8777777777777778,
-      "sample_sd": 1.4858372785405047,
-      "mean_2dp": "3.88",
-      "sample_sd_2dp": "1.49"
-    },
-    {
-      "scenario": "paper_literal_5_minus_x",
-      "instrument": "IMI",
-      "dimension": "Pressure/Tension",
-      "n": 18,
-      "n_items": 5,
-      "mean": 2.011111111111111,
-      "sample_sd": 0.9392668535736913,
-      "mean_2dp": "2.01",
-      "sample_sd_2dp": "0.94"
-    },
-    {
-      "scenario": "paper_literal_5_minus_x",
-      "instrument": "IMI",
-      "dimension": "Perceived Choice",
-      "n": 18,
-      "n_items": 7,
-      "mean": 6.246031746031746,
-      "sample_sd": 0.8925536365569219,
-      "mean_2dp": "6.25",
-      "sample_sd_2dp": "0.89"
-    },
-    {
-      "scenario": "paper_literal_5_minus_x",
-      "instrument": "IMI",
-      "dimension": "Value/Usefulness",
-      "n": 18,
-      "n_items": 7,
-      "mean": 5.650793650793651,
-      "sample_sd": 1.271369295400612,
-      "mean_2dp": "5.65",
-      "sample_sd_2dp": "1.27"
-    },
-    {
-      "scenario": "paper_literal_5_minus_x",
-      "instrument": "IMMS",
-      "dimension": "Confidence",
-      "n": 18,
-      "n_items": 9,
-      "mean": 3.5864197530864197,
-      "sample_sd": 0.509610692762626,
-      "mean_2dp": "3.59",
-      "sample_sd_2dp": "0.51"
-    },
-    {
-      "scenario": "paper_literal_5_minus_x",
-      "instrument": "IMMS",
-      "dimension": "Attention",
-      "n": 18,
-      "n_items": 12,
-      "mean": 3.7731481481481484,
-      "sample_sd": 0.5071430580578208,
-      "mean_2dp": "3.77",
-      "sample_sd_2dp": "0.51"
-    },
-    {
-      "scenario": "paper_literal_5_minus_x",
-      "instrument": "IMMS",
-      "dimension": "Satisfaction",
-      "n": 18,
-      "n_items": 6,
-      "mean": 4.203703703703704,
-      "sample_sd": 0.7266081006160753,
-      "mean_2dp": "4.20",
-      "sample_sd_2dp": "0.73"
-    },
-    {
-      "scenario": "paper_literal_5_minus_x",
-      "instrument": "IMMS",
-      "dimension": "Relevance",
-      "n": 18,
-      "n_items": 9,
-      "mean": 3.9876543209876543,
-      "sample_sd": 0.6214384523186288,
-      "mean_2dp": "3.99",
       "sample_sd_2dp": "0.62"
     }
   ]

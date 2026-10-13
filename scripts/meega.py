@@ -1,9 +1,18 @@
 """Adapted MEEGA+: item distributions, without an invented overall scale."""
 import argparse
+import csv
 import json
 from pathlib import Path
 import meega_engine as engine
-from common import ROOT, read_csv, write_json
+
+ROOT = Path(__file__).resolve().parents[1]
+
+def read_csv(path):
+    with Path(path).open(encoding='utf-8-sig', newline='') as stream:
+        return list(csv.DictReader(stream))
+
+def write_json(path, value):
+    Path(path).write_text(json.dumps(value, ensure_ascii=False, indent=2, allow_nan=False)+'\n', encoding='utf-8')
 
 def run(output,figures=True):
     config=json.loads((ROOT/'instruments/meega_items.json').read_text(encoding='utf-8'))

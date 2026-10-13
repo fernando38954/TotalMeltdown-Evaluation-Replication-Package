@@ -1,0 +1,10 @@
+ID,Identified problem,Reported by,Redesign response
+EE5,The game does not provide options for selecting difficulty levels.,4/5,"Difficulty-management concerns were mitigated through trimester-based progression, with mechanics and decision complexity introduced gradually."
+EE6,The game does not adapt to the player's performance or skill level.,3/5,"Staged progression was introduced to control increasing complexity; however, performance-based adaptation was not implemented."
+IN5,Interface elements are not sufficiently intuitive without external guidance.,3/5,Interactive objects received visual highlights and interaction cues to improve their visibility and affordance.
+GP2,Controls and interaction elements do not follow standard conventions.,3/5,"Interaction guidance was strengthened through the narrative-integrated tutorial, while Notebook access and navigation were simplified."
+EA4,Feedback provided to the player lacks clarity and explanatory detail.,2/5,"Feedback was expanded to explain unmet quality requirements, attribute mismatches, and architectural patterns better suited to each contract."
+GP3,The game does not provide any mechanism to save progress.,3/5,"Trimester-based progression, unlockable content, and longer-term team-management mechanics were introduced, but persistent save functionality was not implemented."
+NR3,The game offers limited emotional engagement and lacks narrative elements.,2/5,An introductory narrative and the mascot Clipper were introduced to contextualize the player's role and integrate tutorial guidance into the game world.
+EE7,The game does not allow instructors to customize or create challenges.,2/5,"Contracts were redesigned with a more modular structure to facilitate future content expansion, but instructor-driven challenge creation was not implemented."
+EE8,There are no mechanisms to monitor or analyze player performance.,1/5,Pattern-learning minigames and trimester assessments were added for practice and concept checking; longitudinal performance monitoring remains unsupported.

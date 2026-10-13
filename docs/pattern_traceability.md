@@ -1,6 +1,6 @@
 # Pattern–attribute traceability
 
-The article author supplied this table as a commented LaTeX fragment on 2026-10-13. It is preserved in [`game/pattern-tradeoffs-author.tex`](../game/pattern-tradeoffs-author.tex) and expanded into [63 machine-readable cells](../game/pattern-attribute-conceptual.csv). It records the authors' conceptual model and stated sources, separate from the numerical game configuration.
+The article author supplied this table as a commented LaTeX fragment on 2026-10-13. It is recorded in [63 machine-readable cells](../game/pattern-attribute-conceptual.csv). It records the authors' conceptual model and stated sources, separate from the numerical game configuration.
 
 | Pattern | FS | PE | CO | IC | RE | SE | MA | FL | SA | Author's reference |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -16,7 +16,7 @@ The article author supplied this table as a commented LaTeX fragment on 2026-10-
 
 ## Bibliographic attribution and verification limits
 
-All four supplied records are preserved in [`game/pattern-references.bib`](../game/pattern-references.bib). The [reference registry](../game/pattern-reference-registry.json) distinguishes author-supplied attribution from limited primary-source checks and unavailable independent retrieval. No cited key lacks a supplied bibliographic entry.
+All four supplied records are preserved in [`game/pattern-references.bib`](../game/pattern-references.bib). The notes below distinguish author-supplied attribution from limited primary-source checks and unavailable independent retrieval. No cited key lacks a supplied bibliographic entry.
 
 - **Bi2018**: Bi, Liang and Tang, *Architecture Patterns, Quality Attributes, and Design Contexts: How Developers Design with Them*, APSEC 2018. Publisher indexed metadata identifies the study and DOI, and describes relationships among patterns, attributes and contexts. The complete cell-level mapping was not audited against full text. [IEEE record](https://ieeexplore.ieee.org/abstract/document/8719565/), [DOI](https://doi.org/10.1109/APSEC.2018.00019).
 - **Li2021**: Li et al., *Understanding and addressing quality attributes of microservices architecture: A Systematic literature review*, Information and Software Technology 131, 106449. Publisher indexed metadata and abstract identify the review and discuss attributes and trade-offs. These checks do not certify the nine signs or numerical weights. [Publisher record](https://www.sciencedirect.com/science/article/pii/S0950584920301993), [DOI](https://doi.org/10.1016/j.infsof.2020.106449).

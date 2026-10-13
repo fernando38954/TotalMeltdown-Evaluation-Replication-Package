@@ -6,7 +6,7 @@ Public CSV files: UTF-8, a single header row, comma separator, and decimal point
 |---|---|---|
 | `data/raw_anonymized/pre_post.csv` | Participant | `participant_id`; self-reported `prior_knowledge`; `A1–A14` and `B1–B14`, observed textual responses without embedded scores. |
 | `data/raw_anonymized/meega.csv` | Participant | `participant_id`; `Q01–Q31`, integer ratings 1–5. Q01–Q26: usability/experience; Q27: overall perceived learning; Q28–Q31: specific objectives created for the study. |
-| `data/raw_anonymized/imi_imms.csv` | Respondent | M IDs from the motivation cohort; observed IMI and IMMS items; inclusion and reason for exclusion. See `instruments/motivation_items.csv` for each code, dimension, and reverse scoring. |
+| `data/raw_anonymized/imi_imms.csv` | Respondent | M001–M018 identify the 18 already selected motivation respondents; observed IMI and IMMS items are retained. All distributed rows have included=1 and an empty exclusion reason; the nineteenth record is not distributed. See `instruments/motivation_items.csv` for each code, dimension, and reverse scoring. |
 | `data/raw_anonymized/heuristics.csv` | Evaluator × item | `evaluator_id`, `item`, `severity`: 0 no problem, 1 cosmetic, 2 low priority, 3 major, 4 catastrophic. |
 | `data/raw_anonymized/heuristic_form_comments.csv` | Evaluator comment | H code, source type, and text. Unanswered fields were not fabricated. |
 | `data/raw_anonymized/heuristic_chat_feedback.csv` | Reconstructed qualitative unit | W: unit; S: speaker; `kind`, `topic`, paraphrased text, and consolidation note. Do not link S to H without evidence. |
@@ -14,7 +14,7 @@ Public CSV files: UTF-8, a single header row, comma separator, and decimal point
 | `data/raw_anonymized/final_characteristics_aggregated.csv` | Demographic category | `characteristic`, `category`, `n`, `denominator`, `percent`. No demographic combinations at the individual level. |
 | `data/processed/core_cleaning_log.csv` | Transformation | Cohort, record, field, action, and reason. Does not record names or free-text gender responses. |
 | `data/processed/heuristic_redesign_trace.csv` | Prioritized finding | PT/EN ID mapping, article count, severity thresholds, and redesign response. A current reconstruction, rather than a historical record. |
-| `data/processed/logs/*.json` | Participant / sanitized session | Ordered events and relative times; see `docs/logs.md` for the schema and limitations. |
+| `data/processed/logs/*.json` | Participant / sanitized session | Ordered events and relative times, retained as supporting material. Log analysis is outside the four reproduction scripts. |
 
 `instruments/pre_post_key.json`: 14 pairs, complete question statements, concept, block, the answer key supplied by the author, and the vocabulary of answer choices observed in the export. The observed vocabulary does not guarantee recovery of all originally offered choices. Comparison: Unicode NFKC, casefold, and whitespace normalization. No semantic matching.
 
@@ -22,7 +22,7 @@ Public CSV files: UTF-8, a single header row, comma separator, and decimal point
 
 `instruments/heuristic_items.csv`: 42 question statements, Portuguese code, and article code. Mappings: JG→GP, HJ→NR, ED→EE, CN→EC, AE→EA; IN/MM retain their abbreviations.
 
-`instruments/heuristic_guide.pdf` and `.txt`: snapshot of the exploration guide identified by the author as having been provided to the evaluators. The PDF preserves three images; the TXT preserves only the exported text. `heuristic_guide_metadata.json` records the URL, hashes, and limits on correspondence with a historical revision.
+`instruments/heuristic_guide.pdf`: snapshot of the exploration guide identified as having been provided to the evaluators. It preserves three pages and three images. Its correspondence to a document revision at the evaluation date was not independently established.
 
 `game/pattern-attribute-conceptual.csv`: 63 qualitative relationships supplied by the author, with signs `+`, `-`, `=` and a bibliographic key for each pattern. Comparison with the implemented multipliers and the status of the references are documented in `docs/pattern_traceability.md`. These signs alone do not justify the game's numerical weights.
 
